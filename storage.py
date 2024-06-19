@@ -26,11 +26,11 @@ LOG_FILE = 'storage_log.txt'
 STORAGE_LOCATION = 'my_storage'
 
 def measure_time(func):
-    def wrapper(data):
+    def wrapper(data, *args):
         times = []
         for _ in range(NUM_REPETITIONS):
             start_time = time.perf_counter()
-            result = func(data)
+            result = func(data, *args)
             end_time = time.perf_counter()
             times.append(end_time - start_time)
 
@@ -43,12 +43,17 @@ def measure_time(func):
         return result
     return wrapper
 
+######## TODO: TALVEZ VALHA A PENA SEPARAR PERSIST_DATA E RESTORE_DATA EM 2 SCRIPTS DIFERENTES!!!
 def main():
     sizes = [1] + [x for x in range(10, MAX_DATA_SIZE+1, 10)]
     for s in sizes:
         data = generate_data(s)
-        persist_data(data)
-        restore_data(data)
+        db = DBStorage(STORAGE_LOCATION)
+
+        persist_data(data, db)
+        restore_data(list(data.keys()), db)
+
+        db.close_connection()
 
 def generate_data(data_size):
     data = {}
@@ -58,13 +63,13 @@ def generate_data(data_size):
         data[key] = value
     return data
 
-def persist_data(data):
-    persist_data_db(data)
+def persist_data(data, db):
+    persist_data_db(data, db)
     persist_data_filesystem(data)
     
 @measure_time
-def persist_data_db(data):
-    pass
+def persist_data_db(data, db):
+    db.persist_data(data)
 
 @measure_time
 def persist_data_filesystem(data):
@@ -75,11 +80,17 @@ def restore_data(data):
     restore_data_filesystem(data)
 
 @measure_time
-def restore_data_db(data):
-    pass
+def restore_data_db(keys, db):
+    if len(keys) == MAX_DATA_SIZE:
+        db.restore_all_data()
+    else:
+        db.restore_part_of_data(keys)
 
 @measure_time
-def restore_data_filesystem(data):
-    pass
+def restore_data_filesystem(keys):
+    if len(keys) == MAX_DATA_SIZE:
+        pass
+    else:
+        pass
 
 main()
