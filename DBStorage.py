@@ -3,6 +3,9 @@ class DBStorage():
     def __init__(self, db_path):
         self.conexao = sqlite3.connect(db_path)
         self.cursor = self.conexao.cursor()
+        self.cursor.execute('CREATE TABLE CACHE( \
+                            key TEXT NOT NULL PRIMARY KEY, \
+                            value REAL NOT NULL)')
 
     def restore_all_data(self):
         sql_stmt = "SELECT key, value FROM CACHE"
