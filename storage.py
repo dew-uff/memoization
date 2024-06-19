@@ -18,10 +18,12 @@
 # Cada gráfico possui 2 retas (1 para cada storage)
 
 import time, random, xxhash, statistics
+from DBStorage import DBStorage
 
 MAX_DATA_SIZE = 1000
 NUM_REPETITIONS = 10
 LOG_FILE = 'storage_log.txt'
+STORAGE_LOCATION = 'my_storage'
 
 def measure_time(func):
     def wrapper(data):
