@@ -9,7 +9,7 @@ class DBStorage():
 
     def restore_all_data(self):
         sql_stmt = "SELECT key, value FROM CACHE"
-        self.conexao.cursor.execute(sql_stmt, ())
+        self.cursor.execute(sql_stmt, ())
         results = self.cursor.fetchall()
         
         data = {}
@@ -19,8 +19,8 @@ class DBStorage():
 
     def restore_part_of_data(self, keys):
         sql_stmt = "SELECT key, value FROM CACHE WHERE key IN (" + len(keys)*"?, "
-        sql_stmt = sql_stmt[:-1] + ")"
-        self.conexao.cursor.execute(sql_stmt, keys)
+        sql_stmt = sql_stmt[:-2] + ")"
+        self.cursor.execute(sql_stmt, keys)
         results = self.cursor.fetchall()
         
         data = {}
