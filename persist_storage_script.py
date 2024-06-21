@@ -1,6 +1,7 @@
 import time, statistics, os
-from util import generate_data
+from util import generate_data, append_to_log_file
 from DBStorage import DBStorage
+from FileSystemStorage import FileSystemStorage
 
 MAX_DATA_SIZE = 1000
 NUM_REPETITIONS = 10
@@ -18,27 +19,42 @@ def main():
 def persist_data(data):
     persist_data_db(data)
     persist_data_filesystem(data)
-    
+
+def measure_performance(func):
+    def wrapper(data):
+        times = []
+        for _ in range(NUM_REPETITIONS):
+            exec_time = func(data)
+            times.append(exec_time)
+        median_time = statistics.median(times)
+        append_to_log_file(LOG_FILE, func.__qualname__, len(data), median_time)
+    return wrapper
+
+@measure_performance
 def persist_data_db(data):
+    db = DBStorage(STORAGE_LOCATION)
+
+    start_time = time.perf_counter()
+    db.persist_data(data)
+    end_time = time.perf_counter()
+    
+    db.close_connection()
+    os.system(f"rm -rf {STORAGE_LOCATION}")
+    
+    return end_time - start_time
+
+@measure_performance
+def persist_data_filesystem(data):
     times = []
     for _ in range(NUM_REPETITIONS):
-        db = DBStorage(STORAGE_LOCATION)
+        fs = FileSystemStorage(STORAGE_LOCATION)
 
         start_time = time.perf_counter()
-        db.persist_data(data)
+        fs.persist_data(data)
         end_time = time.perf_counter()
-        times.append(end_time - start_time)
 
-        db.close_connection()
-        os.system(f"rm {STORAGE_LOCATION}")
-
-    with open(LOG_FILE, 'a') as file:
-        median_time = statistics.median(times)
-        log_message = ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n"
-        log_message += f"Storage: Database\nData Size: {len(data)}\nExecution time: {median_time:.6f} seconds\n\n"
-        file.write(log_message)
-
-def persist_data_filesystem(data):
-    pass
+        os.system(f"rm -rf {STORAGE_LOCATION}")
+        
+        return end_time - start_time
 
 main()
