@@ -3,7 +3,7 @@ from util import generate_data, append_to_log_file
 from DBStorage import DBStorage
 from FileSystemStorage import FileSystemStorage
 
-MAX_DATA_SIZE = 1000
+MAX_DATA_SIZE = 10000
 NUM_REPETITIONS = 10
 LOG_FILE = 'storage_log.txt'
 STORAGE_LOCATION = 'my_storage'
@@ -14,7 +14,6 @@ def main():
         print(f">>>>>> Size {s}\n")
         data = generate_data(s)
         persist_data(data)
-        print('\n\n\n')
 
 def persist_data(data):
     persist_data_db(data)
