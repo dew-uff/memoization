@@ -3,7 +3,7 @@ from util import generate_data, append_to_log_file
 from DBStorage import DBStorage
 from FileSystemStorage import FileSystemStorage
 
-MAX_DATA_SIZE = 100
+MAX_DATA_SIZE = 10000
 NUM_REPETITIONS = 10
 LOG_FILE = 'persist_storage_script_log.txt'
 DB_STORAGE_LOCATION = 'db_persist_storage_script'
@@ -45,16 +45,14 @@ def persist_data_db(data):
 
 @measure_performance
 def persist_data_filesystem(data):
-    times = []
-    for _ in range(NUM_REPETITIONS):
-        fs = FileSystemStorage(FILESYSTEM_STORAGE_LOCATION)
+    fs = FileSystemStorage(FILESYSTEM_STORAGE_LOCATION)
 
-        start_time = time.perf_counter()
-        fs.persist_data(data)
-        end_time = time.perf_counter()
+    start_time = time.perf_counter()
+    fs.persist_data(data)
+    end_time = time.perf_counter()
 
-        os.system(f"rm -rf {FILESYSTEM_STORAGE_LOCATION}")
-        
-        return end_time - start_time
+    os.system(f"rm -rf {FILESYSTEM_STORAGE_LOCATION}")
+    
+    return end_time - start_time
 
 main()
