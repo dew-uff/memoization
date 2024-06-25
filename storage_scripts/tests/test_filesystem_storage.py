@@ -4,7 +4,7 @@ sys.path.append('..')
 import unittest, os
 from FileSystemStorage import FileSystemStorage
 
-class TestDBStorage(unittest.TestCase):
+class TestFileSystemStorage(unittest.TestCase):
     def assert_data_correctly_inserted_on_fs(self, expected_data):
         restored_keys = os.listdir(self.cache_folder)
         self.assertSetEqual(set(restored_keys), set(expected_data.keys()))
@@ -83,7 +83,7 @@ class TestDBStorage(unittest.TestCase):
                 'key2': 20.3,
                 'key3': 15.7}
         self.manually_insert_data(data)
-        for k, v in data:
+        for k, v in data.items():
             restored_value = self.storage.get_file_content(os.path.join(self.cache_folder, k))
             self.assertEqual(restored_value, v)
 
