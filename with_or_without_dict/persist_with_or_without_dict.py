@@ -8,8 +8,8 @@ from storage_scripts.DBStorage import DBStorage
 MAX_DATA_SIZE = 500
 NUM_REPETITIONS = 10
 LOG_FILE = 'persist_with_or_without_dict_script_log.txt'
-DB_STORAGE_LOCATION_WITH_DICT = 'db_storage_with_dict'
-DB_STORAGE_LOCATION_WITHOUT_DICT = 'db_storage_without_dict'
+DB_STORAGE_LOCATION_WITH_DICT = 'db_storage_with_dict_persist_with_or_without_dict_script'
+DB_STORAGE_LOCATION_WITHOUT_DICT = 'db_storage_without_dict_persist_with_or_without_dict_script'
 
 def measure_performance(func):
     def wrapper(data):
