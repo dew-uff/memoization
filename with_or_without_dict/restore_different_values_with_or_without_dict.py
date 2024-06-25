@@ -41,12 +41,12 @@ def main():
     os.system(f"rm -rf {DB_STORAGE_LOCATION_WITH_DICT} {DB_STORAGE_LOCATION_WITHOUT_DICT}")
 
 def restore_data(keys, db_with_dict, db_without_dict):
-    restore_data_db_with_dict(keys, db_with_dict.dictionary, db_with_dict)
+    restore_data_db_with_dict(keys, db_with_dict)
     restore_data_db_without_dict(keys, db_without_dict)
 
 @measure_performance
-def restore_data_db_with_dict(keys, init_dict, db):
-    db.dictionary = copy.deepcopy(init_dict)
+def restore_data_db_with_dict(keys, db):
+    db.dictionary = {}
     start_time = time.perf_counter()
     db.restore_part_of_data(keys)
     end_time = time.perf_counter()
