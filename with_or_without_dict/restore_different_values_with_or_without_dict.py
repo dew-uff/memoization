@@ -48,7 +48,8 @@ def restore_data(keys, db_with_dict, db_without_dict):
 def restore_data_db_with_dict(keys, db):
     db.dictionary = {}
     start_time = time.perf_counter()
-    db.restore_part_of_data(keys)
+    for k in keys:
+        db.restore_part_of_data([k])
     end_time = time.perf_counter()
     return end_time - start_time
 
@@ -56,7 +57,7 @@ def restore_data_db_with_dict(keys, db):
 def restore_data_db_without_dict(keys, db):
     start_time = time.perf_counter()
     for k in keys:
-        db.restore_part_of_data(k)
+        db.restore_part_of_data([k])
     end_time = time.perf_counter()
     return end_time - start_time
 
