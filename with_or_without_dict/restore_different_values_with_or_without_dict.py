@@ -6,7 +6,7 @@ from storage_scripts.util import generate_data, append_to_log_file
 from storage_scripts.DBStorage import DBStorage
 from DBStorageWithADictionary import DBStorageWithADictionary
 
-MAX_DATA_SIZE = 30
+MAX_DATA_SIZE = 1000
 NUM_REPETITIONS = 10
 LOG_FILE = 'restore_different_values_with_or_without_dict_script_log.txt'
 DB_STORAGE_LOCATION_WITH_DICT = 'db_storage_with_dict_restore_different_values_with_or_without_dict_script'
