@@ -3,7 +3,7 @@ from util import generate_data, measure_performance
 from DBStorage import DBStorage
 from FileSystemStorage import FileSystemStorage
 
-MAX_DATA_SIZE = 10000
+MAX_DATA_SIZE = 5000
 NUM_REPETITIONS = 10
 LOG_FILE = 'persist_storage_script_log.txt'
 DB_STORAGE_LOCATION = 'db_persist_storage_script'
