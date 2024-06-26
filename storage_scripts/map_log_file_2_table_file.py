@@ -22,7 +22,7 @@ for line in lines:
     elif line.startswith("Data Size:"):
         data_size = line.split(": ")[1].strip()
     elif line.startswith("Execution time:"):
-        execution_time = line.split(": ")[1].strip()
+        execution_time = line.split(": ")[1].strip().replace(" seconds", "").replace(".", ",")
         # If storage_type already exists in data, append the data size and execution time
         if storage_type in data:
             data[storage_type].append((data_size, execution_time))
