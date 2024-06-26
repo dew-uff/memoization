@@ -6,15 +6,19 @@ from storage_scripts.util import generate_data, measure_performance
 from DBStorageWithADictionary import DBStorageWithADictionary
 from DBStorageWithoutDictionary import DBStorageWithoutDictionary
 
+if len(sys.argv) != 2:
+    print("Usage: python script.py [diff/same]")
+    sys.exit(1)
+
+diff_or_same = sys.argv[1]
+
 MAX_DATA_SIZE = 5000
 NUM_REPETITIONS = 10
-LOG_FILE = 'restore_with_or_without_dict_script_log.txt'
-DB_STORAGE_LOCATION_WITH_DICT = 'db_storage_with_dict_restore_with_or_without_dict_script'
-DB_STORAGE_LOCATION_WITHOUT_DICT = 'db_storage_without_dict_restore_with_or_without_dict_script'
+LOG_FILE = f'restore_{diff_or_same}_values_with_or_without_dict_script_log.txt'
+DB_STORAGE_LOCATION_WITH_DICT = f'db_storage_with_dict_restore_{diff_or_same}_values_with_or_without_dict_script'
+DB_STORAGE_LOCATION_WITHOUT_DICT = f'db_storage_without_dict_restore_{diff_or_same}_values_with_or_without_dict_script'
 
 def main():
-    diff_or_same = sys.argv[1]
-
     db_with_dict = DBStorageWithADictionary(DB_STORAGE_LOCATION_WITH_DICT)
     db_without_dict = DBStorageWithoutDictionary(DB_STORAGE_LOCATION_WITHOUT_DICT)
     
@@ -65,10 +69,5 @@ def restore_data_db_without_dict(keys, db):
         db.restore_part_of_data(k)
     end_time = time.perf_counter()
     return end_time - start_time
-
-
-if len(sys.argv) != 2:
-    print("Usage: python script.py [diff/same]")
-    sys.exit(1)
 
 main()
