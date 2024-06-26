@@ -1,34 +1,26 @@
 import sys
 sys.path.append('..')
 
-import time, statistics, os, copy
-from storage_scripts.util import generate_data, append_to_log_file
-from storage_scripts.DBStorage import DBStorage
+import time, os
+from storage_scripts.util import generate_data, measure_performance
 from DBStorageWithADictionary import DBStorageWithADictionary
+from DBStorageWithoutDictionary import DBStorageWithoutDictionary
 
-MAX_DATA_SIZE = 10000
+MAX_DATA_SIZE = 5000
 NUM_REPETITIONS = 10
 LOG_FILE = 'restore_different_values_with_or_without_dict_script_log.txt'
 DB_STORAGE_LOCATION_WITH_DICT = 'db_storage_with_dict_restore_different_values_with_or_without_dict_script'
 DB_STORAGE_LOCATION_WITHOUT_DICT = 'db_storage_without_dict_restore_different_values_with_or_without_dict_script'
 
-def measure_performance(func):
-    def wrapper(data, *args):
-        times = []
-        for _ in range(NUM_REPETITIONS):
-            exec_time = func(data, *args)
-            times.append(exec_time)
-        median_time = statistics.median(times)
-        append_to_log_file(LOG_FILE, func.__qualname__, len(data), median_time)
-    return wrapper
-
 def main():
     db_with_dict = DBStorageWithADictionary(DB_STORAGE_LOCATION_WITH_DICT)
-    db_without_dict = DBStorage(DB_STORAGE_LOCATION_WITHOUT_DICT)
+    db_without_dict = DBStorageWithoutDictionary(DB_STORAGE_LOCATION_WITHOUT_DICT)
     
     data = generate_data(MAX_DATA_SIZE)
     db_with_dict.persist_data(data)
+    db_with_dict.commit()
     db_without_dict.persist_data(data)
+    db_without_dict.commit()
 
     sizes = [1] + [x for x in range(10, MAX_DATA_SIZE+1, 10)]
     for s in sizes:
@@ -44,7 +36,7 @@ def restore_data(keys, db_with_dict, db_without_dict):
     restore_data_db_with_dict(keys, db_with_dict)
     restore_data_db_without_dict(keys, db_without_dict)
 
-@measure_performance
+@measure_performance(NUM_REPETITIONS, LOG_FILE)
 def restore_data_db_with_dict(keys, db):
     db.dictionary = {}
     start_time = time.perf_counter()
@@ -53,7 +45,7 @@ def restore_data_db_with_dict(keys, db):
     end_time = time.perf_counter()
     return end_time - start_time
 
-@measure_performance
+@measure_performance(NUM_REPETITIONS, LOG_FILE)
 def restore_data_db_without_dict(keys, db):
     start_time = time.perf_counter()
     for k in keys:
