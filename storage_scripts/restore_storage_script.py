@@ -15,6 +15,7 @@ def main():
     
     data = generate_data(MAX_DATA_SIZE)
     db.persist_data(data)
+    db.commit()
     fs.persist_data(data)
 
     sizes = [1] + [x for x in range(10, MAX_DATA_SIZE+1, 10)]

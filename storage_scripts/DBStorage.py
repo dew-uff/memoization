@@ -37,6 +37,8 @@ class DBStorage():
         sql_stmt = sql_stmt[:-1]
         
         self.cursor.execute(sql_stmt, sql_params)
+    
+    def commit(self):
         self.conexao.commit()
 
     def close_connection(self):

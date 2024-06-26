@@ -26,6 +26,7 @@ def persist_data_db(data):
 
     start_time = time.perf_counter()
     db.persist_data(data)
+    db.commit()
     end_time = time.perf_counter()
     
     db.close_connection()
