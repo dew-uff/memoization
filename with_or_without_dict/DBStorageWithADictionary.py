@@ -7,6 +7,7 @@ class DBStorageWithADictionary(DBStorage):
 
     def restore_part_of_data(self, keys):
         keys_not_found = [k for k in keys if k not in self.dictionary.keys()]
-        self.dictionary.update(super().restore_part_of_data(keys_not_found))
+        if len(keys_not_found) > 0:
+            self.dictionary.update(super().restore_part_of_data(keys_not_found))
         data = {k:self.dictionary[k] for k in keys}
         return data

@@ -36,7 +36,7 @@ class TestDBStorageWithADictionary(unittest.TestCase):
             self.assertDictEqual(self.storage.dictionary, expected_return)
             superclass_restore_method.assert_called_once_with(args)
 
-    def test_restore_part_of_data_using_dict(self):
+    def test_restore_part_of_data_using_dict_and_db(self):
         args = ['key1', 'key2', 'key3']
         expected_return = {'key1': 10.12, 'key2': False, 'key3': 'test'}
         with patch.object(DBStorage, 'restore_part_of_data', return_value=expected_return) as superclass_restore_method:
@@ -45,6 +45,16 @@ class TestDBStorageWithADictionary(unittest.TestCase):
             self.assertDictEqual(data, expected_return)
             self.assertDictEqual(self.storage.dictionary, expected_return)
             superclass_restore_method.assert_called_once_with(['key1'])
+
+    def test_restore_part_of_data_using_only_dict(self):
+        args = ['key1', 'key2', 'key3']
+        expected_return = {'key1': 10.12, 'key2': False, 'key3': 'test'}
+        with patch.object(DBStorage, 'restore_part_of_data', return_value=expected_return) as superclass_restore_method:
+            self.storage.dictionary = expected_return
+            data = self.storage.restore_part_of_data(args)
+            self.assertDictEqual(data, expected_return)
+            self.assertDictEqual(self.storage.dictionary, expected_return)
+            superclass_restore_method.assert_not_called()
 
 if __name__ == '__main__':
     unittest.main()
