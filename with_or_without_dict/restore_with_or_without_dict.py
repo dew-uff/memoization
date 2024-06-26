@@ -8,9 +8,9 @@ from DBStorageWithoutDictionary import DBStorageWithoutDictionary
 
 MAX_DATA_SIZE = 5000
 NUM_REPETITIONS = 10
-LOG_FILE = 'restore_values_with_or_without_dict_script_log.txt'
-DB_STORAGE_LOCATION_WITH_DICT = 'db_storage_with_dict_restore_values_with_or_without_dict_script'
-DB_STORAGE_LOCATION_WITHOUT_DICT = 'db_storage_without_dict_restore_values_with_or_without_dict_script'
+LOG_FILE = 'restore_with_or_without_dict_script_log.txt'
+DB_STORAGE_LOCATION_WITH_DICT = 'db_storage_with_dict_restore_with_or_without_dict_script'
+DB_STORAGE_LOCATION_WITHOUT_DICT = 'db_storage_without_dict_restore_with_or_without_dict_script'
 
 def main():
     diff_or_same = sys.argv[1]
