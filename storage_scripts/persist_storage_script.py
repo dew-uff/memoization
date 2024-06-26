@@ -1,5 +1,5 @@
-import time, statistics, os
-from util import generate_data, append_to_log_file
+import time, os
+from util import generate_data, measure_performance
 from DBStorage import DBStorage
 from FileSystemStorage import FileSystemStorage
 
@@ -8,16 +8,6 @@ NUM_REPETITIONS = 10
 LOG_FILE = 'persist_storage_script_log.txt'
 DB_STORAGE_LOCATION = 'db_persist_storage_script'
 FILESYSTEM_STORAGE_LOCATION = 'fs_persist_storage_script'
-
-def measure_performance(func):
-    def wrapper(data):
-        times = []
-        for _ in range(NUM_REPETITIONS):
-            exec_time = func(data)
-            times.append(exec_time)
-        median_time = statistics.median(times)
-        append_to_log_file(LOG_FILE, func.__qualname__, len(data), median_time)
-    return wrapper
 
 def main():
     sizes = [1] + [x for x in range(10, MAX_DATA_SIZE+1, 10)]
@@ -30,7 +20,7 @@ def persist_data(data):
     persist_data_db(data)
     persist_data_filesystem(data)
 
-@measure_performance
+@measure_performance(NUM_REPETITIONS, LOG_FILE)
 def persist_data_db(data):
     db = DBStorage(DB_STORAGE_LOCATION)
 
@@ -43,7 +33,7 @@ def persist_data_db(data):
     
     return end_time - start_time
 
-@measure_performance
+@measure_performance(NUM_REPETITIONS, LOG_FILE)
 def persist_data_filesystem(data):
     fs = FileSystemStorage(FILESYSTEM_STORAGE_LOCATION)
 
