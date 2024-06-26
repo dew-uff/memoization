@@ -7,5 +7,5 @@ class DBStorageWithoutDictionary(DBStorage):
     def persist_data(self, data):
         for key, value in data.items(): super().persist_data({key: value})
 
-    def restore_part_of_data(self, keys):
-        for k in keys: super().restore_part_of_data([k])
+    def restore_part_of_data(self, key):
+        super().restore_part_of_data([key])
