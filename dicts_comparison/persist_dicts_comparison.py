@@ -1,14 +1,12 @@
 import sys
 sys.path.append('..')
 
-import time, os
+import time
 from storage_scripts.util import generate_data, measure_performance
 
 MAX_DATA_SIZE = 5000
 NUM_REPETITIONS = 10
-LOG_FILE = 'persist_with_or_without_dict_script_log.txt'
-DB_STORAGE_LOCATION_WITH_DICT = 'db_storage_with_dict_persist_with_or_without_dict_script'
-DB_STORAGE_LOCATION_WITHOUT_DICT = 'db_storage_without_dict_persist_with_or_without_dict_script'
+LOG_FILE = 'persist_dicts_comparison_script_log.txt'
 
 def main():
     sizes = [1] + [x for x in range(10, MAX_DATA_SIZE+1, 10)]
