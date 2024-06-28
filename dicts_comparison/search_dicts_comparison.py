@@ -4,7 +4,7 @@ sys.path.append('..')
 import time, random
 from storage_scripts.util import generate_data, measure_performance
 
-MAX_DATA_SIZE = 10000
+MAX_DATA_SIZE = 5000
 NUM_REPETITIONS = 10
 LOG_FILE = 'search_dicts_comparison_script_log.txt'
 
