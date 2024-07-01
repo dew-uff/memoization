@@ -243,7 +243,7 @@ echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'
 cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/04benchproglangs/04benchpl_exp07_metropolis_hastings
 cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy ./
 conda activate benchmarks-env
--s db
+
 #Executing for num-dict 0
 echo ''
 echo ''
@@ -283,6 +283,9 @@ echo 'python menger_sponge_speedupy.py --exec-mode manual --num-dict 0'
 python speedupy/setup_exp/setup.py menger_sponge_speedupy.py
 python menger_sponge_speedupy.py --exec-mode manual --num-dict 0
 rm -rf .speedupy/
+
+random_sleep=$(shuf -i 2-5 -n 1)
+sleep $random_sleep
 
 #Executing for num-dict 1
 echo ''
