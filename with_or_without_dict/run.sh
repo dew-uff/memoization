@@ -1,5 +1,5 @@
 #!/bin/bash
-
+sleep 10
 python persist_with_or_without_dict.py > temp_persist.txt 2>&1
 
 python restore_with_or_without_dict.py diff > temp_restore_diff.txt 2>&1
