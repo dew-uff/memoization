@@ -1,10 +1,8 @@
-import sys
+import sys, os
 sys.path.append('..')
 
-import time
-from random import randint
+from random import randint, shuffle
 from storage_scripts.util import generate_data, measure_performance
-from speedupy.speedupy import initialize_speedupy, deterministic
 
 CONFIG = {
     'SET_1': {
@@ -67,32 +65,57 @@ def draw_config():
         }
     return drawn_config
 
-@deterministic
-def pure_function(input, output):
-    time.sleep(1)
-    return output
+def execute_simulation(cached_data, all_data, num_dict):
+    print(f'num_dict: {num_dict}')
+
+
+    cached_data = ' '.join(cached_data)
+    all_data = ' '.join(all_data)
+    
+    #Preparing experiment
+    os.system('python speedupy/setup_exp/setup.py script.py')
+    
+    #Executing the first time to add cached_data to the storage
+    os.system(f'python script.py fast {cached_data} --exec-mode manual --num-dict {num_dict} -s db')
+
+    #Executing measuring time
+    os.system(f'python script.py slow {all_data} --exec-mode manual --num-dict {num_dict} -s db')
+
+    #Erasing the cache
+    os.system(f'rm -rf .speedupy/')
     
 def main():
     drawn_config = draw_config()
-    set_config = draw_config['SET_1']
+    for set_config in drawn_config.values():
+        print(f'set_config: {set_config}')
 
-    cached_data = generate_data(set_config['cache_size'])
-    new_data = generate_data(set_config['cache_miss_rate'] * set_config['cache_size'])
+
+        cached_data = generate_data(2)#(set_config['cache_size'])
+        new_data = generate_data(3)#(int(set_config['cache_miss_rate'] * set_config['deterministic_calls']))
+        
+        cached_data = [(k, v) for k, v in cached_data.items()]
+        new_data = [(k, v) for k, v in new_data.items()]
+        all_data = cached_data + new_data
+        shuffle(all_data)
+
+        aux = []
+        for (k, v) in cached_data:
+            aux.append(str(k))
+            aux.append(str(v))
+        cached_data = aux
+
+        aux = []
+        for (k, v) in all_data:
+            aux.append(str(k))
+            aux.append(str(v))
+        all_data = aux
+
+        execute_simulation(cached_data, all_data, '0')
+        execute_simulation(cached_data, all_data, '1')
+        execute_simulation(cached_data, all_data, '2')
+        execute_simulation(cached_data, all_data, '2-fast')
     
-    add_cached_values_to_storage(cached_data)
-    
-
-
-    # sizes = [1] + [x for x in range(10, MAX_DATA_SIZE+1, 10)]
-    # for s in sizes:
-    #     print(f">>>>>> Size {s}\n")
-    #     data = generate_data(s)
-    #     keys = list(data.keys())
-    #     values = list(data.values())
-    #     insert_in_one_dict(keys, values)
-    #     insert_in_two_dicts(keys, values)
-
-
+main()
 
 
 # Simulação escolhe valores aleatórios para as 3 variáveis.
@@ -103,8 +126,6 @@ def main():
 # MAX_DATA_SIZE = 5000
 # NUM_REPETITIONS = 10
 # LOG_FILE = 'persist_dicts_comparison_script_log.txt'
-
-
 
 # @measure_performance(NUM_REPETITIONS, LOG_FILE)
 # def insert_in_one_dict(keys, values):
