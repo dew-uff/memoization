@@ -2,17 +2,17 @@ import sys
 sys.path.append('..')
 
 import time
-# from speedupy.speedupy import initialize_speedupy, deterministic
+from speedupy.speedupy import initialize_speedupy, deterministic
 
-
-# @deterministic
+@deterministic
 def pure_function(input, output):
-    time.sleep(1)
+    if sys.argv[1] == 'slow':
+        time.sleep(1)
     return output
 
-# @initialize_speedupy
+@initialize_speedupy
 def main():
-    input = sys.argv[1:sys.argv.index('--exec-mode')]
+    input = sys.argv[2:sys.argv.index('--exec-mode')]
     
     i = 0
     data = []
