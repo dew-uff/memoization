@@ -4,55 +4,48 @@ sys.path.append('..')
 from random import randint, shuffle
 from storage_scripts.util import generate_data, measure_performance
 
-CONFIG = {
-    'SET_1': {
-        'cache_size': {
-            'min': 60e3,
-            'max': 120e3
+def little_cache_size():
+    return {'min': 1, 'max': 3}
+
+def great_cache_size():
+    return {'min': 60e3, 'max': 120e3}
+
+def little_deterministic_calls():
+    return {'min': 10, 'max': 20}
+
+def great_deterministic_calls():
+    return {'min': 660e3, 'max': 1300e3}
+
+def little_cache_miss_rate():
+    return {'min': 0, 'max': 5}
+
+def great_cache_miss_rate():
+    return {'min': 50, 'max': 100}
+
+def get_config_boundaries():
+    return {
+        'SET_1': {
+            'cache_size': great_cache_size(),
+            'deterministic_calls': great_deterministic_calls(),
+            'cache_miss_rate': little_cache_miss_rate()
         },
-        'deterministic_calls': {
-            'min': 660e3,
-            'max': 1300e3
+        'SET_2': {
+            'cache_size': little_cache_size(),
+            'deterministic_calls': little_deterministic_calls(),
+            'cache_miss_rate': little_cache_miss_rate()
         },
-        'cache_miss_rate': {
-            'min': 0,
-            'max': 5
-        }
-    },
-    'SET_2': {
-        'cache_size': {
-            'min': 1,
-            'max': 3
-        },
-        'deterministic_calls': {
-            'min': 10,
-            'max': 20
-        },
-        'cache_miss_rate': {
-            'min': 0,
-            'max': 5
-        }
-    },
-    'SET_3': {
-        'cache_size':{
-            'min': 60e3,
-            'max': 120e3
-        },
-        'deterministic_calls':{
-            'min': 660e3,
-            'max': 1300e3
-        },
-        'cache_miss_rate':{
-            'min': 50,
-            'max': 100
+        'SET_3': {
+            'cache_size': great_cache_size(),
+            'deterministic_calls': great_deterministic_calls(),
+            'cache_miss_rate': great_cache_miss_rate()
         }
     }
-}
 
 def draw_config():
+    boundaries = get_config_boundaries()
     drawn_config = {}
-    for set in CONFIG.keys():
-        set_config = CONFIG[set]
+    for set in boundaries.keys():
+        set_config = boundaries[set]
         drawn_config[set] = {
             'cache_size': randint(set_config['cache_size']['min'],
                                   set_config['cache_size']['max']),
@@ -114,8 +107,9 @@ def main():
         execute_simulation(cached_data, all_data, '1')
         execute_simulation(cached_data, all_data, '2')
         execute_simulation(cached_data, all_data, '2-fast')
-    
-main()
+
+if __name__ == '__main__':
+    main()
 
 
 # Simulação escolhe valores aleatórios para as 3 variáveis.
