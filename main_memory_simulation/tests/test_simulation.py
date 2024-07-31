@@ -2,15 +2,14 @@ import sys
 sys.path.append('..')
 sys.path.append('../..')
 
-import unittest, random, os
+import unittest, random, os, time
 from unittest.mock import patch
 from functools import wraps
-from simulation import get_config_boundaries, draw_config, execute_simulation
+from simulation import get_config_boundaries, draw_config, execute_simulation, generate_simulation_data
 
 class TestUtil(unittest.TestCase):
-    def setUp(self): pass
-        # self.log_file = 'test_log.txt'
-        # self.num_repetitions = random.randint(3, 1000)
+    def setUp(self):
+        random.seed(time.time())
 
     def tearDown(self): pass
         # os.system(f'rm {self.log_file}')
@@ -76,16 +75,38 @@ class TestUtil(unittest.TestCase):
         self.assertDictEqual(second_confing, second_config_expected)
 
     @patch('os.system')
-    def test_execute_simulation(self, mock_system):
+    def test_execute_simulation_1_dict(self, mock_system):
         # Prepare mock to capture calls
-        mock_system.side_effect = lambda cmd: mock_system.call_args_list.append(cmd)
+        mock_system.commands = []
+        mock_system.side_effect = lambda cmd: mock_system.commands.append(cmd)
+
+        # Define test data
+        cached_data = ['hash0', '0.0', 'hash3', '3.3']
+        all_data = ['hash1', '1.1', 'hash2', '2.2', 'hash3', '3.3', 'hash0', '0.0']
+        num_dict = 1
+
+        expected_commands = [
+            'python speedupy/setup_exp/setup.py script.py',
+            'python script.py fast hash0 0.0 hash3 3.3 --exec-mode manual --num-dict 1 -s db',
+            'python script.py slow hash1 1.1 hash2 2.2 hash3 3.3 hash0 0.0 --exec-mode manual --num-dict 1 -s db',
+            'rm -rf .speedupy/'
+        ]
+
+        execute_simulation(cached_data, all_data, num_dict)
+
+        self.assertEqual(mock_system.commands, expected_commands)
+
+    @patch('os.system')
+    def test_execute_simulation_2_dicts(self, mock_system):
+        # Prepare mock to capture calls
+        mock_system.commands = []
+        mock_system.side_effect = lambda cmd: mock_system.commands.append(cmd)
 
         # Define test data
         cached_data = ['hash1', '1.1', 'hash2', '2.2', 'hash3', '3.3']
         all_data = ['hash1', '1.1', 'hash2', '2.2', 'hash3', '3.3', 'hash4', '4.4', 'hash5', '5.5', 'hash6', '6.6']
         num_dict = 2
 
-        # Define the expected commands
         expected_commands = [
             'python speedupy/setup_exp/setup.py script.py',
             'python script.py fast hash1 1.1 hash2 2.2 hash3 3.3 --exec-mode manual --num-dict 2 -s db',
@@ -95,12 +116,26 @@ class TestUtil(unittest.TestCase):
 
         execute_simulation(cached_data, all_data, num_dict)
 
-        print(mock_system.call_args_list)
+        self.assertEqual(mock_system.commands, expected_commands)
 
-        actual_commands = [call[0][0] for call in mock_system.call_args_list]
-        self.assertEqual(actual_commands, expected_commands)
+    ###############TODO!!!!!!
+    @patch('simulation.generate_data')
+    def test_generate_simulation_data(self, mock_generate_data):
+        mock_generate_data.side_effect = [
+            {'hash0': '0.0', 'hash2': '2.2'},  # First call for new_data
+            {'hash5': '5.5', 'hash-3': '-3.3', 'hash42': '42.42'}   # Second call for cached_data
+        ]
+        
+        random.seed(0)
+        cached_data, all_data = generate_simulation_data(2, 3)
+
+        self.assertEqual(cached_data, ['hash42', '42.42', 'hash-3', '-3.3', 'hash5', '5.5'])
+        print(all_data)
+        self.assertEqual(all_data, ['hash42', '42.42', 'hash-3', '-3.3', 'hash5', '5.5', 'hash2', '2.2', 'hash0', '0.0'])
 
 
+        # Ensure the order of keys in all_data may be shuffled
+        self.assertEqual(len(all_data), 8)  # 4 keys, 4 values = 8 items in total
 
 
 

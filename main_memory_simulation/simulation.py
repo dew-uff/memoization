@@ -1,8 +1,8 @@
-import sys, os
+import sys, os, copy
 sys.path.append('..')
 
 from random import randint, shuffle
-from storage_scripts.util import generate_data, measure_performance
+from storage_scripts.util import generate_data
 
 def little_cache_size():
     return {'min': 1, 'max': 3}
@@ -58,10 +58,29 @@ def draw_config():
         }
     return drawn_config
 
+def generate_simulation_data(num_new_data, num_cached_data):
+    new_data = generate_data(num_new_data)
+    cached_data = generate_data(num_cached_data)
+    
+    all_data = copy.deepcopy(cached_data)
+    all_data.update(new_data)
+    
+    all_keys = list(all_data.keys())
+    shuffle(all_keys)
+
+    ad = []
+    cd = []
+    for k in all_keys:
+        ad.append(k)
+        ad.append(all_data[k])
+        if k in cached_data:
+            cd.append(k)
+            cd.append(cached_data[k])
+    all_data = [str(e) for e in ad]
+    cached_data = [str(e) for e in cd]
+    return cached_data, all_data
+
 def execute_simulation(cached_data, all_data, num_dict):
-    print(f'num_dict: {num_dict}')
-
-
     cached_data = ' '.join(cached_data)
     all_data = ' '.join(all_data)
     
@@ -80,29 +99,8 @@ def execute_simulation(cached_data, all_data, num_dict):
 def main():
     drawn_config = draw_config()
     for set_config in drawn_config.values():
-        print(f'set_config: {set_config}')
-
-
-        cached_data = generate_data(2)#(set_config['cache_size'])
-        new_data = generate_data(3)#(int(set_config['cache_miss_rate'] * set_config['deterministic_calls']))
-        
-        cached_data = [(k, v) for k, v in cached_data.items()]
-        new_data = [(k, v) for k, v in new_data.items()]
-        all_data = cached_data + new_data
-        shuffle(all_data)
-
-        aux = []
-        for (k, v) in cached_data:
-            aux.append(str(k))
-            aux.append(str(v))
-        cached_data = aux
-
-        aux = []
-        for (k, v) in all_data:
-            aux.append(str(k))
-            aux.append(str(v))
-        all_data = aux
-
+        cached_data, all_data = generate_simulation_data(int(set_config['cache_miss_rate'] * set_config['deterministic_calls']),
+                                                         set_config['cache_size'])
         execute_simulation(cached_data, all_data, '0')
         execute_simulation(cached_data, all_data, '1')
         execute_simulation(cached_data, all_data, '2')
