@@ -81,6 +81,8 @@ def generate_simulation_data(num_new_data, num_cached_data):
     return cached_data, all_data
 
 def execute_simulation(cached_data, all_data, num_dict):
+    print(f'\n\n>>>> Running for {num_dict} dictionaries!')
+
     cached_data = ' '.join(cached_data)
     all_data = ' '.join(all_data)
     
@@ -88,50 +90,37 @@ def execute_simulation(cached_data, all_data, num_dict):
     os.system('python speedupy/setup_exp/setup.py script.py')
     
     #Executing the first time to add cached_data to the storage
+    print('\nSaving cached values...')
     os.system(f'python script.py fast {cached_data} --exec-mode manual --num-dict {num_dict} -s db')
 
     #Executing measuring time
+    print('\nMeasuring time...')
     os.system(f'python script.py slow {all_data} --exec-mode manual --num-dict {num_dict} -s db')
 
     #Erasing the cache
     os.system(f'rm -rf .speedupy/')
+
+    print(f'---------------------------------------------------')
     
 def main():
     drawn_config = draw_config()
-    for set_config in drawn_config.values():
+    for set, set_config in drawn_config.items():
+        print('\n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
+        print(f'Running for {set}!')
+        print('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
+
         cached_data, all_data = generate_simulation_data(int(set_config['cache_miss_rate'] * set_config['deterministic_calls']),
                                                          set_config['cache_size'])
-        execute_simulation(cached_data, all_data, '0')
-        execute_simulation(cached_data, all_data, '1')
-        execute_simulation(cached_data, all_data, '2')
-        execute_simulation(cached_data, all_data, '2-fast')
+        for i in range(10):
+            print(f'\n>>>>>>>>>>> Trial {i+1}')
+            execute_simulation(cached_data, all_data, '0')
+            execute_simulation(cached_data, all_data, '1')
+            execute_simulation(cached_data, all_data, '2')
+            execute_simulation(cached_data, all_data, '2-fast')
 
 if __name__ == '__main__':
     main()
 
-
 # Simulação escolhe valores aleatórios para as 3 variáveis.
 # Executamos a simulação um determinado número de vezes (ex.: 100) para cada grupo
 # Executamos variando as opções de dicionário (0-dict, 1-dict, 2-dict e 2-dict*)
-
-
-# MAX_DATA_SIZE = 5000
-# NUM_REPETITIONS = 10
-# LOG_FILE = 'persist_dicts_comparison_script_log.txt'
-
-# @measure_performance(NUM_REPETITIONS, LOG_FILE)
-# def insert_in_one_dict(keys, values):
-#     start_time = time.perf_counter()
-#     a_dict = {keys[i] : values[i] for i in range(len(keys))}
-#     end_time = time.perf_counter()
-#     return end_time - start_time
-
-# @measure_performance(NUM_REPETITIONS, LOG_FILE)
-# def insert_in_two_dicts(keys, values):
-#     start_time = time.perf_counter()
-#     first_dict = {keys[i] : values[i] for i in range(len(keys))}
-#     second_dict = {keys[i] : values[i] for i in range(len(keys))}
-#     end_time = time.perf_counter()
-#     return end_time - start_time
-
-# main()

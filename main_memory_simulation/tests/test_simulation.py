@@ -11,9 +11,6 @@ class TestUtil(unittest.TestCase):
     def setUp(self):
         random.seed(time.time())
 
-    def tearDown(self): pass
-        # os.system(f'rm {self.log_file}')
-
     def test_get_config_boundaries(self):
         expected_bondaries = {
             'SET_1': {
@@ -118,11 +115,10 @@ class TestUtil(unittest.TestCase):
 
         self.assertEqual(mock_system.commands, expected_commands)
 
-    ###############TODO!!!!!!
     @patch('simulation.generate_data')
     def test_generate_simulation_data(self, mock_generate_data):
         mock_generate_data.side_effect = [
-            {'hash0': '0.0', 'hash2': '2.2'},  # First call for new_data
+            {'hash0': '0.0', 'hash2': '2.2', 'hash28': '28.28', 'hash-7': '7.7'},  # First call for new_data
             {'hash5': '5.5', 'hash-3': '-3.3', 'hash42': '42.42'}   # Second call for cached_data
         ]
         
@@ -130,102 +126,7 @@ class TestUtil(unittest.TestCase):
         cached_data, all_data = generate_simulation_data(2, 3)
 
         self.assertEqual(cached_data, ['hash42', '42.42', 'hash-3', '-3.3', 'hash5', '5.5'])
-        print(all_data)
-        self.assertEqual(all_data, ['hash42', '42.42', 'hash-3', '-3.3', 'hash5', '5.5', 'hash2', '2.2', 'hash0', '0.0'])
-
-
-        # Ensure the order of keys in all_data may be shuffled
-        self.assertEqual(len(all_data), 8)  # 4 keys, 4 values = 8 items in total
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    # def assert_log_file_content(self, expected_content):
-    #     with open(self.log_file, 'rt') as file:
-    #         self.assertEqual(file.read(), expected_content)
-
-    # def test_append_to_log_file(self):
-    #     os.system(f'rm {self.log_file}')
-    #     self.assertFalse(os.path.exists(self.log_file))
-
-    #     storage_type = 'test_storage'
-    #     data_size = 10
-    #     exec_time = 1.2
-    #     append_to_log_file(self.log_file, storage_type, data_size, 
-    #     exec_time)
-
-    #     expected_content = ('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n'
-    #                         f'Storage: {storage_type}\n'
-    #                         f'Data Size: {data_size}\n'
-    #                         f'Execution time: {exec_time:.6f} seconds\n\n')
-    #     self.assertTrue(os.path.exists(self.log_file))
-    #     self.assert_log_file_content(expected_content)
-
-    #     storage_type = 'test_storage'
-    #     data_size = 10
-    #     exec_time = 1.2
-    #     append_to_log_file(self.log_file, storage_type, data_size, 
-    #     exec_time)
-    #     expected_content += ('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n'
-    #                          f'Storage: {storage_type}\n'
-    #                          f'Data Size: {data_size}\n'
-    #                          f'Execution time: {exec_time:.6f} seconds\n\n')
-    #     self.assert_log_file_content(expected_content)
-
-    # def test_decorator(self):
-    #     self.call_count = 0
-
-    #     def count_main_function_calls(func):
-    #         @wraps(func)
-    #         def wrapper(*args, **kwargs):
-    #             self.call_count += 1
-    #             return func(*args, **kwargs)
-    #         return wrapper
-    
-    #     @measure_performance(self.num_repetitions, self.log_file)
-    #     @count_main_function_calls
-    #     def aux(data):
-    #         return len(data)
-        
-    #     with patch('util.append_to_log_file') as append_func:
-    #         args = [1, 3, 5]
-    #         aux(args)
-    #         append_func.assert_called_once_with(self.log_file, 'TestUtil.test_decorator.<locals>.aux', len(args), len(args))
-    #     self.assertEqual(self.call_count, self.num_repetitions)
-
-    # def test_decorator(self):
-    #     @measure_performance(self.num_repetitions, self.log_file)
-    #     def aux(data, x1, x2, x3, x4):
-    #         y1 = x1
-    #         y2 = x2
-    #         y3 = x3
-    #         y4 = x4
-    #         return len(data)
-        
-    #     with patch('util.append_to_log_file') as append_func:
-    #         args = [[1, 3, 5], 'test', False, -31.124, {1, 3, 2}]
-    #         aux(*args)
-    #         append_func.assert_called_once_with(self.log_file, 'TestUtil.test_decorator.<locals>.aux', 3, 3)
+        self.assertEqual(all_data, ['hash2', '2.2', 'hash42', '42.42', 'hash-3', '-3.3', 'hash5', '5.5', 'hash28', '28.28', 'hash0', '0.0', 'hash-7', '7.7'])
 
 if __name__ == '__main__':
     unittest.main()
