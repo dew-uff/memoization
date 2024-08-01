@@ -83,25 +83,29 @@ def generate_simulation_data(num_new_data, num_cached_data):
 def execute_simulation(cached_data, all_data, num_dict):
     print(f'\n\n>>>> Running for {num_dict} dictionaries!')
 
-    cached_data = ' '.join(cached_data)
-    all_data = ' '.join(all_data)
-    
     #Preparing experiment
     os.system('python speedupy/setup_exp/setup.py script.py')
     
     #Executing the first time to add cached_data to the storage
     print('\nSaving cached values...')
-    os.system(f'python script.py fast {cached_data} --exec-mode manual --num-dict {num_dict} -s db')
+    generate_script_input_file(cached_data)
+    os.system(f'python script.py fast --exec-mode manual --num-dict {num_dict} -s db')
 
     #Executing measuring time
     print('\nMeasuring time...')
-    os.system(f'python script.py slow {all_data} --exec-mode manual --num-dict {num_dict} -s db')
+    generate_script_input_file(all_data)
+    os.system(f'python script.py slow --exec-mode manual --num-dict {num_dict} -s db')
 
     #Erasing the cache
     os.system(f'rm -rf .speedupy/')
 
     print(f'---------------------------------------------------')
-    
+
+def generate_script_input_file(data):
+    with open('input.txt', 'wt') as f:
+        for elem in data:
+            f.write(f'{elem}\n')
+
 def main():
     drawn_config = draw_config()
     for set, set_config in drawn_config.items():

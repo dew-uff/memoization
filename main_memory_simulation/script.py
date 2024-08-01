@@ -10,18 +10,22 @@ def pure_function(input, output):
         time.sleep(1)
     return output
 
+def get_input():
+    with open('input.txt', 'rt') as f:
+        input = [l.strip() for l in f]
+    return input
+
 @initialize_speedupy
 def main():
-    input = sys.argv[2:sys.argv.index('--exec-mode')]
+    input = get_input()
     
     i = 0
     data = []
     while i < len(input):
         data.append((input[i], float(input[i+1])))
         i += 2
-        
+    
     for elem in data:
-        print(elem)
         pure_function(elem[0], elem[1])
 
 main()
