@@ -1,0 +1,1440 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_4.py 200 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+363.030349486
+372.49588406299995
+TOTAL EXECUTION TIME: 735.535021767
+0.0008883699999842065
+0.0005924629999753961
+TOTAL EXECUTION TIME: 0.0038171620000184703
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+gen:  0  min fit:  16  avg fit:  16.0
+gen:  1  min fit:  14  avg fit:  15.8
+gen:  2  min fit:  13  avg fit:  14.65
+gen:  3  min fit:  12  avg fit:  13.5
+gen:  4  min fit:  10  avg fit:  12.9
+gen:  5  min fit:  9  avg fit:  12.25
+gen:  6  min fit:  9  avg fit:  11.0
+gen:  7  min fit:  8  avg fit:  10.25
+gen:  8  min fit:  7  avg fit:  9.5
+gen:  9  min fit:  7  avg fit:  8.9
+gen:  10  min fit:  6  avg fit:  8.15
+gen:  11  min fit:  6  avg fit:  7.45
+gen:  12  min fit:  5  avg fit:  6.9
+gen:  13  min fit:  4  avg fit:  6.35
+gen:  14  min fit:  4  avg fit:  6.0
+gen:  15  min fit:  3  avg fit:  5.1
+gen:  16  min fit:  1  avg fit:  4.35
+gen:  17  min fit:  2  avg fit:  3.9
+gen:  18  min fit:  2  avg fit:  3.8
+gen:  19  min fit:  1  avg fit:  3.0
+gen:  20  min fit:  0  avg fit:  2.7
+gen:  21  min fit:  0  avg fit:  2.05
+gen:  22  min fit:  0  avg fit:  1.3
+gen:  23  min fit:  0  avg fit:  1.5
+gen:  24  min fit:  0  avg fit:  1.35
+gen:  25  min fit:  0  avg fit:  1.2
+gen:  26  min fit:  0  avg fit:  0.9
+gen:  27  min fit:  0  avg fit:  0.75
+gen:  28  min fit:  0  avg fit:  0.85
+gen:  29  min fit:  0  avg fit:  0.8
+gen:  30  min fit:  0  avg fit:  0.7
+Best individual in last population: 
+Query best individual in last population with all True inputs:
+True
+TOTAL EXECUTION TIME: 0.3473710260000189
+gen:  0  min fit:  16  avg fit:  16.0
+gen:  1  min fit:  15  avg fit:  15.95
+gen:  2  min fit:  14  avg fit:  15.3
+gen:  3  min fit:  13  avg fit:  14.85
+gen:  4  min fit:  11  avg fit:  14.1
+gen:  5  min fit:  11  avg fit:  13.05
+gen:  6  min fit:  10  avg fit:  12.25
+gen:  7  min fit:  7  avg fit:  10.9
+gen:  8  min fit:  6  avg fit:  9.65
+gen:  9  min fit:  6  avg fit:  8.25
+gen:  10  min fit:  5  avg fit:  7.35
+gen:  11  min fit:  5  avg fit:  6.75
+gen:  12  min fit:  4  avg fit:  6.05
+gen:  13  min fit:  2  avg fit:  5.1
+gen:  14  min fit:  3  avg fit:  5.15
+gen:  15  min fit:  3  avg fit:  4.6
+gen:  16  min fit:  1  avg fit:  4.15
+gen:  17  min fit:  2  avg fit:  3.55
+gen:  18  min fit:  2  avg fit:  3.3
+gen:  19  min fit:  2  avg fit:  3.45
+gen:  20  min fit:  1  avg fit:  2.85
+gen:  21  min fit:  1  avg fit:  2.4
+gen:  22  min fit:  1  avg fit:  2.55
+gen:  23  min fit:  0  avg fit:  2.35
+gen:  24  min fit:  1  avg fit:  1.6
+gen:  25  min fit:  0  avg fit:  1.4
+gen:  26  min fit:  0  avg fit:  1.25
+gen:  27  min fit:  0  avg fit:  1.2
+gen:  28  min fit:  0  avg fit:  1.15
+gen:  29  min fit:  0  avg fit:  0.85
+gen:  30  min fit:  0  avg fit:  0.55
+Best individual in last population: 
+Query best individual in last population with all True inputs:
+True
+TOTAL EXECUTION TIME: 0.3302406630000405
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+28.041932942999892
+7.619602245000124
+
+TOTAL EXECUTION TIME: 36.1236918269999
+0.07722971099997267
+0.07066190599994115
+
+TOTAL EXECUTION TIME: 0.15045327500001804
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python copy_matrix_serial_speedupy.py 6250 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+92.96107925000001
+TOTAL EXECUTION TIME: 96.69395582900006
+13.86512932100004
+TOTAL EXECUTION TIME: 15.274553877000017
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.07422965900013878
+TOTAL EXECUTION TIME: 0.07009792899998502
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.18451835500013658
+TOTAL EXECUTION TIME: 0.18205018399999062
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+18.389218014000107
+TOTAL EXECUTION TIME: 18.86216811700001
+0.0038697229999797855
+TOTAL EXECUTION TIME: 0.006461896000018896
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 40.59883610799989
+TOTAL EXECUTION TIME: 41.13677509900003
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_4.py 200 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+360.2811019820001
+372.729319883
+TOTAL EXECUTION TIME: 733.017973471
+0.0009036510000441922
+0.0004977159999270953
+TOTAL EXECUTION TIME: 0.0037563089999821386
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+gen:  0  min fit:  16  avg fit:  16.0
+gen:  1  min fit:  15  avg fit:  16.2
+gen:  2  min fit:  15  avg fit:  16.0
+gen:  3  min fit:  14  avg fit:  15.95
+gen:  4  min fit:  14  avg fit:  15.6
+gen:  5  min fit:  13  avg fit:  15.1
+gen:  6  min fit:  12  avg fit:  13.95
+gen:  7  min fit:  9  avg fit:  13.1
+gen:  8  min fit:  9  avg fit:  11.65
+gen:  9  min fit:  9  avg fit:  10.35
+gen:  10  min fit:  8  avg fit:  9.7
+gen:  11  min fit:  6  avg fit:  9.05
+gen:  12  min fit:  6  avg fit:  8.55
+gen:  13  min fit:  6  avg fit:  7.65
+gen:  14  min fit:  5  avg fit:  7.1
+gen:  15  min fit:  5  avg fit:  6.35
+gen:  16  min fit:  3  avg fit:  5.45
+gen:  17  min fit:  3  avg fit:  5.05
+gen:  18  min fit:  3  avg fit:  4.55
+gen:  19  min fit:  2  avg fit:  4.15
+gen:  20  min fit:  2  avg fit:  3.9
+gen:  21  min fit:  1  avg fit:  3.55
+gen:  22  min fit:  1  avg fit:  3.15
+gen:  23  min fit:  0  avg fit:  2.95
+gen:  24  min fit:  1  avg fit:  2.5
+gen:  25  min fit:  0  avg fit:  2.3
+gen:  26  min fit:  0  avg fit:  1.85
+gen:  27  min fit:  0  avg fit:  1.65
+gen:  28  min fit:  0  avg fit:  1.4
+gen:  29  min fit:  0  avg fit:  1.5
+gen:  30  min fit:  0  avg fit:  1.5
+Best individual in last population: 
+Query best individual in last population with all True inputs:
+True
+TOTAL EXECUTION TIME: 0.343745164999973
+gen:  0  min fit:  16  avg fit:  16.0
+gen:  1  min fit:  15  avg fit:  15.8
+gen:  2  min fit:  14  avg fit:  15.25
+gen:  3  min fit:  12  avg fit:  14.7
+gen:  4  min fit:  11  avg fit:  13.7
+gen:  5  min fit:  9  avg fit:  12.5
+gen:  6  min fit:  9  avg fit:  11.1
+gen:  7  min fit:  8  avg fit:  10.25
+gen:  8  min fit:  7  avg fit:  9.4
+gen:  9  min fit:  6  avg fit:  8.55
+gen:  10  min fit:  6  avg fit:  7.95
+gen:  11  min fit:  4  avg fit:  6.8
+gen:  12  min fit:  4  avg fit:  6.4
+gen:  13  min fit:  3  avg fit:  5.8
+gen:  14  min fit:  3  avg fit:  4.9
+gen:  15  min fit:  3  avg fit:  4.25
+gen:  16  min fit:  3  avg fit:  4.1
+gen:  17  min fit:  2  avg fit:  4.05
+gen:  18  min fit:  1  avg fit:  3.4
+gen:  19  min fit:  1  avg fit:  2.65
+gen:  20  min fit:  1  avg fit:  2.3
+gen:  21  min fit:  0  avg fit:  2.25
+gen:  22  min fit:  1  avg fit:  1.95
+gen:  23  min fit:  0  avg fit:  2.0
+gen:  24  min fit:  0  avg fit:  1.85
+gen:  25  min fit:  0  avg fit:  1.65
+gen:  26  min fit:  0  avg fit:  1.25
+gen:  27  min fit:  0  avg fit:  1.05
+gen:  28  min fit:  0  avg fit:  0.9
+gen:  29  min fit:  0  avg fit:  0.7
+gen:  30  min fit:  0  avg fit:  0.5
+Best individual in last population: 
+Query best individual in last population with all True inputs:
+True
+TOTAL EXECUTION TIME: 0.35484290599993074
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+29.657392037999898
+7.7749120479998055
+
+TOTAL EXECUTION TIME: 37.88802854799974
+0.07762162600010925
+0.07124139100005777
+
+TOTAL EXECUTION TIME: 0.15141462300016428
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python copy_matrix_serial_speedupy.py 6250 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+77.3574660029999
+TOTAL EXECUTION TIME: 80.97636678199979
+13.792407435000314
+TOTAL EXECUTION TIME: 15.199538803999985
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.07310760699965613
+TOTAL EXECUTION TIME: 0.07271790499999042
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.18369671099981133
+TOTAL EXECUTION TIME: 0.1779904559998613
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+18.286478290000105
+TOTAL EXECUTION TIME: 18.758004856000298
+0.0035030210001423256
+TOTAL EXECUTION TIME: 0.006232148999970377
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 42.849507393000295
+TOTAL EXECUTION TIME: 38.96782764999989
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_4.py 200 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+358.50970391300007
+374.26939109700015
+TOTAL EXECUTION TIME: 732.786590875
+0.0009015929999804939
+0.0005118929998388921
+TOTAL EXECUTION TIME: 0.0038342980001289106
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+gen:  0  min fit:  15  avg fit:  15.95
+gen:  1  min fit:  14  avg fit:  16.1
+gen:  2  min fit:  14  avg fit:  16.05
+gen:  3  min fit:  14  avg fit:  15.65
+gen:  4  min fit:  12  avg fit:  14.4
+gen:  5  min fit:  11  avg fit:  13.1
+gen:  6  min fit:  9  avg fit:  12.35
+gen:  7  min fit:  8  avg fit:  11.3
+gen:  8  min fit:  7  avg fit:  10.05
+gen:  9  min fit:  6  avg fit:  9.3
+gen:  10  min fit:  4  avg fit:  8.6
+gen:  11  min fit:  5  avg fit:  7.7
+gen:  12  min fit:  5  avg fit:  6.8
+gen:  13  min fit:  5  avg fit:  6.65
+gen:  14  min fit:  3  avg fit:  6.0
+gen:  15  min fit:  3  avg fit:  5.15
+gen:  16  min fit:  3  avg fit:  4.75
+gen:  17  min fit:  3  avg fit:  4.55
+gen:  18  min fit:  3  avg fit:  4.35
+gen:  19  min fit:  2  avg fit:  4.1
+gen:  20  min fit:  2  avg fit:  3.7
+gen:  21  min fit:  2  avg fit:  3.65
+gen:  22  min fit:  2  avg fit:  3.25
+gen:  23  min fit:  2  avg fit:  3.25
+gen:  24  min fit:  2  avg fit:  3.2
+gen:  25  min fit:  2  avg fit:  3.1
+gen:  26  min fit:  2  avg fit:  3.2
+gen:  27  min fit:  1  avg fit:  3.4
+gen:  28  min fit:  1  avg fit:  2.95
+gen:  29  min fit:  1  avg fit:  3.05
+gen:  30  min fit:  2  avg fit:  3.25
+Best individual in last population: 
+Query best individual in last population with all True inputs:
+True
+TOTAL EXECUTION TIME: 0.3426784980001685
+gen:  0  min fit:  16  avg fit:  16.0
+gen:  1  min fit:  15  avg fit:  16.15
+gen:  2  min fit:  14  avg fit:  15.8
+gen:  3  min fit:  13  avg fit:  14.3
+gen:  4  min fit:  8  avg fit:  13.2
+gen:  5  min fit:  8  avg fit:  11.65
+gen:  6  min fit:  8  avg fit:  10.55
+gen:  7  min fit:  7  avg fit:  9.6
+gen:  8  min fit:  6  avg fit:  8.7
+gen:  9  min fit:  6  avg fit:  8.45
+gen:  10  min fit:  6  avg fit:  7.55
+gen:  11  min fit:  5  avg fit:  6.8
+gen:  12  min fit:  3  avg fit:  5.6
+gen:  13  min fit:  3  avg fit:  4.95
+gen:  14  min fit:  3  avg fit:  4.5
+gen:  15  min fit:  3  avg fit:  3.95
+gen:  16  min fit:  2  avg fit:  3.9
+gen:  17  min fit:  2  avg fit:  3.6
+gen:  18  min fit:  2  avg fit:  3.5
+gen:  19  min fit:  2  avg fit:  3.7
+gen:  20  min fit:  1  avg fit:  3.75
+gen:  21  min fit:  2  avg fit:  3.7
+gen:  22  min fit:  2  avg fit:  3.15
+gen:  23  min fit:  2  avg fit:  3.0
+gen:  24  min fit:  1  avg fit:  2.7
+gen:  25  min fit:  1  avg fit:  2.4
+gen:  26  min fit:  0  avg fit:  2.25
+gen:  27  min fit:  1  avg fit:  2.3
+gen:  28  min fit:  1  avg fit:  2.35
+gen:  29  min fit:  1  avg fit:  2.1
+gen:  30  min fit:  0  avg fit:  1.95
+Best individual in last population: 
+Query best individual in last population with all True inputs:
+True
+TOTAL EXECUTION TIME: 0.34850101899974106
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+28.63711540899976
+7.724792135000371
+
+TOTAL EXECUTION TIME: 36.839024637999955
+0.07774942700007159
+0.07050014500009638
+
+TOTAL EXECUTION TIME: 0.15075334200037105
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python copy_matrix_serial_speedupy.py 6250 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+92.00043325199977
+TOTAL EXECUTION TIME: 95.5187354689997
+13.850483714000347
+TOTAL EXECUTION TIME: 15.261304823000046
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.07475094099982016
+TOTAL EXECUTION TIME: 0.07028649400035647
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.19391863299961187
+TOTAL EXECUTION TIME: 0.18100600900015706
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+18.36366580999993
+TOTAL EXECUTION TIME: 18.828139274000023
+0.0034912989999611455
+TOTAL EXECUTION TIME: 0.006011630999637418
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 43.477307913000004
+TOTAL EXECUTION TIME: 40.000823858999865
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_4.py 200 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+363.56728272600003
+374.91206350599987
+TOTAL EXECUTION TIME: 738.486933184
+0.0009117539998442226
+0.000559237999823381
+TOTAL EXECUTION TIME: 0.0037839040001017565
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+gen:  0  min fit:  16  avg fit:  16.0
+gen:  1  min fit:  15  avg fit:  16.05
+gen:  2  min fit:  14  avg fit:  15.8
+gen:  3  min fit:  13  avg fit:  15.55
+gen:  4  min fit:  12  avg fit:  14.7
+gen:  5  min fit:  11  avg fit:  13.8
+gen:  6  min fit:  11  avg fit:  13.45
+gen:  7  min fit:  11  avg fit:  12.8
+gen:  8  min fit:  10  avg fit:  12.0
+gen:  9  min fit:  10  avg fit:  11.4
+gen:  10  min fit:  9  avg fit:  10.65
+gen:  11  min fit:  8  avg fit:  9.8
+gen:  12  min fit:  7  avg fit:  9.15
+gen:  13  min fit:  6  avg fit:  8.5
+gen:  14  min fit:  6  avg fit:  7.9
+gen:  15  min fit:  3  avg fit:  7.5
+gen:  16  min fit:  3  avg fit:  6.65
+gen:  17  min fit:  4  avg fit:  6.0
+gen:  18  min fit:  4  avg fit:  5.65
+gen:  19  min fit:  4  avg fit:  5.05
+gen:  20  min fit:  3  avg fit:  4.8
+gen:  21  min fit:  2  avg fit:  4.4
+gen:  22  min fit:  3  avg fit:  4.2
+gen:  23  min fit:  3  avg fit:  4.2
+gen:  24  min fit:  2  avg fit:  3.95
+gen:  25  min fit:  2  avg fit:  3.55
+gen:  26  min fit:  2  avg fit:  3.3
+gen:  27  min fit:  2  avg fit:  3.05
+gen:  28  min fit:  2  avg fit:  2.8
+gen:  29  min fit:  1  avg fit:  2.55
+gen:  30  min fit:  1  avg fit:  2.25
+Best individual in last population: 
+Query best individual in last population with all True inputs:
+True
+TOTAL EXECUTION TIME: 0.36690048899981775
+gen:  0  min fit:  16  avg fit:  16.05
+gen:  1  min fit:  15  avg fit:  16.0
+gen:  2  min fit:  14  avg fit:  15.55
+gen:  3  min fit:  13  avg fit:  15.25
+gen:  4  min fit:  11  avg fit:  14.35
+gen:  5  min fit:  12  avg fit:  13.75
+gen:  6  min fit:  11  avg fit:  13.05
+gen:  7  min fit:  10  avg fit:  12.25
+gen:  8  min fit:  9  avg fit:  11.35
+gen:  9  min fit:  8  avg fit:  10.6
+gen:  10  min fit:  9  avg fit:  10.15
+gen:  11  min fit:  8  avg fit:  9.65
+gen:  12  min fit:  5  avg fit:  8.55
+gen:  13  min fit:  4  avg fit:  6.9
+gen:  14  min fit:  4  avg fit:  6.05
+gen:  15  min fit:  3  avg fit:  5.55
+gen:  16  min fit:  2  avg fit:  4.95
+gen:  17  min fit:  2  avg fit:  4.3
+gen:  18  min fit:  2  avg fit:  3.9
+gen:  19  min fit:  2  avg fit:  3.4
+gen:  20  min fit:  2  avg fit:  2.7
+gen:  21  min fit:  2  avg fit:  2.6
+gen:  22  min fit:  1  avg fit:  3.0
+gen:  23  min fit:  0  avg fit:  3.15
+gen:  24  min fit:  1  avg fit:  2.35
+gen:  25  min fit:  0  avg fit:  1.75
+gen:  26  min fit:  0  avg fit:  2.0
+gen:  27  min fit:  0  avg fit:  2.15
+gen:  28  min fit:  0  avg fit:  1.85
+gen:  29  min fit:  0  avg fit:  1.8
+gen:  30  min fit:  0  avg fit:  1.5
+Best individual in last population: 
+Query best individual in last population with all True inputs:
+True
+TOTAL EXECUTION TIME: 0.339875228999972
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+28.822784859999956
+7.481994984000266
+
+TOTAL EXECUTION TIME: 36.77709606799999
+0.07851643200046965
+0.07260027099982835
+
+TOTAL EXECUTION TIME: 0.15354845100046077
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python copy_matrix_serial_speedupy.py 6250 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+91.99540286800038
+TOTAL EXECUTION TIME: 95.4919568740006
+13.868407585999194
+TOTAL EXECUTION TIME: 15.277484572000503
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.07362321499931568
+TOTAL EXECUTION TIME: 0.07020660299986048
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.18163355300021067
+TOTAL EXECUTION TIME: 0.18227928899977996
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+18.502497542999663
+TOTAL EXECUTION TIME: 18.974144694999268
+0.003229730000384734
+TOTAL EXECUTION TIME: 0.005699487000129011
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 39.68334360300014
+TOTAL EXECUTION TIME: 41.74147990500023
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_4.py 200 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+362.22506653300024
+376.0740622209996
+TOTAL EXECUTION TIME: 738.3066314930002
+0.0008723190003365744
+0.0005126540008859592
+TOTAL EXECUTION TIME: 0.0037787419996675453
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+gen:  0  min fit:  16  avg fit:  16.0
+gen:  1  min fit:  15  avg fit:  16.4
+gen:  2  min fit:  14  avg fit:  15.45
+gen:  3  min fit:  13  avg fit:  15.1
+gen:  4  min fit:  12  avg fit:  14.7
+gen:  5  min fit:  11  avg fit:  13.95
+gen:  6  min fit:  12  avg fit:  13.5
+gen:  7  min fit:  10  avg fit:  12.55
+gen:  8  min fit:  9  avg fit:  11.45
+gen:  9  min fit:  8  avg fit:  11.3
+gen:  10  min fit:  6  avg fit:  10.45
+gen:  11  min fit:  8  avg fit:  9.8
+gen:  12  min fit:  6  avg fit:  8.95
+gen:  13  min fit:  4  avg fit:  8.15
+gen:  14  min fit:  3  avg fit:  7.75
+gen:  15  min fit:  5  avg fit:  6.8
+gen:  16  min fit:  4  avg fit:  6.2
+gen:  17  min fit:  4  avg fit:  5.7
+gen:  18  min fit:  3  avg fit:  5.15
+gen:  19  min fit:  3  avg fit:  4.8
+gen:  20  min fit:  3  avg fit:  4.65
+gen:  21  min fit:  3  avg fit:  4.9
+gen:  22  min fit:  2  avg fit:  4.4
+gen:  23  min fit:  2  avg fit:  3.95
+gen:  24  min fit:  2  avg fit:  3.45
+gen:  25  min fit:  2  avg fit:  3.2
+gen:  26  min fit:  1  avg fit:  3.55
+gen:  27  min fit:  1  avg fit:  3.0
+gen:  28  min fit:  1  avg fit:  2.8
+gen:  29  min fit:  1  avg fit:  2.85
+gen:  30  min fit:  1  avg fit:  2.6
+Best individual in last population: 
+Query best individual in last population with all True inputs:
+True
+TOTAL EXECUTION TIME: 0.34911835200000496
+gen:  0  min fit:  16  avg fit:  16.0
+gen:  1  min fit:  15  avg fit:  16.3
+gen:  2  min fit:  14  avg fit:  15.75
+gen:  3  min fit:  12  avg fit:  15.15
+gen:  4  min fit:  12  avg fit:  14.55
+gen:  5  min fit:  10  avg fit:  13.45
+gen:  6  min fit:  10  avg fit:  12.9
+gen:  7  min fit:  10  avg fit:  12.45
+gen:  8  min fit:  8  avg fit:  11.25
+gen:  9  min fit:  7  avg fit:  9.65
+gen:  10  min fit:  6  avg fit:  8.55
+gen:  11  min fit:  6  avg fit:  7.9
+gen:  12  min fit:  4  avg fit:  6.75
+gen:  13  min fit:  4  avg fit:  5.6
+gen:  14  min fit:  3  avg fit:  4.9
+gen:  15  min fit:  2  avg fit:  4.4
+gen:  16  min fit:  2  avg fit:  4.4
+gen:  17  min fit:  2  avg fit:  3.85
+gen:  18  min fit:  2  avg fit:  3.5
+gen:  19  min fit:  1  avg fit:  3.0
+gen:  20  min fit:  1  avg fit:  2.15
+gen:  21  min fit:  0  avg fit:  1.7
+gen:  22  min fit:  1  avg fit:  1.6
+gen:  23  min fit:  0  avg fit:  1.4
+gen:  24  min fit:  0  avg fit:  0.8
+gen:  25  min fit:  0  avg fit:  0.75
+gen:  26  min fit:  0  avg fit:  0.65
+gen:  27  min fit:  0  avg fit:  0.65
+gen:  28  min fit:  0  avg fit:  0.55
+gen:  29  min fit:  0  avg fit:  0.35
+gen:  30  min fit:  0  avg fit:  0.55
+Best individual in last population: 
+Query best individual in last population with all True inputs:
+True
+TOTAL EXECUTION TIME: 0.3326902089993382
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+28.22949125300056
+7.57297858199945
+
+TOTAL EXECUTION TIME: 36.25606824299939
+0.07779184199989686
+0.0710931570001776
+
+TOTAL EXECUTION TIME: 0.1513675129999683
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python copy_matrix_serial_speedupy.py 6250 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+93.77373295500001
+TOTAL EXECUTION TIME: 97.3013741120003
+13.82948339900031
+TOTAL EXECUTION TIME: 15.24009483899954
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.07393212900024082
+TOTAL EXECUTION TIME: 0.07023941999977978
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.18210847599948465
+TOTAL EXECUTION TIME: 0.1848938859993723
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+18.345767239000452
+TOTAL EXECUTION TIME: 18.814166182000008
+0.003494659999887517
+TOTAL EXECUTION TIME: 0.005955161999736447
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 39.76531153799988
+TOTAL EXECUTION TIME: 41.2982399349994
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_4.py 200 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+359.83584110599986
+373.9622876029998
+TOTAL EXECUTION TIME: 733.8056330720001
+0.0008687939998708316
+0.0005104769998069969
+TOTAL EXECUTION TIME: 0.0038057540004956536
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+gen:  0  min fit:  16  avg fit:  16.0
+gen:  1  min fit:  15  avg fit:  16.0
+gen:  2  min fit:  14  avg fit:  15.25
+gen:  3  min fit:  13  avg fit:  14.65
+gen:  4  min fit:  12  avg fit:  13.5
+gen:  5  min fit:  11  avg fit:  13.2
+gen:  6  min fit:  10  avg fit:  12.5
+gen:  7  min fit:  9  avg fit:  12.5
+gen:  8  min fit:  8  avg fit:  11.7
+gen:  9  min fit:  7  avg fit:  10.6
+gen:  10  min fit:  5  avg fit:  9.55
+gen:  11  min fit:  5  avg fit:  8.25
+gen:  12  min fit:  5  avg fit:  8.0
+gen:  13  min fit:  5  avg fit:  6.8
+gen:  14  min fit:  4  avg fit:  6.05
+gen:  15  min fit:  3  avg fit:  5.2
+gen:  16  min fit:  3  avg fit:  4.9
+gen:  17  min fit:  2  avg fit:  4.45
+gen:  18  min fit:  2  avg fit:  4.55
+gen:  19  min fit:  3  avg fit:  4.5
+gen:  20  min fit:  2  avg fit:  4.65
+gen:  21  min fit:  2  avg fit:  4.1
+gen:  22  min fit:  2  avg fit:  4.05
+gen:  23  min fit:  2  avg fit:  3.75
+gen:  24  min fit:  1  avg fit:  3.45
+gen:  25  min fit:  2  avg fit:  3.25
+gen:  26  min fit:  2  avg fit:  3.25
+gen:  27  min fit:  3  avg fit:  3.6
+gen:  28  min fit:  2  avg fit:  3.25
+gen:  29  min fit:  1  avg fit:  3.25
+gen:  30  min fit:  1  avg fit:  2.65
+Best individual in last population: 
+Query best individual in last population with all True inputs:
+True
+TOTAL EXECUTION TIME: 0.34953981500075315
+gen:  0  min fit:  16  avg fit:  16.0
+gen:  1  min fit:  15  avg fit:  16.25
+gen:  2  min fit:  13  avg fit:  15.25
+gen:  3  min fit:  12  avg fit:  14.45
+gen:  4  min fit:  11  avg fit:  13.7
+gen:  5  min fit:  9  avg fit:  13.4
+gen:  6  min fit:  9  avg fit:  12.0
+gen:  7  min fit:  9  avg fit:  11.4
+gen:  8  min fit:  9  avg fit:  10.4
+gen:  9  min fit:  8  avg fit:  9.9
+gen:  10  min fit:  7  avg fit:  9.5
+gen:  11  min fit:  6  avg fit:  9.0
+gen:  12  min fit:  6  avg fit:  8.5
+gen:  13  min fit:  6  avg fit:  8.1
+gen:  14  min fit:  5  avg fit:  7.15
+gen:  15  min fit:  4  avg fit:  6.3
+gen:  16  min fit:  4  avg fit:  5.65
+gen:  17  min fit:  4  avg fit:  5.25
+gen:  18  min fit:  3  avg fit:  4.45
+gen:  19  min fit:  2  avg fit:  3.85
+gen:  20  min fit:  2  avg fit:  3.8
+gen:  21  min fit:  1  avg fit:  3.5
+gen:  22  min fit:  1  avg fit:  2.8
+gen:  23  min fit:  1  avg fit:  2.7
+gen:  24  min fit:  1  avg fit:  2.15
+gen:  25  min fit:  1  avg fit:  2.1
+gen:  26  min fit:  1  avg fit:  1.65
+gen:  27  min fit:  1  avg fit:  1.6
+gen:  28  min fit:  0  avg fit:  1.7
+gen:  29  min fit:  0  avg fit:  1.5
+gen:  30  min fit:  0  avg fit:  1.5
+Best individual in last population: 
+Query best individual in last population with all True inputs:
+True
+TOTAL EXECUTION TIME: 0.3413583430001381
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+30.208161204000135
+7.774769969999397
+
+TOTAL EXECUTION TIME: 38.453655556999365
+0.078581208000287
+0.07094536600015999
+
+TOTAL EXECUTION TIME: 0.15205669099941588
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python copy_matrix_serial_speedupy.py 6250 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+91.72626055900037
+TOTAL EXECUTION TIME: 95.24090257499938
+13.887647782000386
+TOTAL EXECUTION TIME: 15.297278699999879
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.07865588599997864
+TOTAL EXECUTION TIME: 0.07039076000000932
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.18262373100060358
+TOTAL EXECUTION TIME: 0.19053870300012932
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+18.40768644400032
+TOTAL EXECUTION TIME: 18.881893208000292
+0.0033699909999995725
+TOTAL EXECUTION TIME: 0.005983120000564668
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 42.56425493699953
+TOTAL EXECUTION TIME: 41.88286604300083
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_4.py 200 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+362.80978158200014
+376.00986940799976
+TOTAL EXECUTION TIME: 738.8272028649999
+0.0008460019998892676
+0.0005032720000599511
+TOTAL EXECUTION TIME: 0.0036855240005024825
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+gen:  0  min fit:  15  avg fit:  15.95
+gen:  1  min fit:  14  avg fit:  16.0
+gen:  2  min fit:  13  avg fit:  15.75
+gen:  3  min fit:  14  avg fit:  15.15
+gen:  4  min fit:  13  avg fit:  14.65
+gen:  5  min fit:  12  avg fit:  14.15
+gen:  6  min fit:  11  avg fit:  13.1
+gen:  7  min fit:  11  avg fit:  12.3
+gen:  8  min fit:  9  avg fit:  11.3
+gen:  9  min fit:  9  avg fit:  11.05
+gen:  10  min fit:  9  avg fit:  10.4
+gen:  11  min fit:  8  avg fit:  9.65
+gen:  12  min fit:  7  avg fit:  8.75
+gen:  13  min fit:  5  avg fit:  7.8
+gen:  14  min fit:  4  avg fit:  7.25
+gen:  15  min fit:  4  avg fit:  6.25
+gen:  16  min fit:  3  avg fit:  5.4
+gen:  17  min fit:  3  avg fit:  4.5
+gen:  18  min fit:  2  avg fit:  4.55
+gen:  19  min fit:  2  avg fit:  3.85
+gen:  20  min fit:  2  avg fit:  4.1
+gen:  21  min fit:  2  avg fit:  3.3
+gen:  22  min fit:  2  avg fit:  3.1
+gen:  23  min fit:  2  avg fit:  2.85
+gen:  24  min fit:  0  avg fit:  2.6
+gen:  25  min fit:  2  avg fit:  2.75
+gen:  26  min fit:  1  avg fit:  2.35
+gen:  27  min fit:  1  avg fit:  2.15
+gen:  28  min fit:  1  avg fit:  2.05
+gen:  29  min fit:  0  avg fit:  1.85
+gen:  30  min fit:  0  avg fit:  2.05
+Best individual in last population: 
+Query best individual in last population with all True inputs:
+True
+TOTAL EXECUTION TIME: 0.35990777899951354
+gen:  0  min fit:  16  avg fit:  16.05
+gen:  1  min fit:  15  avg fit:  16.05
+gen:  2  min fit:  13  avg fit:  15.0
+gen:  3  min fit:  13  avg fit:  14.7
+gen:  4  min fit:  12  avg fit:  13.75
+gen:  5  min fit:  11  avg fit:  13.1
+gen:  6  min fit:  10  avg fit:  12.15
+gen:  7  min fit:  9  avg fit:  11.15
+gen:  8  min fit:  9  avg fit:  10.6
+gen:  9  min fit:  8  avg fit:  9.8
+gen:  10  min fit:  7  avg fit:  9.5
+gen:  11  min fit:  7  avg fit:  8.8
+gen:  12  min fit:  5  avg fit:  8.15
+gen:  13  min fit:  5  avg fit:  7.25
+gen:  14  min fit:  4  avg fit:  6.7
+gen:  15  min fit:  4  avg fit:  6.2
+gen:  16  min fit:  4  avg fit:  5.5
+gen:  17  min fit:  3  avg fit:  5.05
+gen:  18  min fit:  1  avg fit:  4.3
+gen:  19  min fit:  1  avg fit:  3.95
+gen:  20  min fit:  1  avg fit:  3.55
+gen:  21  min fit:  1  avg fit:  3.25
+gen:  22  min fit:  1  avg fit:  3.0
+gen:  23  min fit:  0  avg fit:  2.4
+gen:  24  min fit:  0  avg fit:  1.95
+gen:  25  min fit:  0  avg fit:  1.1
+gen:  26  min fit:  0  avg fit:  1.0
+gen:  27  min fit:  0  avg fit:  1.3
+gen:  28  min fit:  0  avg fit:  1.1
+gen:  29  min fit:  0  avg fit:  0.85
+gen:  30  min fit:  0  avg fit:  1.2
+Best individual in last population: 
+Query best individual in last population with all True inputs:
+True
+TOTAL EXECUTION TIME: 0.35932004999995115
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+29.167508707000707
+7.398370752999654
+
+TOTAL EXECUTION TIME: 37.021803517999615
+0.07763425499979348
+0.07107960200028174
+
+TOTAL EXECUTION TIME: 0.15114524399996299
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python copy_matrix_serial_speedupy.py 6250 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+90.50785772200015
+TOTAL EXECUTION TIME: 94.06639143099983
+13.54107580299933
+TOTAL EXECUTION TIME: 14.950627889000316
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.07322142600060033
+TOTAL EXECUTION TIME: 0.07026671200037526
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.18018703399957303
+TOTAL EXECUTION TIME: 0.18148768300034135
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+18.323610847000054
+TOTAL EXECUTION TIME: 18.79314175199943
+0.00401952800075378
+TOTAL EXECUTION TIME: 0.006370947000505112
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 40.53494247799972
+TOTAL EXECUTION TIME: 43.51243450899983
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_4.py 200 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+362.05119212800037
+376.33021610799915
+TOTAL EXECUTION TIME: 738.3889102479989
+0.0009567249999236083
+0.0005041209988121409
+TOTAL EXECUTION TIME: 0.003900040999724297
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+gen:  0  min fit:  16  avg fit:  16.0
+gen:  1  min fit:  15  avg fit:  16.1
+gen:  2  min fit:  14  avg fit:  15.7
+gen:  3  min fit:  13  avg fit:  14.9
+gen:  4  min fit:  12  avg fit:  14.45
+gen:  5  min fit:  12  avg fit:  13.4
+gen:  6  min fit:  11  avg fit:  12.75
+gen:  7  min fit:  10  avg fit:  11.85
+gen:  8  min fit:  9  avg fit:  11.3
+gen:  9  min fit:  8  avg fit:  10.25
+gen:  10  min fit:  7  avg fit:  9.45
+gen:  11  min fit:  7  avg fit:  8.55
+gen:  12  min fit:  4  avg fit:  8.1
+gen:  13  min fit:  5  avg fit:  7.05
+gen:  14  min fit:  2  avg fit:  6.2
+gen:  15  min fit:  3  avg fit:  4.95
+gen:  16  min fit:  3  avg fit:  4.8
+gen:  17  min fit:  1  avg fit:  4.25
+gen:  18  min fit:  2  avg fit:  3.9
+gen:  19  min fit:  2  avg fit:  3.25
+gen:  20  min fit:  1  avg fit:  2.6
+gen:  21  min fit:  1  avg fit:  2.45
+gen:  22  min fit:  0  avg fit:  2.0
+gen:  23  min fit:  0  avg fit:  1.5
+gen:  24  min fit:  0  avg fit:  0.95
+gen:  25  min fit:  0  avg fit:  0.85
+gen:  26  min fit:  0  avg fit:  0.65
+gen:  27  min fit:  0  avg fit:  0.65
+gen:  28  min fit:  0  avg fit:  0.75
+gen:  29  min fit:  0  avg fit:  0.75
+gen:  30  min fit:  0  avg fit:  1.15
+Best individual in last population: 
+Query best individual in last population with all True inputs:
+True
+TOTAL EXECUTION TIME: 0.36148916599995573
+gen:  0  min fit:  16  avg fit:  16.0
+gen:  1  min fit:  15  avg fit:  15.8
+gen:  2  min fit:  13  avg fit:  15.1
+gen:  3  min fit:  12  avg fit:  14.2
+gen:  4  min fit:  10  avg fit:  13.0
+gen:  5  min fit:  9  avg fit:  12.05
+gen:  6  min fit:  8  avg fit:  11.05
+gen:  7  min fit:  8  avg fit:  10.25
+gen:  8  min fit:  8  avg fit:  9.75
+gen:  9  min fit:  7  avg fit:  8.9
+gen:  10  min fit:  7  avg fit:  8.5
+gen:  11  min fit:  5  avg fit:  8.4
+gen:  12  min fit:  4  avg fit:  7.65
+gen:  13  min fit:  4  avg fit:  6.75
+gen:  14  min fit:  4  avg fit:  5.6
+gen:  15  min fit:  3  avg fit:  5.3
+gen:  16  min fit:  3  avg fit:  4.25
+gen:  17  min fit:  2  avg fit:  3.8
+gen:  18  min fit:  2  avg fit:  3.25
+gen:  19  min fit:  1  avg fit:  3.35
+gen:  20  min fit:  1  avg fit:  2.9
+gen:  21  min fit:  1  avg fit:  2.85
+gen:  22  min fit:  1  avg fit:  2.4
+gen:  23  min fit:  0  avg fit:  1.95
+gen:  24  min fit:  1  avg fit:  1.95
+gen:  25  min fit:  0  avg fit:  1.65
+gen:  26  min fit:  0  avg fit:  1.6
+gen:  27  min fit:  0  avg fit:  1.3
+gen:  28  min fit:  0  avg fit:  1.15
+gen:  29  min fit:  0  avg fit:  0.65
+gen:  30  min fit:  0  avg fit:  0.75
+Best individual in last population: 
+Query best individual in last population with all True inputs:
+True
+TOTAL EXECUTION TIME: 0.3394878229992173
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+27.891790920000858
+7.503150181999445
+
+TOTAL EXECUTION TIME: 35.860341916000834
+0.07755157999963558
+0.0710390179992828
+
+TOTAL EXECUTION TIME: 0.15110979600103747
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python copy_matrix_serial_speedupy.py 6250 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+91.20476299000075
+TOTAL EXECUTION TIME: 94.71996778999892
+13.998742032999871
+TOTAL EXECUTION TIME: 15.403660134999882
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.07590314899971418
+TOTAL EXECUTION TIME: 0.07208875700052886
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.19120276300054684
+TOTAL EXECUTION TIME: 0.18015016400022432
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+18.372497777998433
+TOTAL EXECUTION TIME: 18.84830075699938
+0.0029593159997602925
+TOTAL EXECUTION TIME: 0.0055434670011891285
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 41.821821651999926
+TOTAL EXECUTION TIME: 42.72105490600006
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_4.py 200 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+362.3710554729987
+376.7122786129985
+TOTAL EXECUTION TIME: 739.0908558640003
+0.0009422820003237575
+0.0005144350016053068
+TOTAL EXECUTION TIME: 0.0038178359991434263
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+gen:  0  min fit:  16  avg fit:  16.0
+gen:  1  min fit:  15  avg fit:  16.25
+gen:  2  min fit:  14  avg fit:  15.45
+gen:  3  min fit:  13  avg fit:  14.55
+gen:  4  min fit:  11  avg fit:  13.25
+gen:  5  min fit:  11  avg fit:  12.65
+gen:  6  min fit:  10  avg fit:  11.8
+gen:  7  min fit:  10  avg fit:  11.35
+gen:  8  min fit:  8  avg fit:  10.0
+gen:  9  min fit:  7  avg fit:  9.6
+gen:  10  min fit:  6  avg fit:  9.15
+gen:  11  min fit:  6  avg fit:  8.25
+gen:  12  min fit:  5  avg fit:  7.1
+gen:  13  min fit:  5  avg fit:  6.3
+gen:  14  min fit:  4  avg fit:  5.9
+gen:  15  min fit:  3  avg fit:  5.2
+gen:  16  min fit:  3  avg fit:  5.05
+gen:  17  min fit:  3  avg fit:  4.7
+gen:  18  min fit:  3  avg fit:  4.15
+gen:  19  min fit:  2  avg fit:  4.15
+gen:  20  min fit:  3  avg fit:  4.1
+gen:  21  min fit:  3  avg fit:  3.95
+gen:  22  min fit:  2  avg fit:  3.6
+gen:  23  min fit:  2  avg fit:  3.45
+gen:  24  min fit:  2  avg fit:  3.05
+gen:  25  min fit:  1  avg fit:  3.05
+gen:  26  min fit:  1  avg fit:  3.05
+gen:  27  min fit:  1  avg fit:  2.65
+gen:  28  min fit:  1  avg fit:  2.25
+gen:  29  min fit:  1  avg fit:  2.15
+gen:  30  min fit:  1  avg fit:  2.25
+Best individual in last population: 
+Query best individual in last population with all True inputs:
+True
+TOTAL EXECUTION TIME: 0.3446369390003383
+gen:  0  min fit:  16  avg fit:  16.05
+gen:  1  min fit:  15  avg fit:  16.1
+gen:  2  min fit:  13  avg fit:  15.5
+gen:  3  min fit:  13  avg fit:  14.75
+gen:  4  min fit:  11  avg fit:  13.6
+gen:  5  min fit:  10  avg fit:  12.65
+gen:  6  min fit:  9  avg fit:  11.75
+gen:  7  min fit:  7  avg fit:  10.05
+gen:  8  min fit:  7  avg fit:  8.9
+gen:  9  min fit:  6  avg fit:  7.55
+gen:  10  min fit:  5  avg fit:  6.9
+gen:  11  min fit:  4  avg fit:  6.2
+gen:  12  min fit:  4  avg fit:  5.7
+gen:  13  min fit:  4  avg fit:  5.25
+gen:  14  min fit:  4  avg fit:  5.55
+gen:  15  min fit:  3  avg fit:  5.15
+gen:  16  min fit:  2  avg fit:  4.6
+gen:  17  min fit:  3  avg fit:  3.95
+gen:  18  min fit:  2  avg fit:  3.65
+gen:  19  min fit:  2  avg fit:  3.6
+gen:  20  min fit:  2  avg fit:  3.15
+gen:  21  min fit:  1  avg fit:  2.95
+gen:  22  min fit:  1  avg fit:  2.65
+gen:  23  min fit:  1  avg fit:  2.35
+gen:  24  min fit:  1  avg fit:  2.1
+gen:  25  min fit:  1  avg fit:  2.4
+gen:  26  min fit:  1  avg fit:  2.25
+gen:  27  min fit:  1  avg fit:  2.25
+gen:  28  min fit:  1  avg fit:  1.9
+gen:  29  min fit:  1  avg fit:  1.6
+gen:  30  min fit:  1  avg fit:  1.45
+Best individual in last population: 
+Query best individual in last population with all True inputs:
+True
+TOTAL EXECUTION TIME: 0.36771859300097276
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+28.479460479999034
+7.564780890001202
+
+TOTAL EXECUTION TIME: 36.5014841430002
+0.07713919900015753
+0.07095438999931503
+
+TOTAL EXECUTION TIME: 0.1505553309998504
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python copy_matrix_serial_speedupy.py 6250 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+92.18924782400063
+TOTAL EXECUTION TIME: 95.68481390200031
+13.836151625000639
+TOTAL EXECUTION TIME: 15.24634737300039
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.07302586399964639
+TOTAL EXECUTION TIME: 0.07407589499962342
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.18377385699932347
+TOTAL EXECUTION TIME: 0.1838003650009341
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+18.27882146900083
+TOTAL EXECUTION TIME: 18.74479750899991
+0.003799346000960213
+TOTAL EXECUTION TIME: 0.006430442999771913
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 41.94159141499949
+TOTAL EXECUTION TIME: 40.25170498300031
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_4.py 200 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+362.26584255300077
+376.47208993999993
+TOTAL EXECUTION TIME: 738.7456231389988
+0.0008803310010989662
+0.0005439600008685375
+TOTAL EXECUTION TIME: 0.0037577839993900852
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+gen:  0  min fit:  16  avg fit:  16.0
+gen:  1  min fit:  15  avg fit:  15.95
+gen:  2  min fit:  13  avg fit:  15.45
+gen:  3  min fit:  13  avg fit:  14.8
+gen:  4  min fit:  9  avg fit:  13.8
+gen:  5  min fit:  8  avg fit:  13.15
+gen:  6  min fit:  10  avg fit:  12.35
+gen:  7  min fit:  9  avg fit:  11.4
+gen:  8  min fit:  7  avg fit:  10.3
+gen:  9  min fit:  6  avg fit:  9.05
+gen:  10  min fit:  5  avg fit:  7.9
+gen:  11  min fit:  5  avg fit:  7.0
+gen:  12  min fit:  4  avg fit:  6.2
+gen:  13  min fit:  4  avg fit:  5.7
+gen:  14  min fit:  3  avg fit:  5.1
+gen:  15  min fit:  3  avg fit:  4.95
+gen:  16  min fit:  2  avg fit:  4.5
+gen:  17  min fit:  2  avg fit:  4.05
+gen:  18  min fit:  2  avg fit:  3.5
+gen:  19  min fit:  1  avg fit:  3.1
+gen:  20  min fit:  1  avg fit:  2.8
+gen:  21  min fit:  1  avg fit:  2.25
+gen:  22  min fit:  1  avg fit:  2.0
+gen:  23  min fit:  0  avg fit:  1.6
+gen:  24  min fit:  0  avg fit:  1.35
+gen:  25  min fit:  0  avg fit:  1.45
+gen:  26  min fit:  0  avg fit:  1.5
+gen:  27  min fit:  0  avg fit:  1.15
+gen:  28  min fit:  0  avg fit:  0.95
+gen:  29  min fit:  0  avg fit:  0.95
+gen:  30  min fit:  0  avg fit:  0.95
+Best individual in last population: 
+Query best individual in last population with all True inputs:
+True
+TOTAL EXECUTION TIME: 0.3448954010000307
+gen:  0  min fit:  16  avg fit:  16.0
+gen:  1  min fit:  15  avg fit:  16.25
+gen:  2  min fit:  15  avg fit:  16.15
+gen:  3  min fit:  13  avg fit:  15.55
+gen:  4  min fit:  12  avg fit:  14.95
+gen:  5  min fit:  13  avg fit:  14.75
+gen:  6  min fit:  11  avg fit:  13.5
+gen:  7  min fit:  10  avg fit:  12.5
+gen:  8  min fit:  10  avg fit:  11.75
+gen:  9  min fit:  9  avg fit:  11.2
+gen:  10  min fit:  8  avg fit:  10.8
+gen:  11  min fit:  8  avg fit:  10.15
+gen:  12  min fit:  7  avg fit:  9.0
+gen:  13  min fit:  6  avg fit:  7.85
+gen:  14  min fit:  6  avg fit:  7.2
+gen:  15  min fit:  5  avg fit:  7.3
+gen:  16  min fit:  5  avg fit:  6.6
+gen:  17  min fit:  4  avg fit:  6.35
+gen:  18  min fit:  4  avg fit:  5.7
+gen:  19  min fit:  4  avg fit:  5.45
+gen:  20  min fit:  3  avg fit:  5.25
+gen:  21  min fit:  3  avg fit:  4.9
+gen:  22  min fit:  3  avg fit:  4.75
+gen:  23  min fit:  3  avg fit:  4.5
+gen:  24  min fit:  2  avg fit:  4.0
+gen:  25  min fit:  3  avg fit:  3.85
+gen:  26  min fit:  2  avg fit:  3.35
+gen:  27  min fit:  1  avg fit:  3.0
+gen:  28  min fit:  1  avg fit:  2.8
+gen:  29  min fit:  1  avg fit:  2.5
+gen:  30  min fit:  1  avg fit:  2.15
+Best individual in last population: 
+Query best individual in last population with all True inputs:
+True
+TOTAL EXECUTION TIME: 0.34628776899990044
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+28.653930291000506
+7.707716712999172
+
+TOTAL EXECUTION TIME: 36.830612215000656
+0.07767926499946043
+0.07185108300109277
+
+TOTAL EXECUTION TIME: 0.15200242600076308
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python copy_matrix_serial_speedupy.py 6250 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+90.0581975210007
+TOTAL EXECUTION TIME: 93.55196513699957
+13.837509717999637
+TOTAL EXECUTION TIME: 15.245600145000935
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.07215960299981816
+TOTAL EXECUTION TIME: 0.07422414000029676
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.1807627069993032
+TOTAL EXECUTION TIME: 0.17594984999959706
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+18.437546363000365
+TOTAL EXECUTION TIME: 18.901304472001357
+0.003372367000338272
+TOTAL EXECUTION TIME: 0.005869884000276215
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 41.057059755999944
+TOTAL EXECUTION TIME: 39.70726533500056
