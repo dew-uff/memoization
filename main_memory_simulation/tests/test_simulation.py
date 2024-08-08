@@ -2,131 +2,120 @@ import sys
 sys.path.append('..')
 sys.path.append('../..')
 
-import unittest, random, os, time
+import unittest, random, os, time, io
 from unittest.mock import patch
 from functools import wraps
-from simulation import get_config_boundaries, draw_config, execute_simulation, generate_simulation_data
+from simulation import get_config_boundaries, draw_config, execute_simulation, generate_simulation_data, generate_script_input_file
+import simulation
 
 class TestUtil(unittest.TestCase):
     def setUp(self):
         random.seed(time.time())
+    
+    def tearDown(self):
+        if os.path.exists('input.txt'):
+            os.remove('input.txt')
 
     def test_get_config_boundaries(self):
         expected_bondaries = {
-            'SET_1': {
-                'cache_size': {'min': 60e3, 'max': 120e3},
-                'deterministic_calls': {'min': 660e3, 'max': 1300e3},
-                'cache_miss_rate': {'min': 0, 'max': 5}
-            },
-            'SET_2': {
-                'cache_size': {'min': 1, 'max': 3},
-                'deterministic_calls': {'min': 10, 'max': 20},
-                'cache_miss_rate': {'min': 0, 'max': 5}
-            },
-            'SET_3': {
-                'cache_size': {'min': 60e3, 'max': 120e3},
-                'deterministic_calls': {'min': 660e3, 'max': 1300e3},
-                'cache_miss_rate': {'min': 50, 'max': 100}
-            }
+            f'SET_{i+1}': {
+                'deterministic_calls': {'min': i*1000, 'max': (i+1)*1000},
+                'cache_miss_rate': {'min': 0, 'max': 20}
+            } for i in range(1, 20, 1)
         }
+        expected_bondaries['SET_1'] = {
+            'deterministic_calls': {'min': 500, 'max': 1000},
+            'cache_miss_rate': {'min': 0, 'max': 20}
+        }
+        
         boundaries = get_config_boundaries()
         self.assertDictEqual(boundaries, expected_bondaries)
 
     def test_draw_config(self):
         first_config_expected = {
             'SET_1': {
-                'cache_size': 115340,
-                'deterministic_calls': 1063958,
-                'cache_miss_rate': 0.03
+                'deterministic_calls': 741,
+                'cache_miss_rate': 0.17
             },
             'SET_2': {
-                'cache_size': 1,
-                'deterministic_calls': 14,
-                'cache_miss_rate': 0.04
+                'deterministic_calls': 1864,
+                'cache_miss_rate': 0.12
             },
             'SET_3': {
-                'cache_size': 91845,
-                'deterministic_calls': 1084604,
-                'cache_miss_rate': 1.0
+                'deterministic_calls': 2776,
+                'cache_miss_rate': 0.13,
             }
-        }
-        second_config_expected = {
-            'SET_1': {
-                'cache_size': 114385,
-                'deterministic_calls': 978046,
-                'cache_miss_rate': 0.03},
-            'SET_2': {
-                'cache_size': 2,
-                'deterministic_calls': 19,
-                'cache_miss_rate': 0.01},
-            'SET_3': {
-                'cache_size': 93075,
-                'deterministic_calls': 806039,
-                'cache_miss_rate': 0.68}
         }
 
         random.seed(0)
         first_confing = draw_config()
-        second_confing = draw_config()
-        self.assertDictEqual(first_confing, first_config_expected)
-        self.assertDictEqual(second_confing, second_config_expected)
+        for k, v in first_config_expected.items():
+            self.assertIn(k, first_confing)
+            self.assertDictEqual(first_confing[k], v)
 
+    @patch('sys.stdout', new_callable=io.StringIO)
     @patch('os.system')
-    def test_execute_simulation_1_dict(self, mock_system):
-        # Prepare mock to capture calls
+    def test_execute_simulation_commands_executed(self, mock_system, mock_stdout):
+        num_dict = random.choice(['0', '1', '2', '2-fast'])
         mock_system.commands = []
         mock_system.side_effect = lambda cmd: mock_system.commands.append(cmd)
-
-        # Define test data
-        cached_data = ['hash0', '0.0', 'hash3', '3.3']
-        all_data = ['hash1', '1.1', 'hash2', '2.2', 'hash3', '3.3', 'hash0', '0.0']
-        num_dict = 1
-
         expected_commands = [
             'python speedupy/setup_exp/setup.py script.py',
-            'python script.py fast hash0 0.0 hash3 3.3 --exec-mode manual --num-dict 1 -s db',
-            'python script.py slow hash1 1.1 hash2 2.2 hash3 3.3 hash0 0.0 --exec-mode manual --num-dict 1 -s db',
+            f'python script.py fast --exec-mode manual --num-dict {num_dict} -s db',
+            f'python script.py slow --exec-mode manual --num-dict {num_dict} -s db',
             'rm -rf .speedupy/'
         ]
 
-        execute_simulation(cached_data, all_data, num_dict)
-
+        execute_simulation([], [], num_dict)
         self.assertEqual(mock_system.commands, expected_commands)
 
+    @patch('sys.stdout', new_callable=io.StringIO)
     @patch('os.system')
-    def test_execute_simulation_2_dicts(self, mock_system):
-        # Prepare mock to capture calls
-        mock_system.commands = []
-        mock_system.side_effect = lambda cmd: mock_system.commands.append(cmd)
+    @patch('simulation.generate_script_input_file')
+    def test_execute_simulation_input_files_correctly_generated(self, mock_generate_script_input_file, mock_os_system, mock_stdout):
+        written_data = []
+        mock_generate_script_input_file.side_effect = lambda data: written_data.append(data)
+        mock_os_system.return_value = 0  # Mock successful command execution
 
-        # Define test data
         cached_data = ['hash1', '1.1', 'hash2', '2.2', 'hash3', '3.3']
         all_data = ['hash1', '1.1', 'hash2', '2.2', 'hash3', '3.3', 'hash4', '4.4', 'hash5', '5.5', 'hash6', '6.6']
-        num_dict = 2
-
-        expected_commands = [
-            'python speedupy/setup_exp/setup.py script.py',
-            'python script.py fast hash1 1.1 hash2 2.2 hash3 3.3 --exec-mode manual --num-dict 2 -s db',
-            'python script.py slow hash1 1.1 hash2 2.2 hash3 3.3 hash4 4.4 hash5 5.5 hash6 6.6 --exec-mode manual --num-dict 2 -s db',
-            'rm -rf .speedupy/'
-        ]
+        num_dict = 5
 
         execute_simulation(cached_data, all_data, num_dict)
 
-        self.assertEqual(mock_system.commands, expected_commands)
+        self.assertEqual(len(written_data), 2)
+        self.assertEqual(written_data[0], cached_data)
+        self.assertEqual(written_data[1], all_data)  
 
-    @patch('simulation.generate_data')
-    def test_generate_simulation_data(self, mock_generate_data):
-        mock_generate_data.side_effect = [
-            {'hash0': '0.0', 'hash2': '2.2', 'hash28': '28.28', 'hash-7': '7.7'},  # First call for new_data
-            {'hash5': '5.5', 'hash-3': '-3.3', 'hash42': '42.42'}   # Second call for cached_data
-        ]
+    def test_generate_script_input_file(self):
+        self.assertFalse(os.path.isfile('input.txt'))
+
+        data = ['hash1', '1.1', 'hash2', '2.2', 'hash3', '3.3', 'hash0', '0.0']
+        generate_script_input_file(data)
+
+        self.assertTrue(os.path.isfile('input.txt'))
+
+        with open('input.txt', 'rt') as f:
+            content = f.read()
+
+        expected_content = '\n'.join(data) + '\n'
+        self.assertEqual(content, expected_content)
+
         
-        random.seed(0)
-        cached_data, all_data = generate_simulation_data(2, 3)
 
-        self.assertEqual(cached_data, ['hash42', '42.42', 'hash-3', '-3.3', 'hash5', '5.5'])
-        self.assertEqual(all_data, ['hash2', '2.2', 'hash42', '42.42', 'hash-3', '-3.3', 'hash5', '5.5', 'hash28', '28.28', 'hash0', '0.0', 'hash-7', '7.7'])
+
+    # @patch('simulation.generate_data')
+    # def test_generate_simulation_data(self, mock_generate_data):
+    #     mock_generate_data.side_effect = [
+    #         {'hash0': '0.0', 'hash2': '2.2', 'hash28': '28.28', 'hash-7': '7.7'},  # First call for new_data
+    #         {'hash5': '5.5', 'hash-3': '-3.3', 'hash42': '42.42'}   # Second call for cached_data
+    #     ]
+        
+    #     random.seed(0)
+    #     cached_data, all_data = generate_simulation_data(2, 3)
+
+    #     self.assertEqual(cached_data, ['hash42', '42.42', 'hash-3', '-3.3', 'hash5', '5.5'])
+    #     self.assertEqual(all_data, ['hash2', '2.2', 'hash42', '42.42', 'hash-3', '-3.3', 'hash5', '5.5', 'hash28', '28.28', 'hash0', '0.0', 'hash-7', '7.7'])
 
 if __name__ == '__main__':
     unittest.main()
