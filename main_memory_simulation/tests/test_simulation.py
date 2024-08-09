@@ -61,12 +61,11 @@ class TestUtil(unittest.TestCase):
         mock_system.side_effect = lambda cmd: mock_system.commands.append(cmd)
         expected_commands = [
             'python speedupy/setup_exp/setup.py script.py',
-            f'python script.py fast --exec-mode manual --num-dict {num_dict} -s db',
             f'python script.py slow --exec-mode manual --num-dict {num_dict} -s db',
             'rm -rf .speedupy/'
         ]
 
-        execute_simulation([], [], num_dict)
+        execute_simulation([], num_dict)
         self.assertEqual(mock_system.commands, expected_commands)
 
     @patch('sys.stdout', new_callable=io.StringIO)
@@ -77,15 +76,13 @@ class TestUtil(unittest.TestCase):
         mock_generate_script_input_file.side_effect = lambda data: written_data.append(data)
         mock_os_system.return_value = 0  # Mock successful command execution
 
-        cached_data = ['hash1', '1.1', 'hash2', '2.2', 'hash3', '3.3']
         all_data = ['hash1', '1.1', 'hash2', '2.2', 'hash3', '3.3', 'hash4', '4.4', 'hash5', '5.5', 'hash6', '6.6']
         num_dict = 5
 
-        execute_simulation(cached_data, all_data, num_dict)
+        execute_simulation(all_data, num_dict)
 
-        self.assertEqual(len(written_data), 2)
-        self.assertEqual(written_data[0], cached_data)
-        self.assertEqual(written_data[1], all_data)  
+        self.assertEqual(len(written_data), 1)
+        self.assertEqual(written_data[0], all_data)  
 
     def test_generate_script_input_file(self):
         self.assertFalse(os.path.isfile('input.txt'))

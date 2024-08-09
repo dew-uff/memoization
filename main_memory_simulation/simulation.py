@@ -38,42 +38,36 @@ def draw_config():
     return drawn_config
 
 ##TODO:TEST
-def generate_simulation_data(num_new_data, num_cached_data, num_calls):
-    new_data = generate_data(num_new_data)
-    cached_data = generate_data(num_cached_data)
+def generate_simulation_data(data_size, num_calls):
+    new_data = generate_data(data_size)
 
     all_data = [(k, v) for k, v in new_data.items()]
 
     aux = num_calls - len(new_data)
 
-    keys = list(cached_data.keys())
+    keys = list(new_data.keys())
     for i in range(aux):
         k = choice(keys)
-        all_data.append((k, cached_data[k]))
+        all_data.append((k, new_data[k]))
     shuffle(all_data)
+
 
     ad = []
     for (k, v) in all_data:
         ad.append(str(k))
         ad.append(str(v))
+    return ad
 
-    cd = []
-    for k, v in cached_data.items():
-        cd.append(str(k))
-        cd.append(str(v))
-
-    return cd, ad
-
-def execute_simulation(cached_data, all_data, num_dict):
+def execute_simulation(all_data, num_dict):
     print(f'\n\n>>>> Running for {num_dict} dictionaries!')
 
     #Preparing experiment
     os.system('python speedupy/setup_exp/setup.py script.py')
     
     #Executing the first time to add cached_data to the storage
-    print('\nSaving cached values...')
-    generate_script_input_file(cached_data)
-    os.system(f'python script.py fast --exec-mode manual --num-dict {num_dict} -s db')
+    # print('\nSaving cached values...')
+    # generate_script_input_file(cached_data)
+    # os.system(f'python script.py fast --exec-mode manual --num-dict {num_dict} -s db')
 
     #Executing measuring time
     print('\nMeasuring time...')
@@ -99,18 +93,17 @@ def main():
         print('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
 
         print(f"{int(set_config['cache_miss_rate'] * set_config['deterministic_calls'])},\
-                {set_config['cache_size']},\
+                {0},\
                 {set_config['deterministic_calls']}")
 
-        cached_data, all_data = generate_simulation_data(int(set_config['cache_miss_rate'] * set_config['deterministic_calls']),
-                                                         set_config['cache_size'],
+        all_data = generate_simulation_data(int(set_config['cache_miss_rate'] * set_config['deterministic_calls']),
                                                          set_config['deterministic_calls'])
         for i in range(1):
             print(f'\n>>>>>>>>>>> Trial {i+1}')
-            execute_simulation(cached_data, all_data, '0')
-            execute_simulation(cached_data, all_data, '1')
-            execute_simulation(cached_data, all_data, '2')
-            execute_simulation(cached_data, all_data, '2-fast')
+            execute_simulation(all_data, '0')
+            execute_simulation(all_data, '1')
+            execute_simulation(all_data, '2')
+            execute_simulation(all_data, '2-fast')
 
 if __name__ == '__main__':
     main()
