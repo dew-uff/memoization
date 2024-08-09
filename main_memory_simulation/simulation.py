@@ -90,23 +90,27 @@ def main():
     for set, set_config in drawn_config.items():
         print('\n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
         print(f'Running for {set}!')
+        for k, v in set_config.items(): print(f'{k}: {v}')
         print('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
 
-        print(f"{int(set_config['cache_miss_rate'] * set_config['deterministic_calls'])},\
-                {0},\
-                {set_config['deterministic_calls']}")
+        data_size = int(set_config['cache_miss_rate'] * set_config['deterministic_calls'])
+        if data_size == 0:
+            data_size += 1
+            set_config['cache_miss_rate'] = data_size/set_config['deterministic_calls']
+            print(f"Ajustando cache_miss_rate: {set_config['cache_miss_rate']}")
+        all_data = generate_simulation_data(data_size, set_config['deterministic_calls'])
 
-        all_data = generate_simulation_data(int(set_config['cache_miss_rate'] * set_config['deterministic_calls']),
-                                                         set_config['deterministic_calls'])
-        for i in range(1):
+        for i in range(10):
             print(f'\n>>>>>>>>>>> Trial {i+1}')
             execute_simulation(all_data, '0')
             execute_simulation(all_data, '1')
             execute_simulation(all_data, '2')
             execute_simulation(all_data, '2-fast')
 
+        os.system('rm input.txt')
+
 if __name__ == '__main__':
-    main()
+    main() #for i in range(100)
 
 # Simulação escolhe valores aleatórios para as 3 variáveis.
 # Executamos a simulação um determinado número de vezes (ex.: 100) para cada grupo
