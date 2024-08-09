@@ -7,7 +7,7 @@ from speedupy.speedupy import initialize_speedupy, deterministic
 @deterministic
 def pure_function(input, output):
     if sys.argv[1] == 'slow':
-        time.sleep(1)
+        time.sleep(0.001)
     return output
 
 def get_input():
