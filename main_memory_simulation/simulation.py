@@ -87,6 +87,9 @@ def generate_script_input_file(data):
 ##TODO:TEST
 def main():
     for i in range(NUM_SET_DRAWS):
+        print('\n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
+        print(f'Draw {i}!')
+        print('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
         drawn_config = draw_config()
         for set, set_config in drawn_config.items():
             print('\n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
@@ -101,8 +104,8 @@ def main():
                 print(f"Ajustando cache_miss_rate: {set_config['cache_miss_rate']}")
             all_data = generate_simulation_data(data_size, set_config['deterministic_calls'])
 
-            for i in range(NUM_EXECUTION_OF_A_DRAW):
-                print(f'\n>>>>>>>>>>> Trial {i+1}')
+            for j in range(NUM_EXECUTION_OF_A_DRAW):
+                print(f'\n>>>>>>>>>>> Trial {j+1}')
                 execute_simulation(all_data, '0')
                 execute_simulation(all_data, '1')
                 execute_simulation(all_data, '2')
