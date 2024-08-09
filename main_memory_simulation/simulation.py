@@ -86,32 +86,35 @@ def generate_script_input_file(data):
 
 ##TODO:TEST
 def main():
-    drawn_config = draw_config()
-    for set, set_config in drawn_config.items():
-        print('\n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
-        print(f'Running for {set}!')
-        for k, v in set_config.items(): print(f'{k}: {v}')
-        print('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
+    for i in range(NUM_SET_DRAWS):
+        drawn_config = draw_config()
+        for set, set_config in drawn_config.items():
+            print('\n\n>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
+            print(f'Running for {set}!')
+            for k, v in set_config.items(): print(f'{k}: {v}')
+            print('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
 
-        data_size = int(set_config['cache_miss_rate'] * set_config['deterministic_calls'])
-        if data_size == 0:
-            data_size += 1
-            set_config['cache_miss_rate'] = data_size/set_config['deterministic_calls']
-            print(f"Ajustando cache_miss_rate: {set_config['cache_miss_rate']}")
-        all_data = generate_simulation_data(data_size, set_config['deterministic_calls'])
+            data_size = int(set_config['cache_miss_rate'] * set_config['deterministic_calls'])
+            if data_size == 0:
+                data_size += 1
+                set_config['cache_miss_rate'] = data_size/set_config['deterministic_calls']
+                print(f"Ajustando cache_miss_rate: {set_config['cache_miss_rate']}")
+            all_data = generate_simulation_data(data_size, set_config['deterministic_calls'])
 
-        for i in range(10):
-            print(f'\n>>>>>>>>>>> Trial {i+1}')
-            execute_simulation(all_data, '0')
-            execute_simulation(all_data, '1')
-            execute_simulation(all_data, '2')
-            execute_simulation(all_data, '2-fast')
+            for i in range(NUM_EXECUTION_OF_A_DRAW):
+                print(f'\n>>>>>>>>>>> Trial {i+1}')
+                execute_simulation(all_data, '0')
+                execute_simulation(all_data, '1')
+                execute_simulation(all_data, '2')
+                execute_simulation(all_data, '2-fast')
 
-        os.system('rm input.txt')
+            os.system('rm input.txt')
 
 if __name__ == '__main__':
-    main() #for i in range(100)
+    NUM_EXECUTION_OF_A_DRAW = 10
+    NUM_SET_DRAWS = 100
+    main()
 
-# Simulação escolhe valores aleatórios para as 3 variáveis.
+# Simulação escolhe valores aleatórios para as 2 variáveis.
 # Executamos a simulação um determinado número de vezes (ex.: 100) para cada grupo
 # Executamos variando as opções de dicionário (0-dict, 1-dict, 2-dict e 2-dict*)
