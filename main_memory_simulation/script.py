@@ -15,16 +15,18 @@ def get_input():
         input = [l.strip() for l in f]
     return input
 
-@initialize_speedupy
-def main():
-    input = get_input()
-    
+def structure_data(input):
     i = 0
     data = []
     while i < len(input):
         data.append((input[i], float(input[i+1])))
         i += 2
-    
+    return data
+
+@initialize_speedupy
+def main():
+    input = get_input()
+    data = structure_data(input)
     for elem in data:
         pure_function(elem[0], elem[1])
 
