@@ -13,6 +13,8 @@ fi
 ##################################### GROUP 1
 ######### Experiment test_laplace_jacobi_4.py
 echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'
+cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/04benchproglangs/04benchpl_exp09_iterative_solver_jacobi_OK
+cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy ./
 conda activate benchmarks-env
 
 #Executing for num-dict 0
@@ -43,6 +45,8 @@ sleep $random_sleep
 echo ''
 echo ''
 echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'
+cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/Tiny-GSGP-with-speedupy/adapted_for_speedupy
+cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy ./
 conda activate tiny-env
 
 #Executing for num-dict 0
@@ -72,6 +76,8 @@ sleep $random_sleep
 echo ''
 echo ''
 echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'
+cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/04benchproglangs/04benchpl_exp03_count_unique_words_OK
+cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy ./
 conda activate benchmarks-env
 
 #Executing for num-dict 0
@@ -103,6 +109,8 @@ sleep $random_sleep
 echo ''
 echo ''
 echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'
+cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/04benchproglangs/04benchpl_exp01_copy_matrix_OK
+cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy ./
 conda activate benchmarks-env
 
 #Executing for num-dict 0
@@ -133,6 +141,9 @@ sleep $random_sleep
 echo ''
 echo ''
 echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'
+cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/DNACC-with-speedupy/adapted_for_speedupy/examples/sphere_potentials
+cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy ./
+cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/DNACC-with-speedupy/adapted_for_speedupy/dnacc ./
 conda activate dnacc-env
 
 #Executing for num-dict 0
@@ -163,6 +174,9 @@ sleep $random_sleep
 echo ''
 echo ''
 echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'
+cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/DNACC-with-speedupy/adapted_for_speedupy/examples/ssDNA_tethers
+cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy ./
+cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/DNACC-with-speedupy/adapted_for_speedupy/dnacc ./
 conda activate dnacc-env
 
 #Executing for num-dict 0
@@ -194,6 +208,8 @@ sleep $random_sleep
 echo ''
 echo ''
 echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'
+cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/01pilots/01pilots_exp05_heap_permutation
+cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy ./
 conda activate pilots-env
 
 #Executing for num-dict 0
@@ -224,6 +240,8 @@ sleep $random_sleep
 echo ''
 echo ''
 echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'
+cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/04benchproglangs/04benchpl_exp07_metropolis_hastings
+cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy ./
 conda activate benchmarks-env
 
 #Executing for num-dict 0
@@ -254,6 +272,8 @@ sleep $random_sleep
 echo ''
 echo ''
 echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'
+cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/menger-sponge-with-speedupy
+cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy ./
 conda activate menger-env
 
 #Executing for num-dict 0
@@ -273,4 +293,93 @@ echo ''
 echo 'python menger_sponge_speedupy.py --exec-mode manual --num-dict 1'
 python speedupy/setup_exp/setup.py menger_sponge_speedupy.py
 python menger_sponge_speedupy.py --exec-mode manual --num-dict 1
+rm -rf .speedupy/ speedupy/
+
+
+##################################### GROUP 4
+######### Experiment mov_robots_speedupy.py
+cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp01_mov_robots
+cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy ./
+conda activate msr-env
+
+#Executing for num-dict 0
+echo ''
+echo ''
+echo 'python mov_robots_speedupy.py --exec-mode manual --num-dict 0'
+python speedupy/setup_exp/setup.py mov_robots_speedupy.py
+python mov_robots_speedupy.py --exec-mode manual --num-dict 0
+rm -rf .speedupy/
+
+random_sleep=$(shuf -i 2-5 -n 1)
+sleep $random_sleep
+
+#Executing for num-dict 1
+echo ''
+echo ''
+echo 'python mov_robots_speedupy.py --exec-mode manual --num-dict 1'
+python speedupy/setup_exp/setup.py mov_robots_speedupy.py
+python mov_robots_speedupy.py --exec-mode manual --num-dict 1
+rm -rf .speedupy/ speedupy/
+
+random_sleep=$(shuf -i 2-5 -n 1)
+sleep $random_sleep
+
+
+
+######### Experiment eq_solver.py
+echo ''
+echo ''
+echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'
+cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver
+cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy ./
+conda activate msr-env
+
+#Executing for num-dict 0
+echo ''
+echo ''
+echo 'python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 0'
+python speedupy/setup_exp/setup.py eq_solver_speedupy.py
+python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 0
+rm -rf .speedupy/
+
+random_sleep=$(shuf -i 2-5 -n 1)
+sleep $random_sleep
+
+#Executing for num-dict 1
+echo ''
+echo ''
+echo 'python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 1'
+python speedupy/setup_exp/setup.py eq_solver_speedupy.py
+python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 1
+rm -rf .speedupy/ speedupy/
+
+random_sleep=$(shuf -i 2-5 -n 1)
+sleep $random_sleep
+
+
+######### Experiment power.py
+echo ''
+echo ''
+echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'
+cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/01pilots/01pilots_exp02_power
+cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy ./
+conda activate pilots-env
+
+#Executing for num-dict 0
+echo ''
+echo ''
+echo 'python power.py 1241231241 462 --exec-mode manual --num-dict 0'
+python speedupy/setup_exp/setup.py power.py
+python power.py 1241231241 462 --exec-mode manual --num-dict 0
+rm -rf .speedupy/
+
+random_sleep=$(shuf -i 2-5 -n 1)
+sleep $random_sleep
+
+#Executing for num-dict 1
+echo ''
+echo ''
+echo 'python power.py 1241231241 462 --exec-mode manual --num-dict 1'
+python speedupy/setup_exp/setup.py power.py
+python power.py 1241231241 462 --exec-mode manual --num-dict 1
 rm -rf .speedupy/ speedupy/
