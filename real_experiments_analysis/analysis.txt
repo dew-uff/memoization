@@ -1,0 +1,204 @@
+I am testing the performance of two different architectures. For that I have executed 9 experiments with each architecture and obtained a value for each execution. Now, I'd like to compare which of the two architectures is the best, but I'd like to know if the differences between the values obtained on each architecture are statistically relevant. How can I perform this analysis?
+
+
+
+
+
+Teste de Normalidade:
+  Yes, the Shapiro-Wilk test is commonly used to assess the normality of data distributions, including for paired measurements. For paired measurements, you generally apply the Shapiro-Wilk test to the differences between paired observations to determine if those differences follow a normal distribution. This is important for choosing the right statistical test.
+
+
+The Shapiro-Wilk test is used to assess whether a given dataset follows a normal distribution. When applying this test to your paired measurements, you’re essentially checking the normality of the distribution of differences between pairs of architectures.
+Hypotheses for Shapiro-Wilk Test
+
+When performing the Shapiro-Wilk test, the hypotheses are:
+
+    Null Hypothesis (H₀): The data follows a normal distribution.
+
+    H₀: The differences between paired measurements are normally distributed.
+
+    Alternative Hypothesis (Hₐ): The data does not follow a normal distribution.
+
+    Hₐ: The differences between paired measurements are not normally distributed.
+
+Examples of Formal Hypotheses for Shapiro-Wilk Test
+
+Let’s say you have differences in performance between Architecture A and Architecture B:
+For Differences Between Architecture A and Architecture B:
+
+    Null Hypothesis (H₀): The differences between the performance of Architecture A and Architecture B are normally distributed.
+
+    Alternative Hypothesis (Hₐ): The differences between the performance of Architecture A and Architecture B are not normally distributed.
+
+1. Hypotheses for Friedman Test
+
+Friedman Test: This test is used to detect differences between multiple paired groups.
+
+    Null Hypothesis (H₀): There are no differences in the median performance among the four architectures. In other words, the performance distributions of all architectures are the same.
+
+    H₀: The median performance of Architecture A is equal to the median performance of Architecture B, Architecture C, and Architecture D.
+
+    Alternative Hypothesis (Hₐ): At least one architecture has a different median performance compared to the others.
+
+    Hₐ: At least one pair of architectures has a different median performance.
+
+2. Hypotheses for Nemenyi Post-Hoc Test
+
+Nemenyi Test: This post-hoc test is used after finding a significant result with the Friedman test to identify which specific pairs of architectures are significantly different from each other.
+
+For each pair of architectures:
+
+    Null Hypothesis (H₀): There is no difference in the median performance between the two architectures being compared.
+
+    H₀: The median performance of Architecture X is equal to the median performance of Architecture Y.
+
+    Alternative Hypothesis (Hₐ): There is a difference in the median performance between the two architectures being compared.
+
+    Hₐ: The median performance of Architecture X is different from the median performance of Architecture Y.
+
+
+
+
+Given that all pairs of architectures have differences that are not normally distributed (as indicated by the Shapiro-Wilk test results), you'll need to use non-parametric statistical methods to analyze the differences between the architectures.
+Non-Parametric Analysis Options
+
+Since the normality assumption is violated, you can use non-parametric tests that do not rely on normality. For comparing more than two related groups (like your four architectures), the Friedman test is an appropriate non-parametric alternative to repeated measures ANOVA.
+
+Here’s how you can proceed:
+
+    Friedman Test: This test is used for detecting differences in treatments across multiple test attempts. It is a non-parametric test for comparing more than two related samples.
+
+    Post-Hoc Analysis: If the Friedman test indicates significant differences, you may want to perform post-hoc tests to determine which specific groups differ from each other.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+To determine if the differences between the values obtained from the two architectures are statistically significant, you can perform a hypothesis test. Here’s a step-by-step guide on how to analyze your data:
+
+### 1. **Define Your Hypotheses**
+
+- **Null Hypothesis (H₀)**: There is no significant difference between the two architectures. Any observed difference in performance is due to random variation.
+- **Alternative Hypothesis (H₁)**: There is a significant difference between the two architectures in terms of performance.
+
+### 2. **Check the Assumptions**
+
+Before choosing a test, ensure that your data meets the assumptions required for the test you select:
+
+- **Normality**: Check if the data is approximately normally distributed. You can use visual inspections (e.g., Q-Q plots) or statistical tests (e.g., Shapiro-Wilk test) for this.
+- **Homogeneity of Variances**: Verify if the variances of the two groups are similar. Levene’s test or an F-test can help with this.
+
+### 3. **Choose a Statistical Test**
+
+#### **a. Two-Sample t-Test**
+
+If your data is normally distributed and the variances are equal, you can use a two-sample t-test. This test compares the means of the two groups.
+
+- **Equal Variances**: Use the standard two-sample t-test.
+- **Unequal Variances**: Use Welch’s t-test, which does not assume equal variances.
+
+**Steps for t-Test**:
+1. Calculate the means and standard deviations for each architecture.
+2. Use the formula to compute the t-statistic.
+3. Determine the degrees of freedom and find the p-value using the t-distribution.
+
+#### **b. Mann-Whitney U Test**
+
+If the data is not normally distributed, consider using the Mann-Whitney U test (also known as the Wilcoxon rank-sum test). This test compares the medians of the two groups.
+
+**Steps for Mann-Whitney U Test**:
+1. Rank all the values from both groups together.
+2. Calculate the U statistic for each group.
+3. Determine the p-value based on the U statistic.
+
+### 4. **Perform the Test**
+
+Here’s a brief guide on how to perform each test:
+
+#### **For t-Test**:
+1. **Calculate the Means** and **Standard Deviations** for both architectures.
+2. **Compute the t-Statistic**:
+   - For equal variances: 
+     \[
+     t = \frac{\bar{X}_1 - \bar{X}_2}{\sqrt{s_p^2 \left(\frac{1}{n_1} + \frac{1}{n_2}\right)}}
+     \]
+     where \( s_p^2 \) is the pooled variance.
+   - For unequal variances (Welch’s t-test):
+     \[
+     t = \frac{\bar{X}_1 - \bar{X}_2}{\sqrt{\frac{s_1^2}{n_1} + \frac{s_2^2}{n_2}}}
+     \]
+3. **Find the p-Value** using a t-distribution table or statistical software.
+
+#### **For Mann-Whitney U Test**:
+1. **Rank all the data** combined from both groups.
+2. **Calculate the U statistic** for each group.
+3. **Find the p-Value** using statistical software or U-distribution tables.
+
+### 5. **Interpret the Results**
+
+- **p-Value**: Compare the p-value to your chosen significance level (e.g., 0.05). If the p-value is less than the significance level, you reject the null hypothesis, indicating a significant difference between the architectures.
+
+### 6. **Report Your Findings**
+
+Summarize the results of the statistical test, including:
+- The test statistic value
+- The p-value
+- Whether the null hypothesis was rejected or not
+
+By following these steps, you can determine whether the observed differences in performance between the two architectures are statistically significant. If you need any help with calculations or interpretation, feel free to ask!
+
+
+==============================================================================================================================
+
+
+If Both Sets Are Normally Distributed: You can use a parametric test like the two-sample t-test. Choose either the standard two-sample t-test (assuming equal variances) or Welch’s t-test (if variances are not equal).
+
+If Either or Both Sets Are Not Normally Distributed: Use a non-parametric test like the Mann-Whitney U test.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Mann-Whitney U Test(PROVAVELMENTE Ñ É BOM PORQUE TEMOS PARES DE DADOS: MESMO EXPERIMENTO COM 2 ARQUITETURAS DIFERENTES)
+
+Given that both sets of data fail the Shapiro-Wilk test for normality, this suggests that the data is not normally distributed. Therefore, you should use non-parametric methods for comparing the two architectures. Non-parametric methods do not assume normality and are suitable for data that does not meet the assumptions required for parametric tests.
+Non-Parametric Tests
+
+    Mann-Whitney U Test
+
+The Mann-Whitney U test (also known as the Wilcoxon rank-sum test) is a non-parametric test that compares the distributions of two independent samples. It is suitable when the data does not follow a normal distribution.
+
+
+===================================================================================================
+
+If your measurements are paired (i.e., the same experiments are performed on both architectures), then the Wilcoxon signed-rank test is more appropriate than the Mann-Whitney U test. The Wilcoxon signed-rank test is used to compare two related samples to determine if their population mean ranks differ.
+
+Here’s how you can modify the Python script to perform the Wilcoxon signed-rank test and visualize the results:
