@@ -1,1540 +1,420 @@
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python test_laplace_jacobi_4.py 200 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-362.52804045099765
-377.19113230798393
-TOTAL EXECUTION TIME: 739.7265808260418
-0.0013051379937678576
-0.0003240249934606254
-TOTAL EXECUTION TIME: 0.003789768961723894
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-gen:  0  min fit:  16  avg fit:  16.0
-gen:  1  min fit:  15  avg fit:  16.2
-gen:  2  min fit:  14  avg fit:  15.6
-gen:  3  min fit:  13  avg fit:  15.1
-gen:  4  min fit:  12  avg fit:  14.55
-gen:  5  min fit:  11  avg fit:  14.05
-gen:  6  min fit:  10  avg fit:  13.2
-gen:  7  min fit:  9  avg fit:  11.8
-gen:  8  min fit:  7  avg fit:  10.15
-gen:  9  min fit:  5  avg fit:  9.2
-gen:  10  min fit:  6  avg fit:  7.8
-gen:  11  min fit:  5  avg fit:  7.65
-gen:  12  min fit:  4  avg fit:  6.9
-gen:  13  min fit:  3  avg fit:  6.35
-gen:  14  min fit:  3  avg fit:  5.4
-gen:  15  min fit:  2  avg fit:  4.6
-gen:  16  min fit:  2  avg fit:  3.75
-gen:  17  min fit:  1  avg fit:  3.55
-gen:  18  min fit:  0  avg fit:  2.9
-gen:  19  min fit:  0  avg fit:  2.2
-gen:  20  min fit:  0  avg fit:  1.15
-gen:  21  min fit:  0  avg fit:  0.8
-gen:  22  min fit:  0  avg fit:  0.6
-gen:  23  min fit:  0  avg fit:  0.7
-gen:  24  min fit:  0  avg fit:  0.55
-gen:  25  min fit:  0  avg fit:  0.45
-gen:  26  min fit:  0  avg fit:  0.7
-gen:  27  min fit:  0  avg fit:  1.05
-gen:  28  min fit:  0  avg fit:  1.15
-gen:  29  min fit:  0  avg fit:  1.15
-gen:  30  min fit:  0  avg fit:  1.25
-Best individual in last population: 
-Query best individual in last population with all True inputs:
-True
-TOTAL EXECUTION TIME: 0.3313914219615981
-gen:  0  min fit:  16  avg fit:  16.0
-gen:  1  min fit:  14  avg fit:  16.05
-gen:  2  min fit:  13  avg fit:  15.25
-gen:  3  min fit:  12  avg fit:  14.5
-gen:  4  min fit:  11  avg fit:  13.9
-gen:  5  min fit:  11  avg fit:  13.15
-gen:  6  min fit:  10  avg fit:  12.4
-gen:  7  min fit:  9  avg fit:  11.7
-gen:  8  min fit:  9  avg fit:  10.95
-gen:  9  min fit:  6  avg fit:  9.9
-gen:  10  min fit:  6  avg fit:  8.8
-gen:  11  min fit:  7  avg fit:  8.5
-gen:  12  min fit:  5  avg fit:  7.0
-gen:  13  min fit:  4  avg fit:  6.2
-gen:  14  min fit:  3  avg fit:  5.45
-gen:  15  min fit:  1  avg fit:  4.45
-gen:  16  min fit:  2  avg fit:  4.05
-gen:  17  min fit:  2  avg fit:  3.25
-gen:  18  min fit:  1  avg fit:  3.1
-gen:  19  min fit:  2  avg fit:  2.75
-gen:  20  min fit:  1  avg fit:  2.7
-gen:  21  min fit:  1  avg fit:  2.8
-gen:  22  min fit:  1  avg fit:  2.7
-gen:  23  min fit:  1  avg fit:  2.25
-gen:  24  min fit:  0  avg fit:  1.85
-gen:  25  min fit:  0  avg fit:  2.2
-gen:  26  min fit:  0  avg fit:  1.95
-gen:  27  min fit:  0  avg fit:  0.95
-gen:  28  min fit:  0  avg fit:  1.4
-gen:  29  min fit:  0  avg fit:  1.2
-gen:  30  min fit:  0  avg fit:  1.05
-Best individual in last population: 
-Query best individual in last population with all True inputs:
-True
-TOTAL EXECUTION TIME: 0.34723366500111297
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-8.860276242950931
-7.440572490042541
-
-TOTAL EXECUTION TIME: 16.758839629008435
-0.08729148498969153
-0.0792173880035989
-
-TOTAL EXECUTION TIME: 0.16884353203931823
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python copy_matrix_serial_speedupy.py 6250 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-93.6104011189891
-TOTAL EXECUTION TIME: 97.1369103200268
-13.414876725990325
-TOTAL EXECUTION TIME: 14.821453389013186
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 0.07151875598356128
-TOTAL EXECUTION TIME: 0.06824612698983401
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 0.19027056399499997
-TOTAL EXECUTION TIME: 0.17692650301614776
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-1.8749026529840194
-TOTAL EXECUTION TIME: 2.3571666160132736
-0.23713327595032752
-TOTAL EXECUTION TIME: 0.23931568302214146
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 14.000991281995084
-14.00100896396907
-TOTAL EXECUTION TIME: 14.756920928019099
-14.75693642400438
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 12.207194364978932
-TOTAL EXECUTION TIME: 12.997140257037245
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python test_laplace_jacobi_4.py 200 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-361.09020006802166
-376.54911613900913
-TOTAL EXECUTION TIME: 737.6466618370032
-0.0012258869828656316
-0.0003080079914070666
-TOTAL EXECUTION TIME: 0.003141439985483885
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-gen:  0  min fit:  16  avg fit:  16.05
-gen:  1  min fit:  15  avg fit:  16.05
-gen:  2  min fit:  12  avg fit:  15.6
-gen:  3  min fit:  11  avg fit:  14.8
-gen:  4  min fit:  11  avg fit:  13.65
-gen:  5  min fit:  11  avg fit:  12.8
-gen:  6  min fit:  11  avg fit:  12.25
-gen:  7  min fit:  10  avg fit:  11.9
-gen:  8  min fit:  9  avg fit:  11.1
-gen:  9  min fit:  7  avg fit:  10.2
-gen:  10  min fit:  6  avg fit:  8.8
-gen:  11  min fit:  6  avg fit:  8.3
-gen:  12  min fit:  4  avg fit:  8.2
-gen:  13  min fit:  6  avg fit:  7.75
-gen:  14  min fit:  5  avg fit:  6.9
-gen:  15  min fit:  3  avg fit:  6.0
-gen:  16  min fit:  4  avg fit:  5.5
-gen:  17  min fit:  4  avg fit:  5.05
-gen:  18  min fit:  3  avg fit:  4.75
-gen:  19  min fit:  3  avg fit:  4.4
-gen:  20  min fit:  3  avg fit:  4.65
-gen:  21  min fit:  2  avg fit:  4.2
-gen:  22  min fit:  1  avg fit:  3.45
-gen:  23  min fit:  1  avg fit:  2.95
-gen:  24  min fit:  1  avg fit:  2.6
-gen:  25  min fit:  1  avg fit:  2.2
-gen:  26  min fit:  1  avg fit:  2.2
-gen:  27  min fit:  1  avg fit:  1.7
-gen:  28  min fit:  1  avg fit:  1.75
-gen:  29  min fit:  1  avg fit:  2.05
-gen:  30  min fit:  1  avg fit:  2.1
-Best individual in last population: 
-Query best individual in last population with all True inputs:
-True
-TOTAL EXECUTION TIME: 0.34214578196406364
-gen:  0  min fit:  16  avg fit:  16.0
-gen:  1  min fit:  14  avg fit:  16.1
-gen:  2  min fit:  13  avg fit:  15.35
-gen:  3  min fit:  11  avg fit:  14.25
-gen:  4  min fit:  10  avg fit:  13.3
-gen:  5  min fit:  10  avg fit:  12.05
-gen:  6  min fit:  9  avg fit:  11.0
-gen:  7  min fit:  7  avg fit:  10.75
-gen:  8  min fit:  7  avg fit:  10.05
-gen:  9  min fit:  6  avg fit:  9.4
-gen:  10  min fit:  7  avg fit:  8.7
-gen:  11  min fit:  5  avg fit:  7.9
-gen:  12  min fit:  5  avg fit:  7.1
-gen:  13  min fit:  4  avg fit:  6.45
-gen:  14  min fit:  3  avg fit:  5.25
-gen:  15  min fit:  2  avg fit:  4.55
-gen:  16  min fit:  1  avg fit:  3.8
-gen:  17  min fit:  1  avg fit:  3.3
-gen:  18  min fit:  1  avg fit:  2.7
-gen:  19  min fit:  1  avg fit:  2.1
-gen:  20  min fit:  0  avg fit:  2.0
-gen:  21  min fit:  0  avg fit:  1.2
-gen:  22  min fit:  0  avg fit:  0.8
-gen:  23  min fit:  0  avg fit:  0.9
-gen:  24  min fit:  0  avg fit:  1.15
-gen:  25  min fit:  0  avg fit:  1.4
-gen:  26  min fit:  0  avg fit:  1.2
-gen:  27  min fit:  0  avg fit:  1.35
-gen:  28  min fit:  0  avg fit:  1.25
-gen:  29  min fit:  0  avg fit:  1.3
-gen:  30  min fit:  0  avg fit:  1.35
-Best individual in last population: 
-Query best individual in last population with all True inputs:
-True
-TOTAL EXECUTION TIME: 0.3208366049802862
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-8.74053545499919
-7.347663300985005
-
-TOTAL EXECUTION TIME: 16.56656386097893
-0.08722368197049946
-0.07877259404631332
-
-TOTAL EXECUTION TIME: 0.16824164503486827
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python copy_matrix_serial_speedupy.py 6250 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-93.05386571201961
-TOTAL EXECUTION TIME: 96.5625503330375
-13.381980788020883
-TOTAL EXECUTION TIME: 14.789257401018403
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 0.06937370996456593
-TOTAL EXECUTION TIME: 0.06685063801705837
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 0.1902985600172542
-TOTAL EXECUTION TIME: 0.18104056594893336
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-1.7447029179893434
-TOTAL EXECUTION TIME: 2.197399766999297
-0.22724954900331795
-TOTAL EXECUTION TIME: 0.22935684799449518
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 13.360065134009346
-13.360082534956746
-TOTAL EXECUTION TIME: 14.145546059997287
-14.145560695033055
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 12.57592997798929
-TOTAL EXECUTION TIME: 13.029008856974542
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python test_laplace_jacobi_4.py 200 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-362.17994789697696
-374.04343446099665
-TOTAL EXECUTION TIME: 736.2307853969978
-0.0013152709580026567
-0.0003270920133218169
-TOTAL EXECUTION TIME: 0.0037744389846920967
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-gen:  0  min fit:  16  avg fit:  16.0
-gen:  1  min fit:  15  avg fit:  15.85
-gen:  2  min fit:  13  avg fit:  15.4
-gen:  3  min fit:  11  avg fit:  14.55
-gen:  4  min fit:  12  avg fit:  14.6
-gen:  5  min fit:  13  avg fit:  14.15
-gen:  6  min fit:  11  avg fit:  13.85
-gen:  7  min fit:  10  avg fit:  13.65
-gen:  8  min fit:  9  avg fit:  12.45
-gen:  9  min fit:  8  avg fit:  10.8
-gen:  10  min fit:  5  avg fit:  10.1
-gen:  11  min fit:  4  avg fit:  8.65
-gen:  12  min fit:  6  avg fit:  7.9
-gen:  13  min fit:  3  avg fit:  6.45
-gen:  14  min fit:  4  avg fit:  5.45
-gen:  15  min fit:  3  avg fit:  4.9
-gen:  16  min fit:  4  avg fit:  4.8
-gen:  17  min fit:  2  avg fit:  4.4
-gen:  18  min fit:  2  avg fit:  3.8
-gen:  19  min fit:  2  avg fit:  3.3
-gen:  20  min fit:  1  avg fit:  2.55
-gen:  21  min fit:  0  avg fit:  1.85
-gen:  22  min fit:  0  avg fit:  1.95
-gen:  23  min fit:  0  avg fit:  1.6
-gen:  24  min fit:  0  avg fit:  1.0
-gen:  25  min fit:  0  avg fit:  0.9
-gen:  26  min fit:  0  avg fit:  0.6
-gen:  27  min fit:  0  avg fit:  0.55
-gen:  28  min fit:  0  avg fit:  0.65
-gen:  29  min fit:  0  avg fit:  0.5
-gen:  30  min fit:  0  avg fit:  0.5
-Best individual in last population: 
-Query best individual in last population with all True inputs:
-True
-TOTAL EXECUTION TIME: 0.354761469992809
-gen:  0  min fit:  16  avg fit:  16.0
-gen:  1  min fit:  15  avg fit:  16.1
-gen:  2  min fit:  14  avg fit:  16.0
-gen:  3  min fit:  12  avg fit:  15.3
-gen:  4  min fit:  12  avg fit:  14.45
-gen:  5  min fit:  11  avg fit:  13.4
-gen:  6  min fit:  10  avg fit:  12.4
-gen:  7  min fit:  10  avg fit:  11.5
-gen:  8  min fit:  10  avg fit:  11.3
-gen:  9  min fit:  9  avg fit:  10.4
-gen:  10  min fit:  8  avg fit:  10.2
-gen:  11  min fit:  8  avg fit:  9.55
-gen:  12  min fit:  7  avg fit:  8.9
-gen:  13  min fit:  8  avg fit:  9.0
-gen:  14  min fit:  6  avg fit:  8.45
-gen:  15  min fit:  5  avg fit:  7.5
-gen:  16  min fit:  5  avg fit:  6.75
-gen:  17  min fit:  4  avg fit:  6.55
-gen:  18  min fit:  5  avg fit:  6.15
-gen:  19  min fit:  4  avg fit:  5.5
-gen:  20  min fit:  4  avg fit:  5.15
-gen:  21  min fit:  3  avg fit:  5.1
-gen:  22  min fit:  2  avg fit:  4.4
-gen:  23  min fit:  0  avg fit:  3.9
-gen:  24  min fit:  0  avg fit:  2.8
-gen:  25  min fit:  0  avg fit:  2.15
-gen:  26  min fit:  0  avg fit:  1.65
-gen:  27  min fit:  0  avg fit:  1.4
-gen:  28  min fit:  0  avg fit:  1.15
-gen:  29  min fit:  0  avg fit:  1.05
-gen:  30  min fit:  0  avg fit:  1.1
-Best individual in last population: 
-Query best individual in last population with all True inputs:
-True
-TOTAL EXECUTION TIME: 0.34560843399958685
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-8.716876825958025
-7.233143904013559
-
-TOTAL EXECUTION TIME: 16.42968717298936
-0.08757218497339636
-0.07896581798559055
-
-TOTAL EXECUTION TIME: 0.1688450650544837
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python copy_matrix_serial_speedupy.py 6250 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-93.25355488702189
-TOTAL EXECUTION TIME: 96.76117515400983
-13.40373472601641
-TOTAL EXECUTION TIME: 14.810184278001543
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 0.07134686602512375
-TOTAL EXECUTION TIME: 0.06870038999477401
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 0.17740288499044254
-TOTAL EXECUTION TIME: 0.18662429903633893
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-1.873316548008006
-TOTAL EXECUTION TIME: 2.3356755420099944
-0.2373009420116432
-TOTAL EXECUTION TIME: 0.2395082950242795
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 13.848554159980267
-13.84857163700508
-TOTAL EXECUTION TIME: 14.031366123002954
-14.03138110996224
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 12.200808613968547
-TOTAL EXECUTION TIME: 12.84378580498742
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python test_laplace_jacobi_4.py 200 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-363.3280122309807
-376.60199767298764
-TOTAL EXECUTION TIME: 739.9373809690005
-0.0013135210028849542
-0.0003603980294428766
-TOTAL EXECUTION TIME: 0.0038095570052973926
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-gen:  0  min fit:  15  avg fit:  16.0
-gen:  1  min fit:  15  avg fit:  16.0
-gen:  2  min fit:  13  avg fit:  15.35
-gen:  3  min fit:  13  avg fit:  14.85
-gen:  4  min fit:  12  avg fit:  14.5
-gen:  5  min fit:  11  avg fit:  13.55
-gen:  6  min fit:  9  avg fit:  12.1
-gen:  7  min fit:  8  avg fit:  10.85
-gen:  8  min fit:  7  avg fit:  9.8
-gen:  9  min fit:  6  avg fit:  8.6
-gen:  10  min fit:  4  avg fit:  7.4
-gen:  11  min fit:  3  avg fit:  5.65
-gen:  12  min fit:  3  avg fit:  4.5
-gen:  13  min fit:  2  avg fit:  3.85
-gen:  14  min fit:  2  avg fit:  3.65
-gen:  15  min fit:  1  avg fit:  3.05
-gen:  16  min fit:  1  avg fit:  2.4
-gen:  17  min fit:  0  avg fit:  1.9
-gen:  18  min fit:  0  avg fit:  1.75
-gen:  19  min fit:  0  avg fit:  1.65
-gen:  20  min fit:  0  avg fit:  1.4
-gen:  21  min fit:  0  avg fit:  1.05
-gen:  22  min fit:  0  avg fit:  0.75
-gen:  23  min fit:  0  avg fit:  0.45
-gen:  24  min fit:  0  avg fit:  0.3
-gen:  25  min fit:  0  avg fit:  0.55
-gen:  26  min fit:  0  avg fit:  0.65
-gen:  27  min fit:  0  avg fit:  0.55
-gen:  28  min fit:  0  avg fit:  0.4
-gen:  29  min fit:  0  avg fit:  0.45
-gen:  30  min fit:  0  avg fit:  0.4
-Best individual in last population: 
-Query best individual in last population with all True inputs:
-True
-TOTAL EXECUTION TIME: 0.33217501803301275
-gen:  0  min fit:  16  avg fit:  16.0
-gen:  1  min fit:  15  avg fit:  15.7
-gen:  2  min fit:  12  avg fit:  14.35
-gen:  3  min fit:  11  avg fit:  13.5
-gen:  4  min fit:  8  avg fit:  12.2
-gen:  5  min fit:  8  avg fit:  11.4
-gen:  6  min fit:  8  avg fit:  10.45
-gen:  7  min fit:  6  avg fit:  9.05
-gen:  8  min fit:  4  avg fit:  7.9
-gen:  9  min fit:  6  avg fit:  7.45
-gen:  10  min fit:  5  avg fit:  6.65
-gen:  11  min fit:  4  avg fit:  5.9
-gen:  12  min fit:  4  avg fit:  5.85
-gen:  13  min fit:  5  avg fit:  5.6
-gen:  14  min fit:  3  avg fit:  5.2
-gen:  15  min fit:  3  avg fit:  4.55
-gen:  16  min fit:  2  avg fit:  3.7
-gen:  17  min fit:  2  avg fit:  3.35
-gen:  18  min fit:  2  avg fit:  3.25
-gen:  19  min fit:  1  avg fit:  2.9
-gen:  20  min fit:  1  avg fit:  2.9
-gen:  21  min fit:  1  avg fit:  2.6
-gen:  22  min fit:  1  avg fit:  2.1
-gen:  23  min fit:  1  avg fit:  2.15
-gen:  24  min fit:  2  avg fit:  2.05
-gen:  25  min fit:  1  avg fit:  2.5
-gen:  26  min fit:  2  avg fit:  2.8
-gen:  27  min fit:  1  avg fit:  2.95
-gen:  28  min fit:  1  avg fit:  2.5
-gen:  29  min fit:  1  avg fit:  2.45
-gen:  30  min fit:  1  avg fit:  2.3
-Best individual in last population: 
-Query best individual in last population with all True inputs:
-True
-TOTAL EXECUTION TIME: 0.32874718197854236
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-8.554939899011515
-7.208185650000814
-
-TOTAL EXECUTION TIME: 16.242196335981134
-0.08771443698788062
-0.07910135696874931
-
-TOTAL EXECUTION TIME: 0.16912829299690202
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-python copy_matrix_serial_speedupy.py 6250 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-92.55672535201302
-TOTAL EXECUTION TIME: 96.08032703201752
-13.421546511002816
-TOTAL EXECUTION TIME: 14.828474644978996
+python mov_robots_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+TOTAL EXECUTION TIME: 0.013939297990873456
+0.01394567301031202
+TOTAL EXECUTION TIME: 0.011303309991490096
+0.011309800029266626
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 0.06931336503475904
-TOTAL EXECUTION TIME: 0.06989594601327553
+python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:14: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  return fsolve(func=lambda x: n * C / (1 + Kd1 / x) + n2 * C / (1 + Kd2 / x) - T, x0=F_solution, xtol=1e-06)
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:23: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+0.06359936099033803
+TOTAL EXECUTION TIME: 0.07188287196913734
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:14: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  return fsolve(func=lambda x: n * C / (1 + Kd1 / x) + n2 * C / (1 + Kd2 / x) - T, x0=F_solution, xtol=1e-06)
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:23: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+0.06385088205570355
+TOTAL EXECUTION TIME: 0.06896712997695431
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 0.18802251998567954
-TOTAL EXECUTION TIME: 0.17446109803859144
+python power.py 1241231241 462 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+22905852508458802066829138399313104681598066470894262361320382682232293015953594696068443913976334250774194071160575331688616227189238389275716071216030261736893149725855717663860862800269163649529216674616625277552197373544637104061603282044627130505929734041840570944333574580107613412931917657468627244219946190701298044365627073334216794051318152978333146624899835800395086029274483549093361985285150816978553270014780389635351917574007437592225833446306478715885232042028096276268906916589146901963038494023634600279639301447352328353997790189210388005055772263927219657348205422930909275858447317977876431650832328050755584651756099784755540668760906776395714025492597246745483873479931859899233737919838399142567423966871543011054243008803065048907675034459017292186581743590720937681725938978244675451273375005402663276508652465343769711077853426014712148630933765569570491589541349896167266875985862900776633264500214116446393897546415185662331633391463198647567979442526802469728856478801528717113428258905616130268497726175633159634724517750189388673775525068600748340767273035614269690621223771737630880564785009550418457311130656623054416941884963196164210398806313279751096451923502357807874556296364759989376091675778798704711188071419161979271534518170109837789818934701090616861004179103319475591450935506580266353906985318910124042475750519233584650579874952591835478874061341825753069244638403491945186701057649871853144789752197606528053410309790664993056335432184918067835881506414066358776788347928093185145445244219645920852702074550184250576993781551718498376323155218194508801129411393971544537225862723083823404564499992268859671340829092003574958205450663699933108006801653786796069729471046976694450749982149765422205745991838671899769270770546333956151524018843243571976095321822018393332840589406639466038373957908610329678939637769536740669636515976188048884008955039375407991378139272114846010687872159451560781027696002062285112485679077892277517573400970266941680412360410711679859115786286725888568478194714593184739697729514691857324266868314791021001398715599067188874863097682533075076250706369979533392555471115961369144803423233838612937930192197932693943640600189213892210268452375148182799061761247659534858127293050934297810073772709610040065665785537760809694695183808103837822337296567829175486963534080281220628588219893529414514830288810430812509274461130536886656317404564459319039399265054178499009409360082262790874713870324349734462477841216095606813068970636927032526856127758560644890082885053844393096836204425019673853096554455437702565723312407851405642212187112610394117860047396760859230370691142572954189408126978401540088451330992105631907130346437454784557164892152411267697189675523550586126793527091754603641619822709166283574591990870436443623798262403855306590831409072079566317669384188754791142358962997274604618313249184526211006102515650919632869123519886766919828212925311432193167226830435834069905700525148855752566919191984249435610934547248871480994824249771902419573050026633855616119338529107528962201502919510434026762510305320475843532880006240459097225480650208869343031865848758502578175275464914965327530455836960192616296432585853729589680637893773982084766149714825942220479713732261279024412289488002113601569332881980667277168082624710019624308690176438771166395533822374851671342487380740499956320956574548498924606595495279115775146982415710342908272400279413252013523177565360647471110935934742826013784788632976241862673698359934668434261463630373047163267202459454095008789339077316252853418474245489064803755451071099596185245104723413090415895117170453797470718816680560692697886319018932205259549267002837488249848583416259964134576013762079351553877997621830217822658600161397769514345136440971308376825073470709266039255227247933037702972738094167664381556295619943727572485310238137489432570464197814344074146113980683867741905159004593729892476496400504809502737957858647711297471723888943191515968815287382111705340319136112382094975149344498083391538786489718739774445347144424974367688876921439550589495204910172390128835011066990591407958330527048387063184990835331768552580736927592912185943870674481
+TOTAL EXECUTION TIME: 0.020897701964713633
+0.02090484695509076
+22905852508458802066829138399313104681598066470894262361320382682232293015953594696068443913976334250774194071160575331688616227189238389275716071216030261736893149725855717663860862800269163649529216674616625277552197373544637104061603282044627130505929734041840570944333574580107613412931917657468627244219946190701298044365627073334216794051318152978333146624899835800395086029274483549093361985285150816978553270014780389635351917574007437592225833446306478715885232042028096276268906916589146901963038494023634600279639301447352328353997790189210388005055772263927219657348205422930909275858447317977876431650832328050755584651756099784755540668760906776395714025492597246745483873479931859899233737919838399142567423966871543011054243008803065048907675034459017292186581743590720937681725938978244675451273375005402663276508652465343769711077853426014712148630933765569570491589541349896167266875985862900776633264500214116446393897546415185662331633391463198647567979442526802469728856478801528717113428258905616130268497726175633159634724517750189388673775525068600748340767273035614269690621223771737630880564785009550418457311130656623054416941884963196164210398806313279751096451923502357807874556296364759989376091675778798704711188071419161979271534518170109837789818934701090616861004179103319475591450935506580266353906985318910124042475750519233584650579874952591835478874061341825753069244638403491945186701057649871853144789752197606528053410309790664993056335432184918067835881506414066358776788347928093185145445244219645920852702074550184250576993781551718498376323155218194508801129411393971544537225862723083823404564499992268859671340829092003574958205450663699933108006801653786796069729471046976694450749982149765422205745991838671899769270770546333956151524018843243571976095321822018393332840589406639466038373957908610329678939637769536740669636515976188048884008955039375407991378139272114846010687872159451560781027696002062285112485679077892277517573400970266941680412360410711679859115786286725888568478194714593184739697729514691857324266868314791021001398715599067188874863097682533075076250706369979533392555471115961369144803423233838612937930192197932693943640600189213892210268452375148182799061761247659534858127293050934297810073772709610040065665785537760809694695183808103837822337296567829175486963534080281220628588219893529414514830288810430812509274461130536886656317404564459319039399265054178499009409360082262790874713870324349734462477841216095606813068970636927032526856127758560644890082885053844393096836204425019673853096554455437702565723312407851405642212187112610394117860047396760859230370691142572954189408126978401540088451330992105631907130346437454784557164892152411267697189675523550586126793527091754603641619822709166283574591990870436443623798262403855306590831409072079566317669384188754791142358962997274604618313249184526211006102515650919632869123519886766919828212925311432193167226830435834069905700525148855752566919191984249435610934547248871480994824249771902419573050026633855616119338529107528962201502919510434026762510305320475843532880006240459097225480650208869343031865848758502578175275464914965327530455836960192616296432585853729589680637893773982084766149714825942220479713732261279024412289488002113601569332881980667277168082624710019624308690176438771166395533822374851671342487380740499956320956574548498924606595495279115775146982415710342908272400279413252013523177565360647471110935934742826013784788632976241862673698359934668434261463630373047163267202459454095008789339077316252853418474245489064803755451071099596185245104723413090415895117170453797470718816680560692697886319018932205259549267002837488249848583416259964134576013762079351553877997621830217822658600161397769514345136440971308376825073470709266039255227247933037702972738094167664381556295619943727572485310238137489432570464197814344074146113980683867741905159004593729892476496400504809502737957858647711297471723888943191515968815287382111705340319136112382094975149344498083391538786489718739774445347144424974367688876921439550589495204910172390128835011066990591407958330527048387063184990835331768552580736927592912185943870674481
+TOTAL EXECUTION TIME: 0.004472728993277997
+0.004478782997466624
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-1.8811704110121354
-TOTAL EXECUTION TIME: 2.3455031979829073
-0.22711381502449512
-TOTAL EXECUTION TIME: 0.22919512301450595
+python mov_robots_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+TOTAL EXECUTION TIME: 0.013909045024774969
+0.013915852992795408
+TOTAL EXECUTION TIME: 0.01076034503057599
+0.010767725994810462
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 13.593428537016734
-13.593445331964176
-TOTAL EXECUTION TIME: 14.034928235982079
-14.034943531034514
+python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:14: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  return fsolve(func=lambda x: n * C / (1 + Kd1 / x) + n2 * C / (1 + Kd2 / x) - T, x0=F_solution, xtol=1e-06)
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:23: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+0.06372297299094498
+TOTAL EXECUTION TIME: 0.07207703299354762
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:14: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  return fsolve(func=lambda x: n * C / (1 + Kd1 / x) + n2 * C / (1 + Kd2 / x) - T, x0=F_solution, xtol=1e-06)
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:23: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+0.06378715200116858
+TOTAL EXECUTION TIME: 0.06883592100348324
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 12.946335869957693
-TOTAL EXECUTION TIME: 12.643639760033693
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python test_laplace_jacobi_4.py 200 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-362.8286364150117
-374.47568119398784
-TOTAL EXECUTION TIME: 737.3118828290026
-0.0013173249899409711
-0.00032759300665929914
-TOTAL EXECUTION TIME: 0.0037653709878213704
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-gen:  0  min fit:  16  avg fit:  16.0
-gen:  1  min fit:  15  avg fit:  16.05
-gen:  2  min fit:  15  avg fit:  16.3
-gen:  3  min fit:  13  avg fit:  15.4
-gen:  4  min fit:  13  avg fit:  14.35
-gen:  5  min fit:  11  avg fit:  13.15
-gen:  6  min fit:  10  avg fit:  12.3
-gen:  7  min fit:  9  avg fit:  11.15
-gen:  8  min fit:  7  avg fit:  11.0
-gen:  9  min fit:  7  avg fit:  9.95
-gen:  10  min fit:  7  avg fit:  9.0
-gen:  11  min fit:  7  avg fit:  8.95
-gen:  12  min fit:  6  avg fit:  8.8
-gen:  13  min fit:  6  avg fit:  8.4
-gen:  14  min fit:  4  avg fit:  7.45
-gen:  15  min fit:  4  avg fit:  6.3
-gen:  16  min fit:  3  avg fit:  5.3
-gen:  17  min fit:  2  avg fit:  4.95
-gen:  18  min fit:  3  avg fit:  4.95
-gen:  19  min fit:  2  avg fit:  5.05
-gen:  20  min fit:  2  avg fit:  4.45
-gen:  21  min fit:  2  avg fit:  3.45
-gen:  22  min fit:  1  avg fit:  3.05
-gen:  23  min fit:  1  avg fit:  2.55
-gen:  24  min fit:  1  avg fit:  2.15
-gen:  25  min fit:  1  avg fit:  2.05
-gen:  26  min fit:  1  avg fit:  2.05
-gen:  27  min fit:  1  avg fit:  2.4
-gen:  28  min fit:  1  avg fit:  2.1
-gen:  29  min fit:  1  avg fit:  1.65
-gen:  30  min fit:  1  avg fit:  1.4
-Best individual in last population: 
-Query best individual in last population with all True inputs:
-True
-TOTAL EXECUTION TIME: 0.35343508899677545
-gen:  0  min fit:  15  avg fit:  15.95
-gen:  1  min fit:  14  avg fit:  16.05
-gen:  2  min fit:  14  avg fit:  15.65
-gen:  3  min fit:  12  avg fit:  14.9
-gen:  4  min fit:  11  avg fit:  13.75
-gen:  5  min fit:  10  avg fit:  12.4
-gen:  6  min fit:  9  avg fit:  12.05
-gen:  7  min fit:  8  avg fit:  10.95
-gen:  8  min fit:  8  avg fit:  10.4
-gen:  9  min fit:  6  avg fit:  9.65
-gen:  10  min fit:  6  avg fit:  8.65
-gen:  11  min fit:  6  avg fit:  8.3
-gen:  12  min fit:  5  avg fit:  7.05
-gen:  13  min fit:  4  avg fit:  6.5
-gen:  14  min fit:  4  avg fit:  5.7
-gen:  15  min fit:  3  avg fit:  5.4
-gen:  16  min fit:  3  avg fit:  4.55
-gen:  17  min fit:  2  avg fit:  3.9
-gen:  18  min fit:  1  avg fit:  3.4
-gen:  19  min fit:  1  avg fit:  2.85
-gen:  20  min fit:  0  avg fit:  2.55
-gen:  21  min fit:  0  avg fit:  2.1
-gen:  22  min fit:  1  avg fit:  2.15
-gen:  23  min fit:  1  avg fit:  1.95
-gen:  24  min fit:  0  avg fit:  1.9
-gen:  25  min fit:  0  avg fit:  1.35
-gen:  26  min fit:  0  avg fit:  1.2
-gen:  27  min fit:  0  avg fit:  0.85
-gen:  28  min fit:  0  avg fit:  1.05
-gen:  29  min fit:  0  avg fit:  0.9
-gen:  30  min fit:  0  avg fit:  0.5
-Best individual in last population: 
-Query best individual in last population with all True inputs:
-True
-TOTAL EXECUTION TIME: 0.3198750769952312
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-9.086780240002554
-7.547540066007059
-
-TOTAL EXECUTION TIME: 17.08896368095884
-0.08721730601973832
-0.07900795299792662
-
-TOTAL EXECUTION TIME: 0.16853730397997424
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python copy_matrix_serial_speedupy.py 6250 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-94.10250637598801
-TOTAL EXECUTION TIME: 97.60814659297466
-13.507556420983747
-TOTAL EXECUTION TIME: 14.916538407036569
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 0.06956729700323194
-TOTAL EXECUTION TIME: 0.06712475302629173
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 0.18149000802077353
-TOTAL EXECUTION TIME: 0.17539762798696756
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-1.838053198007401
-TOTAL EXECUTION TIME: 2.3103846479789354
-0.23475622199475765
-TOTAL EXECUTION TIME: 0.23692627501441166
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 13.537078206951264
-13.537096270010807
-TOTAL EXECUTION TIME: 14.126199585036375
-14.126215048017912
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 12.933047397993505
-TOTAL EXECUTION TIME: 13.249918852990959
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python test_laplace_jacobi_4.py 200 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-361.77133270999184
-377.86576022801455
-TOTAL EXECUTION TIME: 739.6445293749566
-0.0013420599862001836
-0.00032447604462504387
-TOTAL EXECUTION TIME: 0.003771804040297866
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-gen:  0  min fit:  16  avg fit:  16.0
-gen:  1  min fit:  15  avg fit:  16.15
-gen:  2  min fit:  14  avg fit:  15.8
-gen:  3  min fit:  14  avg fit:  15.7
-gen:  4  min fit:  13  avg fit:  14.8
-gen:  5  min fit:  10  avg fit:  14.2
-gen:  6  min fit:  9  avg fit:  12.7
-gen:  7  min fit:  9  avg fit:  11.75
-gen:  8  min fit:  9  avg fit:  11.0
-gen:  9  min fit:  8  avg fit:  10.1
-gen:  10  min fit:  7  avg fit:  9.25
-gen:  11  min fit:  7  avg fit:  8.3
-gen:  12  min fit:  5  avg fit:  7.9
-gen:  13  min fit:  4  avg fit:  6.65
-gen:  14  min fit:  4  avg fit:  5.6
-gen:  15  min fit:  3  avg fit:  5.15
-gen:  16  min fit:  3  avg fit:  4.45
-gen:  17  min fit:  2  avg fit:  4.3
-gen:  18  min fit:  2  avg fit:  3.8
-gen:  19  min fit:  2  avg fit:  3.55
-gen:  20  min fit:  3  avg fit:  3.35
-gen:  21  min fit:  2  avg fit:  3.2
-gen:  22  min fit:  2  avg fit:  3.1
-gen:  23  min fit:  2  avg fit:  3.0
-gen:  24  min fit:  1  avg fit:  2.75
-gen:  25  min fit:  1  avg fit:  2.65
-gen:  26  min fit:  1  avg fit:  2.5
-gen:  27  min fit:  1  avg fit:  2.0
-gen:  28  min fit:  0  avg fit:  1.9
-gen:  29  min fit:  0  avg fit:  1.65
-gen:  30  min fit:  0  avg fit:  1.45
-Best individual in last population: 
-Query best individual in last population with all True inputs:
-True
-TOTAL EXECUTION TIME: 0.32923878100700676
-gen:  0  min fit:  16  avg fit:  16.0
-gen:  1  min fit:  15  avg fit:  16.0
-gen:  2  min fit:  12  avg fit:  15.75
-gen:  3  min fit:  13  avg fit:  15.35
-gen:  4  min fit:  12  avg fit:  14.8
-gen:  5  min fit:  11  avg fit:  13.95
-gen:  6  min fit:  9  avg fit:  12.9
-gen:  7  min fit:  9  avg fit:  12.05
-gen:  8  min fit:  8  avg fit:  10.8
-gen:  9  min fit:  6  avg fit:  9.25
-gen:  10  min fit:  7  avg fit:  8.3
-gen:  11  min fit:  6  avg fit:  7.75
-gen:  12  min fit:  5  avg fit:  7.4
-gen:  13  min fit:  5  avg fit:  6.95
-gen:  14  min fit:  5  avg fit:  6.8
-gen:  15  min fit:  4  avg fit:  6.5
-gen:  16  min fit:  4  avg fit:  5.55
-gen:  17  min fit:  4  avg fit:  4.85
-gen:  18  min fit:  3  avg fit:  4.75
-gen:  19  min fit:  3  avg fit:  4.3
-gen:  20  min fit:  2  avg fit:  3.85
-gen:  21  min fit:  1  avg fit:  3.55
-gen:  22  min fit:  1  avg fit:  2.75
-gen:  23  min fit:  1  avg fit:  2.7
-gen:  24  min fit:  0  avg fit:  1.9
-gen:  25  min fit:  0  avg fit:  1.9
-gen:  26  min fit:  0  avg fit:  2.0
-gen:  27  min fit:  1  avg fit:  2.0
-gen:  28  min fit:  0  avg fit:  2.25
-gen:  29  min fit:  0  avg fit:  2.05
-gen:  30  min fit:  0  avg fit:  1.9
-Best individual in last population: 
-Query best individual in last population with all True inputs:
-True
-TOTAL EXECUTION TIME: 0.32397632498759776
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-8.692059425986372
-7.286666836997028
-
-TOTAL EXECUTION TIME: 16.42503175098682
-0.08718716498697177
-0.07904871803475544
-
-TOTAL EXECUTION TIME: 0.16854779794812202
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python copy_matrix_serial_speedupy.py 6250 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-92.28185556200333
-TOTAL EXECUTION TIME: 95.80536865297472
-13.400825463002548
-TOTAL EXECUTION TIME: 14.806856138049625
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 0.06963477696990594
-TOTAL EXECUTION TIME: 0.06703034398378804
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 0.18077567900763825
-TOTAL EXECUTION TIME: 0.18304388201795518
+python power.py 1241231241 462 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+22905852508458802066829138399313104681598066470894262361320382682232293015953594696068443913976334250774194071160575331688616227189238389275716071216030261736893149725855717663860862800269163649529216674616625277552197373544637104061603282044627130505929734041840570944333574580107613412931917657468627244219946190701298044365627073334216794051318152978333146624899835800395086029274483549093361985285150816978553270014780389635351917574007437592225833446306478715885232042028096276268906916589146901963038494023634600279639301447352328353997790189210388005055772263927219657348205422930909275858447317977876431650832328050755584651756099784755540668760906776395714025492597246745483873479931859899233737919838399142567423966871543011054243008803065048907675034459017292186581743590720937681725938978244675451273375005402663276508652465343769711077853426014712148630933765569570491589541349896167266875985862900776633264500214116446393897546415185662331633391463198647567979442526802469728856478801528717113428258905616130268497726175633159634724517750189388673775525068600748340767273035614269690621223771737630880564785009550418457311130656623054416941884963196164210398806313279751096451923502357807874556296364759989376091675778798704711188071419161979271534518170109837789818934701090616861004179103319475591450935506580266353906985318910124042475750519233584650579874952591835478874061341825753069244638403491945186701057649871853144789752197606528053410309790664993056335432184918067835881506414066358776788347928093185145445244219645920852702074550184250576993781551718498376323155218194508801129411393971544537225862723083823404564499992268859671340829092003574958205450663699933108006801653786796069729471046976694450749982149765422205745991838671899769270770546333956151524018843243571976095321822018393332840589406639466038373957908610329678939637769536740669636515976188048884008955039375407991378139272114846010687872159451560781027696002062285112485679077892277517573400970266941680412360410711679859115786286725888568478194714593184739697729514691857324266868314791021001398715599067188874863097682533075076250706369979533392555471115961369144803423233838612937930192197932693943640600189213892210268452375148182799061761247659534858127293050934297810073772709610040065665785537760809694695183808103837822337296567829175486963534080281220628588219893529414514830288810430812509274461130536886656317404564459319039399265054178499009409360082262790874713870324349734462477841216095606813068970636927032526856127758560644890082885053844393096836204425019673853096554455437702565723312407851405642212187112610394117860047396760859230370691142572954189408126978401540088451330992105631907130346437454784557164892152411267697189675523550586126793527091754603641619822709166283574591990870436443623798262403855306590831409072079566317669384188754791142358962997274604618313249184526211006102515650919632869123519886766919828212925311432193167226830435834069905700525148855752566919191984249435610934547248871480994824249771902419573050026633855616119338529107528962201502919510434026762510305320475843532880006240459097225480650208869343031865848758502578175275464914965327530455836960192616296432585853729589680637893773982084766149714825942220479713732261279024412289488002113601569332881980667277168082624710019624308690176438771166395533822374851671342487380740499956320956574548498924606595495279115775146982415710342908272400279413252013523177565360647471110935934742826013784788632976241862673698359934668434261463630373047163267202459454095008789339077316252853418474245489064803755451071099596185245104723413090415895117170453797470718816680560692697886319018932205259549267002837488249848583416259964134576013762079351553877997621830217822658600161397769514345136440971308376825073470709266039255227247933037702972738094167664381556295619943727572485310238137489432570464197814344074146113980683867741905159004593729892476496400504809502737957858647711297471723888943191515968815287382111705340319136112382094975149344498083391538786489718739774445347144424974367688876921439550589495204910172390128835011066990591407958330527048387063184990835331768552580736927592912185943870674481
+TOTAL EXECUTION TIME: 0.020872982044238597
+0.020879983028862625
+22905852508458802066829138399313104681598066470894262361320382682232293015953594696068443913976334250774194071160575331688616227189238389275716071216030261736893149725855717663860862800269163649529216674616625277552197373544637104061603282044627130505929734041840570944333574580107613412931917657468627244219946190701298044365627073334216794051318152978333146624899835800395086029274483549093361985285150816978553270014780389635351917574007437592225833446306478715885232042028096276268906916589146901963038494023634600279639301447352328353997790189210388005055772263927219657348205422930909275858447317977876431650832328050755584651756099784755540668760906776395714025492597246745483873479931859899233737919838399142567423966871543011054243008803065048907675034459017292186581743590720937681725938978244675451273375005402663276508652465343769711077853426014712148630933765569570491589541349896167266875985862900776633264500214116446393897546415185662331633391463198647567979442526802469728856478801528717113428258905616130268497726175633159634724517750189388673775525068600748340767273035614269690621223771737630880564785009550418457311130656623054416941884963196164210398806313279751096451923502357807874556296364759989376091675778798704711188071419161979271534518170109837789818934701090616861004179103319475591450935506580266353906985318910124042475750519233584650579874952591835478874061341825753069244638403491945186701057649871853144789752197606528053410309790664993056335432184918067835881506414066358776788347928093185145445244219645920852702074550184250576993781551718498376323155218194508801129411393971544537225862723083823404564499992268859671340829092003574958205450663699933108006801653786796069729471046976694450749982149765422205745991838671899769270770546333956151524018843243571976095321822018393332840589406639466038373957908610329678939637769536740669636515976188048884008955039375407991378139272114846010687872159451560781027696002062285112485679077892277517573400970266941680412360410711679859115786286725888568478194714593184739697729514691857324266868314791021001398715599067188874863097682533075076250706369979533392555471115961369144803423233838612937930192197932693943640600189213892210268452375148182799061761247659534858127293050934297810073772709610040065665785537760809694695183808103837822337296567829175486963534080281220628588219893529414514830288810430812509274461130536886656317404564459319039399265054178499009409360082262790874713870324349734462477841216095606813068970636927032526856127758560644890082885053844393096836204425019673853096554455437702565723312407851405642212187112610394117860047396760859230370691142572954189408126978401540088451330992105631907130346437454784557164892152411267697189675523550586126793527091754603641619822709166283574591990870436443623798262403855306590831409072079566317669384188754791142358962997274604618313249184526211006102515650919632869123519886766919828212925311432193167226830435834069905700525148855752566919191984249435610934547248871480994824249771902419573050026633855616119338529107528962201502919510434026762510305320475843532880006240459097225480650208869343031865848758502578175275464914965327530455836960192616296432585853729589680637893773982084766149714825942220479713732261279024412289488002113601569332881980667277168082624710019624308690176438771166395533822374851671342487380740499956320956574548498924606595495279115775146982415710342908272400279413252013523177565360647471110935934742826013784788632976241862673698359934668434261463630373047163267202459454095008789339077316252853418474245489064803755451071099596185245104723413090415895117170453797470718816680560692697886319018932205259549267002837488249848583416259964134576013762079351553877997621830217822658600161397769514345136440971308376825073470709266039255227247933037702972738094167664381556295619943727572485310238137489432570464197814344074146113980683867741905159004593729892476496400504809502737957858647711297471723888943191515968815287382111705340319136112382094975149344498083391538786489718739774445347144424974367688876921439550589495204910172390128835011066990591407958330527048387063184990835331768552580736927592912185943870674481
+TOTAL EXECUTION TIME: 0.004492821986787021
+0.00449862697860226
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-1.7539657879970036
-TOTAL EXECUTION TIME: 2.2088902260293253
-0.2263570020440966
-TOTAL EXECUTION TIME: 0.22847594798076898
+python mov_robots_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+TOTAL EXECUTION TIME: 0.014557479007635266
+0.014564657001756132
+TOTAL EXECUTION TIME: 0.010559841990470886
+0.010567000950686634
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 13.499188474961556
-13.499204493011348
-TOTAL EXECUTION TIME: 14.65408251498593
-14.6540983869927
+python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:14: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  return fsolve(func=lambda x: n * C / (1 + Kd1 / x) + n2 * C / (1 + Kd2 / x) - T, x0=F_solution, xtol=1e-06)
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:23: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+0.06542172998888418
+TOTAL EXECUTION TIME: 0.07385609101038426
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:14: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  return fsolve(func=lambda x: n * C / (1 + Kd1 / x) + n2 * C / (1 + Kd2 / x) - T, x0=F_solution, xtol=1e-06)
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:23: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+0.06301079702097923
+TOTAL EXECUTION TIME: 0.0681170360185206
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 12.919302914990112
-TOTAL EXECUTION TIME: 12.236262120015454
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python test_laplace_jacobi_4.py 200 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-362.8134996750159
-377.01846936298534
-TOTAL EXECUTION TIME: 739.8394518580171
-0.0013083040248602629
-0.0003242740058340132
-TOTAL EXECUTION TIME: 0.00379072199575603
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-gen:  0  min fit:  16  avg fit:  16.0
-gen:  1  min fit:  14  avg fit:  15.65
-gen:  2  min fit:  13  avg fit:  15.1
-gen:  3  min fit:  12  avg fit:  14.5
-gen:  4  min fit:  12  avg fit:  13.3
-gen:  5  min fit:  10  avg fit:  12.45
-gen:  6  min fit:  10  avg fit:  12.55
-gen:  7  min fit:  8  avg fit:  11.65
-gen:  8  min fit:  7  avg fit:  10.4
-gen:  9  min fit:  7  avg fit:  9.95
-gen:  10  min fit:  6  avg fit:  8.9
-gen:  11  min fit:  6  avg fit:  7.8
-gen:  12  min fit:  4  avg fit:  7.2
-gen:  13  min fit:  3  avg fit:  6.4
-gen:  14  min fit:  3  avg fit:  5.45
-gen:  15  min fit:  3  avg fit:  4.3
-gen:  16  min fit:  3  avg fit:  3.85
-gen:  17  min fit:  2  avg fit:  3.5
-gen:  18  min fit:  1  avg fit:  3.3
-gen:  19  min fit:  1  avg fit:  2.85
-gen:  20  min fit:  1  avg fit:  2.45
-gen:  21  min fit:  1  avg fit:  2.3
-gen:  22  min fit:  1  avg fit:  2.35
-gen:  23  min fit:  0  avg fit:  1.9
-gen:  24  min fit:  0  avg fit:  1.35
-gen:  25  min fit:  0  avg fit:  1.35
-gen:  26  min fit:  0  avg fit:  0.9
-gen:  27  min fit:  0  avg fit:  1.0
-gen:  28  min fit:  0  avg fit:  0.9
-gen:  29  min fit:  0  avg fit:  1.1
-gen:  30  min fit:  0  avg fit:  1.3
-Best individual in last population: 
-Query best individual in last population with all True inputs:
-True
-TOTAL EXECUTION TIME: 0.3514731320319697
-gen:  0  min fit:  16  avg fit:  16.0
-gen:  1  min fit:  15  avg fit:  15.95
-gen:  2  min fit:  14  avg fit:  15.55
-gen:  3  min fit:  12  avg fit:  14.5
-gen:  4  min fit:  11  avg fit:  13.45
-gen:  5  min fit:  10  avg fit:  12.95
-gen:  6  min fit:  9  avg fit:  12.45
-gen:  7  min fit:  9  avg fit:  11.15
-gen:  8  min fit:  9  avg fit:  10.1
-gen:  9  min fit:  7  avg fit:  9.95
-gen:  10  min fit:  7  avg fit:  8.9
-gen:  11  min fit:  6  avg fit:  8.2
-gen:  12  min fit:  6  avg fit:  8.15
-gen:  13  min fit:  5  avg fit:  7.5
-gen:  14  min fit:  4  avg fit:  6.8
-gen:  15  min fit:  5  avg fit:  6.25
-gen:  16  min fit:  3  avg fit:  5.2
-gen:  17  min fit:  3  avg fit:  4.6
-gen:  18  min fit:  1  avg fit:  4.1
-gen:  19  min fit:  1  avg fit:  3.65
-gen:  20  min fit:  1  avg fit:  2.9
-gen:  21  min fit:  1  avg fit:  2.5
-gen:  22  min fit:  0  avg fit:  1.8
-gen:  23  min fit:  0  avg fit:  1.75
-gen:  24  min fit:  1  avg fit:  1.6
-gen:  25  min fit:  0  avg fit:  1.55
-gen:  26  min fit:  0  avg fit:  1.35
-gen:  27  min fit:  0  avg fit:  1.25
-gen:  28  min fit:  0  avg fit:  1.35
-gen:  29  min fit:  0  avg fit:  1.3
-gen:  30  min fit:  0  avg fit:  1.55
-Best individual in last population: 
-Query best individual in last population with all True inputs:
-True
-TOTAL EXECUTION TIME: 0.321128562965896
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-9.151105828001164
-7.684650534007233
-
-TOTAL EXECUTION TIME: 17.294863861985505
-0.08732863498153165
-0.07913837098749354
-
-TOTAL EXECUTION TIME: 0.16880451695760712
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python copy_matrix_serial_speedupy.py 6250 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-91.87121892505093
-TOTAL EXECUTION TIME: 95.37919021397829
-13.407340253004804
-TOTAL EXECUTION TIME: 14.813649566029198
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 0.0691613620147109
-TOTAL EXECUTION TIME: 0.06621951598208398
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 0.18014206003863364
-TOTAL EXECUTION TIME: 0.1791931660263799
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-1.8593818350345828
-TOTAL EXECUTION TIME: 2.331541555991862
-0.23202202800894156
-TOTAL EXECUTION TIME: 0.23417361901374534
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 13.369388477003668
-13.369405761943199
-TOTAL EXECUTION TIME: 14.285111949022394
-14.285126668983139
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 12.23470810399158
-TOTAL EXECUTION TIME: 12.36090323899407
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python test_laplace_jacobi_4.py 200 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-360.6380674469983
-376.1928901950014
-TOTAL EXECUTION TIME: 736.8383243870339
-0.00130607804749161
-0.00032268400536850095
-TOTAL EXECUTION TIME: 0.003778429003432393
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-gen:  0  min fit:  16  avg fit:  16.0
-gen:  1  min fit:  14  avg fit:  16.05
-gen:  2  min fit:  14  avg fit:  15.55
-gen:  3  min fit:  13  avg fit:  14.65
-gen:  4  min fit:  11  avg fit:  13.65
-gen:  5  min fit:  10  avg fit:  13.05
-gen:  6  min fit:  9  avg fit:  11.7
-gen:  7  min fit:  7  avg fit:  9.85
-gen:  8  min fit:  6  avg fit:  9.05
-gen:  9  min fit:  5  avg fit:  7.8
-gen:  10  min fit:  4  avg fit:  7.0
-gen:  11  min fit:  4  avg fit:  5.9
-gen:  12  min fit:  4  avg fit:  6.05
-gen:  13  min fit:  4  avg fit:  6.0
-gen:  14  min fit:  4  avg fit:  5.8
-gen:  15  min fit:  4  avg fit:  5.75
-gen:  16  min fit:  4  avg fit:  5.55
-gen:  17  min fit:  4  avg fit:  5.3
-gen:  18  min fit:  3  avg fit:  5.05
-gen:  19  min fit:  3  avg fit:  4.3
-gen:  20  min fit:  2  avg fit:  3.7
-gen:  21  min fit:  2  avg fit:  3.7
-gen:  22  min fit:  2  avg fit:  3.4
-gen:  23  min fit:  2  avg fit:  3.35
-gen:  24  min fit:  2  avg fit:  3.5
-gen:  25  min fit:  1  avg fit:  3.2
-gen:  26  min fit:  0  avg fit:  3.15
-gen:  27  min fit:  0  avg fit:  2.45
-gen:  28  min fit:  0  avg fit:  1.4
-gen:  29  min fit:  0  avg fit:  1.55
-gen:  30  min fit:  0  avg fit:  0.95
-Best individual in last population: 
-Query best individual in last population with all True inputs:
-True
-TOTAL EXECUTION TIME: 0.3424613059614785
-gen:  0  min fit:  16  avg fit:  16.0
-gen:  1  min fit:  15  avg fit:  16.0
-gen:  2  min fit:  13  avg fit:  15.35
-gen:  3  min fit:  12  avg fit:  14.55
-gen:  4  min fit:  12  avg fit:  13.85
-gen:  5  min fit:  10  avg fit:  12.7
-gen:  6  min fit:  8  avg fit:  11.7
-gen:  7  min fit:  8  avg fit:  10.9
-gen:  8  min fit:  7  avg fit:  9.6
-gen:  9  min fit:  5  avg fit:  8.15
-gen:  10  min fit:  6  avg fit:  6.9
-gen:  11  min fit:  5  avg fit:  6.55
-gen:  12  min fit:  4  avg fit:  6.05
-gen:  13  min fit:  3  avg fit:  5.35
-gen:  14  min fit:  3  avg fit:  5.1
-gen:  15  min fit:  3  avg fit:  4.35
-gen:  16  min fit:  2  avg fit:  3.95
-gen:  17  min fit:  2  avg fit:  4.25
-gen:  18  min fit:  2  avg fit:  4.05
-gen:  19  min fit:  3  avg fit:  3.5
-gen:  20  min fit:  2  avg fit:  3.35
-gen:  21  min fit:  2  avg fit:  3.45
-gen:  22  min fit:  1  avg fit:  3.2
-gen:  23  min fit:  2  avg fit:  2.95
-gen:  24  min fit:  1  avg fit:  2.65
-gen:  25  min fit:  1  avg fit:  2.55
-gen:  26  min fit:  1  avg fit:  2.75
-gen:  27  min fit:  1  avg fit:  2.4
-gen:  28  min fit:  1  avg fit:  2.7
-gen:  29  min fit:  1  avg fit:  2.65
-gen:  30  min fit:  1  avg fit:  2.25
-Best individual in last population: 
-Query best individual in last population with all True inputs:
-True
-TOTAL EXECUTION TIME: 0.318170115002431
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+python power.py 1241231241 462 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+22905852508458802066829138399313104681598066470894262361320382682232293015953594696068443913976334250774194071160575331688616227189238389275716071216030261736893149725855717663860862800269163649529216674616625277552197373544637104061603282044627130505929734041840570944333574580107613412931917657468627244219946190701298044365627073334216794051318152978333146624899835800395086029274483549093361985285150816978553270014780389635351917574007437592225833446306478715885232042028096276268906916589146901963038494023634600279639301447352328353997790189210388005055772263927219657348205422930909275858447317977876431650832328050755584651756099784755540668760906776395714025492597246745483873479931859899233737919838399142567423966871543011054243008803065048907675034459017292186581743590720937681725938978244675451273375005402663276508652465343769711077853426014712148630933765569570491589541349896167266875985862900776633264500214116446393897546415185662331633391463198647567979442526802469728856478801528717113428258905616130268497726175633159634724517750189388673775525068600748340767273035614269690621223771737630880564785009550418457311130656623054416941884963196164210398806313279751096451923502357807874556296364759989376091675778798704711188071419161979271534518170109837789818934701090616861004179103319475591450935506580266353906985318910124042475750519233584650579874952591835478874061341825753069244638403491945186701057649871853144789752197606528053410309790664993056335432184918067835881506414066358776788347928093185145445244219645920852702074550184250576993781551718498376323155218194508801129411393971544537225862723083823404564499992268859671340829092003574958205450663699933108006801653786796069729471046976694450749982149765422205745991838671899769270770546333956151524018843243571976095321822018393332840589406639466038373957908610329678939637769536740669636515976188048884008955039375407991378139272114846010687872159451560781027696002062285112485679077892277517573400970266941680412360410711679859115786286725888568478194714593184739697729514691857324266868314791021001398715599067188874863097682533075076250706369979533392555471115961369144803423233838612937930192197932693943640600189213892210268452375148182799061761247659534858127293050934297810073772709610040065665785537760809694695183808103837822337296567829175486963534080281220628588219893529414514830288810430812509274461130536886656317404564459319039399265054178499009409360082262790874713870324349734462477841216095606813068970636927032526856127758560644890082885053844393096836204425019673853096554455437702565723312407851405642212187112610394117860047396760859230370691142572954189408126978401540088451330992105631907130346437454784557164892152411267697189675523550586126793527091754603641619822709166283574591990870436443623798262403855306590831409072079566317669384188754791142358962997274604618313249184526211006102515650919632869123519886766919828212925311432193167226830435834069905700525148855752566919191984249435610934547248871480994824249771902419573050026633855616119338529107528962201502919510434026762510305320475843532880006240459097225480650208869343031865848758502578175275464914965327530455836960192616296432585853729589680637893773982084766149714825942220479713732261279024412289488002113601569332881980667277168082624710019624308690176438771166395533822374851671342487380740499956320956574548498924606595495279115775146982415710342908272400279413252013523177565360647471110935934742826013784788632976241862673698359934668434261463630373047163267202459454095008789339077316252853418474245489064803755451071099596185245104723413090415895117170453797470718816680560692697886319018932205259549267002837488249848583416259964134576013762079351553877997621830217822658600161397769514345136440971308376825073470709266039255227247933037702972738094167664381556295619943727572485310238137489432570464197814344074146113980683867741905159004593729892476496400504809502737957858647711297471723888943191515968815287382111705340319136112382094975149344498083391538786489718739774445347144424974367688876921439550589495204910172390128835011066990591407958330527048387063184990835331768552580736927592912185943870674481
+TOTAL EXECUTION TIME: 0.02046896202955395
+0.020475694036576897
+22905852508458802066829138399313104681598066470894262361320382682232293015953594696068443913976334250774194071160575331688616227189238389275716071216030261736893149725855717663860862800269163649529216674616625277552197373544637104061603282044627130505929734041840570944333574580107613412931917657468627244219946190701298044365627073334216794051318152978333146624899835800395086029274483549093361985285150816978553270014780389635351917574007437592225833446306478715885232042028096276268906916589146901963038494023634600279639301447352328353997790189210388005055772263927219657348205422930909275858447317977876431650832328050755584651756099784755540668760906776395714025492597246745483873479931859899233737919838399142567423966871543011054243008803065048907675034459017292186581743590720937681725938978244675451273375005402663276508652465343769711077853426014712148630933765569570491589541349896167266875985862900776633264500214116446393897546415185662331633391463198647567979442526802469728856478801528717113428258905616130268497726175633159634724517750189388673775525068600748340767273035614269690621223771737630880564785009550418457311130656623054416941884963196164210398806313279751096451923502357807874556296364759989376091675778798704711188071419161979271534518170109837789818934701090616861004179103319475591450935506580266353906985318910124042475750519233584650579874952591835478874061341825753069244638403491945186701057649871853144789752197606528053410309790664993056335432184918067835881506414066358776788347928093185145445244219645920852702074550184250576993781551718498376323155218194508801129411393971544537225862723083823404564499992268859671340829092003574958205450663699933108006801653786796069729471046976694450749982149765422205745991838671899769270770546333956151524018843243571976095321822018393332840589406639466038373957908610329678939637769536740669636515976188048884008955039375407991378139272114846010687872159451560781027696002062285112485679077892277517573400970266941680412360410711679859115786286725888568478194714593184739697729514691857324266868314791021001398715599067188874863097682533075076250706369979533392555471115961369144803423233838612937930192197932693943640600189213892210268452375148182799061761247659534858127293050934297810073772709610040065665785537760809694695183808103837822337296567829175486963534080281220628588219893529414514830288810430812509274461130536886656317404564459319039399265054178499009409360082262790874713870324349734462477841216095606813068970636927032526856127758560644890082885053844393096836204425019673853096554455437702565723312407851405642212187112610394117860047396760859230370691142572954189408126978401540088451330992105631907130346437454784557164892152411267697189675523550586126793527091754603641619822709166283574591990870436443623798262403855306590831409072079566317669384188754791142358962997274604618313249184526211006102515650919632869123519886766919828212925311432193167226830435834069905700525148855752566919191984249435610934547248871480994824249771902419573050026633855616119338529107528962201502919510434026762510305320475843532880006240459097225480650208869343031865848758502578175275464914965327530455836960192616296432585853729589680637893773982084766149714825942220479713732261279024412289488002113601569332881980667277168082624710019624308690176438771166395533822374851671342487380740499956320956574548498924606595495279115775146982415710342908272400279413252013523177565360647471110935934742826013784788632976241862673698359934668434261463630373047163267202459454095008789339077316252853418474245489064803755451071099596185245104723413090415895117170453797470718816680560692697886319018932205259549267002837488249848583416259964134576013762079351553877997621830217822658600161397769514345136440971308376825073470709266039255227247933037702972738094167664381556295619943727572485310238137489432570464197814344074146113980683867741905159004593729892476496400504809502737957858647711297471723888943191515968815287382111705340319136112382094975149344498083391538786489718739774445347144424974367688876921439550589495204910172390128835011066990591407958330527048387063184990835331768552580736927592912185943870674481
+TOTAL EXECUTION TIME: 0.004500702954828739
+0.004506620985921472
 
 
-python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-9.08780277299229
-7.639782981015742
-
-TOTAL EXECUTION TIME: 17.215275599970482
-0.08731207699747756
-0.07904224999947473
-
-TOTAL EXECUTION TIME: 0.16868609201628715
-
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python copy_matrix_serial_speedupy.py 6250 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-93.14856387901818
-TOTAL EXECUTION TIME: 96.68284918396967
-13.419813647982664
-TOTAL EXECUTION TIME: 14.826663621992338
-
-
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 0.0725425299606286
-TOTAL EXECUTION TIME: 0.06714716902934015
+python mov_robots_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+TOTAL EXECUTION TIME: 0.013839948980603367
+0.013846978021319956
+TOTAL EXECUTION TIME: 0.010613298043608665
+0.010620726039633155
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 0.189634841051884
-TOTAL EXECUTION TIME: 0.17854014196200296
+python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:14: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  return fsolve(func=lambda x: n * C / (1 + Kd1 / x) + n2 * C / (1 + Kd2 / x) - T, x0=F_solution, xtol=1e-06)
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:23: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+0.06491873599588871
+TOTAL EXECUTION TIME: 0.07341344695305452
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:14: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  return fsolve(func=lambda x: n * C / (1 + Kd1 / x) + n2 * C / (1 + Kd2 / x) - T, x0=F_solution, xtol=1e-06)
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:23: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+0.0640981899923645
+TOTAL EXECUTION TIME: 0.06920692400308326
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-1.7199389360030182
-TOTAL EXECUTION TIME: 2.1765623670071363
-0.2353981680353172
-TOTAL EXECUTION TIME: 0.2375730299972929
+python power.py 1241231241 462 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+22905852508458802066829138399313104681598066470894262361320382682232293015953594696068443913976334250774194071160575331688616227189238389275716071216030261736893149725855717663860862800269163649529216674616625277552197373544637104061603282044627130505929734041840570944333574580107613412931917657468627244219946190701298044365627073334216794051318152978333146624899835800395086029274483549093361985285150816978553270014780389635351917574007437592225833446306478715885232042028096276268906916589146901963038494023634600279639301447352328353997790189210388005055772263927219657348205422930909275858447317977876431650832328050755584651756099784755540668760906776395714025492597246745483873479931859899233737919838399142567423966871543011054243008803065048907675034459017292186581743590720937681725938978244675451273375005402663276508652465343769711077853426014712148630933765569570491589541349896167266875985862900776633264500214116446393897546415185662331633391463198647567979442526802469728856478801528717113428258905616130268497726175633159634724517750189388673775525068600748340767273035614269690621223771737630880564785009550418457311130656623054416941884963196164210398806313279751096451923502357807874556296364759989376091675778798704711188071419161979271534518170109837789818934701090616861004179103319475591450935506580266353906985318910124042475750519233584650579874952591835478874061341825753069244638403491945186701057649871853144789752197606528053410309790664993056335432184918067835881506414066358776788347928093185145445244219645920852702074550184250576993781551718498376323155218194508801129411393971544537225862723083823404564499992268859671340829092003574958205450663699933108006801653786796069729471046976694450749982149765422205745991838671899769270770546333956151524018843243571976095321822018393332840589406639466038373957908610329678939637769536740669636515976188048884008955039375407991378139272114846010687872159451560781027696002062285112485679077892277517573400970266941680412360410711679859115786286725888568478194714593184739697729514691857324266868314791021001398715599067188874863097682533075076250706369979533392555471115961369144803423233838612937930192197932693943640600189213892210268452375148182799061761247659534858127293050934297810073772709610040065665785537760809694695183808103837822337296567829175486963534080281220628588219893529414514830288810430812509274461130536886656317404564459319039399265054178499009409360082262790874713870324349734462477841216095606813068970636927032526856127758560644890082885053844393096836204425019673853096554455437702565723312407851405642212187112610394117860047396760859230370691142572954189408126978401540088451330992105631907130346437454784557164892152411267697189675523550586126793527091754603641619822709166283574591990870436443623798262403855306590831409072079566317669384188754791142358962997274604618313249184526211006102515650919632869123519886766919828212925311432193167226830435834069905700525148855752566919191984249435610934547248871480994824249771902419573050026633855616119338529107528962201502919510434026762510305320475843532880006240459097225480650208869343031865848758502578175275464914965327530455836960192616296432585853729589680637893773982084766149714825942220479713732261279024412289488002113601569332881980667277168082624710019624308690176438771166395533822374851671342487380740499956320956574548498924606595495279115775146982415710342908272400279413252013523177565360647471110935934742826013784788632976241862673698359934668434261463630373047163267202459454095008789339077316252853418474245489064803755451071099596185245104723413090415895117170453797470718816680560692697886319018932205259549267002837488249848583416259964134576013762079351553877997621830217822658600161397769514345136440971308376825073470709266039255227247933037702972738094167664381556295619943727572485310238137489432570464197814344074146113980683867741905159004593729892476496400504809502737957858647711297471723888943191515968815287382111705340319136112382094975149344498083391538786489718739774445347144424974367688876921439550589495204910172390128835011066990591407958330527048387063184990835331768552580736927592912185943870674481
+TOTAL EXECUTION TIME: 0.020326817000750452
+0.020333987020421773
+22905852508458802066829138399313104681598066470894262361320382682232293015953594696068443913976334250774194071160575331688616227189238389275716071216030261736893149725855717663860862800269163649529216674616625277552197373544637104061603282044627130505929734041840570944333574580107613412931917657468627244219946190701298044365627073334216794051318152978333146624899835800395086029274483549093361985285150816978553270014780389635351917574007437592225833446306478715885232042028096276268906916589146901963038494023634600279639301447352328353997790189210388005055772263927219657348205422930909275858447317977876431650832328050755584651756099784755540668760906776395714025492597246745483873479931859899233737919838399142567423966871543011054243008803065048907675034459017292186581743590720937681725938978244675451273375005402663276508652465343769711077853426014712148630933765569570491589541349896167266875985862900776633264500214116446393897546415185662331633391463198647567979442526802469728856478801528717113428258905616130268497726175633159634724517750189388673775525068600748340767273035614269690621223771737630880564785009550418457311130656623054416941884963196164210398806313279751096451923502357807874556296364759989376091675778798704711188071419161979271534518170109837789818934701090616861004179103319475591450935506580266353906985318910124042475750519233584650579874952591835478874061341825753069244638403491945186701057649871853144789752197606528053410309790664993056335432184918067835881506414066358776788347928093185145445244219645920852702074550184250576993781551718498376323155218194508801129411393971544537225862723083823404564499992268859671340829092003574958205450663699933108006801653786796069729471046976694450749982149765422205745991838671899769270770546333956151524018843243571976095321822018393332840589406639466038373957908610329678939637769536740669636515976188048884008955039375407991378139272114846010687872159451560781027696002062285112485679077892277517573400970266941680412360410711679859115786286725888568478194714593184739697729514691857324266868314791021001398715599067188874863097682533075076250706369979533392555471115961369144803423233838612937930192197932693943640600189213892210268452375148182799061761247659534858127293050934297810073772709610040065665785537760809694695183808103837822337296567829175486963534080281220628588219893529414514830288810430812509274461130536886656317404564459319039399265054178499009409360082262790874713870324349734462477841216095606813068970636927032526856127758560644890082885053844393096836204425019673853096554455437702565723312407851405642212187112610394117860047396760859230370691142572954189408126978401540088451330992105631907130346437454784557164892152411267697189675523550586126793527091754603641619822709166283574591990870436443623798262403855306590831409072079566317669384188754791142358962997274604618313249184526211006102515650919632869123519886766919828212925311432193167226830435834069905700525148855752566919191984249435610934547248871480994824249771902419573050026633855616119338529107528962201502919510434026762510305320475843532880006240459097225480650208869343031865848758502578175275464914965327530455836960192616296432585853729589680637893773982084766149714825942220479713732261279024412289488002113601569332881980667277168082624710019624308690176438771166395533822374851671342487380740499956320956574548498924606595495279115775146982415710342908272400279413252013523177565360647471110935934742826013784788632976241862673698359934668434261463630373047163267202459454095008789339077316252853418474245489064803755451071099596185245104723413090415895117170453797470718816680560692697886319018932205259549267002837488249848583416259964134576013762079351553877997621830217822658600161397769514345136440971308376825073470709266039255227247933037702972738094167664381556295619943727572485310238137489432570464197814344074146113980683867741905159004593729892476496400504809502737957858647711297471723888943191515968815287382111705340319136112382094975149344498083391538786489718739774445347144424974367688876921439550589495204910172390128835011066990591407958330527048387063184990835331768552580736927592912185943870674481
+TOTAL EXECUTION TIME: 0.0044502540258690715
+0.004456280032172799
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 13.304644919990096
-13.304664844006766
-TOTAL EXECUTION TIME: 14.859570795029867
-14.859585869999137
+python mov_robots_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+TOTAL EXECUTION TIME: 0.014117446029558778
+0.014123808010481298
+TOTAL EXECUTION TIME: 0.011283767002169043
+0.011290583992376924
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 12.338445884990506
-TOTAL EXECUTION TIME: 12.873095693008509
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
+python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:14: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  return fsolve(func=lambda x: n * C / (1 + Kd1 / x) + n2 * C / (1 + Kd2 / x) - T, x0=F_solution, xtol=1e-06)
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:23: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+0.06457202701130882
+TOTAL EXECUTION TIME: 0.0729937829892151
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:14: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  return fsolve(func=lambda x: n * C / (1 + Kd1 / x) + n2 * C / (1 + Kd2 / x) - T, x0=F_solution, xtol=1e-06)
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:23: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+0.06344128301134333
+TOTAL EXECUTION TIME: 0.06854964001104236
 
-python test_laplace_jacobi_4.py 200 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-362.96807447302854
-374.16471287503373
-TOTAL EXECUTION TIME: 737.1401025630184
-0.001319672039244324
-0.00032440898939967155
-TOTAL EXECUTION TIME: 0.003790247021242976
 
-
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-gen:  0  min fit:  16  avg fit:  16.0
-gen:  1  min fit:  14  avg fit:  15.9
-gen:  2  min fit:  14  avg fit:  15.7
-gen:  3  min fit:  12  avg fit:  15.05
-gen:  4  min fit:  12  avg fit:  13.5
-gen:  5  min fit:  10  avg fit:  12.65
-gen:  6  min fit:  8  avg fit:  11.2
-gen:  7  min fit:  8  avg fit:  9.9
-gen:  8  min fit:  6  avg fit:  8.8
-gen:  9  min fit:  6  avg fit:  7.8
-gen:  10  min fit:  4  avg fit:  7.15
-gen:  11  min fit:  4  avg fit:  6.3
-gen:  12  min fit:  4  avg fit:  6.0
-gen:  13  min fit:  4  avg fit:  5.7
-gen:  14  min fit:  3  avg fit:  5.15
-gen:  15  min fit:  2  avg fit:  4.75
-gen:  16  min fit:  2  avg fit:  4.3
-gen:  17  min fit:  2  avg fit:  3.55
-gen:  18  min fit:  2  avg fit:  3.25
-gen:  19  min fit:  1  avg fit:  3.15
-gen:  20  min fit:  0  avg fit:  2.8
-gen:  21  min fit:  0  avg fit:  2.4
-gen:  22  min fit:  1  avg fit:  2.1
-gen:  23  min fit:  0  avg fit:  1.7
-gen:  24  min fit:  0  avg fit:  1.65
-gen:  25  min fit:  0  avg fit:  1.45
-gen:  26  min fit:  0  avg fit:  1.45
-gen:  27  min fit:  0  avg fit:  1.35
-gen:  28  min fit:  0  avg fit:  1.6
-gen:  29  min fit:  0  avg fit:  1.45
-gen:  30  min fit:  0  avg fit:  1.05
-Best individual in last population: 
-Query best individual in last population with all True inputs:
-True
-TOTAL EXECUTION TIME: 0.3299907369655557
-gen:  0  min fit:  15  avg fit:  15.95
-gen:  1  min fit:  14  avg fit:  15.85
-gen:  2  min fit:  14  avg fit:  14.95
-gen:  3  min fit:  12  avg fit:  13.95
-gen:  4  min fit:  12  avg fit:  13.6
-gen:  5  min fit:  11  avg fit:  13.2
-gen:  6  min fit:  10  avg fit:  12.35
-gen:  7  min fit:  10  avg fit:  11.55
-gen:  8  min fit:  9  avg fit:  11.25
-gen:  9  min fit:  8  avg fit:  10.75
-gen:  10  min fit:  7  avg fit:  10.15
-gen:  11  min fit:  7  avg fit:  9.6
-gen:  12  min fit:  5  avg fit:  9.4
-gen:  13  min fit:  6  avg fit:  8.8
-gen:  14  min fit:  6  avg fit:  7.55
-gen:  15  min fit:  4  avg fit:  6.5
-gen:  16  min fit:  4  avg fit:  5.75
-gen:  17  min fit:  3  avg fit:  5.6
-gen:  18  min fit:  3  avg fit:  5.2
-gen:  19  min fit:  3  avg fit:  4.85
-gen:  20  min fit:  2  avg fit:  4.25
-gen:  21  min fit:  1  avg fit:  3.4
-gen:  22  min fit:  1  avg fit:  2.8
-gen:  23  min fit:  1  avg fit:  2.5
-gen:  24  min fit:  1  avg fit:  2.4
-gen:  25  min fit:  1  avg fit:  2.15
-gen:  26  min fit:  0  avg fit:  2.05
-gen:  27  min fit:  0  avg fit:  1.85
-gen:  28  min fit:  0  avg fit:  1.35
-gen:  29  min fit:  0  avg fit:  1.1
-gen:  30  min fit:  0  avg fit:  0.8
-Best individual in last population: 
-Query best individual in last population with all True inputs:
-True
-TOTAL EXECUTION TIME: 0.343061470950488
+python power.py 1241231241 462 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+22905852508458802066829138399313104681598066470894262361320382682232293015953594696068443913976334250774194071160575331688616227189238389275716071216030261736893149725855717663860862800269163649529216674616625277552197373544637104061603282044627130505929734041840570944333574580107613412931917657468627244219946190701298044365627073334216794051318152978333146624899835800395086029274483549093361985285150816978553270014780389635351917574007437592225833446306478715885232042028096276268906916589146901963038494023634600279639301447352328353997790189210388005055772263927219657348205422930909275858447317977876431650832328050755584651756099784755540668760906776395714025492597246745483873479931859899233737919838399142567423966871543011054243008803065048907675034459017292186581743590720937681725938978244675451273375005402663276508652465343769711077853426014712148630933765569570491589541349896167266875985862900776633264500214116446393897546415185662331633391463198647567979442526802469728856478801528717113428258905616130268497726175633159634724517750189388673775525068600748340767273035614269690621223771737630880564785009550418457311130656623054416941884963196164210398806313279751096451923502357807874556296364759989376091675778798704711188071419161979271534518170109837789818934701090616861004179103319475591450935506580266353906985318910124042475750519233584650579874952591835478874061341825753069244638403491945186701057649871853144789752197606528053410309790664993056335432184918067835881506414066358776788347928093185145445244219645920852702074550184250576993781551718498376323155218194508801129411393971544537225862723083823404564499992268859671340829092003574958205450663699933108006801653786796069729471046976694450749982149765422205745991838671899769270770546333956151524018843243571976095321822018393332840589406639466038373957908610329678939637769536740669636515976188048884008955039375407991378139272114846010687872159451560781027696002062285112485679077892277517573400970266941680412360410711679859115786286725888568478194714593184739697729514691857324266868314791021001398715599067188874863097682533075076250706369979533392555471115961369144803423233838612937930192197932693943640600189213892210268452375148182799061761247659534858127293050934297810073772709610040065665785537760809694695183808103837822337296567829175486963534080281220628588219893529414514830288810430812509274461130536886656317404564459319039399265054178499009409360082262790874713870324349734462477841216095606813068970636927032526856127758560644890082885053844393096836204425019673853096554455437702565723312407851405642212187112610394117860047396760859230370691142572954189408126978401540088451330992105631907130346437454784557164892152411267697189675523550586126793527091754603641619822709166283574591990870436443623798262403855306590831409072079566317669384188754791142358962997274604618313249184526211006102515650919632869123519886766919828212925311432193167226830435834069905700525148855752566919191984249435610934547248871480994824249771902419573050026633855616119338529107528962201502919510434026762510305320475843532880006240459097225480650208869343031865848758502578175275464914965327530455836960192616296432585853729589680637893773982084766149714825942220479713732261279024412289488002113601569332881980667277168082624710019624308690176438771166395533822374851671342487380740499956320956574548498924606595495279115775146982415710342908272400279413252013523177565360647471110935934742826013784788632976241862673698359934668434261463630373047163267202459454095008789339077316252853418474245489064803755451071099596185245104723413090415895117170453797470718816680560692697886319018932205259549267002837488249848583416259964134576013762079351553877997621830217822658600161397769514345136440971308376825073470709266039255227247933037702972738094167664381556295619943727572485310238137489432570464197814344074146113980683867741905159004593729892476496400504809502737957858647711297471723888943191515968815287382111705340319136112382094975149344498083391538786489718739774445347144424974367688876921439550589495204910172390128835011066990591407958330527048387063184990835331768552580736927592912185943870674481
+TOTAL EXECUTION TIME: 0.020490955968853086
+0.02049817197257653
+22905852508458802066829138399313104681598066470894262361320382682232293015953594696068443913976334250774194071160575331688616227189238389275716071216030261736893149725855717663860862800269163649529216674616625277552197373544637104061603282044627130505929734041840570944333574580107613412931917657468627244219946190701298044365627073334216794051318152978333146624899835800395086029274483549093361985285150816978553270014780389635351917574007437592225833446306478715885232042028096276268906916589146901963038494023634600279639301447352328353997790189210388005055772263927219657348205422930909275858447317977876431650832328050755584651756099784755540668760906776395714025492597246745483873479931859899233737919838399142567423966871543011054243008803065048907675034459017292186581743590720937681725938978244675451273375005402663276508652465343769711077853426014712148630933765569570491589541349896167266875985862900776633264500214116446393897546415185662331633391463198647567979442526802469728856478801528717113428258905616130268497726175633159634724517750189388673775525068600748340767273035614269690621223771737630880564785009550418457311130656623054416941884963196164210398806313279751096451923502357807874556296364759989376091675778798704711188071419161979271534518170109837789818934701090616861004179103319475591450935506580266353906985318910124042475750519233584650579874952591835478874061341825753069244638403491945186701057649871853144789752197606528053410309790664993056335432184918067835881506414066358776788347928093185145445244219645920852702074550184250576993781551718498376323155218194508801129411393971544537225862723083823404564499992268859671340829092003574958205450663699933108006801653786796069729471046976694450749982149765422205745991838671899769270770546333956151524018843243571976095321822018393332840589406639466038373957908610329678939637769536740669636515976188048884008955039375407991378139272114846010687872159451560781027696002062285112485679077892277517573400970266941680412360410711679859115786286725888568478194714593184739697729514691857324266868314791021001398715599067188874863097682533075076250706369979533392555471115961369144803423233838612937930192197932693943640600189213892210268452375148182799061761247659534858127293050934297810073772709610040065665785537760809694695183808103837822337296567829175486963534080281220628588219893529414514830288810430812509274461130536886656317404564459319039399265054178499009409360082262790874713870324349734462477841216095606813068970636927032526856127758560644890082885053844393096836204425019673853096554455437702565723312407851405642212187112610394117860047396760859230370691142572954189408126978401540088451330992105631907130346437454784557164892152411267697189675523550586126793527091754603641619822709166283574591990870436443623798262403855306590831409072079566317669384188754791142358962997274604618313249184526211006102515650919632869123519886766919828212925311432193167226830435834069905700525148855752566919191984249435610934547248871480994824249771902419573050026633855616119338529107528962201502919510434026762510305320475843532880006240459097225480650208869343031865848758502578175275464914965327530455836960192616296432585853729589680637893773982084766149714825942220479713732261279024412289488002113601569332881980667277168082624710019624308690176438771166395533822374851671342487380740499956320956574548498924606595495279115775146982415710342908272400279413252013523177565360647471110935934742826013784788632976241862673698359934668434261463630373047163267202459454095008789339077316252853418474245489064803755451071099596185245104723413090415895117170453797470718816680560692697886319018932205259549267002837488249848583416259964134576013762079351553877997621830217822658600161397769514345136440971308376825073470709266039255227247933037702972738094167664381556295619943727572485310238137489432570464197814344074146113980683867741905159004593729892476496400504809502737957858647711297471723888943191515968815287382111705340319136112382094975149344498083391538786489718739774445347144424974367688876921439550589495204910172390128835011066990591407958330527048387063184990835331768552580736927592912185943870674481
+TOTAL EXECUTION TIME: 0.004567223018966615
+0.004572893958538771
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-8.679168247967027
-7.276906899001915
 
-TOTAL EXECUTION TIME: 16.408539651019964
-0.08653495000908151
-0.07814069400774315
 
-TOTAL EXECUTION TIME: 0.16697467199992388
+python mov_robots_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+TOTAL EXECUTION TIME: 0.013913711998611689
+0.013920296041760594
+TOTAL EXECUTION TIME: 0.010643560963217169
+0.0106496789958328
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-python copy_matrix_serial_speedupy.py 6250 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-90.5703124179854
-TOTAL EXECUTION TIME: 94.09083826903952
-13.62340805894928
-TOTAL EXECUTION TIME: 15.030220698041376
+python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:14: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  return fsolve(func=lambda x: n * C / (1 + Kd1 / x) + n2 * C / (1 + Kd2 / x) - T, x0=F_solution, xtol=1e-06)
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:23: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+0.06425639003282413
+TOTAL EXECUTION TIME: 0.07253748195944354
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:14: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  return fsolve(func=lambda x: n * C / (1 + Kd1 / x) + n2 * C / (1 + Kd2 / x) - T, x0=F_solution, xtol=1e-06)
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:23: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+0.06421623099595308
+TOTAL EXECUTION TIME: 0.0693990049767308
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 0.06973975995788351
-TOTAL EXECUTION TIME: 0.06985816004453227
+python power.py 1241231241 462 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+22905852508458802066829138399313104681598066470894262361320382682232293015953594696068443913976334250774194071160575331688616227189238389275716071216030261736893149725855717663860862800269163649529216674616625277552197373544637104061603282044627130505929734041840570944333574580107613412931917657468627244219946190701298044365627073334216794051318152978333146624899835800395086029274483549093361985285150816978553270014780389635351917574007437592225833446306478715885232042028096276268906916589146901963038494023634600279639301447352328353997790189210388005055772263927219657348205422930909275858447317977876431650832328050755584651756099784755540668760906776395714025492597246745483873479931859899233737919838399142567423966871543011054243008803065048907675034459017292186581743590720937681725938978244675451273375005402663276508652465343769711077853426014712148630933765569570491589541349896167266875985862900776633264500214116446393897546415185662331633391463198647567979442526802469728856478801528717113428258905616130268497726175633159634724517750189388673775525068600748340767273035614269690621223771737630880564785009550418457311130656623054416941884963196164210398806313279751096451923502357807874556296364759989376091675778798704711188071419161979271534518170109837789818934701090616861004179103319475591450935506580266353906985318910124042475750519233584650579874952591835478874061341825753069244638403491945186701057649871853144789752197606528053410309790664993056335432184918067835881506414066358776788347928093185145445244219645920852702074550184250576993781551718498376323155218194508801129411393971544537225862723083823404564499992268859671340829092003574958205450663699933108006801653786796069729471046976694450749982149765422205745991838671899769270770546333956151524018843243571976095321822018393332840589406639466038373957908610329678939637769536740669636515976188048884008955039375407991378139272114846010687872159451560781027696002062285112485679077892277517573400970266941680412360410711679859115786286725888568478194714593184739697729514691857324266868314791021001398715599067188874863097682533075076250706369979533392555471115961369144803423233838612937930192197932693943640600189213892210268452375148182799061761247659534858127293050934297810073772709610040065665785537760809694695183808103837822337296567829175486963534080281220628588219893529414514830288810430812509274461130536886656317404564459319039399265054178499009409360082262790874713870324349734462477841216095606813068970636927032526856127758560644890082885053844393096836204425019673853096554455437702565723312407851405642212187112610394117860047396760859230370691142572954189408126978401540088451330992105631907130346437454784557164892152411267697189675523550586126793527091754603641619822709166283574591990870436443623798262403855306590831409072079566317669384188754791142358962997274604618313249184526211006102515650919632869123519886766919828212925311432193167226830435834069905700525148855752566919191984249435610934547248871480994824249771902419573050026633855616119338529107528962201502919510434026762510305320475843532880006240459097225480650208869343031865848758502578175275464914965327530455836960192616296432585853729589680637893773982084766149714825942220479713732261279024412289488002113601569332881980667277168082624710019624308690176438771166395533822374851671342487380740499956320956574548498924606595495279115775146982415710342908272400279413252013523177565360647471110935934742826013784788632976241862673698359934668434261463630373047163267202459454095008789339077316252853418474245489064803755451071099596185245104723413090415895117170453797470718816680560692697886319018932205259549267002837488249848583416259964134576013762079351553877997621830217822658600161397769514345136440971308376825073470709266039255227247933037702972738094167664381556295619943727572485310238137489432570464197814344074146113980683867741905159004593729892476496400504809502737957858647711297471723888943191515968815287382111705340319136112382094975149344498083391538786489718739774445347144424974367688876921439550589495204910172390128835011066990591407958330527048387063184990835331768552580736927592912185943870674481
+TOTAL EXECUTION TIME: 0.020440297026652843
+0.020447148010134697
+22905852508458802066829138399313104681598066470894262361320382682232293015953594696068443913976334250774194071160575331688616227189238389275716071216030261736893149725855717663860862800269163649529216674616625277552197373544637104061603282044627130505929734041840570944333574580107613412931917657468627244219946190701298044365627073334216794051318152978333146624899835800395086029274483549093361985285150816978553270014780389635351917574007437592225833446306478715885232042028096276268906916589146901963038494023634600279639301447352328353997790189210388005055772263927219657348205422930909275858447317977876431650832328050755584651756099784755540668760906776395714025492597246745483873479931859899233737919838399142567423966871543011054243008803065048907675034459017292186581743590720937681725938978244675451273375005402663276508652465343769711077853426014712148630933765569570491589541349896167266875985862900776633264500214116446393897546415185662331633391463198647567979442526802469728856478801528717113428258905616130268497726175633159634724517750189388673775525068600748340767273035614269690621223771737630880564785009550418457311130656623054416941884963196164210398806313279751096451923502357807874556296364759989376091675778798704711188071419161979271534518170109837789818934701090616861004179103319475591450935506580266353906985318910124042475750519233584650579874952591835478874061341825753069244638403491945186701057649871853144789752197606528053410309790664993056335432184918067835881506414066358776788347928093185145445244219645920852702074550184250576993781551718498376323155218194508801129411393971544537225862723083823404564499992268859671340829092003574958205450663699933108006801653786796069729471046976694450749982149765422205745991838671899769270770546333956151524018843243571976095321822018393332840589406639466038373957908610329678939637769536740669636515976188048884008955039375407991378139272114846010687872159451560781027696002062285112485679077892277517573400970266941680412360410711679859115786286725888568478194714593184739697729514691857324266868314791021001398715599067188874863097682533075076250706369979533392555471115961369144803423233838612937930192197932693943640600189213892210268452375148182799061761247659534858127293050934297810073772709610040065665785537760809694695183808103837822337296567829175486963534080281220628588219893529414514830288810430812509274461130536886656317404564459319039399265054178499009409360082262790874713870324349734462477841216095606813068970636927032526856127758560644890082885053844393096836204425019673853096554455437702565723312407851405642212187112610394117860047396760859230370691142572954189408126978401540088451330992105631907130346437454784557164892152411267697189675523550586126793527091754603641619822709166283574591990870436443623798262403855306590831409072079566317669384188754791142358962997274604618313249184526211006102515650919632869123519886766919828212925311432193167226830435834069905700525148855752566919191984249435610934547248871480994824249771902419573050026633855616119338529107528962201502919510434026762510305320475843532880006240459097225480650208869343031865848758502578175275464914965327530455836960192616296432585853729589680637893773982084766149714825942220479713732261279024412289488002113601569332881980667277168082624710019624308690176438771166395533822374851671342487380740499956320956574548498924606595495279115775146982415710342908272400279413252013523177565360647471110935934742826013784788632976241862673698359934668434261463630373047163267202459454095008789339077316252853418474245489064803755451071099596185245104723413090415895117170453797470718816680560692697886319018932205259549267002837488249848583416259964134576013762079351553877997621830217822658600161397769514345136440971308376825073470709266039255227247933037702972738094167664381556295619943727572485310238137489432570464197814344074146113980683867741905159004593729892476496400504809502737957858647711297471723888943191515968815287382111705340319136112382094975149344498083391538786489718739774445347144424974367688876921439550589495204910172390128835011066990591407958330527048387063184990835331768552580736927592912185943870674481
+TOTAL EXECUTION TIME: 0.004477764014154673
+0.004483730997890234
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 0.1833980560186319
-TOTAL EXECUTION TIME: 0.18543086695717648
+python mov_robots_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+TOTAL EXECUTION TIME: 0.01406014699023217
+0.01406655297614634
+TOTAL EXECUTION TIME: 0.010779520031064749
+0.010785655991639942
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-1.8289865090046078
-TOTAL EXECUTION TIME: 2.2929912629770115
-0.22847940801875666
-TOTAL EXECUTION TIME: 0.23055510700214654
+python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:14: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  return fsolve(func=lambda x: n * C / (1 + Kd1 / x) + n2 * C / (1 + Kd2 / x) - T, x0=F_solution, xtol=1e-06)
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:23: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+0.06361873500281945
+TOTAL EXECUTION TIME: 0.07191116700414568
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:14: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  return fsolve(func=lambda x: n * C / (1 + Kd1 / x) + n2 * C / (1 + Kd2 / x) - T, x0=F_solution, xtol=1e-06)
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:23: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+0.06357105600181967
+TOTAL EXECUTION TIME: 0.06866815901594236
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 14.225893594964873
-14.225911011977587
-TOTAL EXECUTION TIME: 14.785115669015795
-14.78513222199399
+python power.py 1241231241 462 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+22905852508458802066829138399313104681598066470894262361320382682232293015953594696068443913976334250774194071160575331688616227189238389275716071216030261736893149725855717663860862800269163649529216674616625277552197373544637104061603282044627130505929734041840570944333574580107613412931917657468627244219946190701298044365627073334216794051318152978333146624899835800395086029274483549093361985285150816978553270014780389635351917574007437592225833446306478715885232042028096276268906916589146901963038494023634600279639301447352328353997790189210388005055772263927219657348205422930909275858447317977876431650832328050755584651756099784755540668760906776395714025492597246745483873479931859899233737919838399142567423966871543011054243008803065048907675034459017292186581743590720937681725938978244675451273375005402663276508652465343769711077853426014712148630933765569570491589541349896167266875985862900776633264500214116446393897546415185662331633391463198647567979442526802469728856478801528717113428258905616130268497726175633159634724517750189388673775525068600748340767273035614269690621223771737630880564785009550418457311130656623054416941884963196164210398806313279751096451923502357807874556296364759989376091675778798704711188071419161979271534518170109837789818934701090616861004179103319475591450935506580266353906985318910124042475750519233584650579874952591835478874061341825753069244638403491945186701057649871853144789752197606528053410309790664993056335432184918067835881506414066358776788347928093185145445244219645920852702074550184250576993781551718498376323155218194508801129411393971544537225862723083823404564499992268859671340829092003574958205450663699933108006801653786796069729471046976694450749982149765422205745991838671899769270770546333956151524018843243571976095321822018393332840589406639466038373957908610329678939637769536740669636515976188048884008955039375407991378139272114846010687872159451560781027696002062285112485679077892277517573400970266941680412360410711679859115786286725888568478194714593184739697729514691857324266868314791021001398715599067188874863097682533075076250706369979533392555471115961369144803423233838612937930192197932693943640600189213892210268452375148182799061761247659534858127293050934297810073772709610040065665785537760809694695183808103837822337296567829175486963534080281220628588219893529414514830288810430812509274461130536886656317404564459319039399265054178499009409360082262790874713870324349734462477841216095606813068970636927032526856127758560644890082885053844393096836204425019673853096554455437702565723312407851405642212187112610394117860047396760859230370691142572954189408126978401540088451330992105631907130346437454784557164892152411267697189675523550586126793527091754603641619822709166283574591990870436443623798262403855306590831409072079566317669384188754791142358962997274604618313249184526211006102515650919632869123519886766919828212925311432193167226830435834069905700525148855752566919191984249435610934547248871480994824249771902419573050026633855616119338529107528962201502919510434026762510305320475843532880006240459097225480650208869343031865848758502578175275464914965327530455836960192616296432585853729589680637893773982084766149714825942220479713732261279024412289488002113601569332881980667277168082624710019624308690176438771166395533822374851671342487380740499956320956574548498924606595495279115775146982415710342908272400279413252013523177565360647471110935934742826013784788632976241862673698359934668434261463630373047163267202459454095008789339077316252853418474245489064803755451071099596185245104723413090415895117170453797470718816680560692697886319018932205259549267002837488249848583416259964134576013762079351553877997621830217822658600161397769514345136440971308376825073470709266039255227247933037702972738094167664381556295619943727572485310238137489432570464197814344074146113980683867741905159004593729892476496400504809502737957858647711297471723888943191515968815287382111705340319136112382094975149344498083391538786489718739774445347144424974367688876921439550589495204910172390128835011066990591407958330527048387063184990835331768552580736927592912185943870674481
+TOTAL EXECUTION TIME: 0.020446221984457225
+0.02045328397070989
+22905852508458802066829138399313104681598066470894262361320382682232293015953594696068443913976334250774194071160575331688616227189238389275716071216030261736893149725855717663860862800269163649529216674616625277552197373544637104061603282044627130505929734041840570944333574580107613412931917657468627244219946190701298044365627073334216794051318152978333146624899835800395086029274483549093361985285150816978553270014780389635351917574007437592225833446306478715885232042028096276268906916589146901963038494023634600279639301447352328353997790189210388005055772263927219657348205422930909275858447317977876431650832328050755584651756099784755540668760906776395714025492597246745483873479931859899233737919838399142567423966871543011054243008803065048907675034459017292186581743590720937681725938978244675451273375005402663276508652465343769711077853426014712148630933765569570491589541349896167266875985862900776633264500214116446393897546415185662331633391463198647567979442526802469728856478801528717113428258905616130268497726175633159634724517750189388673775525068600748340767273035614269690621223771737630880564785009550418457311130656623054416941884963196164210398806313279751096451923502357807874556296364759989376091675778798704711188071419161979271534518170109837789818934701090616861004179103319475591450935506580266353906985318910124042475750519233584650579874952591835478874061341825753069244638403491945186701057649871853144789752197606528053410309790664993056335432184918067835881506414066358776788347928093185145445244219645920852702074550184250576993781551718498376323155218194508801129411393971544537225862723083823404564499992268859671340829092003574958205450663699933108006801653786796069729471046976694450749982149765422205745991838671899769270770546333956151524018843243571976095321822018393332840589406639466038373957908610329678939637769536740669636515976188048884008955039375407991378139272114846010687872159451560781027696002062285112485679077892277517573400970266941680412360410711679859115786286725888568478194714593184739697729514691857324266868314791021001398715599067188874863097682533075076250706369979533392555471115961369144803423233838612937930192197932693943640600189213892210268452375148182799061761247659534858127293050934297810073772709610040065665785537760809694695183808103837822337296567829175486963534080281220628588219893529414514830288810430812509274461130536886656317404564459319039399265054178499009409360082262790874713870324349734462477841216095606813068970636927032526856127758560644890082885053844393096836204425019673853096554455437702565723312407851405642212187112610394117860047396760859230370691142572954189408126978401540088451330992105631907130346437454784557164892152411267697189675523550586126793527091754603641619822709166283574591990870436443623798262403855306590831409072079566317669384188754791142358962997274604618313249184526211006102515650919632869123519886766919828212925311432193167226830435834069905700525148855752566919191984249435610934547248871480994824249771902419573050026633855616119338529107528962201502919510434026762510305320475843532880006240459097225480650208869343031865848758502578175275464914965327530455836960192616296432585853729589680637893773982084766149714825942220479713732261279024412289488002113601569332881980667277168082624710019624308690176438771166395533822374851671342487380740499956320956574548498924606595495279115775146982415710342908272400279413252013523177565360647471110935934742826013784788632976241862673698359934668434261463630373047163267202459454095008789339077316252853418474245489064803755451071099596185245104723413090415895117170453797470718816680560692697886319018932205259549267002837488249848583416259964134576013762079351553877997621830217822658600161397769514345136440971308376825073470709266039255227247933037702972738094167664381556295619943727572485310238137489432570464197814344074146113980683867741905159004593729892476496400504809502737957858647711297471723888943191515968815287382111705340319136112382094975149344498083391538786489718739774445347144424974367688876921439550589495204910172390128835011066990591407958330527048387063184990835331768552580736927592912185943870674481
+TOTAL EXECUTION TIME: 0.004450488951988518
+0.0044558930094353855
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 12.089497488981578
-TOTAL EXECUTION TIME: 12.269037146004848
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
+python mov_robots_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+TOTAL EXECUTION TIME: 0.013878529018256813
+0.013885285006836057
+TOTAL EXECUTION TIME: 0.010709839989431202
+0.010717532015405595
 
-python test_laplace_jacobi_4.py 200 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-367.40899053798057
-376.7136260580155
-TOTAL EXECUTION TIME: 744.1299770099577
-0.0013214899809099734
-0.00032533396733924747
-TOTAL EXECUTION TIME: 0.00381424801889807
 
-
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-gen:  0  min fit:  15  avg fit:  15.95
-gen:  1  min fit:  15  avg fit:  15.85
-gen:  2  min fit:  14  avg fit:  15.15
-gen:  3  min fit:  13  avg fit:  15.0
-gen:  4  min fit:  11  avg fit:  14.1
-gen:  5  min fit:  11  avg fit:  13.4
-gen:  6  min fit:  9  avg fit:  12.4
-gen:  7  min fit:  9  avg fit:  11.35
-gen:  8  min fit:  8  avg fit:  10.6
-gen:  9  min fit:  9  avg fit:  10.45
-gen:  10  min fit:  8  avg fit:  10.05
-gen:  11  min fit:  7  avg fit:  9.2
-gen:  12  min fit:  7  avg fit:  8.8
-gen:  13  min fit:  5  avg fit:  8.4
-gen:  14  min fit:  6  avg fit:  7.7
-gen:  15  min fit:  5  avg fit:  6.75
-gen:  16  min fit:  4  avg fit:  5.95
-gen:  17  min fit:  4  avg fit:  5.45
-gen:  18  min fit:  3  avg fit:  4.85
-gen:  19  min fit:  3  avg fit:  4.6
-gen:  20  min fit:  2  avg fit:  4.3
-gen:  21  min fit:  2  avg fit:  3.85
-gen:  22  min fit:  2  avg fit:  3.7
-gen:  23  min fit:  2  avg fit:  3.45
-gen:  24  min fit:  2  avg fit:  3.4
-gen:  25  min fit:  2  avg fit:  3.3
-gen:  26  min fit:  1  avg fit:  2.8
-gen:  27  min fit:  1  avg fit:  2.3
-gen:  28  min fit:  1  avg fit:  2.3
-gen:  29  min fit:  1  avg fit:  2.45
-gen:  30  min fit:  0  avg fit:  1.85
-Best individual in last population: 
-Query best individual in last population with all True inputs:
-True
-TOTAL EXECUTION TIME: 0.3256893799989484
-gen:  0  min fit:  16  avg fit:  16.0
-gen:  1  min fit:  15  avg fit:  15.9
-gen:  2  min fit:  14  avg fit:  15.45
-gen:  3  min fit:  13  avg fit:  14.5
-gen:  4  min fit:  12  avg fit:  13.6
-gen:  5  min fit:  10  avg fit:  13.3
-gen:  6  min fit:  11  avg fit:  13.05
-gen:  7  min fit:  9  avg fit:  12.15
-gen:  8  min fit:  10  avg fit:  11.75
-gen:  9  min fit:  8  avg fit:  10.1
-gen:  10  min fit:  8  avg fit:  10.1
-gen:  11  min fit:  6  avg fit:  9.45
-gen:  12  min fit:  6  avg fit:  8.95
-gen:  13  min fit:  6  avg fit:  7.4
-gen:  14  min fit:  5  avg fit:  7.0
-gen:  15  min fit:  5  avg fit:  6.8
-gen:  16  min fit:  5  avg fit:  6.3
-gen:  17  min fit:  4  avg fit:  6.4
-gen:  18  min fit:  3  avg fit:  6.25
-gen:  19  min fit:  3  avg fit:  5.5
-gen:  20  min fit:  3  avg fit:  4.5
-gen:  21  min fit:  2  avg fit:  3.95
-gen:  22  min fit:  2  avg fit:  3.85
-gen:  23  min fit:  1  avg fit:  3.15
-gen:  24  min fit:  1  avg fit:  2.75
-gen:  25  min fit:  1  avg fit:  2.35
-gen:  26  min fit:  0  avg fit:  1.75
-gen:  27  min fit:  0  avg fit:  1.55
-gen:  28  min fit:  0  avg fit:  1.5
-gen:  29  min fit:  0  avg fit:  1.05
-gen:  30  min fit:  0  avg fit:  1.1
-Best individual in last population: 
-Query best individual in last population with all True inputs:
-True
-TOTAL EXECUTION TIME: 0.3157106059952639
+python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:14: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  return fsolve(func=lambda x: n * C / (1 + Kd1 / x) + n2 * C / (1 + Kd2 / x) - T, x0=F_solution, xtol=1e-06)
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:23: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+0.06567625800380483
+TOTAL EXECUTION TIME: 0.07419090199982747
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:14: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  return fsolve(func=lambda x: n * C / (1 + Kd1 / x) + n2 * C / (1 + Kd2 / x) - T, x0=F_solution, xtol=1e-06)
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:23: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+0.06386131601175293
+TOTAL EXECUTION TIME: 0.0689106360077858
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
-
-python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-9.014930708042812
-7.490942393953446
 
-TOTAL EXECUTION TIME: 16.96290952299023
-0.08752265898510814
-0.07909964298596606
 
-TOTAL EXECUTION TIME: 0.16895091300830245
+python power.py 1241231241 462 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+22905852508458802066829138399313104681598066470894262361320382682232293015953594696068443913976334250774194071160575331688616227189238389275716071216030261736893149725855717663860862800269163649529216674616625277552197373544637104061603282044627130505929734041840570944333574580107613412931917657468627244219946190701298044365627073334216794051318152978333146624899835800395086029274483549093361985285150816978553270014780389635351917574007437592225833446306478715885232042028096276268906916589146901963038494023634600279639301447352328353997790189210388005055772263927219657348205422930909275858447317977876431650832328050755584651756099784755540668760906776395714025492597246745483873479931859899233737919838399142567423966871543011054243008803065048907675034459017292186581743590720937681725938978244675451273375005402663276508652465343769711077853426014712148630933765569570491589541349896167266875985862900776633264500214116446393897546415185662331633391463198647567979442526802469728856478801528717113428258905616130268497726175633159634724517750189388673775525068600748340767273035614269690621223771737630880564785009550418457311130656623054416941884963196164210398806313279751096451923502357807874556296364759989376091675778798704711188071419161979271534518170109837789818934701090616861004179103319475591450935506580266353906985318910124042475750519233584650579874952591835478874061341825753069244638403491945186701057649871853144789752197606528053410309790664993056335432184918067835881506414066358776788347928093185145445244219645920852702074550184250576993781551718498376323155218194508801129411393971544537225862723083823404564499992268859671340829092003574958205450663699933108006801653786796069729471046976694450749982149765422205745991838671899769270770546333956151524018843243571976095321822018393332840589406639466038373957908610329678939637769536740669636515976188048884008955039375407991378139272114846010687872159451560781027696002062285112485679077892277517573400970266941680412360410711679859115786286725888568478194714593184739697729514691857324266868314791021001398715599067188874863097682533075076250706369979533392555471115961369144803423233838612937930192197932693943640600189213892210268452375148182799061761247659534858127293050934297810073772709610040065665785537760809694695183808103837822337296567829175486963534080281220628588219893529414514830288810430812509274461130536886656317404564459319039399265054178499009409360082262790874713870324349734462477841216095606813068970636927032526856127758560644890082885053844393096836204425019673853096554455437702565723312407851405642212187112610394117860047396760859230370691142572954189408126978401540088451330992105631907130346437454784557164892152411267697189675523550586126793527091754603641619822709166283574591990870436443623798262403855306590831409072079566317669384188754791142358962997274604618313249184526211006102515650919632869123519886766919828212925311432193167226830435834069905700525148855752566919191984249435610934547248871480994824249771902419573050026633855616119338529107528962201502919510434026762510305320475843532880006240459097225480650208869343031865848758502578175275464914965327530455836960192616296432585853729589680637893773982084766149714825942220479713732261279024412289488002113601569332881980667277168082624710019624308690176438771166395533822374851671342487380740499956320956574548498924606595495279115775146982415710342908272400279413252013523177565360647471110935934742826013784788632976241862673698359934668434261463630373047163267202459454095008789339077316252853418474245489064803755451071099596185245104723413090415895117170453797470718816680560692697886319018932205259549267002837488249848583416259964134576013762079351553877997621830217822658600161397769514345136440971308376825073470709266039255227247933037702972738094167664381556295619943727572485310238137489432570464197814344074146113980683867741905159004593729892476496400504809502737957858647711297471723888943191515968815287382111705340319136112382094975149344498083391538786489718739774445347144424974367688876921439550589495204910172390128835011066990591407958330527048387063184990835331768552580736927592912185943870674481
+TOTAL EXECUTION TIME: 0.02085001301020384
+0.020857734023593366
+22905852508458802066829138399313104681598066470894262361320382682232293015953594696068443913976334250774194071160575331688616227189238389275716071216030261736893149725855717663860862800269163649529216674616625277552197373544637104061603282044627130505929734041840570944333574580107613412931917657468627244219946190701298044365627073334216794051318152978333146624899835800395086029274483549093361985285150816978553270014780389635351917574007437592225833446306478715885232042028096276268906916589146901963038494023634600279639301447352328353997790189210388005055772263927219657348205422930909275858447317977876431650832328050755584651756099784755540668760906776395714025492597246745483873479931859899233737919838399142567423966871543011054243008803065048907675034459017292186581743590720937681725938978244675451273375005402663276508652465343769711077853426014712148630933765569570491589541349896167266875985862900776633264500214116446393897546415185662331633391463198647567979442526802469728856478801528717113428258905616130268497726175633159634724517750189388673775525068600748340767273035614269690621223771737630880564785009550418457311130656623054416941884963196164210398806313279751096451923502357807874556296364759989376091675778798704711188071419161979271534518170109837789818934701090616861004179103319475591450935506580266353906985318910124042475750519233584650579874952591835478874061341825753069244638403491945186701057649871853144789752197606528053410309790664993056335432184918067835881506414066358776788347928093185145445244219645920852702074550184250576993781551718498376323155218194508801129411393971544537225862723083823404564499992268859671340829092003574958205450663699933108006801653786796069729471046976694450749982149765422205745991838671899769270770546333956151524018843243571976095321822018393332840589406639466038373957908610329678939637769536740669636515976188048884008955039375407991378139272114846010687872159451560781027696002062285112485679077892277517573400970266941680412360410711679859115786286725888568478194714593184739697729514691857324266868314791021001398715599067188874863097682533075076250706369979533392555471115961369144803423233838612937930192197932693943640600189213892210268452375148182799061761247659534858127293050934297810073772709610040065665785537760809694695183808103837822337296567829175486963534080281220628588219893529414514830288810430812509274461130536886656317404564459319039399265054178499009409360082262790874713870324349734462477841216095606813068970636927032526856127758560644890082885053844393096836204425019673853096554455437702565723312407851405642212187112610394117860047396760859230370691142572954189408126978401540088451330992105631907130346437454784557164892152411267697189675523550586126793527091754603641619822709166283574591990870436443623798262403855306590831409072079566317669384188754791142358962997274604618313249184526211006102515650919632869123519886766919828212925311432193167226830435834069905700525148855752566919191984249435610934547248871480994824249771902419573050026633855616119338529107528962201502919510434026762510305320475843532880006240459097225480650208869343031865848758502578175275464914965327530455836960192616296432585853729589680637893773982084766149714825942220479713732261279024412289488002113601569332881980667277168082624710019624308690176438771166395533822374851671342487380740499956320956574548498924606595495279115775146982415710342908272400279413252013523177565360647471110935934742826013784788632976241862673698359934668434261463630373047163267202459454095008789339077316252853418474245489064803755451071099596185245104723413090415895117170453797470718816680560692697886319018932205259549267002837488249848583416259964134576013762079351553877997621830217822658600161397769514345136440971308376825073470709266039255227247933037702972738094167664381556295619943727572485310238137489432570464197814344074146113980683867741905159004593729892476496400504809502737957858647711297471723888943191515968815287382111705340319136112382094975149344498083391538786489718739774445347144424974367688876921439550589495204910172390128835011066990591407958330527048387063184990835331768552580736927592912185943870674481
+TOTAL EXECUTION TIME: 0.004687322943937033
+0.004693990049418062
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-python copy_matrix_serial_speedupy.py 6250 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-90.56498043198371
-TOTAL EXECUTION TIME: 94.06478191900533
-13.419334231002722
-TOTAL EXECUTION TIME: 14.825946429977193
+python mov_robots_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+TOTAL EXECUTION TIME: 0.013877880992367864
+0.013885099033359438
+TOTAL EXECUTION TIME: 0.010820631985552609
+0.010827100020833313
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 0.07051902497187257
-TOTAL EXECUTION TIME: 0.06697362696286291
+python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:14: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  return fsolve(func=lambda x: n * C / (1 + Kd1 / x) + n2 * C / (1 + Kd2 / x) - T, x0=F_solution, xtol=1e-06)
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:23: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+0.06430109502980486
+TOTAL EXECUTION TIME: 0.0727157539804466
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:14: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  return fsolve(func=lambda x: n * C / (1 + Kd1 / x) + n2 * C / (1 + Kd2 / x) - T, x0=F_solution, xtol=1e-06)
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:23: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+0.06560662697302178
+TOTAL EXECUTION TIME: 0.07093445601640269
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 0.18165914504788816
-TOTAL EXECUTION TIME: 0.17525716999080032
+python power.py 1241231241 462 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+22905852508458802066829138399313104681598066470894262361320382682232293015953594696068443913976334250774194071160575331688616227189238389275716071216030261736893149725855717663860862800269163649529216674616625277552197373544637104061603282044627130505929734041840570944333574580107613412931917657468627244219946190701298044365627073334216794051318152978333146624899835800395086029274483549093361985285150816978553270014780389635351917574007437592225833446306478715885232042028096276268906916589146901963038494023634600279639301447352328353997790189210388005055772263927219657348205422930909275858447317977876431650832328050755584651756099784755540668760906776395714025492597246745483873479931859899233737919838399142567423966871543011054243008803065048907675034459017292186581743590720937681725938978244675451273375005402663276508652465343769711077853426014712148630933765569570491589541349896167266875985862900776633264500214116446393897546415185662331633391463198647567979442526802469728856478801528717113428258905616130268497726175633159634724517750189388673775525068600748340767273035614269690621223771737630880564785009550418457311130656623054416941884963196164210398806313279751096451923502357807874556296364759989376091675778798704711188071419161979271534518170109837789818934701090616861004179103319475591450935506580266353906985318910124042475750519233584650579874952591835478874061341825753069244638403491945186701057649871853144789752197606528053410309790664993056335432184918067835881506414066358776788347928093185145445244219645920852702074550184250576993781551718498376323155218194508801129411393971544537225862723083823404564499992268859671340829092003574958205450663699933108006801653786796069729471046976694450749982149765422205745991838671899769270770546333956151524018843243571976095321822018393332840589406639466038373957908610329678939637769536740669636515976188048884008955039375407991378139272114846010687872159451560781027696002062285112485679077892277517573400970266941680412360410711679859115786286725888568478194714593184739697729514691857324266868314791021001398715599067188874863097682533075076250706369979533392555471115961369144803423233838612937930192197932693943640600189213892210268452375148182799061761247659534858127293050934297810073772709610040065665785537760809694695183808103837822337296567829175486963534080281220628588219893529414514830288810430812509274461130536886656317404564459319039399265054178499009409360082262790874713870324349734462477841216095606813068970636927032526856127758560644890082885053844393096836204425019673853096554455437702565723312407851405642212187112610394117860047396760859230370691142572954189408126978401540088451330992105631907130346437454784557164892152411267697189675523550586126793527091754603641619822709166283574591990870436443623798262403855306590831409072079566317669384188754791142358962997274604618313249184526211006102515650919632869123519886766919828212925311432193167226830435834069905700525148855752566919191984249435610934547248871480994824249771902419573050026633855616119338529107528962201502919510434026762510305320475843532880006240459097225480650208869343031865848758502578175275464914965327530455836960192616296432585853729589680637893773982084766149714825942220479713732261279024412289488002113601569332881980667277168082624710019624308690176438771166395533822374851671342487380740499956320956574548498924606595495279115775146982415710342908272400279413252013523177565360647471110935934742826013784788632976241862673698359934668434261463630373047163267202459454095008789339077316252853418474245489064803755451071099596185245104723413090415895117170453797470718816680560692697886319018932205259549267002837488249848583416259964134576013762079351553877997621830217822658600161397769514345136440971308376825073470709266039255227247933037702972738094167664381556295619943727572485310238137489432570464197814344074146113980683867741905159004593729892476496400504809502737957858647711297471723888943191515968815287382111705340319136112382094975149344498083391538786489718739774445347144424974367688876921439550589495204910172390128835011066990591407958330527048387063184990835331768552580736927592912185943870674481
+TOTAL EXECUTION TIME: 0.021330722025595605
+0.021337461017537862
+22905852508458802066829138399313104681598066470894262361320382682232293015953594696068443913976334250774194071160575331688616227189238389275716071216030261736893149725855717663860862800269163649529216674616625277552197373544637104061603282044627130505929734041840570944333574580107613412931917657468627244219946190701298044365627073334216794051318152978333146624899835800395086029274483549093361985285150816978553270014780389635351917574007437592225833446306478715885232042028096276268906916589146901963038494023634600279639301447352328353997790189210388005055772263927219657348205422930909275858447317977876431650832328050755584651756099784755540668760906776395714025492597246745483873479931859899233737919838399142567423966871543011054243008803065048907675034459017292186581743590720937681725938978244675451273375005402663276508652465343769711077853426014712148630933765569570491589541349896167266875985862900776633264500214116446393897546415185662331633391463198647567979442526802469728856478801528717113428258905616130268497726175633159634724517750189388673775525068600748340767273035614269690621223771737630880564785009550418457311130656623054416941884963196164210398806313279751096451923502357807874556296364759989376091675778798704711188071419161979271534518170109837789818934701090616861004179103319475591450935506580266353906985318910124042475750519233584650579874952591835478874061341825753069244638403491945186701057649871853144789752197606528053410309790664993056335432184918067835881506414066358776788347928093185145445244219645920852702074550184250576993781551718498376323155218194508801129411393971544537225862723083823404564499992268859671340829092003574958205450663699933108006801653786796069729471046976694450749982149765422205745991838671899769270770546333956151524018843243571976095321822018393332840589406639466038373957908610329678939637769536740669636515976188048884008955039375407991378139272114846010687872159451560781027696002062285112485679077892277517573400970266941680412360410711679859115786286725888568478194714593184739697729514691857324266868314791021001398715599067188874863097682533075076250706369979533392555471115961369144803423233838612937930192197932693943640600189213892210268452375148182799061761247659534858127293050934297810073772709610040065665785537760809694695183808103837822337296567829175486963534080281220628588219893529414514830288810430812509274461130536886656317404564459319039399265054178499009409360082262790874713870324349734462477841216095606813068970636927032526856127758560644890082885053844393096836204425019673853096554455437702565723312407851405642212187112610394117860047396760859230370691142572954189408126978401540088451330992105631907130346437454784557164892152411267697189675523550586126793527091754603641619822709166283574591990870436443623798262403855306590831409072079566317669384188754791142358962997274604618313249184526211006102515650919632869123519886766919828212925311432193167226830435834069905700525148855752566919191984249435610934547248871480994824249771902419573050026633855616119338529107528962201502919510434026762510305320475843532880006240459097225480650208869343031865848758502578175275464914965327530455836960192616296432585853729589680637893773982084766149714825942220479713732261279024412289488002113601569332881980667277168082624710019624308690176438771166395533822374851671342487380740499956320956574548498924606595495279115775146982415710342908272400279413252013523177565360647471110935934742826013784788632976241862673698359934668434261463630373047163267202459454095008789339077316252853418474245489064803755451071099596185245104723413090415895117170453797470718816680560692697886319018932205259549267002837488249848583416259964134576013762079351553877997621830217822658600161397769514345136440971308376825073470709266039255227247933037702972738094167664381556295619943727572485310238137489432570464197814344074146113980683867741905159004593729892476496400504809502737957858647711297471723888943191515968815287382111705340319136112382094975149344498083391538786489718739774445347144424974367688876921439550589495204910172390128835011066990591407958330527048387063184990835331768552580736927592912185943870674481
+TOTAL EXECUTION TIME: 0.0045022700214758515
+0.004507963021751493
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-1.7466566229704767
-TOTAL EXECUTION TIME: 2.200955026957672
-0.23100942297605798
-TOTAL EXECUTION TIME: 0.23309121100464836
+python mov_robots_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+TOTAL EXECUTION TIME: 0.01401995198102668
+0.014026650052983314
+TOTAL EXECUTION TIME: 0.010592256032396108
+0.010598817025311291
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 13.669054491969291
-13.66907106997678
-TOTAL EXECUTION TIME: 14.798711338022258
-14.798726438020822
+python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:14: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  return fsolve(func=lambda x: n * C / (1 + Kd1 / x) + n2 * C / (1 + Kd2 / x) - T, x0=F_solution, xtol=1e-06)
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:23: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+0.06383809202816337
+TOTAL EXECUTION TIME: 0.07218583696521819
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:14: RuntimeWarning: The iteration is not making good progress, as measured by the 
+  improvement from the last ten iterations.
+  return fsolve(func=lambda x: n * C / (1 + Kd1 / x) + n2 * C / (1 + Kd2 / x) - T, x0=F_solution, xtol=1e-06)
+/home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver/eq_solver_speedupy.py:23: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+0.0640278909704648
+TOTAL EXECUTION TIME: 0.06913635099772364
 
 
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 
-python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
-TOTAL EXECUTION TIME: 12.24855276796734
-TOTAL EXECUTION TIME: 13.080416160984896
+python power.py 1241231241 462 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+22905852508458802066829138399313104681598066470894262361320382682232293015953594696068443913976334250774194071160575331688616227189238389275716071216030261736893149725855717663860862800269163649529216674616625277552197373544637104061603282044627130505929734041840570944333574580107613412931917657468627244219946190701298044365627073334216794051318152978333146624899835800395086029274483549093361985285150816978553270014780389635351917574007437592225833446306478715885232042028096276268906916589146901963038494023634600279639301447352328353997790189210388005055772263927219657348205422930909275858447317977876431650832328050755584651756099784755540668760906776395714025492597246745483873479931859899233737919838399142567423966871543011054243008803065048907675034459017292186581743590720937681725938978244675451273375005402663276508652465343769711077853426014712148630933765569570491589541349896167266875985862900776633264500214116446393897546415185662331633391463198647567979442526802469728856478801528717113428258905616130268497726175633159634724517750189388673775525068600748340767273035614269690621223771737630880564785009550418457311130656623054416941884963196164210398806313279751096451923502357807874556296364759989376091675778798704711188071419161979271534518170109837789818934701090616861004179103319475591450935506580266353906985318910124042475750519233584650579874952591835478874061341825753069244638403491945186701057649871853144789752197606528053410309790664993056335432184918067835881506414066358776788347928093185145445244219645920852702074550184250576993781551718498376323155218194508801129411393971544537225862723083823404564499992268859671340829092003574958205450663699933108006801653786796069729471046976694450749982149765422205745991838671899769270770546333956151524018843243571976095321822018393332840589406639466038373957908610329678939637769536740669636515976188048884008955039375407991378139272114846010687872159451560781027696002062285112485679077892277517573400970266941680412360410711679859115786286725888568478194714593184739697729514691857324266868314791021001398715599067188874863097682533075076250706369979533392555471115961369144803423233838612937930192197932693943640600189213892210268452375148182799061761247659534858127293050934297810073772709610040065665785537760809694695183808103837822337296567829175486963534080281220628588219893529414514830288810430812509274461130536886656317404564459319039399265054178499009409360082262790874713870324349734462477841216095606813068970636927032526856127758560644890082885053844393096836204425019673853096554455437702565723312407851405642212187112610394117860047396760859230370691142572954189408126978401540088451330992105631907130346437454784557164892152411267697189675523550586126793527091754603641619822709166283574591990870436443623798262403855306590831409072079566317669384188754791142358962997274604618313249184526211006102515650919632869123519886766919828212925311432193167226830435834069905700525148855752566919191984249435610934547248871480994824249771902419573050026633855616119338529107528962201502919510434026762510305320475843532880006240459097225480650208869343031865848758502578175275464914965327530455836960192616296432585853729589680637893773982084766149714825942220479713732261279024412289488002113601569332881980667277168082624710019624308690176438771166395533822374851671342487380740499956320956574548498924606595495279115775146982415710342908272400279413252013523177565360647471110935934742826013784788632976241862673698359934668434261463630373047163267202459454095008789339077316252853418474245489064803755451071099596185245104723413090415895117170453797470718816680560692697886319018932205259549267002837488249848583416259964134576013762079351553877997621830217822658600161397769514345136440971308376825073470709266039255227247933037702972738094167664381556295619943727572485310238137489432570464197814344074146113980683867741905159004593729892476496400504809502737957858647711297471723888943191515968815287382111705340319136112382094975149344498083391538786489718739774445347144424974367688876921439550589495204910172390128835011066990591407958330527048387063184990835331768552580736927592912185943870674481
+TOTAL EXECUTION TIME: 0.020570204011164606
+0.02057714300462976
+22905852508458802066829138399313104681598066470894262361320382682232293015953594696068443913976334250774194071160575331688616227189238389275716071216030261736893149725855717663860862800269163649529216674616625277552197373544637104061603282044627130505929734041840570944333574580107613412931917657468627244219946190701298044365627073334216794051318152978333146624899835800395086029274483549093361985285150816978553270014780389635351917574007437592225833446306478715885232042028096276268906916589146901963038494023634600279639301447352328353997790189210388005055772263927219657348205422930909275858447317977876431650832328050755584651756099784755540668760906776395714025492597246745483873479931859899233737919838399142567423966871543011054243008803065048907675034459017292186581743590720937681725938978244675451273375005402663276508652465343769711077853426014712148630933765569570491589541349896167266875985862900776633264500214116446393897546415185662331633391463198647567979442526802469728856478801528717113428258905616130268497726175633159634724517750189388673775525068600748340767273035614269690621223771737630880564785009550418457311130656623054416941884963196164210398806313279751096451923502357807874556296364759989376091675778798704711188071419161979271534518170109837789818934701090616861004179103319475591450935506580266353906985318910124042475750519233584650579874952591835478874061341825753069244638403491945186701057649871853144789752197606528053410309790664993056335432184918067835881506414066358776788347928093185145445244219645920852702074550184250576993781551718498376323155218194508801129411393971544537225862723083823404564499992268859671340829092003574958205450663699933108006801653786796069729471046976694450749982149765422205745991838671899769270770546333956151524018843243571976095321822018393332840589406639466038373957908610329678939637769536740669636515976188048884008955039375407991378139272114846010687872159451560781027696002062285112485679077892277517573400970266941680412360410711679859115786286725888568478194714593184739697729514691857324266868314791021001398715599067188874863097682533075076250706369979533392555471115961369144803423233838612937930192197932693943640600189213892210268452375148182799061761247659534858127293050934297810073772709610040065665785537760809694695183808103837822337296567829175486963534080281220628588219893529414514830288810430812509274461130536886656317404564459319039399265054178499009409360082262790874713870324349734462477841216095606813068970636927032526856127758560644890082885053844393096836204425019673853096554455437702565723312407851405642212187112610394117860047396760859230370691142572954189408126978401540088451330992105631907130346437454784557164892152411267697189675523550586126793527091754603641619822709166283574591990870436443623798262403855306590831409072079566317669384188754791142358962997274604618313249184526211006102515650919632869123519886766919828212925311432193167226830435834069905700525148855752566919191984249435610934547248871480994824249771902419573050026633855616119338529107528962201502919510434026762510305320475843532880006240459097225480650208869343031865848758502578175275464914965327530455836960192616296432585853729589680637893773982084766149714825942220479713732261279024412289488002113601569332881980667277168082624710019624308690176438771166395533822374851671342487380740499956320956574548498924606595495279115775146982415710342908272400279413252013523177565360647471110935934742826013784788632976241862673698359934668434261463630373047163267202459454095008789339077316252853418474245489064803755451071099596185245104723413090415895117170453797470718816680560692697886319018932205259549267002837488249848583416259964134576013762079351553877997621830217822658600161397769514345136440971308376825073470709266039255227247933037702972738094167664381556295619943727572485310238137489432570464197814344074146113980683867741905159004593729892476496400504809502737957858647711297471723888943191515968815287382111705340319136112382094975149344498083391538786489718739774445347144424974367688876921439550589495204910172390128835011066990591407958330527048387063184990835331768552580736927592912185943870674481
+TOTAL EXECUTION TIME: 0.004499492002651095
+0.00450546300271526
