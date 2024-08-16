@@ -1,0 +1,6141 @@
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running for SET_2!
+deterministic_calls: 1901
+cache_miss_rate: 0.06
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>> Trial 1
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.6237599619780667
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.20912578201387078
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.21664614899782464
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.21502601698739454
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 2
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.6468176399939694
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.2137885779957287
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.21258408200810663
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.20899026899132878
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 3
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.6484058529895265
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.21053925799787976
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.2143036189954728
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.2098450989869889
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 4
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.6253733759804163
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.20950788201298565
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.21524727999349125
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.211093849997269
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 5
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.640568609989714
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.21405258600134403
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.21138946400606073
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.21112497500143945
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 6
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.6404292640218046
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.21015021100174636
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.21357452700613067
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.2104364560218528
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 7
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.6488855450006668
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.20874023300711997
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.21739438397344202
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.20857724000234157
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 8
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.6386594270006754
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.21205482899677008
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.21627904401975684
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.20996118601760827
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 9
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.644943655002862
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.2102591989969369
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.21343242898001336
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.21004578602151014
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 10
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.5934548240038566
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.21111557600670494
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.2115062850061804
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.21003974799532443
+---------------------------------------------------
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running for SET_3!
+deterministic_calls: 2554
+cache_miss_rate: 0.16
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>> Trial 1
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.552418867009692
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.6622435080062132
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.6568280950014014
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.6665243299794383
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 2
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.5444752739858814
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.6536013230215758
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.6589910309994593
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.6674070820154157
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 3
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.5339619549922645
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.6586504800070543
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.6474911750119645
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.659665675018914
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 4
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.530063124024309
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.6583624460035935
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.6590474830009043
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.6645539799937978
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 5
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.54064783200738
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.6576805980002973
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.6611027210019529
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.6582977279904298
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 6
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.535688581992872
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.6584639129869174
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.6572050230170134
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.6597549070138484
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 7
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.5466039500024635
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.6601095230143983
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.6576689319917932
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.6681672139966395
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 8
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.5478138019971084
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.63746726399404
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.6654908079945017
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.6671678040002007
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 9
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.556681665009819
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.6559565149946138
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.6651618979813065
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.6579194600053597
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 10
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.529449058987666
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.6582737359858584
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.6621073860151228
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.663926444016397
+---------------------------------------------------
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running for SET_4!
+deterministic_calls: 3917
+cache_miss_rate: 0.03
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>> Trial 1
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 5.419018169021001
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24151749597513117
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24699266700190492
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24036602501291782
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 2
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 5.432976092008175
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24500034400261939
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24688761800643988
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24247443201602437
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 3
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 5.4200933880056255
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24503019099938683
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.2438259450136684
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24710933899041265
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 4
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 5.43601220700657
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24160358498920687
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.243442771025002
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24503340999945067
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 5
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 5.437109905004036
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24486019799951464
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24852353101596236
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24084390301140957
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 6
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 5.4562143640068825
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24053812699276023
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24408589699305594
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24016944799222983
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 7
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 5.4243827530008275
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.23979680499178357
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.2440490610024426
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24237638502381742
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 8
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 5.445178941998165
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24058317102026194
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24615734000690281
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24019279901403934
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 9
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 5.4347499810101
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24033906299155205
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24319814398768358
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.2396123790240381
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 10
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 5.42579709898564
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.23932796099688858
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24640490001183935
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.2433866319770459
+---------------------------------------------------
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running for SET_5!
+deterministic_calls: 4225
+cache_miss_rate: 0.18
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>> Trial 1
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 5.856311182986246
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.2063745130144525
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.177223367994884
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.2026858259923756
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 2
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 5.874358564993599
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.2060087730060332
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.1929390050063375
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.199106952000875
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 3
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 5.858527589996811
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.2047462650225498
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.200063874013722
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.2087845010100864
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 4
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 5.8729480110050645
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.19601174100535
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.1917123009916395
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.2016029669903219
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 5
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 5.8641789440007415
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.1963276139867958
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.2093888430099469
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.1986765330075286
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 6
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 5.85719962202711
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.1975776019971818
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.204629592015408
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.1937371679814532
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 7
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 5.867992817016784
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.2064865319989622
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.1932886620052159
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.2138930940127466
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 8
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 5.878759101993637
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.190312544000335
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.2119701149931643
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.2070697449962609
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 9
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 5.863239608996082
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.1975318570039235
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.2036944779974874
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.2037025679892395
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 10
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 5.8611717890016735
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.2053500180190895
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.1942320719826967
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.202246635017218
+---------------------------------------------------
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running for SET_6!
+deterministic_calls: 5331
+cache_miss_rate: 0.02
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>> Trial 1
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 7.417486125021242
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.23877355598961003
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.2426966019847896
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.23612845200113952
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 2
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 7.424167830991792
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.2413442590041086
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24750022299122065
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.2402163480001036
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 3
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 7.403306125983363
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.23977030999958515
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24921855601132847
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24347346497233957
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 4
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 7.417101481987629
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.2376064489944838
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24442714598262683
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24105465397587977
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 5
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 7.410150269017322
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.23816743399947882
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.2422896480129566
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.2374081460002344
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 6
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 7.4143374229897745
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.2433202450047247
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24165388202527538
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.23854150000261143
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 7
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 7.387317423010245
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.2436937230231706
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.2433978950139135
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.23609139400650747
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 8
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 7.394025804998819
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24202970700571314
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24143016900052316
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.2389105290058069
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 9
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 7.399198314000387
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.238420067995321
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24298343798727728
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.23717657799716108
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 10
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 7.430737482995028
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.24112317300750874
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.2443377210001927
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.23948361398652196
+---------------------------------------------------
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running for SET_7!
+deterministic_calls: 6449
+cache_miss_rate: 0.13
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>> Trial 1
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 8.929480200982653
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.354632901988225
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3504328800190706
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3466284569876734
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 2
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 8.988969817990437
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3186841199931223
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3010028779972345
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3651967920013703
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 3
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 9.031368318013847
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3450095430016518
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3476014940242749
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3495529589999933
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 4
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 8.944296722009312
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3345206450030673
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3461638549924828
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3599785619881004
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 5
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 9.028964894998353
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.356962546997238
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3555306020134594
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3571402019879315
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 6
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 8.988360935007222
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3609898680006154
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.359422707988415
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3568593249947298
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 7
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 8.963636637985473
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3424960970005486
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3489457489922643
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3575040029827505
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 8
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 8.995925447990885
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.303505302988924
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.349187312007416
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3464220089954324
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 9
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 8.989864478004165
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3510865550197195
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3156909639947116
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3218445839884225
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 10
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 9.00279993400909
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3410717910155654
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3086736449913587
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.350109530001646
+---------------------------------------------------
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running for SET_8!
+deterministic_calls: 7011
+cache_miss_rate: 0.0
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Ajustando cache_miss_rate: 0.0001426330052774212
+
+>>>>>>>>>>> Trial 1
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 9.713319839007454
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.07716724797501229
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.08412376599153504
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.08310992000042461
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 2
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 9.750988217012491
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.07843166001839563
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.08503529999870807
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.08037668201723136
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 3
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 9.72073265898507
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.07866113699856214
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.09208714301348664
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.07907571201212704
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 4
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 9.730950007011415
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.07807380601298064
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.08635397799662314
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.07801589200971648
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 5
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 9.720986651984276
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.07813107900437899
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.08520496601704508
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.0804055480111856
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 6
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 9.696225245017558
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.07873370102606714
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.08377683200524189
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.07765228999778628
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 7
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 9.750823037989903
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.07825988999684341
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.08532848497270606
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.07865977598703466
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 8
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 9.72398545400938
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.07894507300807163
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.09141651200479828
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.0832575079984963
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 9
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 9.769829886005027
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.08159219799563289
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.08464533198275603
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.07820321101462469
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 10
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 9.754267275013262
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.08385391600313596
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.08437624899670482
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.07934719999320805
+---------------------------------------------------
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running for SET_9!
+deterministic_calls: 8237
+cache_miss_rate: 0.14
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>> Trial 1
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 11.450980534020346
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.861616852984298
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.8306755349913146
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.847499349998543
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 2
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 11.500158593989909
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.8494228970084805
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.8463833749992773
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.8431288870051503
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 3
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 11.45901512799901
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.8524280219862703
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.8314545300090685
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.8515748269855976
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 4
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 11.51421304399264
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.8422218560008332
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.847148737986572
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.8200488589936867
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 5
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 11.489790502993856
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.8409239239990711
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.8358314489887562
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.8525738140160684
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 6
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 11.49901941799908
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.8477369319880381
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.8365230659837835
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.8556616239948198
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 7
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 11.484322794014588
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.8537150600168388
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.8188009969890118
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.8579711609927472
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 8
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 11.477911988011329
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.838411864999216
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.8227090369910002
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.8374593500047922
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 9
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 11.496580134989927
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.8321002770098858
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.8256475550006144
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.8358283819979988
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 10
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 11.422570204013027
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.8566755409992766
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.819294296001317
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.841451225016499
+---------------------------------------------------
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running for SET_10!
+deterministic_calls: 9017
+cache_miss_rate: 0.02
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>> Trial 1
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 12.560477473976789
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.3900238499918487
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.3952009879867546
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.3974431749957148
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 2
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 12.516749886999605
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.38748616399243474
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.3960872650204692
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.3871560489933472
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 3
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 12.595881952001946
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.39364227702026255
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.3968435970018618
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.38776715501444414
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 4
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 12.564638993004337
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.3784530459961388
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.3928351569920778
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.3912411310011521
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 5
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 12.546812070999295
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.38614135299576446
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.40458512501209043
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.38735197301139124
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 6
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 12.514605218020733
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.3963775690062903
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.40556031398591585
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.39799476199550554
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 7
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 12.566403500997694
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.38762351201148704
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.39733714499743655
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.387608470977284
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 8
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 12.58219353700406
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.38587507398915477
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.4007166259980295
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.3903943400073331
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 9
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 12.496814204001566
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.3883425050007645
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.4054738230188377
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.38760375400306657
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 10
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 12.483745024015661
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.3908704020141158
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.39476758902310394
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.3894737560185604
+---------------------------------------------------
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running for SET_11!
+deterministic_calls: 10927
+cache_miss_rate: 0.04
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>> Trial 1
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 15.283479022997199
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7835999999952037
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7766643080103677
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.782425483019324
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 2
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 15.247427040012553
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7985790389939211
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7847289660130627
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7838829890242778
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 3
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 15.223774743994
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7857988489849959
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7876612459949683
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7872529820015188
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 4
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 15.266792222013464
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7922708109836094
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7899492560245562
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7951924189983401
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 5
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 15.218084308988182
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.791897932998836
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7949875540216453
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.773151589994086
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 6
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 15.253581501019653
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7817478399956599
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7885357449995354
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7812842070125043
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 7
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 15.182578277977882
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7790157000126783
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7868316399981268
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7825670139864087
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 8
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 15.299470894009573
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7817601730057504
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.8032879660022445
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7778700720227789
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 9
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 15.292823871015571
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7812050979991909
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.790432323992718
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.8008347580034751
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 10
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 15.177372456993908
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7857344009971712
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.792498059978243
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7828473690024111
+---------------------------------------------------
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running for SET_12!
+deterministic_calls: 11599
+cache_miss_rate: 0.13
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>> Trial 1
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 16.226134138007183
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.416659945010906
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.3896470100153238
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.4030596740194596
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 2
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 16.183822524006246
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.395188934984617
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.421377966995351
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.4318015210155863
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 3
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 16.23310064501129
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.4130165520182345
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.3929536869982257
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.4258344350091647
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 4
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 16.22220742100035
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.423900144000072
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.400996523007052
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.402367167000193
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 5
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 16.224349477997748
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.406500748009421
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.425476513017202
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.410988797986647
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 6
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 16.183142789028352
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.405548662005458
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.395553657988785
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.4051943400118034
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 7
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 16.16328062399407
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.395615176996216
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.4030022980005015
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.4183365409844555
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 8
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 16.08295111800544
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.4218843589769676
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.4201184989942703
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.4283245929982513
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 9
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 16.200645428005373
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.4166488560149446
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.4197910470247734
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.434357349993661
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 10
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 16.10665981299826
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.418700895999791
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.3949619040067773
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.4011575799959246
+---------------------------------------------------
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running for SET_13!
+deterministic_calls: 12011
+cache_miss_rate: 0.13
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>> Trial 1
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 16.733210281992797
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.475369685998885
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.4759494720201474
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.4866775359841995
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 2
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 16.7311019259796
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.4901351169974077
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.493974796991097
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.4861951769853476
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 3
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 16.751128902978962
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.473307001986541
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.472592155012535
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.463889561011456
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 4
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 16.742073750006966
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.4720297520107124
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.4696311420120765
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.5054572540102527
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 5
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 16.703631006996147
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.4651458029984497
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.4748447440215386
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.4018099069944583
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 6
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 16.74016502199811
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.5006109999958426
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.463817181997001
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.48543641998549
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 7
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 16.773625228001038
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.4760922270070296
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.43943331297487
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.485953833005624
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 8
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 16.72775690999697
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.450730131997261
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.4715123949863482
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.4909681900171563
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 9
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 16.808015641989186
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.485243500996148
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.468842708010925
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.485699006996583
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 10
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 16.714338631980354
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.4890728569880594
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.471647956990637
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 2.456151102000149
+---------------------------------------------------
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running for SET_14!
+deterministic_calls: 13343
+cache_miss_rate: 0.07
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>> Trial 1
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 18.535452993994113
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.5555699350079522
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.5771008729934692
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.5690490749839228
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 2
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 18.587719990988262
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.5582817399990745
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.5624159929866437
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.5836160949838813
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 3
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 18.63324019499123
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.5854746940021869
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.5628596750029828
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.5571217259857804
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 4
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 18.637595568987308
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.5463192960014567
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.5620293329993729
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.586105167021742
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 5
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 18.5954464149836
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.5580996820062865
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.5488657700188924
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.5649534889962524
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 6
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 18.597964343003696
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.5627182380121667
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.5854365740087815
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.5776297530101147
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 7
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 18.54361674399115
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.5795302809856366
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.5598395959823392
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.5728178280114662
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 8
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 18.528560506005306
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.5611834190203808
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.5760545130178798
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.5696640409878455
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 9
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 18.640324070001952
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.5735118809971027
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.5704713029845152
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.563387293019332
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 10
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 18.575986169977114
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.5656492020061705
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.5686724570114166
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.5677709559968207
+---------------------------------------------------
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running for SET_15!
+deterministic_calls: 14181
+cache_miss_rate: 0.03
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>> Trial 1
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 19.781543161981972
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.8067771090136375
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.8222208060033154
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.8108428060077131
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 2
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 19.81977285601897
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.8002249950077385
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.8209904189861845
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.8049420909956098
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 3
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 19.811461217002943
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7991630690230522
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.810611016000621
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.803669382003136
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 4
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 19.800000523013296
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7965302820084617
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.8135683510045055
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.8014976120030042
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 5
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 19.733786247001262
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.8076948399830144
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.8098273270006757
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.8181729589996394
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 6
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 19.763148814003216
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7992064880090766
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.8179329440172296
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7999247850093525
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 7
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 19.50413717702031
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.8088128549861722
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.8233104049868416
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.8185367260011844
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 8
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 19.660673432983458
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7980884900025558
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.810169036994921
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.8128383740258869
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 9
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 19.706884087994695
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7995440289960243
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.8064247060101479
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.8111878159979824
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 10
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 19.52121839299798
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.7977292769937776
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.8212172080238815
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.8177084409981035
+---------------------------------------------------
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running for SET_16!
+deterministic_calls: 15585
+cache_miss_rate: 0.05
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>> Trial 1
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 21.682249467994552
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3485438319912646
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3752584279864095
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3545913110137917
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 2
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 21.65117139799986
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.349871673999587
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3745275209948886
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3616321030131076
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 3
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 21.70374892198015
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3668885469960514
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.363780831976328
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3700466490117833
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 4
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 21.691264864988625
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3640572750009596
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3654683109780308
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.364350060990546
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 5
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 21.562255201977678
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.367875460011419
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.371058635006193
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3528992799983826
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 6
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 21.602796880004462
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3663220689923037
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3558834390132688
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3501709130068775
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 7
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 21.683057418005774
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3599772849993315
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.352897019998636
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3490725349984132
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 8
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 21.620734688010998
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3576689550245646
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3494059200165793
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3614546270109713
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 9
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 21.690402168023866
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3555414320144337
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3606109140091576
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3604133960034233
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 10
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 21.7160380249843
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.371504187991377
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3751265309983864
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3698409170028754
+---------------------------------------------------
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running for SET_17!
+deterministic_calls: 16508
+cache_miss_rate: 0.01
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>> Trial 1
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 23.026018278993433
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.44634392397711053
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.45831839297898114
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.45740473200567067
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 2
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 22.88227478301269
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.44501073702122085
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.4597556680091657
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.4449456669972278
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 3
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 22.956012990995077
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.4446404160116799
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.460094783018576
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.46032735699554905
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 4
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 22.60070567499497
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.44465337597648613
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.45901380601571873
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.44768230098998174
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 5
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 22.98759403801523
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.44488991500111297
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.46106195900938474
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.45530963799683377
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 6
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 23.04349741700571
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.4639642180118244
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.48295191500801593
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.4469422809779644
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 7
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 22.918787927017547
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.44670528400456533
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.4621133790060412
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.448767627007328
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 8
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 22.924574301985558
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.44545404298696667
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.465607499005273
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.44815174999530427
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 9
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 23.017795937979827
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.44924682201235555
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.47749442397616804
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.46119991000159644
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 10
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 22.976004316995386
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.45513725600903854
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.4633388340007514
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.45712465202086605
+---------------------------------------------------
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running for SET_18!
+deterministic_calls: 17212
+cache_miss_rate: 0.15
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>> Trial 1
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 24.017937852011528
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.056181155989179
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.07840772299096
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.110930300987093
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 2
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 23.895719880994875
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.103804749000119
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.091969173983671
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.12366315399413
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 3
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 23.84486856800504
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.0652086199843325
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.079251609015046
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.07716803799849
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 4
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 23.92276705498807
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.109998617001111
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.058599623007467
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.088159844017355
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 5
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 23.967438146995846
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.079121804999886
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.051982944976771
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.079908812011126
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 6
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 23.88244705001125
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.093302788009169
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.054418296000222
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.0932201980031095
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 7
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 24.05419225100195
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.9993239129835274
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.069492059003096
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.053998552000849
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 8
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 23.891540184995392
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.051536548999138
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.993371004005894
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.103262571996311
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 9
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 23.910369065997656
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.041519778984366
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.082143381005153
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.00992796200444
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 10
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 23.979315830016276
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.111170628981199
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.08854740098468
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.073086996999336
+---------------------------------------------------
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running for SET_19!
+deterministic_calls: 18233
+cache_miss_rate: 0.15
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>> Trial 1
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 25.419348096998874
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.277886321011465
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.272275509021711
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.289179118000902
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 2
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 25.313074168021558
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.331525651010452
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.297001797007397
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.334262602991657
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 3
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 25.268298373994185
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.320527465984924
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.2824830479803495
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.333863768988522
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 4
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 25.458991505001904
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.381647654983681
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.302074386010645
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.2931965649768244
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 5
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 25.35714919900056
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.208953855995787
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.298622099013301
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.289823484985391
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 6
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 25.425865784985945
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.29127526000957
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.283650085999398
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.313296426989837
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 7
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 25.389612125989515
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.282366124010878
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.254720661003375
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.3069194209820125
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 8
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 25.41066518300795
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.371814085985534
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.245527144987136
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.291255465010181
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 9
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 25.48777834698558
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.267274886980886
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.311174547998235
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.347392411989858
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 10
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 25.399243452004157
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.288351872004569
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.2738888270105235
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 4.280191697995178
+---------------------------------------------------
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running for SET_20!
+deterministic_calls: 19881
+cache_miss_rate: 0.12
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>> Trial 1
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 27.679265715996735
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.7794273349863943
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.7193736780027393
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.804638353001792
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 2
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 27.742710894002812
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.7874679410015233
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.765045911015477
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.7717994679987896
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 3
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 27.63305198197486
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.8007129750039894
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.7763931840017904
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.792279544984922
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 4
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 27.78386190001038
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.8053451020095963
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.6606328730122186
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.789396036998369
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 5
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 27.707556354027474
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.768996408005478
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.7812396330118645
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.8147827940119896
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 6
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 27.65916338498937
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.813739944016561
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.836999173014192
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.779715947981458
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 7
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 27.726215714996215
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.780736157001229
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.7936540659866296
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.8185568139888346
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 8
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 27.667129134002607
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.8348087449849118
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.864232368010562
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.777960369014181
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 9
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 27.701074542012066
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.7753946029988583
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.8023636800062377
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.790554152976256
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 10
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 27.775750743981916
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.810467538976809
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.8008997940050904
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 3.798041194007965
+---------------------------------------------------
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Running for SET_1!
+deterministic_calls: 958
+cache_miss_rate: 0.06
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+>>>>>>>>>>> Trial 1
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3345676549943164
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.09594958100933582
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.09561296500032768
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.07782373600639403
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 2
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.193125660996884
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.0968027260096278
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.09889470899361186
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.09555678299511783
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 3
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3264474179886747
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.09606939001241699
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.10120539600029588
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.08744300901889801
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 4
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3249342269846238
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.09673331800149754
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.10066412799642421
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.09375306501169689
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 5
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3249519350065384
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.09631879199878313
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.09898236201843247
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.098678287002258
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 6
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3228072180063464
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.09659191098762676
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.09867746100644581
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.0972040329943411
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 7
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3274693089770153
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.09692738100420684
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.09930450600222684
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.09591124497819692
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 8
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3261382629862055
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.09768547699786723
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.09929107298376039
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.09507584199309349
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 9
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3316759710141923
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.09645722500863485
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.0989079269929789
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.09653488200274296
+---------------------------------------------------
+
+>>>>>>>>>>> Trial 10
+
+
+>>>> Running for 0 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 1.3257963049982209
+---------------------------------------------------
+
+
+>>>> Running for 1 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.09700324799632654
+---------------------------------------------------
+
+
+>>>> Running for 2 dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.09849709799163975
+---------------------------------------------------
+
+
+>>>> Running for 2-fast dictionaries!
+
+Measuring time...
+TOTAL EXECUTION TIME: 0.08718549399054609
+---------------------------------------------------
