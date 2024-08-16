@@ -1,3 +1,5 @@
+import sys
+
 def parse_log_file(file_path):
     with open(file_path, 'r') as file:
         log_data = file.read()
@@ -32,22 +34,30 @@ def parse_log_file(file_path):
 
     return sets
 
-def output_results(sets):
-    for set_name, trials in sets.items():
-        print(f"{set_name}")
+def output_results(sets, output_file):
+    with open(output_file, 'w') as f:
+        for set_name, trials in sets.items():
+            f.write(f"{set_name}\n")
+           
+            # Print headers
+            f.write("num_dicts\t" + "\t".join(trials['0'].keys()) + "\n")
+            
+            # Print each dictionary size and corresponding times
+            for num_dicts in ['0', '1', '2', '2-fast']:
+              f.write(f"{num_dicts}\t" + "\t".join(trials[num_dicts].values()) + "\n")
                 
-        print("num_dicts\t" + "\t".join(trials['0'].keys()))
-        
-        for num_dicts in ['0', '1', '2', '2-fast']:
-          print(f"{num_dicts}\t" + "\t".join(trials[num_dicts].values()))
-        
-        print()
+            f.write("\n")  # Newline for separation between SETs
 
-# Path to your log file
-file_path = 'log.txt'
+if __name__ == "__main__":
+    if len(sys.argv) != 3:
+        print("Usage: python3 script.py <input_log_file> <output_file>")
+        sys.exit(1)
 
-# Parse the log file
-sets = parse_log_file(file_path)
+    input_file = sys.argv[1]
+    output_file = sys.argv[2]
 
-# Output the results in the desired format
-output_results(sets)
+    # Parse the log file
+    sets = parse_log_file(input_file)
+
+    # Output the results in the desired format
+    output_results(sets, output_file)
