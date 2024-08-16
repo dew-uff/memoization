@@ -44,7 +44,9 @@ def output_results(sets, output_file):
             
             # Print each dictionary size and corresponding times
             for num_dicts in ['0', '1', '2', '2-fast']:
-              f.write(f"{num_dicts}\t" + "\t".join(trials[num_dicts].values()) + "\n")
+              row = f"{num_dicts}\t" + "\t".join(trials[num_dicts].values()) + "\n"
+              row = row.replace('.', ',')
+              f.write(row)
                 
             f.write("\n")  # Newline for separation between SETs
 
