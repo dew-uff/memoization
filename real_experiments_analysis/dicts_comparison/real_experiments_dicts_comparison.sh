@@ -105,38 +105,6 @@ sleep $random_sleep
 
 
 ##################################### GROUP 2
-######### Experiment copy_matrix_serial.py
-echo ''
-echo ''
-echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'
-cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/04benchproglangs/04benchpl_exp01_copy_matrix_OK
-cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy ./
-conda activate benchmarks-env
-
-#Executing for num-dict 2
-echo ''
-echo ''
-echo 'python copy_matrix_serial_speedupy.py 6250 --exec-mode manual --num-dict 2'
-python speedupy/setup_exp/setup.py copy_matrix_serial_speedupy.py
-python copy_matrix_serial_speedupy.py 6250 --exec-mode manual --num-dict 2
-rm -rf .speedupy/
-
-random_sleep=$(shuf -i 2-5 -n 1)
-sleep $random_sleep
-
-#Executing for num-dict 2-fast
-echo ''
-echo ''
-echo 'python copy_matrix_serial_speedupy.py 6250 --exec-mode manual --num-dict 2-fast'
-python speedupy/setup_exp/setup.py copy_matrix_serial_speedupy.py
-python copy_matrix_serial_speedupy.py 6250 --exec-mode manual --num-dict 2-fast
-rm -rf .speedupy/ speedupy/
-
-random_sleep=$(shuf -i 2-5 -n 1)
-sleep $random_sleep
-
-
-
 ######### Experiment sphere_potentials.py
 echo ''
 echo ''
