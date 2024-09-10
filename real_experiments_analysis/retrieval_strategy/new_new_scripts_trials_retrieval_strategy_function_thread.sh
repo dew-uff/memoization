@@ -14,8 +14,7 @@ fi
 ######### Experiment test_laplace_jacobi_4.py
 echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'
 cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/04benchproglangs/04benchpl_exp09_iterative_solver_jacobi_OK
-mkdir speedupy
-cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy_for_function_thread_time_measure/* ./speedupy/
+cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy ./
 conda activate benchmarks-env
 
 ######### TRIAL 1
@@ -92,8 +91,7 @@ echo ''
 echo ''
 echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'
 cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/Tiny-GSGP-with-speedupy/adapted_for_speedupy
-mkdir speedupy
-cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy_for_function_thread_time_measure/* ./speedupy/
+cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy ./
 conda activate tiny-env
 
 ###### TRIAL 1
@@ -170,8 +168,7 @@ echo ''
 echo ''
 echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'
 cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/04benchproglangs/04benchpl_exp03_count_unique_words_OK
-mkdir speedupy
-cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy_for_function_thread_time_measure/* ./speedupy/
+cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy ./
 conda activate benchmarks-env
 
 ###### TRIAL 1
@@ -243,8 +240,7 @@ echo ''
 echo ''
 echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'
 cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/DNACC-with-speedupy/adapted_for_speedupy/examples/sphere_potentials
-mkdir speedupy
-cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy_for_function_thread_time_measure/* ./speedupy/
+cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy ./
 cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/DNACC-with-speedupy/adapted_for_speedupy/dnacc ./
 conda activate dnacc-env
 
@@ -324,8 +320,7 @@ echo ''
 echo ''
 echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'
 cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/DNACC-with-speedupy/adapted_for_speedupy/examples/ssDNA_tethers
-mkdir speedupy
-cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy_for_function_thread_time_measure/* ./speedupy/
+cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy ./
 cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/DNACC-with-speedupy/adapted_for_speedupy/dnacc ./
 conda activate dnacc-env
 
@@ -407,8 +402,7 @@ echo ''
 echo ''
 echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'
 cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/01pilots/01pilots_exp05_heap_permutation
-mkdir speedupy
-cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy_for_function_thread_time_measure/* ./speedupy/
+cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy ./
 conda activate pilots-env
 
 ##### TRIAL 1
@@ -483,83 +477,82 @@ sleep $random_sleep
 
 
 
-# ######### Experiment metropolis_hastings.py
-# echo ''
-# echo ''
-# echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'
-# cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/04benchproglangs/04benchpl_exp07_metropolis_hastings
-# mkdir speedupy
-# cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy_for_function_thread_time_measure/* ./speedupy/
-# conda activate benchmarks-env
+######### Experiment metropolis_hastings.py
+echo ''
+echo ''
+echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'
+cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/04benchproglangs/04benchpl_exp07_metropolis_hastings
+cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy ./
+conda activate benchmarks-env
 
-# ##### TRIAL 1
-# #Executing for function thread
-# echo ''
-# echo ''
-# echo 'python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread'
-# python speedupy/setup_exp/setup.py metropolis_hastings.py
-# python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
-# python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
-# rm -rf .speedupy/
+##### TRIAL 1
+#Executing for function thread
+echo ''
+echo ''
+echo 'python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread'
+python speedupy/setup_exp/setup.py metropolis_hastings.py
+python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+rm -rf .speedupy/
 
-# random_sleep=$(shuf -i 2-5 -n 1)
-# sleep $random_sleep
-
-
-# ##### TRIAL 2
-# #Executing for function thread
-# echo ''
-# echo ''
-# echo 'python metropolis_hastings.py 72500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread'
-# python speedupy/setup_exp/setup.py metropolis_hastings.py
-# python metropolis_hastings.py 72500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
-# python metropolis_hastings.py 72500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
-# rm -rf .speedupy/
-
-# random_sleep=$(shuf -i 2-5 -n 1)
-# sleep $random_sleep
+random_sleep=$(shuf -i 2-5 -n 1)
+sleep $random_sleep
 
 
-# ##### TRIAL 3
-# #Executing for function thread
-# echo ''
-# echo ''
-# echo 'python metropolis_hastings.py 70000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread'
-# python speedupy/setup_exp/setup.py metropolis_hastings.py
-# python metropolis_hastings.py 70000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
-# python metropolis_hastings.py 70000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
-# rm -rf .speedupy/
+##### TRIAL 2
+#Executing for function thread
+echo ''
+echo ''
+echo 'python metropolis_hastings.py 72500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread'
+python speedupy/setup_exp/setup.py metropolis_hastings.py
+python metropolis_hastings.py 72500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+python metropolis_hastings.py 72500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+rm -rf .speedupy/
 
-# random_sleep=$(shuf -i 2-5 -n 1)
-# sleep $random_sleep
-
-
-# ##### TRIAL 4
-# #Executing for function thread
-# echo ''
-# echo ''
-# echo 'python metropolis_hastings.py 67500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread'
-# python speedupy/setup_exp/setup.py metropolis_hastings.py
-# python metropolis_hastings.py 67500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
-# python metropolis_hastings.py 67500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
-# rm -rf .speedupy/
-
-# random_sleep=$(shuf -i 2-5 -n 1)
-# sleep $random_sleep
+random_sleep=$(shuf -i 2-5 -n 1)
+sleep $random_sleep
 
 
-# ##### TRIAL 5
-# #Executing for function thread
-# echo ''
-# echo ''
-# echo 'python metropolis_hastings.py 65000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread'
-# python speedupy/setup_exp/setup.py metropolis_hastings.py
-# python metropolis_hastings.py 65000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
-# python metropolis_hastings.py 65000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
-# rm -rf .speedupy/ speedupy/
+##### TRIAL 3
+#Executing for function thread
+echo ''
+echo ''
+echo 'python metropolis_hastings.py 70000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread'
+python speedupy/setup_exp/setup.py metropolis_hastings.py
+python metropolis_hastings.py 70000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+python metropolis_hastings.py 70000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+rm -rf .speedupy/
 
-# random_sleep=$(shuf -i 2-5 -n 1)
-# sleep $random_sleep
+random_sleep=$(shuf -i 2-5 -n 1)
+sleep $random_sleep
+
+
+##### TRIAL 4
+#Executing for function thread
+echo ''
+echo ''
+echo 'python metropolis_hastings.py 67500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread'
+python speedupy/setup_exp/setup.py metropolis_hastings.py
+python metropolis_hastings.py 67500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+python metropolis_hastings.py 67500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+rm -rf .speedupy/
+
+random_sleep=$(shuf -i 2-5 -n 1)
+sleep $random_sleep
+
+
+##### TRIAL 5
+#Executing for function thread
+echo ''
+echo ''
+echo 'python metropolis_hastings.py 65000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread'
+python speedupy/setup_exp/setup.py metropolis_hastings.py
+python metropolis_hastings.py 65000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+python metropolis_hastings.py 65000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+rm -rf .speedupy/ speedupy/
+
+random_sleep=$(shuf -i 2-5 -n 1)
+sleep $random_sleep
 
 
 
@@ -569,8 +562,7 @@ echo ''
 echo ''
 echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'
 cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/menger-sponge-with-speedupy
-mkdir speedupy
-cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy_for_function_thread_time_measure/* ./speedupy/
+cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy ./
 conda activate menger-env
 
 ##### TRIAL 1
@@ -636,8 +628,7 @@ echo ''
 echo ''
 echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'
 cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/05msrgithubexps/05msrgithubexps_exp03_eq_solver
-mkdir speedupy
-cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy_for_function_thread_time_measure/* ./speedupy/
+cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy ./
 conda activate msr-env
 
 
@@ -717,8 +708,7 @@ echo ''
 echo ''
 echo '>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'
 cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/Experimentos/speedupy_experiments/01pilots/01pilots_exp02_power
-mkdir speedupy
-cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy_for_function_thread_time_measure/* ./speedupy/
+cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/ProfilingExperimentos/speedupy ./
 conda activate pilots-env
 
 ###### TRIAL 1
