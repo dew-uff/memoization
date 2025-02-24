@@ -36,16 +36,16 @@ for command, times in command_times.items():
     script_name = command.split(' ')[1].strip()
     perhaps_input = command.split(' ')[2].strip()
     words = command.split(' ')
-    index_s = words.index('-s')
-    storage = words[index_s + 1].strip()
+    index_s = words.index('--num-dict')
+    num_dicts = words[index_s + 1].strip()
     
     if times:
         median_time = statistics.median(times)
-        line = f"{script_name}\t{perhaps_input}\t{storage}\t{str(median_time).replace('.', ',')}\n"
+        line = f"{script_name}\t{perhaps_input}\t{num_dicts}\t{str(median_time).replace('.', ',')}\n"
 
-        # line = f"{script_name}\t{storage}\t{times}\n"
+        # line = f"{script_name}\t{num_dicts}\t{times}\n"
         
-        # line = f"{script_name}\t{perhaps_input}\t{storage}"
+        # line = f"{script_name}\t{perhaps_input}\t{num_dicts}"
         # for t in times:
         #     line += f"\t{str(t).replace('.', ',')}"
         # line += "\n"

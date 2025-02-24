@@ -34,18 +34,20 @@ with open(input_file, 'r') as file:
 output_lines = []
 for command, times in command_times.items():
     script_name = command.split(' ')[1].strip()
+    perhaps_input = command.split(' ')[2].strip()
     words = command.split(' ')
-    index_s = words.index('--retrieval-exec-mode')
-    retrieval_exec_mode = words[index_s + 1].strip()
+    retrieval_strat = words.index('--retrieval-strategy')
+    retrieval_exec = words.index('--retrieval-exec-mode')
+    retrieval_exec_mode = ' '.join([words[retrieval_strat + 1], words[retrieval_exec + 1]]).strip()
     
     if times:
         median_time = statistics.median(times)
-        line = f"{script_name}\t{retrieval_exec_mode}\t{str(median_time).replace('.', ',')}\n"
+        line = f"{script_name}\t{perhaps_input}\t{retrieval_exec_mode}\t{str(median_time)}\n"
 
         # stat, p_value = check_shapiro_wilk(times, f"{script_name}-{retrieval_exec_mode}")
         # line = f"{script_name}\t{retrieval_exec_mode}\t{p_value > 0.05}\t{str(stat).replace('.', ',')}\t{str(p_value).replace('.', ',')}\n"
         
-        # line = f"{script_name}\t{retrieval_exec_mode}"
+        # line = f"{script_name}\t{perhaps_input}\t{retrieval_exec_mode}"
         # for t in times:
         #     line += f"\t{str(t).replace('.', ',')}"
         # line += "\n"

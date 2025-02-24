@@ -1,0 +1,2000 @@
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003346062730997801
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0033153779804706573
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003242224920541048
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0034082899801433086
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0031854831613600254
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_10.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.11621214402839541
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_20.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.22118331911042333
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.3329300000332296
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_40.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.4279176569543779
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_50.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.5266182888299227
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.1538581852801144
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg31100.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.16596181597560644
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg29090.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.106025371234864
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg9600.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.13608359172940254
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg100.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.216062577906996
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_5.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0364713822491467
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_10.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.13776967115700245
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_15.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.328913914039731
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.06945446413010359
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_25.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.10159625997766852
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_1.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.22180637810379267
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_2.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.3931816159747541
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_3.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.28759276308119297
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_4.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.320241189096123
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.24643146386370063
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.00411519780755043
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 7 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.002473557833582163
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 6 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.004072658251971006
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 5 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0025574862957000732
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 4 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0034423316828906536
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 23.57638030918315
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 72500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 22.93708634469658
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 70000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 21.826980414800346
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 67500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 20.974485279992223
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 65000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 20.574942047242075
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_160.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 13.654965905938298
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_170.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 15.360682448372245
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_180.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 17.452644462231547
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_190.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 19.294650639872998
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 21.14373225113377
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.09383226511999965
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_1.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.046734081115573645
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_2.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.13247184827923775
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_3.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.17608162201941013
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_4.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.2195612587966025
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231241 462 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0028419806621968746
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231241 450 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0026497310027480125
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231000 430 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0025950209237635136
+
+>>>>>>>>>>>>>>>>
+python power.py 124123124 400 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.002560995053499937
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231231 460 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0027218940667808056
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003273386973887682
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0033690580166876316
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0031353957019746304
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0032785250805318356
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003307105042040348
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_10.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.11639950377866626
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_20.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.21765319304540753
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.32239309325814247
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_40.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.4625796200707555
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_50.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.5301010459661484
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.1543236030265689
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg31100.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.1651288541033864
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg29090.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.10466886172071099
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg9600.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.136356842238456
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg100.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.21493497490882874
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_5.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.03717454615980387
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_10.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.13184282602742314
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_15.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.330217095091939
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.06928029423579574
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_25.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.10022320318967104
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_1.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.21318137925118208
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_2.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.414764191955328
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_3.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.2985089020803571
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_4.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.31645049899816513
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.24856971902772784
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003986140247434378
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 7 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.002502012997865677
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 6 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003568507730960846
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 5 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0025639859959483147
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 4 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.00356899481266737
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 23.2538584722206
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 72500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 22.823477339930832
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 70000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 22.211987785063684
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 67500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 21.15557572711259
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 65000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 20.220621925778687
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_160.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 13.617181560024619
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_170.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 15.358753719832748
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_180.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 17.320006859023124
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_190.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 19.368174148257822
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 21.315052821766585
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.09401714103296399
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_1.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.046831867191940546
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_2.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.1333730248734355
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_3.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.17660546395927668
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_4.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.22002837201580405
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231241 462 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0026751430705189705
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231241 450 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.002641033846884966
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231000 430 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0026470287702977657
+
+>>>>>>>>>>>>>>>>
+python power.py 124123124 400 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0026006647385656834
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231231 460 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0026372899301350117
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003244643099606037
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003235823940485716
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0032373149879276752
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0032891719602048397
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0031324420124292374
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_10.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.11417633667588234
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_20.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.21649381099268794
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.32001759810373187
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_40.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.42155655520036817
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_50.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.5546371121890843
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.154202276840806
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg31100.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.16762784915044904
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg29090.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.10453044716268778
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg9600.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.13645815197378397
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg100.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.2149014240130782
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_5.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.036031696014106274
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_10.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.13292050873860717
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_15.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.32625978719443083
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.06807311670854688
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_25.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.09903280902653933
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_1.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.2102288929745555
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_2.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.3845307589508593
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_3.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.2763090110383928
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_4.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.31135786417871714
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.2471154546365142
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.004245087970048189
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 7 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0025462242774665356
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 6 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0038029677234590054
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 5 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0025179991498589516
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 4 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003543914295732975
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 23.521377820987254
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 72500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 22.60278435703367
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 70000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 21.886940884869546
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 67500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 21.326622840948403
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 65000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 20.560147134121507
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_160.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 13.587254812009633
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_170.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 15.503396530169994
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_180.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 17.44495218200609
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_190.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 19.28053556708619
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 21.18568812124431
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.09357574302703142
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_1.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.04703387711197138
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_2.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.13398141227662563
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_3.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.17740159295499325
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_4.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.21858647232875228
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231241 462 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0026611010544002056
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231241 450 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0026320056058466434
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231000 430 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.00262140529230237
+
+>>>>>>>>>>>>>>>>
+python power.py 124123124 400 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.002591765020042658
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231231 460 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.002675740048289299
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0033734887838363647
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003154423087835312
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003351283259689808
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003369784913957119
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0033052838407456875
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_10.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.11657807976007462
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_20.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.2200597762130201
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.31815192522481084
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_40.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.43419982586055994
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_50.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.5629550660960376
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.15397259825840592
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg31100.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.16664429614320397
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg29090.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.10685351025313139
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg9600.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.136940015014261
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg100.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.2171476660296321
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_5.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.03669791715219617
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_10.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.13156731985509396
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_15.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.325267449952662
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.06864477414637804
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_25.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.10127298813313246
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_1.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.2242932110093534
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_2.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.38221559626981616
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_3.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.29488176479935646
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_4.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.3135198596864939
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.2457816181704402
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.004244443029165268
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 7 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.002450117841362953
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 6 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0035927067510783672
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 5 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0024294997565448284
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 4 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0036160070449113846
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 23.50184163497761
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 72500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 22.778155016247183
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 70000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 21.9146349709481
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 67500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 21.249908887781203
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 65000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 20.318777143023908
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_160.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 13.556978240143508
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_170.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 15.346881437115371
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_180.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 17.26658210903406
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_190.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 19.146125704050064
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 21.280585925094783
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.09452444827184081
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_1.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.046713137067854404
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_2.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.13272659899666905
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_3.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.17744472716003656
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_4.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.2185053168796003
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231241 462 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.002711975947022438
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231241 450 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0027861958369612694
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231000 430 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0026720878668129444
+
+>>>>>>>>>>>>>>>>
+python power.py 124123124 400 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0025965478271245956
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231231 460 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.002663920633494854
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003143541980534792
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0032835518941283226
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003311792854219675
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0032922090031206608
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003323656041175127
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_10.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.11571565084159374
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_20.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.21593614062294364
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.31993136601522565
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_40.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.4286638773046434
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_50.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.5206349329091609
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.1551923668012023
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg31100.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.16743793617933989
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg29090.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.1071364232338965
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg9600.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.1354409782215953
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg100.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.21691015921533108
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_5.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.03678306005895138
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_10.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.1333297430537641
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_15.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.32835311302915215
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0682674371637404
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_25.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.10206457879394293
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_1.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.2135958089493215
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_2.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.38968753162771463
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_3.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.2786134807392955
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_4.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.313190511893481
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.2443411760032177
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.00424894317984581
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 7 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.002562402281910181
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 6 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0037277517840266228
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 5 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.002388490829616785
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 4 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003475707024335861
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 23.484096738975495
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 72500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 22.91182907903567
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 70000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 21.652035458944738
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 67500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 21.107161777559668
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 65000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 20.489423824939877
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_160.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 13.767362889833748
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_170.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 15.614283468108624
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_180.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 17.313827676232904
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_190.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 19.35903823096305
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 21.477388103026897
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.09438396571204066
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_1.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.048100104089826345
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_2.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.13512307917699218
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_3.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.17815150506794453
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_4.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.22221427783370018
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231241 462 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0027170171961188316
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231241 450 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0026566018350422382
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231000 430 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.002650963142514229
+
+>>>>>>>>>>>>>>>>
+python power.py 124123124 400 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0026112720370292664
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231231 460 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0027563259936869144
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0035068532451987267
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003125408198684454
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0033279270865023136
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003352344036102295
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003379831090569496
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_10.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.1253659650683403
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_20.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.21864997409284115
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.32311182795092463
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_40.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.4257957190275192
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_50.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.520873409230262
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.1542521589435637
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg31100.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.16847013682127
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg29090.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.1047848742455244
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg9600.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.13741477066650987
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg100.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.2138750278390944
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_5.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.03658645926043391
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_10.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.13384396024048328
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_15.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.32699680933728814
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.06776160188019276
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_25.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.10018276143819094
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_1.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.2109224610030651
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_2.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.3838514699600637
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_3.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.2806357750669122
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_4.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.3133577648550272
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.24554970720782876
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.004089673049747944
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 7 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.002491151914000511
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 6 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0037816399708390236
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 5 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0024161897599697113
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 4 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003451086115092039
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 23.4197119041346
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 72500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 22.849565817043185
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 70000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 21.902203998994082
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 67500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 21.082420562393963
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 65000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 20.564662203658372
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_160.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 13.605077617801726
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_170.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 15.194474858697504
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_180.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 17.092762266285717
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_190.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 19.487813613843173
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 21.523249399848282
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.09284213418141007
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_1.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.04653519904240966
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_2.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.13292283285409212
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_3.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.177420933265239
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_4.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.21750256977975368
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231241 462 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0026589049957692623
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231241 450 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0026686140336096287
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231000 430 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0026523349806666374
+
+>>>>>>>>>>>>>>>>
+python power.py 124123124 400 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0025583612732589245
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231231 460 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0026679327711462975
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0034183883108198643
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0032997289672493935
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0033173938281834126
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003271156921982765
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0033726110123097897
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_10.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.11820199573412538
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_20.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.21753321401774883
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.3292383961379528
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_40.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.42917025787755847
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_50.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.5254234867170453
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.15294440602883697
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg31100.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.16631199093535542
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg29090.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.10600169282406569
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg9600.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.1373297469690442
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg100.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.21612322656437755
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_5.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.036653506103903055
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_10.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.13148663705214858
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_15.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.3260432039387524
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.06799130234867334
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_25.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.09874662384390831
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_1.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.21440494200214744
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_2.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.3820298998616636
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_3.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.2810523700900376
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_4.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.31627872912213206
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.25920349080115557
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.004229448270052671
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 7 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.002464849967509508
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 6 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003572604153305292
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 5 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0024041030555963516
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 4 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0034506930969655514
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 23.80785156507045
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 72500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 22.913486453704536
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 70000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 21.96225233701989
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 67500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 21.109618224203587
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 65000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 20.302942735143006
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_160.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 13.639845061581582
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_170.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 15.286636172793806
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_180.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 17.498822186142206
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_190.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 19.191303835250437
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 21.427314228843898
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.09463723003864288
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_1.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.046790256164968014
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_2.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.1336289457976818
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_3.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.17549999197945
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_4.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.21835013618692756
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231241 462 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.002726128790527582
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231241 450 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0026358049362897873
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231000 430 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.002814154140651226
+
+>>>>>>>>>>>>>>>>
+python power.py 124123124 400 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.002617142628878355
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231231 460 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0028395112603902817
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0034559210762381554
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003345942124724388
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0033428878523409367
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0033539659343659878
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003118818160146475
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_10.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.11517117777839303
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_20.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.2291081640869379
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.3341209338977933
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_40.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.44132672203704715
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_50.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.5241475622169673
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.15260573709383607
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg31100.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.1661054347641766
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg29090.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.10527799790725112
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg9600.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.13557581696659327
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg100.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.21502084797248244
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_5.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.036124193109571934
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_10.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.1283051841892302
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_15.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.31911588413640857
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.06644209194928408
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_25.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.09700147621333599
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_1.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.20668694283813238
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_2.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.3742592358030379
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_3.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.2847189321182668
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_4.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.32826947001740336
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.2460947991348803
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.004128009080886841
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 7 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.002475485671311617
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 6 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003679957240819931
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 5 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0025016358122229576
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 4 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0035789906978607178
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 23.446549659129232
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 72500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 22.8312856326811
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 70000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 22.08035627612844
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 67500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 21.165682029910386
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 65000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 20.24353430280462
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_160.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 13.80277184676379
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_170.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 15.195761586073786
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_180.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 17.29276641830802
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_190.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 19.30982663668692
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 21.4216387597844
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.09508729912340641
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_1.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.04719393095001578
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_2.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.13262256095185876
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_3.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.17705697705969214
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_4.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.21930916421115398
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231241 462 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.002739441115409136
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231241 450 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.002668007742613554
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231000 430 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0026557347737252712
+
+>>>>>>>>>>>>>>>>
+python power.py 124123124 400 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0026324079371988773
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231231 460 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.002623109146952629
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.00341464439406991
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0033324360847473145
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0032551269978284836
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.00333376694470644
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003406308125704527
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_10.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.11522614397108555
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_20.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.22592101898044348
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.32904220605269074
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_40.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.4572313497774303
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_50.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.553698203060776
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.1527250106446445
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg31100.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.16649702191352844
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg29090.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.10415423475205898
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg9600.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.1359018418006599
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg100.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.2151026683859527
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_5.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.03564557991921902
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_10.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.13226437661796808
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_15.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.32494338089600205
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.06902367062866688
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_25.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.09943984122946858
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_1.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.21071823313832283
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_2.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.3797175092622638
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_3.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.2807098072953522
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_4.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.316452169790864
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.2449438888579607
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.004269314929842949
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 7 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.002697609830647707
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 6 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0037778420373797417
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 5 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0024853479117155075
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 4 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.00340442406013608
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 23.46796387201175
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 72500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 22.518291668966413
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 70000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 21.90982964495197
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 67500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 21.242438403889537
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 65000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 20.40109134092927
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_160.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 13.49673719285056
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_170.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 15.525579421315342
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_180.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 17.282738871872425
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_190.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 19.1348768142052
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 21.477205445058644
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.09371463721618056
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_1.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.04687420604750514
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_2.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.13435523165389895
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_3.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.1769325346685946
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_4.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.21748710330575705
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231241 462 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0027664867229759693
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231241 450 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.002727244980633259
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231000 430 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0026210839860141277
+
+>>>>>>>>>>>>>>>>
+python power.py 124123124 400 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0025773588567972183
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231231 460 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.002631290815770626
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0032585710287094116
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003323432058095932
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003407639916986227
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003399503882974386
+
+>>>>>>>>>>>>>>>>
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.003147401846945286
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_10.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.11689325794577599
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_20.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.2193252621218562
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.325942559633404
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_40.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.43413845216855407
+
+>>>>>>>>>>>>>>>>
+python TINY_GSGP_50.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.5382229168899357
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.15395134268328547
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg31100.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.1664269557222724
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg29090.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.10432950826361775
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg9600.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.13595097232609987
+
+>>>>>>>>>>>>>>>>
+python count_unique_words_speedupy.py pg100.txt --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.2157767079770565
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_5.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.036676990799605846
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_10.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.13553443271666765
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_15.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.3226149990223348
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.06804364314302802
+
+>>>>>>>>>>>>>>>>
+python sphere_potentials_25.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.10131013905629516
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_1.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.21124611608684063
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_2.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.37682570284232497
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_3.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.2785864253528416
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers_4.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.3312959619797766
+
+>>>>>>>>>>>>>>>>
+python ssDNA_tethers.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.24250698229297996
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 8 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.00417198333889246
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 7 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.002553400583565235
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 6 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0036043450236320496
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 5 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.002480320166796446
+
+>>>>>>>>>>>>>>>>
+python heap_permutation.py 4 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0035820077173411846
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 23.3338317531161
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 72500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 22.6280999048613
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 70000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 21.87384823989123
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 67500 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 20.992287683766335
+
+>>>>>>>>>>>>>>>>
+python metropolis_hastings.py 65000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 20.354943072889
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_160.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 13.559825786855072
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_170.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 15.461199324112386
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_180.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 17.42920864187181
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy_190.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 19.13383703911677
+
+>>>>>>>>>>>>>>>>
+python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 21.177372429985553
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.09439476625993848
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_1.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.046771935652941465
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_2.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.133755206130445
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_3.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.17474240204319358
+
+>>>>>>>>>>>>>>>>
+python eq_solver_speedupy_4.py 1000 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.2195118572562933
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231241 462 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0026837163604795933
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231241 450 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0025828280486166477
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231000 430 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0026118881069123745
+
+>>>>>>>>>>>>>>>>
+python power.py 124123124 400 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0026396410539746284
+
+>>>>>>>>>>>>>>>>
+python power.py 1241231231 460 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode thread
+TOTAL EXECUTION TIME: 0.0026330952532589436
+
+>>>>>>>>>>>>>>>>
