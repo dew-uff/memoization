@@ -1,8 +1,7 @@
-import sys, os, copy
+import sys, os, copy, random, xxhash
 sys.path.append('..')
 
 from random import randint, shuffle, choice
-from storage_scripts.util import generate_data
 
 def little_cache_miss_rate():
     return {'min': 0, 'max': 20}
@@ -57,6 +56,14 @@ def generate_simulation_data(data_size, num_calls):
         ad.append(str(k))
         ad.append(str(v))
     return ad
+
+def generate_data(data_size):
+    data = {}
+    for _ in range(data_size):
+        value = random.random()
+        key = xxhash.xxh128_hexdigest(str(value).encode('utf'))
+        data[key] = value    
+    return data
 
 def execute_simulation(all_data, num_dict):
     print(f'\n\n>>>> Running for {num_dict} dictionaries!')
