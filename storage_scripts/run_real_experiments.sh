@@ -21,6 +21,7 @@ conda activate benchmarks-env
 echo ''
 echo ''
 echo 'python test_laplace_jacobi_4.py 200 --exec-mode manual -s db'
+echo "Starting test_laplace_jacobi_4.py (1/18)" | mail -s "Phoenix - Trial 10" joaolopez@id.uff.br
 python speedupy/setup_exp/setup.py test_laplace_jacobi_4.py
 python test_laplace_jacobi_4.py 200 --exec-mode manual -s db
 rm -rf .speedupy/
@@ -32,6 +33,7 @@ sleep $random_sleep
 echo ''
 echo ''
 echo 'python test_laplace_jacobi_4.py 200 --exec-mode manual -s file'
+echo "Starting test_laplace_jacobi_4.py (2/18)" | mail -s "Phoenix - Trial 10" joaolopez@id.uff.br
 python speedupy/setup_exp/setup.py test_laplace_jacobi_4.py
 python test_laplace_jacobi_4.py 200 --exec-mode manual -s file
 rm -rf .speedupy/ speedupy/
@@ -53,6 +55,7 @@ conda activate tiny-env
 echo ''
 echo ''
 echo 'python TINY_GSGP.py --exec-mode manual -s db'
+echo "Starting TINY_GSGP.py (3/18)" | mail -s "Phoenix - Trial 10" joaolopez@id.uff.br
 python speedupy/setup_exp/setup.py TINY_GSGP.py
 python TINY_GSGP.py --exec-mode manual -s db
 rm -rf .speedupy/
@@ -64,6 +67,7 @@ sleep $random_sleep
 echo ''
 echo ''
 echo 'python TINY_GSGP.py --exec-mode manual -s file'
+echo "Starting TINY_GSGP.py (4/18)" | mail -s "Phoenix - Trial 10" joaolopez@id.uff.br
 python speedupy/setup_exp/setup.py TINY_GSGP.py
 python TINY_GSGP.py --exec-mode manual -s file
 rm -rf .speedupy/ speedupy/
@@ -84,6 +88,7 @@ conda activate benchmarks-env
 echo ''
 echo ''
 echo 'python count_unique_words_speedupy.py pg52106.txt --exec-mode manual -s db'
+echo "Starting count_unique_words_speedupy.py (5/18)" | mail -s "Phoenix - Trial 10" joaolopez@id.uff.br
 python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 python count_unique_words_speedupy.py pg52106.txt --exec-mode manual -s db
 rm -rf .speedupy/
@@ -95,6 +100,7 @@ sleep $random_sleep
 echo ''
 echo ''
 echo 'python count_unique_words_speedupy.py pg52106.txt --exec-mode manual -s file'
+echo "Starting count_unique_words_speedupy.py (6/18)" | mail -s "Phoenix - Trial 10" joaolopez@id.uff.br
 python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 python count_unique_words_speedupy.py pg52106.txt --exec-mode manual -s file
 rm -rf .speedupy/ speedupy/
@@ -117,6 +123,7 @@ conda activate benchmarks-env
 echo ''
 echo ''
 echo 'python copy_matrix_serial_speedupy.py 6250 --exec-mode manual -s db'
+echo "Starting copy_matrix_serial_speedupy.py (7/18)" | mail -s "Phoenix - Trial 10" joaolopez@id.uff.br
 python speedupy/setup_exp/setup.py copy_matrix_serial_speedupy.py
 python copy_matrix_serial_speedupy.py 6250 --exec-mode manual -s db
 rm -rf .speedupy/
@@ -128,6 +135,7 @@ sleep $random_sleep
 echo ''
 echo ''
 echo 'python copy_matrix_serial_speedupy.py 6250 --exec-mode manual -s file'
+echo "Starting copy_matrix_serial_speedupy.py (8/18)" | mail -s "Phoenix - Trial 10" joaolopez@id.uff.br
 python speedupy/setup_exp/setup.py copy_matrix_serial_speedupy.py
 python copy_matrix_serial_speedupy.py 6250 --exec-mode manual -s file
 rm -rf .speedupy/ speedupy/
@@ -150,6 +158,7 @@ conda activate dnacc-env
 echo ''
 echo ''
 echo 'python sphere_potentials.py --exec-mode manual -s db'
+echo "Starting sphere_potentials.py (9/18)" | mail -s "Phoenix - Trial 10" joaolopez@id.uff.br
 python speedupy/setup_exp/setup.py sphere_potentials.py
 python sphere_potentials.py --exec-mode manual -s db
 rm -rf .speedupy/
@@ -161,6 +170,7 @@ sleep $random_sleep
 echo ''
 echo ''
 echo 'python sphere_potentials.py --exec-mode manual -s file'
+echo "Starting sphere_potentials.py (10/18)" | mail -s "Phoenix - Trial 10" joaolopez@id.uff.br
 python speedupy/setup_exp/setup.py sphere_potentials.py
 python sphere_potentials.py --exec-mode manual -s file
 rm -rf .speedupy/ speedupy/ dnacc/
@@ -183,6 +193,7 @@ conda activate dnacc-env
 echo ''
 echo ''
 echo 'python ssDNA_tethers.py --exec-mode manual -s db'
+echo "Starting ssDNA_tethers.py (11/18)" | mail -s "Phoenix - Trial 10" joaolopez@id.uff.br
 python speedupy/setup_exp/setup.py ssDNA_tethers.py
 python ssDNA_tethers.py --exec-mode manual -s db
 rm -rf .speedupy/
@@ -194,6 +205,7 @@ sleep $random_sleep
 echo ''
 echo ''
 echo 'python ssDNA_tethers.py --exec-mode manual -s file'
+echo "Starting ssDNA_tethers.py (12/18)" | mail -s "Phoenix - Trial 10" joaolopez@id.uff.br
 python speedupy/setup_exp/setup.py ssDNA_tethers.py
 python ssDNA_tethers.py --exec-mode manual -s file
 rm -rf .speedupy/ speedupy/ dnacc/
@@ -216,6 +228,7 @@ conda activate pilots-env
 echo ''
 echo ''
 echo 'python heap_permutation.py 8 --exec-mode manual -s db'
+echo "Starting heap_permutation.py (13/18)" | mail -s "Phoenix - Trial 10" joaolopez@id.uff.br
 python speedupy/setup_exp/setup.py heap_permutation.py
 python heap_permutation.py 8 --exec-mode manual -s db
 rm -rf .speedupy/
@@ -227,6 +240,7 @@ sleep $random_sleep
 echo ''
 echo ''
 echo 'python heap_permutation.py 8 --exec-mode manual -s file'
+echo "Starting heap_permutation.py (14/18)" | mail -s "Phoenix - Trial 10" joaolopez@id.uff.br
 python speedupy/setup_exp/setup.py heap_permutation.py
 python heap_permutation.py 8 --exec-mode manual -s file
 rm -rf .speedupy/ speedupy/
@@ -248,6 +262,7 @@ conda activate benchmarks-env
 echo ''
 echo ''
 echo 'python metropolis_hastings.py 120000 --exec-mode manual -s db'
+echo "Starting metropolis_hastings.py (15/18)" | mail -s "Phoenix - Trial 10" joaolopez@id.uff.br
 python speedupy/setup_exp/setup.py metropolis_hastings.py
 python metropolis_hastings.py 120000 --exec-mode manual -s db
 rm -rf .speedupy/
@@ -259,6 +274,7 @@ sleep $random_sleep
 echo ''
 echo ''
 echo 'python metropolis_hastings.py 120000 --exec-mode manual -s file'
+echo "Starting metropolis_hastings.py (16/18)" | mail -s "Phoenix - Trial 10" joaolopez@id.uff.br
 python speedupy/setup_exp/setup.py metropolis_hastings.py
 python metropolis_hastings.py 120000 --exec-mode manual -s file
 rm -rf .speedupy/ speedupy/
@@ -280,6 +296,7 @@ conda activate menger-env
 echo ''
 echo ''
 echo 'python menger_sponge_speedupy.py --exec-mode manual -s db'
+echo "Starting menger_sponge_speedupy.py (17/18)" | mail -s "Phoenix - Trial 10" joaolopez@id.uff.br
 python speedupy/setup_exp/setup.py menger_sponge_speedupy.py
 python menger_sponge_speedupy.py --exec-mode manual -s db
 rm -rf .speedupy/
@@ -291,6 +308,7 @@ sleep $random_sleep
 echo ''
 echo ''
 echo 'python menger_sponge_speedupy.py --exec-mode manual -s file'
+echo "Starting menger_sponge_speedupy.py (18/18)" | mail -s "Phoenix - Trial 10" joaolopez@id.uff.br
 python speedupy/setup_exp/setup.py menger_sponge_speedupy.py
 python menger_sponge_speedupy.py --exec-mode manual -s file
 rm -rf .speedupy/ speedupy/

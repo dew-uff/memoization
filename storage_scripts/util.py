@@ -1,4 +1,4 @@
-import random, xxhash, statistics
+import random, xxhash, statistics, time
 
 def generate_data(data_size):
     data = {}
@@ -20,6 +20,7 @@ def measure_performance(num_repetitions, log_file):
         def wrapper(data, *args):
             times = []
             for _ in range(num_repetitions):
+                time.sleep(random.randint(2, 5))
                 exec_time = func(data, *args)
                 times.append(exec_time)
             median_time = statistics.median(times)
