@@ -21,6 +21,15 @@ cd util_scripts/
 bash extract_median_results.py SIMULATION_RESULTS.txt MEDIAN_VALUES.txt
 ```
 
+## Viewing All Data on a Table Style
+
+You can view all executed trials outputs in a table style. To do so, execute:
+
+```bash
+cd util_scripts/
+bash extract_raw_data.py SIMULATION_RESULTS.txt TABLE_VIEW.txt
+```
+
 ## Article Results
 
 The results we used on our article are available inside **results/** folder
