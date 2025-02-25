@@ -32,6 +32,9 @@ with open(input_file, 'r') as file:
 
 # Calculate median times and prepare output
 output_lines = []
+
+line = "Script Name\tMain Memory Strategy\tMedian Result\n"
+output_lines.append(line)
 for command, times in command_times.items():
     script_name = command.split(' ')[1].strip()
     perhaps_input = command.split(' ')[2].strip()
@@ -41,7 +44,7 @@ for command, times in command_times.items():
     
     if times:
         median_time = statistics.median(times)
-        line = f"{script_name}\t{perhaps_input}\t{num_dicts}\t{str(median_time).replace('.', ',')}\n"
+        line = f"{script_name}\t{num_dicts}\t{str(median_time).replace('.', ',')}\n"
 
         # line = f"{script_name}\t{num_dicts}\t{times}\n"
         
