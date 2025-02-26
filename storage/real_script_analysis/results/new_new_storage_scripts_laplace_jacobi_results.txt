@@ -1,0 +1,610 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db
+0.10901150200515985
+0.16686526406556368
+TOTAL EXECUTION TIME: 0.28752637188881636
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s file
+0.11213866528123617
+0.16135407704859972
+TOTAL EXECUTION TIME: 0.28713054955005646
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db
+0.11384404730051756
+0.160078807733953
+TOTAL EXECUTION TIME: 0.28176306281238794
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s file
+0.11092322319746017
+0.16240835282951593
+TOTAL EXECUTION TIME: 0.28742125909775496
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db
+0.10881192144006491
+0.16054818034172058
+TOTAL EXECUTION TIME: 0.27709761168807745
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s file
+0.10860056430101395
+0.1615657089278102
+TOTAL EXECUTION TIME: 0.28399609588086605
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db
+0.10874529089778662
+0.16235335730016232
+TOTAL EXECUTION TIME: 0.2788011096417904
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s file
+0.10897408705204725
+0.16045068204402924
+TOTAL EXECUTION TIME: 0.28302617836743593
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db
+0.11297133471816778
+0.16058953199535608
+TOTAL EXECUTION TIME: 0.28122256323695183
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s file
+0.10945145320147276
+0.16315448470413685
+TOTAL EXECUTION TIME: 0.28589319717139006
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db
+0.10785074532032013
+0.1588853755965829
+TOTAL EXECUTION TIME: 0.27815603744238615
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s file
+0.10933765862137079
+0.16024279408156872
+TOTAL EXECUTION TIME: 0.2831751201301813
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db
+0.112978789024055
+0.1619176072999835
+TOTAL EXECUTION TIME: 0.2826276607811451
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s file
+0.1133203562349081
+0.1662599453702569
+TOTAL EXECUTION TIME: 0.2932272385805845
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db
+0.1100887143984437
+0.16630923468619585
+TOTAL EXECUTION TIME: 0.284334285184741
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s file
+0.1119071627035737
+0.16016269102692604
+TOTAL EXECUTION TIME: 0.28559121303260326
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db
+0.11453258525580168
+0.16710066981613636
+TOTAL EXECUTION TIME: 0.2894847895950079
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s file
+0.1142316097393632
+0.16714555583894253
+TOTAL EXECUTION TIME: 0.295156448148191
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db
+0.04852274805307388
+0.0786731569096446
+TOTAL EXECUTION TIME: 0.13165125343948603
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s file
+0.1109427297487855
+0.16007981356233358
+TOTAL EXECUTION TIME: 0.2845362676307559
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db
+0.10939557012170553
+0.16012931615114212
+TOTAL EXECUTION TIME: 0.28098029736429453
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s file
+0.11175220087170601
+0.16009420063346624
+TOTAL EXECUTION TIME: 0.2854665284976363
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db
+0.10852640215307474
+0.1640286948531866
+TOTAL EXECUTION TIME: 0.2805077191442251
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s file
+0.11398015543818474
+0.1670466149225831
+TOTAL EXECUTION TIME: 0.2949370304122567
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db
+0.10986498836427927
+0.16142740100622177
+TOTAL EXECUTION TIME: 0.2788938172161579
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s file
+0.1092582419514656
+0.15924962237477303
+TOTAL EXECUTION TIME: 0.28239453583955765
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db
+0.11060228198766708
+0.1591605395078659
+TOTAL EXECUTION TIME: 0.2774614067748189
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s file
+0.10893014259636402
+0.15912307426333427
+TOTAL EXECUTION TIME: 0.28174162842333317
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db
+0.10951794590801
+0.15921894554048777
+TOTAL EXECUTION TIME: 0.27644590847194195
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s file
+0.10904117673635483
+0.16246711742132902
+TOTAL EXECUTION TIME: 0.2851790366694331
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db
+0.10948452446609735
+0.16589102055877447
+TOTAL EXECUTION TIME: 0.28700737096369267
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s file
+0.11048330552875996
+0.16696944180876017
+TOTAL EXECUTION TIME: 0.290594351477921
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db
+0.11192932073026896
+0.16834869422018528
+TOTAL EXECUTION TIME: 0.28811165411025286
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s file
+0.1105133043602109
+0.1581633435562253
+TOTAL EXECUTION TIME: 0.28202754352241755
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db
+0.10936581995338202
+0.15806372836232185
+TOTAL EXECUTION TIME: 0.27503934781998396
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s file
+0.11382485553622246
+0.1668982096016407
+TOTAL EXECUTION TIME: 0.29459425900131464
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db
+0.10959848202764988
+0.15907516982406378
+TOTAL EXECUTION TIME: 0.2762636737897992
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s file
+0.10972144734114408
+0.1591892745345831
+TOTAL EXECUTION TIME: 0.2822108967229724
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db
+0.10965474601835012
+0.15839684754610062
+TOTAL EXECUTION TIME: 0.2755481693893671
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s file
+0.11118256486952305
+0.15923959203064442
+TOTAL EXECUTION TIME: 0.28364427387714386
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db
+0.10785161424428225
+0.16586407832801342
+TOTAL EXECUTION TIME: 0.28533357195556164
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s file
+0.11331666354089975
+0.16660000197589397
+TOTAL EXECUTION TIME: 0.293942429125309
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db
+0.10930609330534935
+0.15828283689916134
+TOTAL EXECUTION TIME: 0.27514277771115303
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s file
+0.10850212816148996
+0.15878893807530403
+TOTAL EXECUTION TIME: 0.2804887956008315
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db
+0.1138907028362155
+0.16868219431489706
+TOTAL EXECUTION TIME: 0.2903322922065854
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s file
+0.10982187930494547
+0.159744537435472
+TOTAL EXECUTION TIME: 0.2832495989277959
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db
+0.11403740290552378
+0.16688305605202913
+TOTAL EXECUTION TIME: 0.28880633786320686
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s file
+0.11174458917230368
+0.15824579074978828
+TOTAL EXECUTION TIME: 0.2832306493073702
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db
+0.10862923692911863
+0.15807548630982637
+TOTAL EXECUTION TIME: 0.2742445161566138
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s file
+0.11067839618772268
+0.16110963001847267
+TOTAL EXECUTION TIME: 0.28514736611396074
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db
+0.10979229584336281
+0.15827747900038958
+TOTAL EXECUTION TIME: 0.2794610382989049
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s file
+0.11046840436756611
+0.15950502175837755
+TOTAL EXECUTION TIME: 0.28343328554183245
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db
+0.10918563045561314
+0.15997302811592817
+TOTAL EXECUTION TIME: 0.27673638612031937
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s file
+0.11119679175317287
+0.15982457995414734
+TOTAL EXECUTION TIME: 0.28432801831513643
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db
+0.10836671944707632
+0.15835459902882576
+TOTAL EXECUTION TIME: 0.2743588415905833
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s file
+0.10949219204485416
+0.16183478944003582
+TOTAL EXECUTION TIME: 0.2859405819326639
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db
+0.1120244013145566
+0.1604807134717703
+TOTAL EXECUTION TIME: 0.28023517969995737
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s file
+0.1088404729962349
+0.1581982634961605
+TOTAL EXECUTION TIME: 0.28048748802393675
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db
+0.10944218933582306
+0.1582014262676239
+TOTAL EXECUTION TIME: 0.2754959361627698
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s file
+0.10860765818506479
+0.15806570556014776
+TOTAL EXECUTION TIME: 0.2802377762272954
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db
+0.10892618726938963
+0.1591398399323225
+TOTAL EXECUTION TIME: 0.2796603851020336
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s file
+0.10957903601229191
+0.15998112596571445
+TOTAL EXECUTION TIME: 0.28353140875697136
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db
+0.10970301646739244
+0.1584417512640357
+TOTAL EXECUTION TIME: 0.27584938798099756
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s file
+0.11010788381099701
+0.1606178442016244
+TOTAL EXECUTION TIME: 0.28402854036539793
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db
+0.10928619746118784
+0.1593995438888669
+TOTAL EXECUTION TIME: 0.2766032125800848
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s file
+0.11041533667594194
+0.16046357434242964
+TOTAL EXECUTION TIME: 0.28473155852407217
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db
+0.11093896627426147
+0.1604401869699359
+TOTAL EXECUTION TIME: 0.2790835425257683
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s file
+0.11407605651766062
+0.15946798492223024
+TOTAL EXECUTION TIME: 0.2870812974870205
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db
+0.11449332814663649
+0.16398113127797842
+TOTAL EXECUTION TIME: 0.28615817055106163
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s file
+0.10929582919925451
+0.15993837174028158
+TOTAL EXECUTION TIME: 0.2827805383130908
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db
+0.10897461511194706
+0.16628909669816494
+TOTAL EXECUTION TIME: 0.2869886141270399
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s file
+0.10985911265015602
+0.15992362704128027
+TOTAL EXECUTION TIME: 0.2835022481158376
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db
+0.11118295788764954
+0.1607366083189845
+TOTAL EXECUTION TIME: 0.2799186035990715
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s file
+0.11172989010810852
+0.16125713661313057
+TOTAL EXECUTION TIME: 0.28665539249777794
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db
+0.10999477561563253
+0.1593108158558607
+TOTAL EXECUTION TIME: 0.27687191404402256
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s file
+0.10895752161741257
+0.15898410324007273
+TOTAL EXECUTION TIME: 0.28153478167951107
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db
+0.11260777711868286
+0.1687853680923581
+TOTAL EXECUTION TIME: 0.2892277780920267
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s file
+0.11101547069847584
+0.15970674343407154
+TOTAL EXECUTION TIME: 0.28430567402392626
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db
+0.10857642628252506
+0.15825907979160547
+TOTAL EXECUTION TIME: 0.27459534350782633
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s file
+0.11027049086987972
+0.16159842256456614
+TOTAL EXECUTION TIME: 0.28525355365127325
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db
+0.11354210879653692
+0.1646262016147375
+TOTAL EXECUTION TIME: 0.290116167627275
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s file
+0.11115444730967283
+0.15893680043518543
+TOTAL EXECUTION TIME: 0.2835190426558256
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db
+0.11399306450039148
+0.15976868011057377
+TOTAL EXECUTION TIME: 0.2813428333029151
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s file
+0.11384714860469103
+0.16329251136630774
+TOTAL EXECUTION TIME: 0.290429824963212
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db
+0.1087164981290698
+0.1582865547388792
+TOTAL EXECUTION TIME: 0.27470602560788393
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s file
+0.11399379465728998
+0.17017622012645006
+TOTAL EXECUTION TIME: 0.29776056483387947
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db
+0.11018022615462542
+0.16378597542643547
+TOTAL EXECUTION TIME: 0.28161037992686033
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s file
+0.1088764937594533
+0.1604658393189311
+TOTAL EXECUTION TIME: 0.28283268865197897
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db
+0.11046724114567041
+0.1593983331695199
+TOTAL EXECUTION TIME: 0.27743154764175415
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s file
+0.10803983639925718
+0.15742256958037615
+TOTAL EXECUTION TIME: 0.27867033518850803
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db
+0.10870495717972517
+0.15889075864106417
+TOTAL EXECUTION TIME: 0.2789498632773757
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s file
+0.1093994127586484
+0.16200938913971186
+TOTAL EXECUTION TIME: 0.28561532869935036
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db
+0.11164435185492039
+0.16066444385796785
+TOTAL EXECUTION TIME: 0.2800578800961375
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s file
+0.1114986827597022
+0.1667278129607439
+TOTAL EXECUTION TIME: 0.29216215666383505
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db
+0.10966945346444845
+0.16185465175658464
+TOTAL EXECUTION TIME: 0.27917642798274755
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s file
+0.10870841331779957
+0.15859737154096365
+TOTAL EXECUTION TIME: 0.2809649398550391
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db
+0.1084201792255044
+0.16122973896563053
+TOTAL EXECUTION TIME: 0.27742290683090687
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s file
+0.11395806353539228
+0.16515096183866262
+TOTAL EXECUTION TIME: 0.29274224303662777
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db
+0.10900666937232018
+0.15994852408766747
+TOTAL EXECUTION TIME: 0.2765177944675088
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s file
+0.11121180187910795
+0.16425259411334991
+TOTAL EXECUTION TIME: 0.2894459944218397
