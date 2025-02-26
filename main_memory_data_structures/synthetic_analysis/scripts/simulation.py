@@ -1,4 +1,4 @@
-import sys, os, copy, random, xxhash
+import sys, os, copy, random, hashlib
 sys.path.append('..')
 
 from random import randint, shuffle, choice
@@ -10,12 +10,13 @@ def little_cache_miss_rate():
 #     return {'min': 50, 'max': 100}
 
 def get_config_boundaries():
-    configs = {
-        f'SET_{i+1}': {
-            'deterministic_calls': {'min': i*1000, 'max': (i+1)*1000},
-            'cache_miss_rate': little_cache_miss_rate()
-        } for i in range(1, 20, 1)
-    }
+    configs = {}
+    # configs = {
+    #     f'SET_{i+1}': {
+    #         'deterministic_calls': {'min': i*1000, 'max': (i+1)*1000},
+    #         'cache_miss_rate': little_cache_miss_rate()
+    #     } for i in range(1, 20, 1)
+    # }
     configs['SET_1'] = {
         'deterministic_calls': {'min': 500, 'max': 1000},
         'cache_miss_rate': little_cache_miss_rate()
@@ -61,7 +62,7 @@ def generate_data(data_size):
     data = {}
     for _ in range(data_size):
         value = random.random()
-        key = xxhash.xxh128_hexdigest(str(value).encode('utf'))
+        key = hashlib.md5(str(value).encode('utf')).hexdigest()
         data[key] = value    
     return data
 
