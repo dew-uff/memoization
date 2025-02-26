@@ -21,7 +21,7 @@ conda activate benchmarks-env
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 0'
+echo 'python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py test_laplace_jacobi_1.py
 python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -32,7 +32,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 1'
+echo 'python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py test_laplace_jacobi_1.py
 python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -43,7 +43,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2'
+echo 'python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py test_laplace_jacobi_1.py
 python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -54,7 +54,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2-fast'
+echo 'python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py test_laplace_jacobi_1.py
 python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -66,7 +66,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 0'
+echo 'python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py test_laplace_jacobi_2.py
 python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -77,7 +77,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 1'
+echo 'python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py test_laplace_jacobi_2.py
 python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -88,7 +88,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2'
+echo 'python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py test_laplace_jacobi_2.py
 python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -99,7 +99,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2-fast'
+echo 'python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py test_laplace_jacobi_2.py
 python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -111,7 +111,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 0'
+echo 'python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py test_laplace_jacobi_3.py
 python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -122,7 +122,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 1'
+echo 'python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py test_laplace_jacobi_3.py
 python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -133,7 +133,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2'
+echo 'python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py test_laplace_jacobi_3.py
 python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -144,7 +144,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2-fast'
+echo 'python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py test_laplace_jacobi_3.py
 python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -156,7 +156,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 0'
+echo 'python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py test_laplace_jacobi_4.py
 python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -167,7 +167,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 1'
+echo 'python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py test_laplace_jacobi_4.py
 python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -178,7 +178,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2'
+echo 'python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py test_laplace_jacobi_4.py
 python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -189,7 +189,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2-fast'
+echo 'python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py test_laplace_jacobi_4.py
 python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -201,7 +201,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 0'
+echo 'python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py test_laplace_jacobi_5.py
 python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -212,7 +212,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 1'
+echo 'python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py test_laplace_jacobi_5.py
 python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -223,7 +223,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2'
+echo 'python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py test_laplace_jacobi_5.py
 python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -234,7 +234,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2-fast'
+echo 'python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py test_laplace_jacobi_5.py
 python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/ speedupy/
@@ -256,7 +256,7 @@ conda activate tiny-env
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python TINY_GSGP_10.py --exec-mode manual --num-dict 0'
+echo 'python TINY_GSGP_10.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py TINY_GSGP_10.py
 python TINY_GSGP_10.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -267,7 +267,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python TINY_GSGP_10.py --exec-mode manual --num-dict 1'
+echo 'python TINY_GSGP_10.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py TINY_GSGP_10.py
 python TINY_GSGP_10.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -278,7 +278,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python TINY_GSGP_10.py --exec-mode manual --num-dict 2'
+echo 'python TINY_GSGP_10.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py TINY_GSGP_10.py
 python TINY_GSGP_10.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -289,7 +289,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python TINY_GSGP_10.py --exec-mode manual --num-dict 2-fast'
+echo 'python TINY_GSGP_10.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py TINY_GSGP_10.py
 python TINY_GSGP_10.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -301,7 +301,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python TINY_GSGP_20.py --exec-mode manual --num-dict 0'
+echo 'python TINY_GSGP_20.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py TINY_GSGP_20.py
 python TINY_GSGP_20.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -312,7 +312,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python TINY_GSGP_20.py --exec-mode manual --num-dict 1'
+echo 'python TINY_GSGP_20.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py TINY_GSGP_20.py
 python TINY_GSGP_20.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -323,7 +323,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python TINY_GSGP_20.py --exec-mode manual --num-dict 2'
+echo 'python TINY_GSGP_20.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py TINY_GSGP_20.py
 python TINY_GSGP_20.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -334,7 +334,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python TINY_GSGP_20.py --exec-mode manual --num-dict 2-fast'
+echo 'python TINY_GSGP_20.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py TINY_GSGP_20.py
 python TINY_GSGP_20.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -347,7 +347,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python TINY_GSGP.py --exec-mode manual --num-dict 0'
+echo 'python TINY_GSGP.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py TINY_GSGP.py
 python TINY_GSGP.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -358,7 +358,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python TINY_GSGP.py --exec-mode manual --num-dict 1'
+echo 'python TINY_GSGP.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py TINY_GSGP.py
 python TINY_GSGP.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -369,7 +369,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python TINY_GSGP.py --exec-mode manual --num-dict 2'
+echo 'python TINY_GSGP.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py TINY_GSGP.py
 python TINY_GSGP.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -380,7 +380,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python TINY_GSGP.py --exec-mode manual --num-dict 2-fast'
+echo 'python TINY_GSGP.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py TINY_GSGP.py
 python TINY_GSGP.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -392,7 +392,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python TINY_GSGP_40.py --exec-mode manual --num-dict 0'
+echo 'python TINY_GSGP_40.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py TINY_GSGP_40.py
 python TINY_GSGP_40.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -403,7 +403,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python TINY_GSGP_40.py --exec-mode manual --num-dict 1'
+echo 'python TINY_GSGP_40.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py TINY_GSGP_40.py
 python TINY_GSGP_40.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -414,7 +414,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python TINY_GSGP_40.py --exec-mode manual --num-dict 2'
+echo 'python TINY_GSGP_40.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py TINY_GSGP_40.py
 python TINY_GSGP_40.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -425,7 +425,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python TINY_GSGP_40.py --exec-mode manual --num-dict 2-fast'
+echo 'python TINY_GSGP_40.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py TINY_GSGP_40.py
 python TINY_GSGP_40.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -437,7 +437,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python TINY_GSGP_50.py --exec-mode manual --num-dict 0'
+echo 'python TINY_GSGP_50.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py TINY_GSGP_50.py
 python TINY_GSGP_50.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -448,7 +448,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python TINY_GSGP_50.py --exec-mode manual --num-dict 1'
+echo 'python TINY_GSGP_50.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py TINY_GSGP_50.py
 python TINY_GSGP_50.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -459,7 +459,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python TINY_GSGP_50.py --exec-mode manual --num-dict 2'
+echo 'python TINY_GSGP_50.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py TINY_GSGP_50.py
 python TINY_GSGP_50.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -470,7 +470,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python TINY_GSGP_50.py --exec-mode manual --num-dict 2-fast'
+echo 'python TINY_GSGP_50.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py TINY_GSGP_50.py
 python TINY_GSGP_50.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/ speedupy/
@@ -493,7 +493,7 @@ conda activate benchmarks-env
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 0'
+echo 'python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -504,7 +504,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 1'
+echo 'python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -516,7 +516,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2'
+echo 'python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -527,7 +527,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2-fast'
+echo 'python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 python count_unique_words_speedupy.py pg52106.txt --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -538,7 +538,7 @@ rm -rf .speedupy/
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python count_unique_words_speedupy.py pg31100.txt --exec-mode manual --num-dict 0'
+echo 'python count_unique_words_speedupy.py pg31100.txt --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 python count_unique_words_speedupy.py pg31100.txt --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -549,7 +549,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python count_unique_words_speedupy.py pg31100.txt --exec-mode manual --num-dict 1'
+echo 'python count_unique_words_speedupy.py pg31100.txt --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 python count_unique_words_speedupy.py pg31100.txt --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -561,7 +561,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python count_unique_words_speedupy.py pg31100.txt --exec-mode manual --num-dict 2'
+echo 'python count_unique_words_speedupy.py pg31100.txt --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 python count_unique_words_speedupy.py pg31100.txt --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -572,7 +572,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python count_unique_words_speedupy.py pg31100.txt --exec-mode manual --num-dict 2-fast'
+echo 'python count_unique_words_speedupy.py pg31100.txt --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 python count_unique_words_speedupy.py pg31100.txt --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -583,7 +583,7 @@ rm -rf .speedupy/
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python count_unique_words_speedupy.py pg29090.txt --exec-mode manual --num-dict 0'
+echo 'python count_unique_words_speedupy.py pg29090.txt --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 python count_unique_words_speedupy.py pg29090.txt --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -594,7 +594,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python count_unique_words_speedupy.py pg29090.txt --exec-mode manual --num-dict 1'
+echo 'python count_unique_words_speedupy.py pg29090.txt --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 python count_unique_words_speedupy.py pg29090.txt --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -606,7 +606,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python count_unique_words_speedupy.py pg29090.txt --exec-mode manual --num-dict 2'
+echo 'python count_unique_words_speedupy.py pg29090.txt --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 python count_unique_words_speedupy.py pg29090.txt --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -617,7 +617,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python count_unique_words_speedupy.py pg29090.txt --exec-mode manual --num-dict 2-fast'
+echo 'python count_unique_words_speedupy.py pg29090.txt --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 python count_unique_words_speedupy.py pg29090.txt --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -628,7 +628,7 @@ rm -rf .speedupy/
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python count_unique_words_speedupy.py pg9600.txt --exec-mode manual --num-dict 0'
+echo 'python count_unique_words_speedupy.py pg9600.txt --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 python count_unique_words_speedupy.py pg9600.txt --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -639,7 +639,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python count_unique_words_speedupy.py pg9600.txt --exec-mode manual --num-dict 1'
+echo 'python count_unique_words_speedupy.py pg9600.txt --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 python count_unique_words_speedupy.py pg9600.txt --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -651,7 +651,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python count_unique_words_speedupy.py pg9600.txt --exec-mode manual --num-dict 2'
+echo 'python count_unique_words_speedupy.py pg9600.txt --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 python count_unique_words_speedupy.py pg9600.txt --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -662,7 +662,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python count_unique_words_speedupy.py pg9600.txt --exec-mode manual --num-dict 2-fast'
+echo 'python count_unique_words_speedupy.py pg9600.txt --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 python count_unique_words_speedupy.py pg9600.txt --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -673,7 +673,7 @@ rm -rf .speedupy/
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python count_unique_words_speedupy.py pg100.txt --exec-mode manual --num-dict 0'
+echo 'python count_unique_words_speedupy.py pg100.txt --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 python count_unique_words_speedupy.py pg100.txt --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -684,7 +684,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python count_unique_words_speedupy.py pg100.txt --exec-mode manual --num-dict 1'
+echo 'python count_unique_words_speedupy.py pg100.txt --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 python count_unique_words_speedupy.py pg100.txt --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -696,7 +696,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python count_unique_words_speedupy.py pg100.txt --exec-mode manual --num-dict 2'
+echo 'python count_unique_words_speedupy.py pg100.txt --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 python count_unique_words_speedupy.py pg100.txt --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -707,7 +707,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python count_unique_words_speedupy.py pg100.txt --exec-mode manual --num-dict 2-fast'
+echo 'python count_unique_words_speedupy.py pg100.txt --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 python count_unique_words_speedupy.py pg100.txt --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/ speedupy/
@@ -731,7 +731,7 @@ conda activate dnacc-env
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python sphere_potentials_5.py --exec-mode manual --num-dict 0'
+echo 'python sphere_potentials_5.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py sphere_potentials_5.py
 python sphere_potentials_5.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -742,7 +742,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python sphere_potentials_5.py --exec-mode manual --num-dict 1'
+echo 'python sphere_potentials_5.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py sphere_potentials_5.py
 python sphere_potentials_5.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -754,7 +754,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python sphere_potentials_5.py --exec-mode manual --num-dict 2'
+echo 'python sphere_potentials_5.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py sphere_potentials_5.py
 python sphere_potentials_5.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -765,7 +765,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python sphere_potentials_5.py --exec-mode manual --num-dict 2-fast'
+echo 'python sphere_potentials_5.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py sphere_potentials_5.py
 python sphere_potentials_5.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -778,7 +778,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python sphere_potentials_10.py --exec-mode manual --num-dict 0'
+echo 'python sphere_potentials_10.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py sphere_potentials_10.py
 python sphere_potentials_10.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -789,7 +789,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python sphere_potentials_10.py --exec-mode manual --num-dict 1'
+echo 'python sphere_potentials_10.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py sphere_potentials_10.py
 python sphere_potentials_10.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -801,7 +801,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python sphere_potentials_10.py --exec-mode manual --num-dict 2'
+echo 'python sphere_potentials_10.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py sphere_potentials_10.py
 python sphere_potentials_10.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -812,7 +812,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python sphere_potentials_10.py --exec-mode manual --num-dict 2-fast'
+echo 'python sphere_potentials_10.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py sphere_potentials_10.py
 python sphere_potentials_10.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -825,7 +825,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python sphere_potentials_15.py --exec-mode manual --num-dict 0'
+echo 'python sphere_potentials_15.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py sphere_potentials_15.py
 python sphere_potentials_15.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -836,7 +836,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python sphere_potentials_15.py --exec-mode manual --num-dict 1'
+echo 'python sphere_potentials_15.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py sphere_potentials_15.py
 python sphere_potentials_15.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -848,7 +848,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python sphere_potentials_15.py --exec-mode manual --num-dict 2'
+echo 'python sphere_potentials_15.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py sphere_potentials_15.py
 python sphere_potentials_15.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -859,7 +859,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python sphere_potentials_15.py --exec-mode manual --num-dict 2-fast'
+echo 'python sphere_potentials_15.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py sphere_potentials_15.py
 python sphere_potentials_15.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -872,7 +872,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python sphere_potentials.py --exec-mode manual --num-dict 0'
+echo 'python sphere_potentials.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py sphere_potentials.py
 python sphere_potentials.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -883,7 +883,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python sphere_potentials.py --exec-mode manual --num-dict 1'
+echo 'python sphere_potentials.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py sphere_potentials.py
 python sphere_potentials.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -895,7 +895,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python sphere_potentials.py --exec-mode manual --num-dict 2'
+echo 'python sphere_potentials.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py sphere_potentials.py
 python sphere_potentials.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -906,7 +906,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python sphere_potentials.py --exec-mode manual --num-dict 2-fast'
+echo 'python sphere_potentials.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py sphere_potentials.py
 python sphere_potentials.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -919,7 +919,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python sphere_potentials_25.py --exec-mode manual --num-dict 0'
+echo 'python sphere_potentials_25.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py sphere_potentials_25.py
 python sphere_potentials_25.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -930,7 +930,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python sphere_potentials_25.py --exec-mode manual --num-dict 1'
+echo 'python sphere_potentials_25.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py sphere_potentials_25.py
 python sphere_potentials_25.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -942,7 +942,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python sphere_potentials_25.py --exec-mode manual --num-dict 2'
+echo 'python sphere_potentials_25.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py sphere_potentials_25.py
 python sphere_potentials_25.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -953,7 +953,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python sphere_potentials_25.py --exec-mode manual --num-dict 2-fast'
+echo 'python sphere_potentials_25.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py sphere_potentials_25.py
 python sphere_potentials_25.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/ speedupy/ dnacc/
@@ -976,7 +976,7 @@ conda activate dnacc-env
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python ssDNA_tethers_1.py --exec-mode manual --num-dict 0'
+echo 'python ssDNA_tethers_1.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py ssDNA_tethers_1.py
 python ssDNA_tethers_1.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -987,7 +987,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python ssDNA_tethers_1.py --exec-mode manual --num-dict 1'
+echo 'python ssDNA_tethers_1.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py ssDNA_tethers_1.py
 python ssDNA_tethers_1.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -998,7 +998,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python ssDNA_tethers_1.py --exec-mode manual --num-dict 2'
+echo 'python ssDNA_tethers_1.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py ssDNA_tethers_1.py
 python ssDNA_tethers_1.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1009,7 +1009,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python ssDNA_tethers_1.py --exec-mode manual --num-dict 2-fast'
+echo 'python ssDNA_tethers_1.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py ssDNA_tethers_1.py
 python ssDNA_tethers_1.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1022,7 +1022,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python ssDNA_tethers_2.py --exec-mode manual --num-dict 0'
+echo 'python ssDNA_tethers_2.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py ssDNA_tethers_2.py
 python ssDNA_tethers_2.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1033,7 +1033,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python ssDNA_tethers_2.py --exec-mode manual --num-dict 1'
+echo 'python ssDNA_tethers_2.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py ssDNA_tethers_2.py
 python ssDNA_tethers_2.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1044,7 +1044,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python ssDNA_tethers_2.py --exec-mode manual --num-dict 2'
+echo 'python ssDNA_tethers_2.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py ssDNA_tethers_2.py
 python ssDNA_tethers_2.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1055,7 +1055,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python ssDNA_tethers_2.py --exec-mode manual --num-dict 2-fast'
+echo 'python ssDNA_tethers_2.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py ssDNA_tethers_2.py
 python ssDNA_tethers_2.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1068,7 +1068,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python ssDNA_tethers_3.py --exec-mode manual --num-dict 0'
+echo 'python ssDNA_tethers_3.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py ssDNA_tethers_3.py
 python ssDNA_tethers_3.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1079,7 +1079,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python ssDNA_tethers_3.py --exec-mode manual --num-dict 1'
+echo 'python ssDNA_tethers_3.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py ssDNA_tethers_3.py
 python ssDNA_tethers_3.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1090,7 +1090,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python ssDNA_tethers_3.py --exec-mode manual --num-dict 2'
+echo 'python ssDNA_tethers_3.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py ssDNA_tethers_3.py
 python ssDNA_tethers_3.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1101,7 +1101,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python ssDNA_tethers_3.py --exec-mode manual --num-dict 2-fast'
+echo 'python ssDNA_tethers_3.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py ssDNA_tethers_3.py
 python ssDNA_tethers_3.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1114,7 +1114,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python ssDNA_tethers_4.py --exec-mode manual --num-dict 0'
+echo 'python ssDNA_tethers_4.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py ssDNA_tethers_4.py
 python ssDNA_tethers_4.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1125,7 +1125,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python ssDNA_tethers_4.py --exec-mode manual --num-dict 1'
+echo 'python ssDNA_tethers_4.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py ssDNA_tethers_4.py
 python ssDNA_tethers_4.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1136,7 +1136,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python ssDNA_tethers_4.py --exec-mode manual --num-dict 2'
+echo 'python ssDNA_tethers_4.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py ssDNA_tethers_4.py
 python ssDNA_tethers_4.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1147,7 +1147,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python ssDNA_tethers_4.py --exec-mode manual --num-dict 2-fast'
+echo 'python ssDNA_tethers_4.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py ssDNA_tethers_4.py
 python ssDNA_tethers_4.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1160,7 +1160,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python ssDNA_tethers.py --exec-mode manual --num-dict 0'
+echo 'python ssDNA_tethers.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py ssDNA_tethers.py
 python ssDNA_tethers.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1171,7 +1171,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python ssDNA_tethers.py --exec-mode manual --num-dict 1'
+echo 'python ssDNA_tethers.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py ssDNA_tethers.py
 python ssDNA_tethers.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1182,7 +1182,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python ssDNA_tethers.py --exec-mode manual --num-dict 2'
+echo 'python ssDNA_tethers.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py ssDNA_tethers.py
 python ssDNA_tethers.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1193,7 +1193,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python ssDNA_tethers.py --exec-mode manual --num-dict 2-fast'
+echo 'python ssDNA_tethers.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py ssDNA_tethers.py
 python ssDNA_tethers.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/ speedupy/ dnacc/
@@ -1217,7 +1217,7 @@ conda activate pilots-env
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python heap_permutation.py 8 --exec-mode manual --num-dict 0'
+echo 'python heap_permutation.py 8 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py heap_permutation.py
 python heap_permutation.py 8 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1228,7 +1228,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python heap_permutation.py 8 --exec-mode manual --num-dict 1'
+echo 'python heap_permutation.py 8 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py heap_permutation.py
 python heap_permutation.py 8 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1239,7 +1239,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python heap_permutation.py 8 --exec-mode manual --num-dict 2'
+echo 'python heap_permutation.py 8 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py heap_permutation.py
 python heap_permutation.py 8 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1250,7 +1250,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python heap_permutation.py 8 --exec-mode manual --num-dict 2-fast'
+echo 'python heap_permutation.py 8 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py heap_permutation.py
 python heap_permutation.py 8 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1263,7 +1263,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python heap_permutation.py 7 --exec-mode manual --num-dict 0'
+echo 'python heap_permutation.py 7 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py heap_permutation.py
 python heap_permutation.py 7 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1274,7 +1274,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python heap_permutation.py 7 --exec-mode manual --num-dict 1'
+echo 'python heap_permutation.py 7 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py heap_permutation.py
 python heap_permutation.py 7 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1285,7 +1285,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python heap_permutation.py 7 --exec-mode manual --num-dict 2'
+echo 'python heap_permutation.py 7 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py heap_permutation.py
 python heap_permutation.py 7 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1296,7 +1296,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python heap_permutation.py 7 --exec-mode manual --num-dict 2-fast'
+echo 'python heap_permutation.py 7 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py heap_permutation.py
 python heap_permutation.py 7 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1309,7 +1309,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python heap_permutation.py 6 --exec-mode manual --num-dict 0'
+echo 'python heap_permutation.py 6 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py heap_permutation.py
 python heap_permutation.py 6 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1320,7 +1320,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python heap_permutation.py 6 --exec-mode manual --num-dict 1'
+echo 'python heap_permutation.py 6 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py heap_permutation.py
 python heap_permutation.py 6 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1331,7 +1331,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python heap_permutation.py 6 --exec-mode manual --num-dict 2'
+echo 'python heap_permutation.py 6 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py heap_permutation.py
 python heap_permutation.py 6 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1342,7 +1342,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python heap_permutation.py 6 --exec-mode manual --num-dict 2-fast'
+echo 'python heap_permutation.py 6 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py heap_permutation.py
 python heap_permutation.py 6 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1355,7 +1355,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python heap_permutation.py 5 --exec-mode manual --num-dict 0'
+echo 'python heap_permutation.py 5 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py heap_permutation.py
 python heap_permutation.py 5 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1366,7 +1366,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python heap_permutation.py 5 --exec-mode manual --num-dict 1'
+echo 'python heap_permutation.py 5 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py heap_permutation.py
 python heap_permutation.py 5 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1377,7 +1377,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python heap_permutation.py 5 --exec-mode manual --num-dict 2'
+echo 'python heap_permutation.py 5 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py heap_permutation.py
 python heap_permutation.py 5 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1388,7 +1388,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python heap_permutation.py 5 --exec-mode manual --num-dict 2-fast'
+echo 'python heap_permutation.py 5 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py heap_permutation.py
 python heap_permutation.py 5 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1401,7 +1401,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python heap_permutation.py 4 --exec-mode manual --num-dict 0'
+echo 'python heap_permutation.py 4 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py heap_permutation.py
 python heap_permutation.py 4 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1412,7 +1412,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python heap_permutation.py 4 --exec-mode manual --num-dict 1'
+echo 'python heap_permutation.py 4 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py heap_permutation.py
 python heap_permutation.py 4 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1423,7 +1423,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python heap_permutation.py 4 --exec-mode manual --num-dict 2'
+echo 'python heap_permutation.py 4 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py heap_permutation.py
 python heap_permutation.py 4 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1434,7 +1434,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python heap_permutation.py 4 --exec-mode manual --num-dict 2-fast'
+echo 'python heap_permutation.py 4 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py heap_permutation.py
 python heap_permutation.py 4 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/ speedupy/
@@ -1457,7 +1457,7 @@ conda activate benchmarks-env
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python metropolis_hastings.py 75000 --exec-mode manual --num-dict 0'
+echo 'python metropolis_hastings.py 75000 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py metropolis_hastings.py
 python metropolis_hastings.py 75000 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1468,7 +1468,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python metropolis_hastings.py 75000 --exec-mode manual --num-dict 1'
+echo 'python metropolis_hastings.py 75000 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py metropolis_hastings.py
 python metropolis_hastings.py 75000 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1479,7 +1479,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2'
+echo 'python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py metropolis_hastings.py
 python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1490,7 +1490,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2-fast'
+echo 'python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py metropolis_hastings.py
 python metropolis_hastings.py 75000 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1503,7 +1503,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python metropolis_hastings.py 72500 --exec-mode manual --num-dict 0'
+echo 'python metropolis_hastings.py 72500 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py metropolis_hastings.py
 python metropolis_hastings.py 72500 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1514,7 +1514,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python metropolis_hastings.py 72500 --exec-mode manual --num-dict 1'
+echo 'python metropolis_hastings.py 72500 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py metropolis_hastings.py
 python metropolis_hastings.py 72500 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1525,7 +1525,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python metropolis_hastings.py 72500 --exec-mode manual --num-dict 2'
+echo 'python metropolis_hastings.py 72500 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py metropolis_hastings.py
 python metropolis_hastings.py 72500 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1536,7 +1536,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python metropolis_hastings.py 72500 --exec-mode manual --num-dict 2-fast'
+echo 'python metropolis_hastings.py 72500 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py metropolis_hastings.py
 python metropolis_hastings.py 72500 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1549,7 +1549,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python metropolis_hastings.py 70000 --exec-mode manual --num-dict 0'
+echo 'python metropolis_hastings.py 70000 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py metropolis_hastings.py
 python metropolis_hastings.py 70000 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1560,7 +1560,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python metropolis_hastings.py 70000 --exec-mode manual --num-dict 1'
+echo 'python metropolis_hastings.py 70000 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py metropolis_hastings.py
 python metropolis_hastings.py 70000 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1571,7 +1571,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python metropolis_hastings.py 70000 --exec-mode manual --num-dict 2'
+echo 'python metropolis_hastings.py 70000 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py metropolis_hastings.py
 python metropolis_hastings.py 70000 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1582,7 +1582,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python metropolis_hastings.py 70000 --exec-mode manual --num-dict 2-fast'
+echo 'python metropolis_hastings.py 70000 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py metropolis_hastings.py
 python metropolis_hastings.py 70000 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1595,7 +1595,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python metropolis_hastings.py 67500 --exec-mode manual --num-dict 0'
+echo 'python metropolis_hastings.py 67500 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py metropolis_hastings.py
 python metropolis_hastings.py 67500 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1606,7 +1606,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python metropolis_hastings.py 67500 --exec-mode manual --num-dict 1'
+echo 'python metropolis_hastings.py 67500 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py metropolis_hastings.py
 python metropolis_hastings.py 67500 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1617,7 +1617,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python metropolis_hastings.py 67500 --exec-mode manual --num-dict 2'
+echo 'python metropolis_hastings.py 67500 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py metropolis_hastings.py
 python metropolis_hastings.py 67500 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1628,7 +1628,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python metropolis_hastings.py 67500 --exec-mode manual --num-dict 2-fast'
+echo 'python metropolis_hastings.py 67500 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py metropolis_hastings.py
 python metropolis_hastings.py 67500 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1641,7 +1641,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python metropolis_hastings.py 65000 --exec-mode manual --num-dict 0'
+echo 'python metropolis_hastings.py 65000 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py metropolis_hastings.py
 python metropolis_hastings.py 65000 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1652,7 +1652,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python metropolis_hastings.py 65000 --exec-mode manual --num-dict 1'
+echo 'python metropolis_hastings.py 65000 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py metropolis_hastings.py
 python metropolis_hastings.py 65000 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1663,7 +1663,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python metropolis_hastings.py 65000 --exec-mode manual --num-dict 2'
+echo 'python metropolis_hastings.py 65000 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py metropolis_hastings.py
 python metropolis_hastings.py 65000 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1674,7 +1674,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python metropolis_hastings.py 65000 --exec-mode manual --num-dict 2-fast'
+echo 'python metropolis_hastings.py 65000 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py metropolis_hastings.py
 python metropolis_hastings.py 65000 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/ speedupy/
@@ -1697,7 +1697,7 @@ conda activate menger-env
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python menger_sponge_speedupy_160.py --exec-mode manual --num-dict 0'
+echo 'python menger_sponge_speedupy_160.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py menger_sponge_speedupy_160.py
 python menger_sponge_speedupy_160.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1708,7 +1708,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python menger_sponge_speedupy_160.py --exec-mode manual --num-dict 1'
+echo 'python menger_sponge_speedupy_160.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py menger_sponge_speedupy_160.py
 python menger_sponge_speedupy_160.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1716,7 +1716,7 @@ rm -rf .speedupy/
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python menger_sponge_speedupy_160.py --exec-mode manual --num-dict 2'
+echo 'python menger_sponge_speedupy_160.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py menger_sponge_speedupy_160.py
 python menger_sponge_speedupy_160.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1727,7 +1727,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python menger_sponge_speedupy_160.py --exec-mode manual --num-dict 2-fast'
+echo 'python menger_sponge_speedupy_160.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py menger_sponge_speedupy_160.py
 python menger_sponge_speedupy_160.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1737,7 +1737,7 @@ rm -rf .speedupy/
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python menger_sponge_speedupy_170.py --exec-mode manual --num-dict 0'
+echo 'python menger_sponge_speedupy_170.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py menger_sponge_speedupy_170.py
 python menger_sponge_speedupy_170.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1748,7 +1748,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python menger_sponge_speedupy_170.py --exec-mode manual --num-dict 1'
+echo 'python menger_sponge_speedupy_170.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py menger_sponge_speedupy_170.py
 python menger_sponge_speedupy_170.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1756,7 +1756,7 @@ rm -rf .speedupy/
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python menger_sponge_speedupy_170.py --exec-mode manual --num-dict 2'
+echo 'python menger_sponge_speedupy_170.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py menger_sponge_speedupy_170.py
 python menger_sponge_speedupy_170.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1767,7 +1767,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python menger_sponge_speedupy_170.py --exec-mode manual --num-dict 2-fast'
+echo 'python menger_sponge_speedupy_170.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py menger_sponge_speedupy_170.py
 python menger_sponge_speedupy_170.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1777,7 +1777,7 @@ rm -rf .speedupy/
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python menger_sponge_speedupy_180.py --exec-mode manual --num-dict 0'
+echo 'python menger_sponge_speedupy_180.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py menger_sponge_speedupy_180.py
 python menger_sponge_speedupy_180.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1788,7 +1788,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python menger_sponge_speedupy_180.py --exec-mode manual --num-dict 1'
+echo 'python menger_sponge_speedupy_180.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py menger_sponge_speedupy_180.py
 python menger_sponge_speedupy_180.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1796,7 +1796,7 @@ rm -rf .speedupy/
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python menger_sponge_speedupy_180.py --exec-mode manual --num-dict 2'
+echo 'python menger_sponge_speedupy_180.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py menger_sponge_speedupy_180.py
 python menger_sponge_speedupy_180.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1807,7 +1807,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python menger_sponge_speedupy_180.py --exec-mode manual --num-dict 2-fast'
+echo 'python menger_sponge_speedupy_180.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py menger_sponge_speedupy_180.py
 python menger_sponge_speedupy_180.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1817,7 +1817,7 @@ rm -rf .speedupy/
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python menger_sponge_speedupy_190.py --exec-mode manual --num-dict 0'
+echo 'python menger_sponge_speedupy_190.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py menger_sponge_speedupy_190.py
 python menger_sponge_speedupy_190.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1828,7 +1828,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python menger_sponge_speedupy_190.py --exec-mode manual --num-dict 1'
+echo 'python menger_sponge_speedupy_190.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py menger_sponge_speedupy_190.py
 python menger_sponge_speedupy_190.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1836,7 +1836,7 @@ rm -rf .speedupy/
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python menger_sponge_speedupy_190.py --exec-mode manual --num-dict 2'
+echo 'python menger_sponge_speedupy_190.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py menger_sponge_speedupy_190.py
 python menger_sponge_speedupy_190.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1847,7 +1847,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python menger_sponge_speedupy_190.py --exec-mode manual --num-dict 2-fast'
+echo 'python menger_sponge_speedupy_190.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py menger_sponge_speedupy_190.py
 python menger_sponge_speedupy_190.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1857,7 +1857,7 @@ rm -rf .speedupy/
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python menger_sponge_speedupy.py --exec-mode manual --num-dict 0'
+echo 'python menger_sponge_speedupy.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py menger_sponge_speedupy.py
 python menger_sponge_speedupy.py --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1868,7 +1868,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python menger_sponge_speedupy.py --exec-mode manual --num-dict 1'
+echo 'python menger_sponge_speedupy.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py menger_sponge_speedupy.py
 python menger_sponge_speedupy.py --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1876,7 +1876,7 @@ rm -rf .speedupy/
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python menger_sponge_speedupy.py --exec-mode manual --num-dict 2'
+echo 'python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py menger_sponge_speedupy.py
 python menger_sponge_speedupy.py --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1887,7 +1887,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python menger_sponge_speedupy.py --exec-mode manual --num-dict 2-fast'
+echo 'python menger_sponge_speedupy.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py menger_sponge_speedupy.py
 python menger_sponge_speedupy.py --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/ speedupy/
@@ -1909,7 +1909,7 @@ conda activate msr-env
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 0'
+echo 'python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py eq_solver_speedupy.py
 python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1920,7 +1920,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 1'
+echo 'python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py eq_solver_speedupy.py
 python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1931,7 +1931,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 2'
+echo 'python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py eq_solver_speedupy.py
 python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1942,7 +1942,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 2-fast'
+echo 'python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py eq_solver_speedupy.py
 python eq_solver_speedupy.py 1000 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1955,7 +1955,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python eq_solver_speedupy_1.py 1000 --exec-mode manual --num-dict 0'
+echo 'python eq_solver_speedupy_1.py 1000 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py eq_solver_speedupy_1.py
 python eq_solver_speedupy_1.py 1000 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1966,7 +1966,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python eq_solver_speedupy_1.py 1000 --exec-mode manual --num-dict 1'
+echo 'python eq_solver_speedupy_1.py 1000 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py eq_solver_speedupy_1.py
 python eq_solver_speedupy_1.py 1000 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1977,7 +1977,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python eq_solver_speedupy_1.py 1000 --exec-mode manual --num-dict 2'
+echo 'python eq_solver_speedupy_1.py 1000 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py eq_solver_speedupy_1.py
 python eq_solver_speedupy_1.py 1000 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -1988,7 +1988,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python eq_solver_speedupy_1.py 1000 --exec-mode manual --num-dict 2-fast'
+echo 'python eq_solver_speedupy_1.py 1000 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py eq_solver_speedupy_1.py
 python eq_solver_speedupy_1.py 1000 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2001,7 +2001,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python eq_solver_speedupy_2.py 1000 --exec-mode manual --num-dict 0'
+echo 'python eq_solver_speedupy_2.py 1000 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py eq_solver_speedupy_2.py
 python eq_solver_speedupy_2.py 1000 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2012,7 +2012,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python eq_solver_speedupy_2.py 1000 --exec-mode manual --num-dict 1'
+echo 'python eq_solver_speedupy_2.py 1000 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py eq_solver_speedupy_2.py
 python eq_solver_speedupy_2.py 1000 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2023,7 +2023,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python eq_solver_speedupy_2.py 1000 --exec-mode manual --num-dict 2'
+echo 'python eq_solver_speedupy_2.py 1000 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py eq_solver_speedupy_2.py
 python eq_solver_speedupy_2.py 1000 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2034,7 +2034,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python eq_solver_speedupy_2.py 1000 --exec-mode manual --num-dict 2-fast'
+echo 'python eq_solver_speedupy_2.py 1000 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py eq_solver_speedupy_2.py
 python eq_solver_speedupy_2.py 1000 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2047,7 +2047,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python eq_solver_speedupy_3.py 1000 --exec-mode manual --num-dict 0'
+echo 'python eq_solver_speedupy_3.py 1000 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py eq_solver_speedupy_3.py
 python eq_solver_speedupy_3.py 1000 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2058,7 +2058,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python eq_solver_speedupy_3.py 1000 --exec-mode manual --num-dict 1'
+echo 'python eq_solver_speedupy_3.py 1000 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py eq_solver_speedupy_3.py
 python eq_solver_speedupy_3.py 1000 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2069,7 +2069,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python eq_solver_speedupy_3.py 1000 --exec-mode manual --num-dict 2'
+echo 'python eq_solver_speedupy_3.py 1000 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py eq_solver_speedupy_3.py
 python eq_solver_speedupy_3.py 1000 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2080,7 +2080,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python eq_solver_speedupy_3.py 1000 --exec-mode manual --num-dict 2-fast'
+echo 'python eq_solver_speedupy_3.py 1000 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py eq_solver_speedupy_3.py
 python eq_solver_speedupy_3.py 1000 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2093,7 +2093,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python eq_solver_speedupy_4.py 1000 --exec-mode manual --num-dict 0'
+echo 'python eq_solver_speedupy_4.py 1000 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py eq_solver_speedupy_4.py
 python eq_solver_speedupy_4.py 1000 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2104,7 +2104,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python eq_solver_speedupy_4.py 1000 --exec-mode manual --num-dict 1'
+echo 'python eq_solver_speedupy_4.py 1000 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py eq_solver_speedupy_4.py
 python eq_solver_speedupy_4.py 1000 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2115,7 +2115,7 @@ sleep $random_sleep
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python eq_solver_speedupy_4.py 1000 --exec-mode manual --num-dict 2'
+echo 'python eq_solver_speedupy_4.py 1000 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py eq_solver_speedupy_4.py
 python eq_solver_speedupy_4.py 1000 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2126,7 +2126,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python eq_solver_speedupy_4.py 1000 --exec-mode manual --num-dict 2-fast'
+echo 'python eq_solver_speedupy_4.py 1000 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py eq_solver_speedupy_4.py
 python eq_solver_speedupy_4.py 1000 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/ speedupy/
@@ -2148,7 +2148,7 @@ conda activate pilots-env
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python power.py 1241231241 462 --exec-mode manual --num-dict 0'
+echo 'python power.py 1241231241 462 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py power.py
 python power.py 1241231241 462 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2159,7 +2159,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python power.py 1241231241 462 --exec-mode manual --num-dict 1'
+echo 'python power.py 1241231241 462 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py power.py
 python power.py 1241231241 462 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2167,7 +2167,7 @@ rm -rf .speedupy/
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python power.py 1241231241 462 --exec-mode manual --num-dict 2'
+echo 'python power.py 1241231241 462 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py power.py
 python power.py 1241231241 462 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2178,7 +2178,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python power.py 1241231241 462 --exec-mode manual --num-dict 2-fast'
+echo 'python power.py 1241231241 462 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py power.py
 python power.py 1241231241 462 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2191,7 +2191,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python power.py 1241231241 450 --exec-mode manual --num-dict 0'
+echo 'python power.py 1241231241 450 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py power.py
 python power.py 1241231241 450 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2202,7 +2202,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python power.py 1241231241 450 --exec-mode manual --num-dict 1'
+echo 'python power.py 1241231241 450 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py power.py
 python power.py 1241231241 450 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2210,7 +2210,7 @@ rm -rf .speedupy/
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python power.py 1241231241 450 --exec-mode manual --num-dict 2'
+echo 'python power.py 1241231241 450 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py power.py
 python power.py 1241231241 450 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2221,7 +2221,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python power.py 1241231241 450 --exec-mode manual --num-dict 2-fast'
+echo 'python power.py 1241231241 450 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py power.py
 python power.py 1241231241 450 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2234,7 +2234,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python power.py 1241231000 430 --exec-mode manual --num-dict 0'
+echo 'python power.py 1241231000 430 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py power.py
 python power.py 1241231000 430 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2245,7 +2245,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python power.py 1241231000 430 --exec-mode manual --num-dict 1'
+echo 'python power.py 1241231000 430 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py power.py
 python power.py 1241231000 430 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2253,7 +2253,7 @@ rm -rf .speedupy/
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python power.py 1241231000 430 --exec-mode manual --num-dict 2'
+echo 'python power.py 1241231000 430 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py power.py
 python power.py 1241231000 430 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2264,7 +2264,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python power.py 1241231000 430 --exec-mode manual --num-dict 2-fast'
+echo 'python power.py 1241231000 430 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py power.py
 python power.py 1241231000 430 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2277,7 +2277,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python power.py 124123124 400 --exec-mode manual --num-dict 0'
+echo 'python power.py 124123124 400 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py power.py
 python power.py 124123124 400 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2288,7 +2288,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python power.py 124123124 400 --exec-mode manual --num-dict 1'
+echo 'python power.py 124123124 400 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py power.py
 python power.py 124123124 400 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2296,7 +2296,7 @@ rm -rf .speedupy/
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python power.py 124123124 400 --exec-mode manual --num-dict 2'
+echo 'python power.py 124123124 400 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py power.py
 python power.py 124123124 400 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2307,7 +2307,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python power.py 124123124 400 --exec-mode manual --num-dict 2-fast'
+echo 'python power.py 124123124 400 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py power.py
 python power.py 124123124 400 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2320,7 +2320,7 @@ sleep $random_sleep
 #Executing for num-dict 0
 echo ''
 echo ''
-echo 'python power.py 1241231231 460 --exec-mode manual --num-dict 0'
+echo 'python power.py 1241231231 460 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py power.py
 python power.py 1241231231 460 --exec-mode manual --num-dict 0 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2331,7 +2331,7 @@ sleep $random_sleep
 #Executing for num-dict 1
 echo ''
 echo ''
-echo 'python power.py 1241231231 460 --exec-mode manual --num-dict 1'
+echo 'python power.py 1241231231 460 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py power.py
 python power.py 1241231231 460 --exec-mode manual --num-dict 1 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2339,7 +2339,7 @@ rm -rf .speedupy/
 #Executing for num-dict 2
 echo ''
 echo ''
-echo 'python power.py 1241231231 460 --exec-mode manual --num-dict 2'
+echo 'python power.py 1241231231 460 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py power.py
 python power.py 1241231231 460 --exec-mode manual --num-dict 2 --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/
@@ -2350,7 +2350,7 @@ sleep $random_sleep
 #Executing for num-dict 2-fast
 echo ''
 echo ''
-echo 'python power.py 1241231231 460 --exec-mode manual --num-dict 2-fast'
+echo 'python power.py 1241231231 460 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential'
 python speedupy/setup_exp/setup.py power.py
 python power.py 1241231231 460 --exec-mode manual --num-dict 2-fast --retrieval-strategy lazy --retrieval-exec-mode sequential
 rm -rf .speedupy/ speedupy/
