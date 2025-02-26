@@ -1,0 +1,1810 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.11017224751412868
+0.1588056581094861
+TOTAL EXECUTION TIME: 0.2804330503568053
+4.672445356845856e-05
+1.5087425708770752e-05
+TOTAL EXECUTION TIME: 0.005766545422375202
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.124463957734406
+0.1854797527194023
+TOTAL EXECUTION TIME: 0.31802497524768114
+0.13435717299580574
+0.16116158571094275
+TOTAL EXECUTION TIME: 0.30015126895159483
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.1089148810133338
+0.159202940762043
+TOTAL EXECUTION TIME: 0.2756430320441723
+0.10948245692998171
+0.16011820547282696
+TOTAL EXECUTION TIME: 0.27702738903462887
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.11595169454813004
+0.16837038192898035
+TOTAL EXECUTION TIME: 0.29218287486582994
+0.00040430203080177307
+9.648874402046204e-05
+TOTAL EXECUTION TIME: 0.002673780545592308
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.11230058409273624
+0.1631394336000085
+TOTAL EXECUTION TIME: 0.2831806568428874
+4.6010129153728485e-05
+1.4885328710079193e-05
+TOTAL EXECUTION TIME: 0.005718250758945942
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.12510570045560598
+0.18784400541335344
+TOTAL EXECUTION TIME: 0.3211086140945554
+0.13307487219572067
+0.16416181437671185
+TOTAL EXECUTION TIME: 0.30188217386603355
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.1129651004448533
+0.16303372848778963
+TOTAL EXECUTION TIME: 0.28384883515536785
+0.11106628179550171
+0.16020542941987514
+TOTAL EXECUTION TIME: 0.27865528129041195
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.10990062169730663
+0.16073737759143114
+TOTAL EXECUTION TIME: 0.27835145965218544
+0.0004127444699406624
+9.667593985795975e-05
+TOTAL EXECUTION TIME: 0.002641860395669937
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.11428617220371962
+0.16691829543560743
+TOTAL EXECUTION TIME: 0.2889014547690749
+4.936289042234421e-05
+1.4388933777809143e-05
+TOTAL EXECUTION TIME: 0.005803849548101425
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.12147404439747334
+0.18302563671022654
+TOTAL EXECUTION TIME: 0.3126149969175458
+0.13070262875407934
+0.15809426829218864
+TOTAL EXECUTION TIME: 0.2935316674411297
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.10983752738684416
+0.16024791449308395
+TOTAL EXECUTION TIME: 0.27781333588063717
+0.10908308159559965
+0.1595431100577116
+TOTAL EXECUTION TIME: 0.27602526545524597
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.11118183843791485
+0.16187824867665768
+TOTAL EXECUTION TIME: 0.2808236889541149
+0.0004115011543035507
+0.00010000448673963547
+TOTAL EXECUTION TIME: 0.0027107875794172287
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.11417850106954575
+0.16222325898706913
+TOTAL EXECUTION TIME: 0.2841098792850971
+4.660431295633316e-05
+1.4783814549446106e-05
+TOTAL EXECUTION TIME: 0.00575877632945776
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.12005138769745827
+0.17960372008383274
+TOTAL EXECUTION TIME: 0.30761703196913004
+0.12586005870252848
+0.1549156429246068
+TOTAL EXECUTION TIME: 0.2854045331478119
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.1093593267723918
+0.15973506588488817
+TOTAL EXECUTION TIME: 0.2767219552770257
+0.10968369152396917
+0.16900818049907684
+TOTAL EXECUTION TIME: 0.2862617848441005
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.1105322502553463
+0.15943500399589539
+TOTAL EXECUTION TIME: 0.2778242016211152
+0.000409543514251709
+9.619630873203278e-05
+TOTAL EXECUTION TIME: 0.002791021950542927
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.11164943128824234
+0.16783528588712215
+TOTAL EXECUTION TIME: 0.2871023965999484
+4.6187080442905426e-05
+1.4094635844230652e-05
+TOTAL EXECUTION TIME: 0.005624602548778057
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.12037091422826052
+0.18317621666938066
+TOTAL EXECUTION TIME: 0.3117336016148329
+0.12566306348890066
+0.15480800345540047
+TOTAL EXECUTION TIME: 0.28510214760899544
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.10961445234715939
+0.1599590377882123
+TOTAL EXECUTION TIME: 0.27717975713312626
+0.11436801869422197
+0.16660334914922714
+TOTAL EXECUTION TIME: 0.2885384541004896
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.11113091837614775
+0.16075077839195728
+TOTAL EXECUTION TIME: 0.27959680557250977
+0.00044643133878707886
+9.770039469003677e-05
+TOTAL EXECUTION TIME: 0.0027155661955475807
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.10867997817695141
+0.16086652595549822
+TOTAL EXECUTION TIME: 0.28096711728721857
+4.582945257425308e-05
+1.420825719833374e-05
+TOTAL EXECUTION TIME: 0.005612642504274845
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.12164404056966305
+0.18068855721503496
+TOTAL EXECUTION TIME: 0.31056040804833174
+0.13035916909575462
+0.1612071031704545
+TOTAL EXECUTION TIME: 0.29620800260454416
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.11040278151631355
+0.16147826053202152
+TOTAL EXECUTION TIME: 0.27952834591269493
+0.11413266137242317
+0.16016707848757505
+TOTAL EXECUTION TIME: 0.28176795691251755
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.11175973899662495
+0.16280779335647821
+TOTAL EXECUTION TIME: 0.28228079434484243
+0.0004049008712172508
+9.454041719436646e-05
+TOTAL EXECUTION TIME: 0.0026599084958434105
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.11012030206620693
+0.16309265233576298
+TOTAL EXECUTION TIME: 0.2808928657323122
+6.28465786576271e-05
+1.4896504580974579e-05
+TOTAL EXECUTION TIME: 0.005744975991547108
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.11965455301105976
+0.17957755737006664
+TOTAL EXECUTION TIME: 0.3071640534326434
+0.12965958379209042
+0.15476601477712393
+TOTAL EXECUTION TIME: 0.2890920788049698
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.110486825928092
+0.1586816906929016
+TOTAL EXECUTION TIME: 0.2766554895788431
+0.11050354037433863
+0.16093161143362522
+TOTAL EXECUTION TIME: 0.27886215411126614
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.11020939238369465
+0.16048088017851114
+TOTAL EXECUTION TIME: 0.2786199999973178
+0.0004143649712204933
+9.842496365308762e-05
+TOTAL EXECUTION TIME: 0.0026661045849323273
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.10838965978473425
+0.16064983792603016
+TOTAL EXECUTION TIME: 0.2768112709745765
+4.654936492443085e-05
+1.5056692063808441e-05
+TOTAL EXECUTION TIME: 0.0058160144835710526
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.11972075421363115
+0.1803468046709895
+TOTAL EXECUTION TIME: 0.30803530663251877
+0.12812328711152077
+0.15989795327186584
+TOTAL EXECUTION TIME: 0.29259539023041725
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.10917374677956104
+0.16180300246924162
+TOTAL EXECUTION TIME: 0.27862557023763657
+0.10798265505582094
+0.1576608382165432
+TOTAL EXECUTION TIME: 0.27297673281282187
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.10930019617080688
+0.16615615505725145
+TOTAL EXECUTION TIME: 0.28337572049349546
+0.00041883066296577454
+9.903404861688614e-05
+TOTAL EXECUTION TIME: 0.0027506928890943527
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.11549890600144863
+0.1648418940603733
+TOTAL EXECUTION TIME: 0.28819066006690264
+4.641897976398468e-05
+1.4950521290302277e-05
+TOTAL EXECUTION TIME: 0.005721648223698139
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.12015293072909117
+0.1808889750391245
+TOTAL EXECUTION TIME: 0.30902133602648973
+0.12955001555383205
+0.158662055619061
+TOTAL EXECUTION TIME: 0.2929259315133095
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.10912569519132376
+0.16497050039470196
+TOTAL EXECUTION TIME: 0.28188028186559677
+0.10984198097139597
+0.16255632136017084
+TOTAL EXECUTION TIME: 0.27969397231936455
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.10919337254017591
+0.1596664683893323
+TOTAL EXECUTION TIME: 0.2765712756663561
+0.00041582807898521423
+9.970180690288544e-05
+TOTAL EXECUTION TIME: 0.0027812207117676735
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.10870866850018501
+0.1592447180300951
+TOTAL EXECUTION TIME: 0.2756534107029438
+4.538055509328842e-05
+1.466553658246994e-05
+TOTAL EXECUTION TIME: 0.005615872330963612
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.12449897173792124
+0.18781486619263887
+TOTAL EXECUTION TIME: 0.3206270495429635
+0.13029984943568707
+0.1541852755472064
+TOTAL EXECUTION TIME: 0.28902239073067904
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.11105629429221153
+0.16386968363076448
+TOTAL EXECUTION TIME: 0.28278495091944933
+0.11359011474996805
+0.15934835374355316
+TOTAL EXECUTION TIME: 0.28076845593750477
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.1102477042004466
+0.1637342255562544
+TOTAL EXECUTION TIME: 0.2818644940853119
+0.0004120897501707077
+9.535998106002808e-05
+TOTAL EXECUTION TIME: 0.002603507600724697
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.11370761133730412
+0.160484429448843
+TOTAL EXECUTION TIME: 0.2860169392079115
+4.5649707317352295e-05
+1.4388002455234528e-05
+TOTAL EXECUTION TIME: 0.0056139035150408745
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.11845026444643736
+0.1774517958983779
+TOTAL EXECUTION TIME: 0.3038528533652425
+0.12677116598933935
+0.15587309934198856
+TOTAL EXECUTION TIME: 0.28711890429258347
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.1105240173637867
+0.16424211766570807
+TOTAL EXECUTION TIME: 0.2825768906623125
+0.10874604992568493
+0.1586067881435156
+TOTAL EXECUTION TIME: 0.2747066458687186
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.10974217392504215
+0.16164417378604412
+TOTAL EXECUTION TIME: 0.2791000660508871
+0.0004074499011039734
+9.520724415779114e-05
+TOTAL EXECUTION TIME: 0.0026803351938724518
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.11479400005191565
+0.16549887787550688
+TOTAL EXECUTION TIME: 0.28790940158069134
+4.7062523663043976e-05
+1.4631077647209167e-05
+TOTAL EXECUTION TIME: 0.005626006983220577
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.12081359792500734
+0.1814470775425434
+TOTAL EXECUTION TIME: 0.310267117805779
+0.13073328789323568
+0.15978689398616552
+TOTAL EXECUTION TIME: 0.2953831860795617
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.11340147722512484
+0.16661104280501604
+TOTAL EXECUTION TIME: 0.28796592727303505
+0.11177924275398254
+0.1622689813375473
+TOTAL EXECUTION TIME: 0.28163579013198614
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.10906477179378271
+0.15997767820954323
+TOTAL EXECUTION TIME: 0.27674147486686707
+0.00040499866008758545
+9.470712393522263e-05
+TOTAL EXECUTION TIME: 0.002619185484945774
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.11456151120364666
+0.1693373005837202
+TOTAL EXECUTION TIME: 0.291874373331666
+4.612468183040619e-05
+1.4223158359527588e-05
+TOTAL EXECUTION TIME: 0.00557338260114193
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.1202803160995245
+0.18118667509406805
+TOTAL EXECUTION TIME: 0.3096607318148017
+0.1286308318376541
+0.15723973885178566
+TOTAL EXECUTION TIME: 0.2905690614134073
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.10992224141955376
+0.15808646753430367
+TOTAL EXECUTION TIME: 0.27564359456300735
+0.10888379439711571
+0.15872239880263805
+TOTAL EXECUTION TIME: 0.27500559110194445
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.11056819930672646
+0.1628283467143774
+TOTAL EXECUTION TIME: 0.2812237162142992
+0.0004123356193304062
+9.575299918651581e-05
+TOTAL EXECUTION TIME: 0.002662164159119129
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.11054044403135777
+0.16109047923237085
+TOTAL EXECUTION TIME: 0.2791963890194893
+4.641711711883545e-05
+1.4345161616802216e-05
+TOTAL EXECUTION TIME: 0.0058139655739068985
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.12210819963365793
+0.18112778291106224
+TOTAL EXECUTION TIME: 0.31111662928014994
+0.13180616218596697
+0.15453401021659374
+TOTAL EXECUTION TIME: 0.2908898489549756
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.1125003769993782
+0.16489143297076225
+TOTAL EXECUTION TIME: 0.28522022999823093
+0.10871139541268349
+0.15915344841778278
+TOTAL EXECUTION TIME: 0.27521018870174885
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.11167552974075079
+0.160888334736228
+TOTAL EXECUTION TIME: 0.28020998276770115
+0.0004010610282421112
+9.513739496469498e-05
+TOTAL EXECUTION TIME: 0.0026114368811249733
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.11392582394182682
+0.16803647950291634
+TOTAL EXECUTION TIME: 0.28983922861516476
+4.672538489103317e-05
+1.4482066035270691e-05
+TOTAL EXECUTION TIME: 0.005947376601397991
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.11978275794535875
+0.1793811721727252
+TOTAL EXECUTION TIME: 0.30717649217695
+0.13055680226534605
+0.15684672072529793
+TOTAL EXECUTION TIME: 0.2920229397714138
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.10940013639628887
+0.15866445191204548
+TOTAL EXECUTION TIME: 0.2755501167848706
+0.1093472633510828
+0.16185120213776827
+TOTAL EXECUTION TIME: 0.27857814356684685
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.11029055062681437
+0.16092070378363132
+TOTAL EXECUTION TIME: 0.27898993995040655
+0.00042205117642879486
+0.00011143367737531662
+TOTAL EXECUTION TIME: 0.002728566527366638
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.11395581904798746
+0.16874907538294792
+TOTAL EXECUTION TIME: 0.29440596979111433
+6.169360131025314e-05
+1.4618970453739166e-05
+TOTAL EXECUTION TIME: 0.005592742934823036
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.11890132073312998
+0.17870341055095196
+TOTAL EXECUTION TIME: 0.3055777419358492
+0.13219725899398327
+0.16471023857593536
+TOTAL EXECUTION TIME: 0.3016122179105878
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.11197662819176912
+0.15878799092024565
+TOTAL EXECUTION TIME: 0.27837646286934614
+0.10974939074367285
+0.16019056737422943
+TOTAL EXECUTION TIME: 0.27748625725507736
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.11415689345449209
+0.16543456260114908
+TOTAL EXECUTION TIME: 0.28730066306889057
+0.0004027700051665306
+9.401608258485794e-05
+TOTAL EXECUTION TIME: 0.0026288460940122604
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.10918174032121897
+0.16084239166229963
+TOTAL EXECUTION TIME: 0.2776530273258686
+4.743039608001709e-05
+1.4557503163814545e-05
+TOTAL EXECUTION TIME: 0.005591908469796181
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.11999163962900639
+0.17966725025326014
+TOTAL EXECUTION TIME: 0.307605741545558
+0.12127610389143229
+1.5052035450935364e-05
+TOTAL EXECUTION TIME: 0.1252696244046092
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.10948807932436466
+0.16115720011293888
+TOTAL EXECUTION TIME: 0.2782347472384572
+0.11039357539266348
+0.15936806332319975
+TOTAL EXECUTION TIME: 0.27719440311193466
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.10986729245632887
+0.16369302105158567
+TOTAL EXECUTION TIME: 0.28124484699219465
+0.00040759239345788956
+9.75700095295906e-05
+TOTAL EXECUTION TIME: 0.0026767635717988014
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.10827733483165503
+0.1576286293566227
+TOTAL EXECUTION TIME: 0.2734453799203038
+4.646647721529007e-05
+1.4405697584152222e-05
+TOTAL EXECUTION TIME: 0.0056278035044670105
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.11945838015526533
+0.17891498003154993
+TOTAL EXECUTION TIME: 0.30635919235646725
+0.1267870282754302
+0.15523837879300117
+TOTAL EXECUTION TIME: 0.2865399392321706
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.11252096202224493
+0.16886873077601194
+TOTAL EXECUTION TIME: 0.289322629570961
+0.11208504810929298
+0.16301200445741415
+TOTAL EXECUTION TIME: 0.2824013726785779
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.11059223860502243
+0.1584846256300807
+TOTAL EXECUTION TIME: 0.2767450800165534
+0.00040658749639987946
+9.342655539512634e-05
+TOTAL EXECUTION TIME: 0.002607828937470913
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.11131508462131023
+0.16797618102282286
+TOTAL EXECUTION TIME: 0.28683038149029016
+4.547089338302612e-05
+1.4505349099636078e-05
+TOTAL EXECUTION TIME: 0.0055124592036008835
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.1196751119568944
+0.18187705427408218
+TOTAL EXECUTION TIME: 0.30965377297252417
+0.1247424241155386
+1.414027065038681e-05
+TOTAL EXECUTION TIME: 0.1290423134341836
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.11524585820734501
+0.16159006860107183
+TOTAL EXECUTION TIME: 0.2844617171213031
+0.11058731377124786
+0.15895438846200705
+TOTAL EXECUTION TIME: 0.27692358009517193
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.11053349077701569
+0.16124409157782793
+TOTAL EXECUTION TIME: 0.27944575529545546
+0.00040597841143608093
+9.366963058710098e-05
+TOTAL EXECUTION TIME: 0.002607043832540512
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.10988417733460665
+0.16025377251207829
+TOTAL EXECUTION TIME: 0.2777666300535202
+4.476495087146759e-05
+1.4157965779304504e-05
+TOTAL EXECUTION TIME: 0.005595555528998375
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.12405397277325392
+0.18254272732883692
+TOTAL EXECUTION TIME: 0.31471877824515104
+0.13243867363780737
+0.15829710848629475
+TOTAL EXECUTION TIME: 0.29499759152531624
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.11003517545759678
+0.16092939767986536
+TOTAL EXECUTION TIME: 0.27848777268081903
+0.11072666011750698
+0.16068143025040627
+TOTAL EXECUTION TIME: 0.2788562783971429
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.11426972970366478
+0.16235934849828482
+TOTAL EXECUTION TIME: 0.2844576369971037
+0.00041304249316453934
+9.725801646709442e-05
+TOTAL EXECUTION TIME: 0.0027001285925507545
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.10880073718726635
+0.16079326253384352
+TOTAL EXECUTION TIME: 0.28120545484125614
+4.608556628227234e-05
+1.4533288776874542e-05
+TOTAL EXECUTION TIME: 0.005729779601097107
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.12261861190199852
+0.18075843434780836
+TOTAL EXECUTION TIME: 0.3114957744255662
+0.1333933360874653
+1.5333294868469238e-05
+TOTAL EXECUTION TIME: 0.1376988273113966
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.10904507711529732
+0.1664509754627943
+TOTAL EXECUTION TIME: 0.28328524716198444
+0.11441974248737097
+0.1680632084608078
+TOTAL EXECUTION TIME: 0.29018082469701767
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.11533888708800077
+0.16902957949787378
+TOTAL EXECUTION TIME: 0.2923381198197603
+0.00040628761053085327
+9.503774344921112e-05
+TOTAL EXECUTION TIME: 0.0026525231078267097
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.10878763347864151
+0.15899494849145412
+TOTAL EXECUTION TIME: 0.27553420327603817
+4.916731268167496e-05
+1.5016645193099976e-05
+TOTAL EXECUTION TIME: 0.005668021738529205
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.11922338046133518
+0.1793331243097782
+TOTAL EXECUTION TIME: 0.3066828902810812
+0.12794832978397608
+0.15655706636607647
+TOTAL EXECUTION TIME: 0.28922981303185225
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.11075638793408871
+0.1694097826257348
+TOTAL EXECUTION TIME: 0.28790154680609703
+0.10861345753073692
+0.1615357007831335
+TOTAL EXECUTION TIME: 0.2777876518666744
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.11323467269539833
+0.16213265247642994
+TOTAL EXECUTION TIME: 0.2831896925345063
+0.00041618477553129196
+0.0001569148153066635
+TOTAL EXECUTION TIME: 0.0028271321207284927
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.10864502564072609
+0.15916479844599962
+TOTAL EXECUTION TIME: 0.2754289945587516
+4.7147274017333984e-05
+1.4798715710639954e-05
+TOTAL EXECUTION TIME: 0.005617208778858185
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.12568714190274477
+0.1884906403720379
+TOTAL EXECUTION TIME: 0.3223857684060931
+0.1273795710876584
+0.15748276840895414
+TOTAL EXECUTION TIME: 0.2894286494702101
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.10949284955859184
+0.1621348923072219
+TOTAL EXECUTION TIME: 0.27926922775804996
+0.10971575789153576
+0.16005339194089174
+TOTAL EXECUTION TIME: 0.2773695746436715
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.11080677527934313
+0.16387700662016869
+TOTAL EXECUTION TIME: 0.28249805234372616
+0.00040522869676351547
+9.58004966378212e-05
+TOTAL EXECUTION TIME: 0.00265536829829216
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.11424022912979126
+0.16544991545379162
+TOTAL EXECUTION TIME: 0.2873737420886755
+4.491396248340607e-05
+1.4301389455795288e-05
+TOTAL EXECUTION TIME: 0.005653875879943371
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.12655013985931873
+0.1899925535544753
+TOTAL EXECUTION TIME: 0.32481200713664293
+0.11945085972547531
+1.3917684555053711e-05
+TOTAL EXECUTION TIME: 0.12329994235187769
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.11228904500603676
+0.16879569366574287
+TOTAL EXECUTION TIME: 0.28908918611705303
+0.11690050642937422
+0.16269474755972624
+TOTAL EXECUTION TIME: 0.2870834041386843
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.10926544107496738
+0.15915953647345304
+TOTAL EXECUTION TIME: 0.2762621622532606
+0.00040779728442430496
+9.707361459732056e-05
+TOTAL EXECUTION TIME: 0.0027487538754940033
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.10881646908819675
+0.16045812517404556
+TOTAL EXECUTION TIME: 0.2768943589180708
+4.588346928358078e-05
+1.4058314263820648e-05
+TOTAL EXECUTION TIME: 0.0057719796895980835
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.11877576820552349
+0.17764652706682682
+TOTAL EXECUTION TIME: 0.3044169535860419
+0.1299434807151556
+0.156435570679605
+TOTAL EXECUTION TIME: 0.29097742587327957
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.10908009205013514
+0.1595674492418766
+TOTAL EXECUTION TIME: 0.2762625562027097
+0.1086078342050314
+0.15820129867643118
+TOTAL EXECUTION TIME: 0.274221396073699
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.10967028047889471
+0.1589626595377922
+TOTAL EXECUTION TIME: 0.2763346889987588
+0.0004041120409965515
+9.634066373109818e-05
+TOTAL EXECUTION TIME: 0.002635769546031952
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.1145171606913209
+0.1645293664187193
+TOTAL EXECUTION TIME: 0.29055477771908045
+4.662852734327316e-05
+1.5043653547763824e-05
+TOTAL EXECUTION TIME: 0.005746765062212944
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.11989923007786274
+0.1798435328528285
+TOTAL EXECUTION TIME: 0.307719555683434
+0.12661852780729532
+0.15499867778271437
+TOTAL EXECUTION TIME: 0.2861833283677697
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.1086955750361085
+0.15831610467284918
+TOTAL EXECUTION TIME: 0.27451612427830696
+0.11639817990362644
+0.1709454944357276
+TOTAL EXECUTION TIME: 0.2949846629053354
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.1094418615102768
+0.16093196999281645
+TOTAL EXECUTION TIME: 0.2782030077651143
+0.00040398258715867996
+9.434390813112259e-05
+TOTAL EXECUTION TIME: 0.002643117681145668
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.10875201039016247
+0.158257020637393
+TOTAL EXECUTION TIME: 0.27450925298035145
+4.721991717815399e-05
+1.5019439160823822e-05
+TOTAL EXECUTION TIME: 0.005713142454624176
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.12054331041872501
+0.1810563551262021
+TOTAL EXECUTION TIME: 0.3096205107867718
+0.1294733416289091
+0.16152481641620398
+TOTAL EXECUTION TIME: 0.29573553893715143
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.11505548376590014
+0.16688033659011126
+TOTAL EXECUTION TIME: 0.2898398730903864
+0.11378101725131273
+0.1725302254781127
+TOTAL EXECUTION TIME: 0.2940547177568078
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.10995557345449924
+0.15983034949749708
+TOTAL EXECUTION TIME: 0.2776146847754717
+0.0004303855821490288
+9.494088590145111e-05
+TOTAL EXECUTION TIME: 0.0026544639840722084
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.10888431686908007
+0.15971989557147026
+TOTAL EXECUTION TIME: 0.2761514466255903
+4.6486034989356995e-05
+1.5071593225002289e-05
+TOTAL EXECUTION TIME: 0.00572113785892725
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.12021146528422832
+0.18028716649860144
+TOTAL EXECUTION TIME: 0.3085951153188944
+0.11725649330765009
+1.5111640095710754e-05
+TOTAL EXECUTION TIME: 0.12106383685022593
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.10817579366266727
+0.16590110678225756
+TOTAL EXECUTION TIME: 0.2817120812833309
+0.10983825847506523
+0.16199363954365253
+TOTAL EXECUTION TIME: 0.2791696507483721
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.10923655238002539
+0.16320009529590607
+TOTAL EXECUTION TIME: 0.28025574516505003
+0.00040332134813070297
+9.501352906227112e-05
+TOTAL EXECUTION TIME: 0.002614927478134632
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.11243086028844118
+0.1673346972092986
+TOTAL EXECUTION TIME: 0.2876229379326105
+4.616566002368927e-05
+1.4468096196651459e-05
+TOTAL EXECUTION TIME: 0.005705278366804123
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.11908592842519283
+0.18019565846771002
+TOTAL EXECUTION TIME: 0.30722705367952585
+0.12863938976079226
+0.15297402068972588
+TOTAL EXECUTION TIME: 0.2860950343310833
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.11032021790742874
+0.16222034860402346
+TOTAL EXECUTION TIME: 0.2802840042859316
+0.11518778931349516
+0.1686461614444852
+TOTAL EXECUTION TIME: 0.2914424408227205
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.11023363564163446
+0.16148403100669384
+TOTAL EXECUTION TIME: 0.27974436711519957
+0.0004120524972677231
+9.82377678155899e-05
+TOTAL EXECUTION TIME: 0.0027581537142395973
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.11406292393803596
+0.16878657322376966
+TOTAL EXECUTION TIME: 0.2910463288426399
+4.9200840294361115e-05
+1.4440156519412994e-05
+TOTAL EXECUTION TIME: 0.0056378524750471115
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.12220238242298365
+0.18179508671164513
+TOTAL EXECUTION TIME: 0.3122413642704487
+0.12773748487234116
+1.4123506844043732e-05
+TOTAL EXECUTION TIME: 0.13202204648405313
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.11029013991355896
+0.15908444672822952
+TOTAL EXECUTION TIME: 0.27698149159550667
+0.11447250749915838
+0.1690094918012619
+TOTAL EXECUTION TIME: 0.2911525731906295
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.11508614290505648
+0.16995023470371962
+TOTAL EXECUTION TIME: 0.29302876722067595
+0.00041296612471342087
+9.98200848698616e-05
+TOTAL EXECUTION TIME: 0.0027212612330913544
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.11057275347411633
+0.16797258146107197
+TOTAL EXECUTION TIME: 0.2900969600304961
+4.721991717815399e-05
+1.491885632276535e-05
+TOTAL EXECUTION TIME: 0.005689158104360104
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.12419056054204702
+0.18644411768764257
+TOTAL EXECUTION TIME: 0.3187137162312865
+0.12894372083246708
+0.1548054050654173
+TOTAL EXECUTION TIME: 0.28825409617275
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.11390015110373497
+0.16813000477850437
+TOTAL EXECUTION TIME: 0.2899988368153572
+0.10888519696891308
+0.159430380910635
+TOTAL EXECUTION TIME: 0.275653556920588
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.11225395929068327
+0.1637995010241866
+TOTAL EXECUTION TIME: 0.2840628223493695
+0.00042730662971735
+0.00010228529572486877
+TOTAL EXECUTION TIME: 0.0027964720502495766
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.10874950420111418
+0.1620652824640274
+TOTAL EXECUTION TIME: 0.2786357756704092
+4.5190565288066864e-05
+1.4263205230236053e-05
+TOTAL EXECUTION TIME: 0.0055395010858774185
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.12089615222066641
+0.1801062822341919
+TOTAL EXECUTION TIME: 0.30905438493937254
+0.12888299021869898
+0.15624912735074759
+TOTAL EXECUTION TIME: 0.2896848674863577
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.10895887855440378
+0.1592279179021716
+TOTAL EXECUTION TIME: 0.2758887717500329
+0.10833886452019215
+0.1583354054018855
+TOTAL EXECUTION TIME: 0.27397285401821136
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.11167686711996794
+0.16016966756433249
+TOTAL EXECUTION TIME: 0.2796102985739708
+0.0004004361107945442
+9.579863399267197e-05
+TOTAL EXECUTION TIME: 0.002634922042489052
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.1101614311337471
+0.1590179093182087
+TOTAL EXECUTION TIME: 0.2770453952252865
+4.527624696493149e-05
+1.4077872037887573e-05
+TOTAL EXECUTION TIME: 0.005580434575676918
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.12112871557474136
+0.1791087845340371
+TOTAL EXECUTION TIME: 0.30814087856560946
+0.12785119097679853
+0.15410283766686916
+TOTAL EXECUTION TIME: 0.2864836947992444
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.10901166126132011
+0.1612100973725319
+TOTAL EXECUTION TIME: 0.278087604790926
+0.11001101043075323
+0.15827561542391777
+TOTAL EXECUTION TIME: 0.27566097024828196
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.11079889349639416
+0.16051045153290033
+TOTAL EXECUTION TIME: 0.2793447859585285
+0.0004010535776615143
+9.474251419305801e-05
+TOTAL EXECUTION TIME: 0.0026008104905486107
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.10910150595009327
+0.1596439890563488
+TOTAL EXECUTION TIME: 0.2763361921533942
+4.670582711696625e-05
+1.4944933354854584e-05
+TOTAL EXECUTION TIME: 0.005707592703402042
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.1200158754363656
+0.17944171279668808
+TOTAL EXECUTION TIME: 0.30748628731817007
+0.12633553426712751
+0.156153560616076
+TOTAL EXECUTION TIME: 0.28705686423927546
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.11016207747161388
+0.15960868261754513
+TOTAL EXECUTION TIME: 0.27740150038152933
+0.10945822857320309
+0.16043596528470516
+TOTAL EXECUTION TIME: 0.27716438844799995
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.11101015191525221
+0.16071857511997223
+TOTAL EXECUTION TIME: 0.27938649989664555
+0.00042590871453285217
+0.0001108245924115181
+TOTAL EXECUTION TIME: 0.0026727430522441864
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.10889292228966951
+0.15886620804667473
+TOTAL EXECUTION TIME: 0.27527736965566874
+4.4957734644412994e-05
+1.4088116586208344e-05
+TOTAL EXECUTION TIME: 0.0055176448076963425
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.12007603794336319
+0.17912859842181206
+TOTAL EXECUTION TIME: 0.30721018090844154
+0.13041083421558142
+0.15670000482350588
+TOTAL EXECUTION TIME: 0.29173835553228855
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.11143005825579166
+0.16246732510626316
+TOTAL EXECUTION TIME: 0.2814016528427601
+0.11576557345688343
+0.16841447353363037
+TOTAL EXECUTION TIME: 0.2918677320703864
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.10945430677384138
+0.15961819048970938
+TOTAL EXECUTION TIME: 0.27669952157884836
+0.00043073855340480804
+9.445473551750183e-05
+TOTAL EXECUTION TIME: 0.002634982578456402
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.11401002947241068
+0.17025339137762785
+TOTAL EXECUTION TIME: 0.2958464715629816
+4.636310040950775e-05
+1.4876015484333038e-05
+TOTAL EXECUTION TIME: 0.005671233870089054
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.11903646308928728
+0.1795462043955922
+TOTAL EXECUTION TIME: 0.30673778243362904
+0.12795974127948284
+0.1564778946340084
+TOTAL EXECUTION TIME: 0.28934886027127504
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.11440966092050076
+0.16735796350985765
+TOTAL EXECUTION TIME: 0.2897047623991966
+0.10960440430790186
+0.16063577868044376
+TOTAL EXECUTION TIME: 0.2777748154476285
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.11051651556044817
+0.16151071526110172
+TOTAL EXECUTION TIME: 0.279677826911211
+0.0004370221868157387
+9.637419134378433e-05
+TOTAL EXECUTION TIME: 0.002677634358406067
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.10985709633678198
+0.15892458520829678
+TOTAL EXECUTION TIME: 0.2763294819742441
+4.546903073787689e-05
+1.4175660908222198e-05
+TOTAL EXECUTION TIME: 0.005611010827124119
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.11867830064147711
+0.1772273015230894
+TOTAL EXECUTION TIME: 0.30380146857351065
+0.12683094199746847
+0.15581488888710737
+TOTAL EXECUTION TIME: 0.2873364295810461
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.11366905272006989
+0.16046747658401728
+TOTAL EXECUTION TIME: 0.2817706735804677
+0.10856107529252768
+0.16524177324026823
+TOTAL EXECUTION TIME: 0.28134651482105255
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.10944182984530926
+0.16015810891985893
+TOTAL EXECUTION TIME: 0.27741521783173084
+0.0004024514928460121
+9.575020521879196e-05
+TOTAL EXECUTION TIME: 0.002604336477816105
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.10965830180794
+0.1684881141409278
+TOTAL EXECUTION TIME: 0.2860595742240548
+4.536472260951996e-05
+1.4139339327812195e-05
+TOTAL EXECUTION TIME: 0.0055544497445225716
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.12432169821113348
+0.17971681710332632
+TOTAL EXECUTION TIME: 0.3119778214022517
+0.1323002902790904
+0.16448287013918161
+TOTAL EXECUTION TIME: 0.30158448964357376
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.1086460892111063
+0.1584898680448532
+TOTAL EXECUTION TIME: 0.27488553524017334
+0.10977872926741838
+0.1610943041741848
+TOTAL EXECUTION TIME: 0.2784139597788453
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.11155407410115004
+0.1621215008199215
+TOTAL EXECUTION TIME: 0.2813216783106327
+0.0004036314785480499
+9.469036012887955e-05
+TOTAL EXECUTION TIME: 0.0026145000010728836
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.10969463177025318
+0.16090120375156403
+TOTAL EXECUTION TIME: 0.2781644584611058
+4.412606358528137e-05
+1.4589168131351471e-05
+TOTAL EXECUTION TIME: 0.0055085234344005585
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.12457481864839792
+0.18009565956890583
+TOTAL EXECUTION TIME: 0.31264958437532187
+0.13418348971754313
+0.16022549103945494
+TOTAL EXECUTION TIME: 0.29901297204196453
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.10974420141428709
+0.16330765653401613
+TOTAL EXECUTION TIME: 0.2807927131652832
+0.11714850924909115
+0.1686507612466812
+TOTAL EXECUTION TIME: 0.2934690844267607
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.110097779892385
+0.16067174542695284
+TOTAL EXECUTION TIME: 0.27840584330260754
+0.0004279576241970062
+0.00011194124817848206
+TOTAL EXECUTION TIME: 0.0028923209756612778
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.10987985879182816
+0.162552191875875
+TOTAL EXECUTION TIME: 0.2800838854163885
+4.674028605222702e-05
+1.4892779290676117e-05
+TOTAL EXECUTION TIME: 0.005720299668610096
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.12088174652308226
+0.18055778741836548
+TOTAL EXECUTION TIME: 0.3093278221786022
+0.12793639209121466
+0.1546273846179247
+TOTAL EXECUTION TIME: 0.28714771941304207
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.11390336789190769
+0.1609175791963935
+TOTAL EXECUTION TIME: 0.2825705576688051
+0.10922774858772755
+0.159799724817276
+TOTAL EXECUTION TIME: 0.27651549875736237
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.10997442249208689
+0.16076456382870674
+TOTAL EXECUTION TIME: 0.27848396729677916
+0.00045407284051179886
+9.656976908445358e-05
+TOTAL EXECUTION TIME: 0.0026712175458669662
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.11420056037604809
+0.1660206699743867
+TOTAL EXECUTION TIME: 0.291943340562284
+4.554726183414459e-05
+1.444108784198761e-05
+TOTAL EXECUTION TIME: 0.005633801221847534
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.11890992801636457
+0.17809112276881933
+TOTAL EXECUTION TIME: 0.30495367012917995
+0.12899505719542503
+0.16272553242743015
+TOTAL EXECUTION TIME: 0.2962108729407191
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.10901451949030161
+0.15903034340590239
+TOTAL EXECUTION TIME: 0.27581418585032225
+0.10996949672698975
+0.15882686339318752
+TOTAL EXECUTION TIME: 0.27622478920966387
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.10964110307395458
+0.15967725403606892
+TOTAL EXECUTION TIME: 0.2769184121862054
+0.0004057614132761955
+9.568128734827042e-05
+TOTAL EXECUTION TIME: 0.002631387673318386
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.10916573647409678
+0.15928414929658175
+TOTAL EXECUTION TIME: 0.2760815052315593
+4.349835216999054e-05
+1.4489516615867615e-05
+TOTAL EXECUTION TIME: 0.005533226765692234
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.11999575234949589
+0.17923885118216276
+TOTAL EXECUTION TIME: 0.3071624292060733
+0.1270971829071641
+0.15741086658090353
+TOTAL EXECUTION TIME: 0.2891167113557458
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.10847668908536434
+0.15847973339259624
+TOTAL EXECUTION TIME: 0.2744940519332886
+0.11432367749512196
+0.1701813656836748
+TOTAL EXECUTION TIME: 0.2923661610111594
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.1167650306597352
+0.16996121313422918
+TOTAL EXECUTION TIME: 0.29495134856551886
+0.0004121251404285431
+9.664613753557205e-05
+TOTAL EXECUTION TIME: 0.0026895273476839066
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.11451972182840109
+0.16773881390690804
+TOTAL EXECUTION TIME: 0.2901941565796733
+4.535168409347534e-05
+1.4385208487510681e-05
+TOTAL EXECUTION TIME: 0.005551625043153763
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.11955324374139309
+0.181952646933496
+TOTAL EXECUTION TIME: 0.30962188355624676
+0.12643331475555897
+0.15433977916836739
+TOTAL EXECUTION TIME: 0.2852904964238405
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.10833497624844313
+0.15971927251666784
+TOTAL EXECUTION TIME: 0.27559531200677156
+0.11053286213427782
+0.15902187582105398
+TOTAL EXECUTION TIME: 0.27683649491518736
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.11466951575130224
+0.16952063608914614
+TOTAL EXECUTION TIME: 0.2922075279057026
+0.00040876492857933044
+9.545497596263885e-05
+TOTAL EXECUTION TIME: 0.0026097698137164116
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.10977016668766737
+0.15975155215710402
+TOTAL EXECUTION TIME: 0.27703349478542805
+4.6028755605220795e-05
+1.4536082744598389e-05
+TOTAL EXECUTION TIME: 0.005576739087700844
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.12460087798535824
+0.18032338004559278
+TOTAL EXECUTION TIME: 0.31313959788531065
+0.12882139440625906
+0.1542478296905756
+TOTAL EXECUTION TIME: 0.28741622995585203
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.11063607037067413
+0.15872213896363974
+TOTAL EXECUTION TIME: 0.2769895875826478
+0.10949669778347015
+0.16517234593629837
+TOTAL EXECUTION TIME: 0.2823438262566924
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.1100043160840869
+0.15996489860117435
+TOTAL EXECUTION TIME: 0.2776490366086364
+0.00040606316179037094
+9.662285447120667e-05
+TOTAL EXECUTION TIME: 0.0027142371982336044
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.10889523569494486
+0.16004789154976606
+TOTAL EXECUTION TIME: 0.27668103761970997
+4.6805478632450104e-05
+1.4651566743850708e-05
+TOTAL EXECUTION TIME: 0.00558879692107439
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.12444553058594465
+0.18708241544663906
+TOTAL EXECUTION TIME: 0.31973047833889723
+0.12743126787245274
+0.16067035216838121
+TOTAL EXECUTION TIME: 0.2929006842896342
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.1119649512693286
+0.16145341843366623
+TOTAL EXECUTION TIME: 0.2809910271316767
+0.11397923808544874
+0.16712437570095062
+TOTAL EXECUTION TIME: 0.2887566611170769
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.11195689719170332
+0.16557241044938564
+TOTAL EXECUTION TIME: 0.28548891097307205
+0.00041000545024871826
+9.649805724620819e-05
+TOTAL EXECUTION TIME: 0.0027036266401410103
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.10936509165912867
+0.16716353874653578
+TOTAL EXECUTION TIME: 0.2882140837609768
+4.4002197682857513e-05
+1.4463439583778381e-05
+TOTAL EXECUTION TIME: 0.005655687302350998
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.12009069882333279
+0.1794863659888506
+TOTAL EXECUTION TIME: 0.30750606674700975
+0.12575074192136526
+0.15359001141041517
+TOTAL EXECUTION TIME: 0.28389198426157236
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.10929962899535894
+0.1584884151816368
+TOTAL EXECUTION TIME: 0.2753719072788954
+0.10996540915220976
+0.1606438932940364
+TOTAL EXECUTION TIME: 0.2779867388308048
+
+
+python test_laplace_jacobi_1.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.11060738749802113
+0.15875458624213934
+TOTAL EXECUTION TIME: 0.2770165912806988
+0.00040318071842193604
+9.485520422458649e-05
+TOTAL EXECUTION TIME: 0.0026069507002830505
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.10854355897754431
+0.16221779957413673
+TOTAL EXECUTION TIME: 0.27853679843246937
+6.212480366230011e-05
+1.4759600162506104e-05
+TOTAL EXECUTION TIME: 0.0055589983239769936
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.12197460513561964
+0.18794305715709925
+TOTAL EXECUTION TIME: 0.31808339059352875
+0.1309679113328457
+0.16313181072473526
+TOTAL EXECUTION TIME: 0.29875870514661074
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.11822695098817348
+0.1706870961934328
+TOTAL EXECUTION TIME: 0.29678727965801954
+0.1131507782265544
+0.16010981425642967
+TOTAL EXECUTION TIME: 0.28066587913781404
+
+
+python test_laplace_jacobi_2.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.11344474367797375
+0.16164439916610718
+TOTAL EXECUTION TIME: 0.2828726889565587
+0.00040150806307792664
+9.509362280368805e-05
+TOTAL EXECUTION TIME: 0.0025985660031437874
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.10855331923812628
+0.15986321680247784
+TOTAL EXECUTION TIME: 0.27594042383134365
+4.7301873564720154e-05
+1.4764256775379181e-05
+TOTAL EXECUTION TIME: 0.00568296667188406
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.12265436071902514
+0.17958469782024622
+TOTAL EXECUTION TIME: 0.31028423085808754
+0.12538165785372257
+0.15568440314382315
+TOTAL EXECUTION TIME: 0.28565196972340345
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.11302884202450514
+0.16806951630860567
+TOTAL EXECUTION TIME: 0.2888439502567053
+0.10931723285466433
+0.16353847179561853
+TOTAL EXECUTION TIME: 0.2801894098520279
+
+
+python test_laplace_jacobi_3.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.11496521811932325
+0.16908981185406446
+TOTAL EXECUTION TIME: 0.29198610596358776
+0.0004137754440307617
+9.567476809024811e-05
+TOTAL EXECUTION TIME: 0.0026713088154792786
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.11438438761979342
+0.16840392630547285
+TOTAL EXECUTION TIME: 0.2906329184770584
+4.618801176548004e-05
+1.428648829460144e-05
+TOTAL EXECUTION TIME: 0.005686859600245953
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.11960752215236425
+0.1791706122457981
+TOTAL EXECUTION TIME: 0.30675402097404003
+0.12629629578441381
+0.15887865517288446
+TOTAL EXECUTION TIME: 0.2897762740030885
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.10870274994522333
+0.15941789653152227
+TOTAL EXECUTION TIME: 0.27571471873670816
+0.10951166227459908
+0.1581843290477991
+TOTAL EXECUTION TIME: 0.275038686580956
+
+
+python test_laplace_jacobi_4.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.11542853526771069
+0.16423448640853167
+TOTAL EXECUTION TIME: 0.2875961363315582
+0.00040295347571372986
+9.37366858124733e-05
+TOTAL EXECUTION TIME: 0.002594650723040104
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode sequential
+0.1089698662981391
+0.15872172079980373
+TOTAL EXECUTION TIME: 0.2752904426306486
+4.6718865633010864e-05
+1.4687888324260712e-05
+TOTAL EXECUTION TIME: 0.005751059390604496
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy eager --retrieval-exec-mode thread
+0.1199974250048399
+0.17738139629364014
+TOTAL EXECUTION TIME: 0.3052216349169612
+0.1249197106808424
+0.1525641828775406
+TOTAL EXECUTION TIME: 0.28182956390082836
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy lazy --retrieval-exec-mode sequential
+0.10921266488730907
+0.15883729048073292
+TOTAL EXECUTION TIME: 0.2756925607100129
+0.10832144599407911
+0.1647626906633377
+TOTAL EXECUTION TIME: 0.2807254195213318
+
+
+python test_laplace_jacobi_5.py 10 --exec-mode manual --num-dict 2 -s db --retrieval-strategy function --retrieval-exec-mode sequential
+0.10970417875796556
+0.16010805126279593
+TOTAL EXECUTION TIME: 0.2774587320163846
+0.0004046699032187462
+0.0001239897683262825
+TOTAL EXECUTION TIME: 0.0026706987991929054
