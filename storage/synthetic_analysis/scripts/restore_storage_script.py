@@ -31,28 +31,16 @@ def restore_data(keys, db, fs):
 
 @measure_performance(NUM_REPETITIONS, LOG_FILE)
 def restore_data_db(keys, db):
-    start_time, end_time = 0, 0
-    if len(keys) == MAX_DATA_SIZE:
-        start_time = time.perf_counter()
-        db.restore_all_data()
-        end_time = time.perf_counter()
-    else:
-        start_time = time.perf_counter()
-        db.restore_part_of_data(keys)
-        end_time = time.perf_counter()
+    start_time = time.perf_counter()
+    db.restore_data(keys)
+    end_time = time.perf_counter()
     return end_time - start_time
 
 @measure_performance(NUM_REPETITIONS, LOG_FILE)
 def restore_data_filesystem(keys, fs):
-    start_time, end_time = 0, 0
-    if len(keys) == MAX_DATA_SIZE:
-        start_time = time.perf_counter()
-        fs.restore_all_data()
-        end_time = time.perf_counter()
-    else:
-        start_time = time.perf_counter()
-        fs.restore_part_of_data(keys)
-        end_time = time.perf_counter()
+    start_time = time.perf_counter()
+    fs.restore_data(keys)
+    end_time = time.perf_counter()
     return end_time - start_time
 
 main()

@@ -9,14 +9,7 @@ class FileSystemStorage():
         with open(file_path, 'rt') as f:
             return float(f.read())
         
-    def restore_all_data(self):
-        data = {}
-        for file in os.listdir(self.CACHE_FOLDER_NAME):
-            file_path = os.path.join(self.CACHE_FOLDER_NAME, file)
-            data[file] = self.get_file_content(file_path)
-        return data
-    
-    def restore_part_of_data(self, keys):
+    def restore_data(self, keys):
         data = {}
         for file in keys:
             try:

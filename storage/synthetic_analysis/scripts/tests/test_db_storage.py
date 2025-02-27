@@ -64,35 +64,20 @@ class TestDBStorage(unittest.TestCase):
         self.storage.persist_data(data_2)
         self.assert_data_correctly_inserted_on_db(data)
 
-    def test_restore_all_data(self):
-        data = {'key1': 10.5,
-               'key2': 20.3,
-               'key3': 15.7}
-        self.manually_insert_data(data)
-        restored_data = self.storage.restore_all_data()
-        self.assertDictEqual(restored_data, data)
-
-        data2 = {'key23': 1241.5,
-                 'key47': 216312}
-        data.update(data2)
-        self.manually_insert_data(data2)
-        restored_data = self.storage.restore_all_data()
-        self.assertDictEqual(restored_data, data)
-
-    def test_restore_part_of_data(self):
+    def test_restore_data(self):
         data = {'key1': 10.5,
                 'key2': 20.3,
                 'key3': 15.7,
                 'key4': 112345.7,
                 'key5': 15.712312}
         self.manually_insert_data(data)
-        restored_data = self.storage.restore_part_of_data(['key2', 'key5', 'key9'])
+        restored_data = self.storage.restore_data(['key2', 'key5', 'key9'])
         self.assertDictEqual(restored_data, {'key2': 20.3, 'key5': 15.712312})
 
-        restored_data = self.storage.restore_part_of_data(['key20', 'key25'])
+        restored_data = self.storage.restore_data(['key20', 'key25'])
         self.assertDictEqual(restored_data, {})
 
-        restored_data = self.storage.restore_part_of_data(['key3'])
+        restored_data = self.storage.restore_data(['key3'])
         self.assertDictEqual(restored_data, {'key3': 15.7})
 
 if __name__ == '__main__':

@@ -1,10 +1,10 @@
-import random, xxhash, statistics, time
+import random, hashlib, statistics, time
 
 def generate_data(data_size):
     data = {}
     for _ in range(data_size):
         value = random.random()
-        key = xxhash.xxh128_hexdigest(str(value).encode('utf'))
+        key = hashlib.md5(str(value).encode('utf')).hexdigest()
         data[key] = value    
     return data
 
