@@ -11,7 +11,7 @@ Once the values are inserted, run the following commands to perform the statisti
 
 ```bash
 python 1_shapiro_wilk_test.py
-python 2_wilcoxon_signed_rank_test.py
+python 2_friedman_and_post_hoc_nemenyi_tests.py
 python 3_cliffs_delta.py
 ```
 
