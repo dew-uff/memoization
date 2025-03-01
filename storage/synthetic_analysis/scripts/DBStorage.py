@@ -7,7 +7,17 @@ class DBStorage():
                             key TEXT NOT NULL PRIMARY KEY, \
                             value REAL NOT NULL)')
 
-    def restore_data(self, keys):
+    def restore_all_data(self):
+        sql_stmt = "SELECT key, value FROM CACHE"
+        self.cursor.execute(sql_stmt, ())
+        results = self.cursor.fetchall()
+        
+        data = {}
+        for k, v in results:
+            data[k] = v
+        return data
+
+    def restore_part_of_data(self, keys):
         sql_stmt = "SELECT key, value FROM CACHE WHERE key IN (" + len(keys)*"?, "
         sql_stmt = sql_stmt[:-2] + ")"
         self.cursor.execute(sql_stmt, keys)
