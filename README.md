@@ -1,21 +1,51 @@
 # memoization
 
-The storage tests are available in the `storage_scripts/` directory. To reproduce them, enter the folder and run: `python restore_storage_script.py` and `python persist_storage_script.py`
+This repository contains all the resources needed to reproduce the experimental analyses performed in the article.
 
-`with_or_without_dict/` folder:
-    To execute the simulation scripts, run: `./run.sh`
-    
-    To execute the real experiments comparison, move the `run_real_experiments.sh` script to `AvaliacaoExperimental/` and execute: `seq 1 10 | xargs -I {} -n 1 -P 1 bash -c './run_real_experiments.sh >> with_or_without_script_log.txt 2>&1'`
+## Folder Structure
 
-`storage_scripts/` folder:
-    To execute the simulation scripts, run: `./run.sh`
-    
-    To execute the real experiments comparison, move the `run_real_experiments.sh` script to `AvaliacaoExperimental/` and execute:`seq 1 10 | xargs -I {} -n 1 -P 1 bash -c './run_real_experiments.sh >> storage_scripts_log.txt 2>&1'`
+The repository is organized into the following directories:
 
-`dicts_comparison/` folder:
-    To execute the simulation scripts, run: `./run.sh`
-    
-    To execute the real experiments comparison, move the `run_real_experiments.sh` script to `AvaliacaoExperimental/` and execute:`seq 1 10 | xargs -I {} -n 1 -P 1 bash -c './run_real_experiments.sh >> dicts_comparison_log.txt 2>&1'`
+- **data\_loading/**
 
+  - Contains all resources for the experimental analysis of the data loading component.
 
-CITAR SPEEDUPY (2 VERSIONS) + REPOSITÓRIOS COM EXPERIMENTOS
+- **main\_memory\_data\_structures/**
+
+  - Contains all resources for the experimental analysis of the main memory data structure component.
+
+- **real\_script\_trials\_profiling/**
+
+  - Contains all resources for profiling real-world experiment trials.
+
+- **storage/**
+
+  - Contains all resources for the experimental analysis of the storage component.
+
+## External Repositories
+
+The cache memoization tool used in the experimental analysis is available at [SpeeduPy](https://github.com/dew-uff/speedupy). For profiling the scripts we used the SpeeduPy version [1.0.1_profiling](), while for time measure we used version [1.0.1_time_measure]().
+
+The real-world scripts referenced in the article can be found in the following repositories:
+
+- [SpeeduPy Experiments](https://github.com/dew-uff/speedupy_experiments) (SPEEDUPY_EXPS_REPO)
+- [Tiny GSGP](https://github.com/JoaoLopez/Tiny-GSGP-with-speedupy) (TINY_GSGP_REPO)
+- [DNACC](https://github.com/JoaoLopez/DNACC-with-speedupy) (DNACC_REPO)
+- [Menger Sponge](https://github.com/JoaoLopez/menger-sponge-with-speedupy) (MENGER_SPONGE_REPO)
+
+## Experiment Folder Mapping
+
+The following table maps the real-world scripts to their corresponding experiment folders:
+
+|       Experiment Name     | Folder Path |
+|:-------------------------:|:-----------------------:|
+|    Test Laplace Jacobi    |            0            |
+|    Tiny GSGP              |            1            |
+|    Count Unique Words     |            2            |
+|    Sphere Potentials      |          2-fast         |
+|    ssDNA Tethers          |            0            |
+|    Heap Permutation       |            0            |
+|    Metropolis Hastings    |            0            |
+|    Menger Sponge          |            0            |
+|    Eq Solver              |            0            |
+|    Power                  |            0            |
