@@ -1,35 +1,34 @@
 # Main Memory Data Structures - Synthetic Analysis
 
-## Run Simulation
+## Running the Simulation
 
-To reproduce the synthetic analysis of the article execute:
+To reproduce the synthetic analysis presented in the article, execute the following command:
 
 ```bash
 cd scripts/
 bash run_simulation.sh
 ```
 
-This will generate 100 files with the results obtained by the simulation.
-
+This will generate 100 files containing the results obtained from the simulation.
 
 ## Extracting Simulation Results
 
-Our simulation executes 10 trials the same experiment. In our article we use the median output obtained as the oficial result. In order to extract the median outputs obtained, please execute:
+Our simulation executes 10 trials the same experiment. In our article we use the median output as the official result. To extract the median results, execute:
 
 ```bash
 cd util_scripts/
-bash extract_median_results.py SIMULATION_RESULTS.txt MEDIAN_VALUES.txt
+python extract_median_results.py SIMULATION_RESULTS.txt MEDIAN_VALUES.txt
 ```
 
-## Viewing All Data on a Table Style
+## Viewing Results in Table Format
 
-You can view all executed trials outputs in a table style. To do so, execute:
+To view all executed trial outputs in a structured table format, execute:
 
 ```bash
 cd util_scripts/
-bash extract_raw_data.py SIMULATION_RESULTS.txt TABLE_VIEW.txt
+python extract_raw_data.py SIMULATION_RESULTS.txt TABLE_VIEW.txt
 ```
 
 ## Article Results
 
-The results we used on our article are available inside **results/** folder
+The results used in our article are available in the **results/** folder.
