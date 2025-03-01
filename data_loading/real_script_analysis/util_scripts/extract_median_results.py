@@ -32,6 +32,9 @@ with open(input_file, 'r') as file:
 
 # Calculate median times and prepare output
 output_lines = []
+
+line = "Script Name\tData Loading Strategy\tMedian Result\n"
+output_lines.append(line)
 for command, times in command_times.items():
     script_name = command.split(' ')[1].strip()
     perhaps_input = command.split(' ')[2].strip()
@@ -42,7 +45,7 @@ for command, times in command_times.items():
     
     if times:
         median_time = statistics.median(times)
-        line = f"{script_name}\t{perhaps_input}\t{retrieval_exec_mode}\t{str(median_time)}\n"
+        line = f"{script_name}\t{retrieval_exec_mode}\t{str(median_time)}\n"
 
         # stat, p_value = check_shapiro_wilk(times, f"{script_name}-{retrieval_exec_mode}")
         # line = f"{script_name}\t{retrieval_exec_mode}\t{p_value > 0.05}\t{str(stat).replace('.', ',')}\t{str(p_value).replace('.', ',')}\n"
