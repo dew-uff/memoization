@@ -39,13 +39,13 @@ The following table maps the real-world scripts to their corresponding experimen
 
 |       Experiment Name     | Folder Path |
 |:-------------------------:|:-----------------------:|
-|    Test Laplace Jacobi    | SPEEDUPY_EXPS_REPO/04benchproglangs/04benchpl_exp09_iterative_solver_jacobi_OK/ |
-|    Tiny GSGP              | TINY_GSGP_REPO/adapted_for_speedupy/README.md|
-|    Count Unique Words     | SPEEDUPY_EXPS_REPO/04benchproglangs/04benchpl_exp03_count_unique_words_OK/ |
-|    Sphere Potentials      | DNACC_REPO/adapted_for_speedupy/examples/sphere_potentials/ |
-|    ssDNA Tethers          | DNACC_REPO/adapted_for_speedupy/examples/ssDNA_tethers/ |
-|    Heap Permutation       | SPEEDUPY_EXPS_REPO/01pilots/01pilots_exp05_heap_permutation/heap_permutation_numba.py |
-|    Metropolis Hastings    | SPEEDUPY_EXPS_REPO/04benchproglangs/04benchpl_exp07_metropolis_hastings/ |
-|    Menger Sponge          | MENGER_SPONGE_REPO/ |
-|    Eq Solver              | SPEEDUPY_EXPS_REPO/05msrgithubexps/05msrgithubexps_exp03_eq_solver/ |
-|    Power                  | SPEEDUPY_EXPS_REPO/01pilots/01pilots_exp02_power/ |
+|    Test Laplace Jacobi    | [SPEEDUPY_EXPS_REPO/04benchproglangs/04benchpl_exp09_iterative_solver_jacobi_OK/](https://github.com/dew-uff/speedupy_experiments/tree/main/04benchproglangs/04benchpl_exp09_iterative_solver_jacobi_OK) |
+|    Tiny GSGP              | [TINY_GSGP_REPO/adapted_for_speedupy/](https://github.com/JoaoLopez/Tiny-GSGP-with-speedupy/tree/master/adapted_for_speedupy) |
+|    Count Unique Words     | [SPEEDUPY_EXPS_REPO/04benchproglangs/04benchpl_exp03_count_unique_words_OK/](https://github.com/dew-uff/speedupy_experiments/tree/main/04benchproglangs/04benchpl_exp03_count_unique_words_OK) |
+|    Sphere Potentials      | [DNACC_REPO/adapted_for_speedupy/examples/sphere_potentials/](https://github.com/JoaoLopez/DNACC-with-speedupy/tree/master/adapted_for_speedupy/examples/sphere_potentials) |
+|    ssDNA Tethers          | [DNACC_REPO/adapted_for_speedupy/examples/ssDNA_tethers/](https://github.com/JoaoLopez/DNACC-with-speedupy/tree/master/adapted_for_speedupy/examples/ssDNA_tethers) |
+|    Heap Permutation       | [SPEEDUPY_EXPS_REPO/01pilots/01pilots_exp05_heap_permutation/](https://github.com/dew-uff/speedupy_experiments/tree/main/01pilots/01pilots_exp05_heap_permutation) |
+|    Metropolis Hastings    | [SPEEDUPY_EXPS_REPO/04benchproglangs/04benchpl_exp07_metropolis_hastings/](https://github.com/dew-uff/speedupy_experiments/tree/main/04benchproglangs/04benchpl_exp07_metropolis_hastings) |
+|    Menger Sponge          | [MENGER_SPONGE_REPO/](https://github.com/JoaoLopez/menger-sponge-with-speedupy) |
+|    Eq Solver              | [SPEEDUPY_EXPS_REPO/05msrgithubexps/05msrgithubexps_exp03_eq_solver/](https://github.com/dew-uff/speedupy_experiments/tree/main/05msrgithubexps/05msrgithubexps_exp03_eq_solver) |
+|    Power                  | [SPEEDUPY_EXPS_REPO/01pilots/01pilots_exp02_power/](https://github.com/dew-uff/speedupy_experiments/tree/main/01pilots/01pilots_exp02_power) |
