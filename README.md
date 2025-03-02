@@ -24,7 +24,7 @@ The repository is organized into the following directories:
 
 ## External Repositories
 
-The cache memoization tool used in the experimental analysis is available at [SpeeduPy](https://github.com/dew-uff/speedupy). For profiling the scripts we used the SpeeduPy version [1.0.1_profiling](), while for time measure we used version [1.0.1_time_measure]().
+The cache memoization tool used in the experimental analysis is available at [SpeeduPy](https://github.com/dew-uff/speedupy). For profiling the scripts we used the SpeeduPy version [1.0.1-profiling](https://github.com/dew-uff/speedupy/tree/v1.0.1-profiling), while for time measure we used version [1.0.1-time-measure](https://github.com/dew-uff/speedupy/tree/v1.0.1-time-measure).
 
 The real-world scripts referenced in the article can be found in the following repositories:
 
@@ -39,13 +39,13 @@ The following table maps the real-world scripts to their corresponding experimen
 
 |       Experiment Name     | Folder Path |
 |:-------------------------:|:-----------------------:|
-|    Test Laplace Jacobi    |            0            |
-|    Tiny GSGP              |            1            |
-|    Count Unique Words     |            2            |
-|    Sphere Potentials      |          2-fast         |
-|    ssDNA Tethers          |            0            |
-|    Heap Permutation       |            0            |
-|    Metropolis Hastings    |            0            |
-|    Menger Sponge          |            0            |
-|    Eq Solver              |            0            |
-|    Power                  |            0            |
+|    Test Laplace Jacobi    | SPEEDUPY_EXPS_REPO/04benchproglangs/04benchpl_exp09_iterative_solver_jacobi_OK/ |
+|    Tiny GSGP              | TINY_GSGP_REPO/adapted_for_speedupy/README.md|
+|    Count Unique Words     | SPEEDUPY_EXPS_REPO/04benchproglangs/04benchpl_exp03_count_unique_words_OK/ |
+|    Sphere Potentials      | DNACC_REPO/adapted_for_speedupy/examples/sphere_potentials/ |
+|    ssDNA Tethers          | DNACC_REPO/adapted_for_speedupy/examples/ssDNA_tethers/ |
+|    Heap Permutation       | SPEEDUPY_EXPS_REPO/01pilots/01pilots_exp05_heap_permutation/heap_permutation_numba.py |
+|    Metropolis Hastings    | SPEEDUPY_EXPS_REPO/04benchproglangs/04benchpl_exp07_metropolis_hastings/ |
+|    Menger Sponge          | MENGER_SPONGE_REPO/ |
+|    Eq Solver              | SPEEDUPY_EXPS_REPO/05msrgithubexps/05msrgithubexps_exp03_eq_solver/ |
+|    Power                  | SPEEDUPY_EXPS_REPO/01pilots/01pilots_exp02_power/ |
