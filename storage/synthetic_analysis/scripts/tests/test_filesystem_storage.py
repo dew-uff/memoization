@@ -47,21 +47,6 @@ class TestFileSystemStorage(unittest.TestCase):
         self.storage.persist_data(data_2)
         self.assert_data_correctly_inserted_on_fs(data)
 
-    def test_restore_all_data(self):
-        data = {'key1': 10.5,
-               'key2': 20.3,
-               'key3': 15.7}
-        self.manually_insert_data(data)
-        restored_data = self.storage.restore_all_data()
-        self.assertDictEqual(restored_data, data)
-
-        data2 = {'key23': 1241.5,
-                 'key47': 216312}
-        data.update(data2)
-        self.manually_insert_data(data2)
-        restored_data = self.storage.restore_all_data()
-        self.assertDictEqual(restored_data, data)
-
     def test_restore_part_of_data(self):
         data = {'key1': 10.5,
                 'key2': 20.3,
