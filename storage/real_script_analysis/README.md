@@ -2,7 +2,7 @@
 
 ## Run Scripts
 
-To reproduce the analysis presented in the article, execute the following command:
+To reproduce the analysis presented in the article, update experiment paths in **scripts/new_new_scripts_trials_storage_scripts.sh** to match your local setup and execute the following command:
 
 ```bash
 cd scripts/
