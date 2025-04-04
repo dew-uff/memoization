@@ -24,7 +24,7 @@ The repository is organized into the following directories:
 
 ## External Repositories
 
-The cache memoization tool used in the experimental analysis is available at [SpeeduPy](https://github.com/dew-uff/speedupy). For profiling the scripts we used the SpeeduPy version [1.0.1-profiling](https://github.com/dew-uff/speedupy/tree/v1.0.1-profiling), while for time measure we used version [1.0.1-time-measure](https://github.com/dew-uff/speedupy/tree/v1.0.1-time-measure).
+The cache memoization tool used in the experimental analysis is available at [SpeeduPy](https://github.com/dew-uff/speedupy). For profiling the scripts we used the SpeeduPy version [1.0.1-profiling](https://github.com/dew-uff/speedupy/releases/tag/v1.0.1-profiling), while for time measure we used version [1.0.1-time-measure](https://github.com/dew-uff/speedupy/releases/tag/v1.0.1-time-measure).
 
 The real-world scripts referenced in the article can be found in the following repositories:
 
@@ -49,3 +49,28 @@ The following table maps the real-world scripts to their corresponding experimen
 |    Menger Sponge          | [MENGER_SPONGE_REPO/](https://github.com/JoaoLopez/menger-sponge-with-speedupy) |
 |    Eq Solver              | [SPEEDUPY_EXPS_REPO/05msrgithubexps/05msrgithubexps_exp03_eq_solver/](https://github.com/dew-uff/speedupy_experiments/tree/main/05msrgithubexps/05msrgithubexps_exp03_eq_solver) |
 |    Power                  | [SPEEDUPY_EXPS_REPO/01pilots/01pilots_exp02_power/](https://github.com/dew-uff/speedupy_experiments/tree/main/01pilots/01pilots_exp02_power) |
+
+## Reproducibility
+### Installing Real-world Experiments
+To perform any of the real script analyses presented in the article, you must install the real-world experiments. Visit each repository listed in the [Experiment Folder Mapping](#experiment-folder-mapping) section and follow the setup instructions provided in the **README.md** files of the corresponding projects.
+
+### Reproducing the Real-world Experiment Trials Profiling
+To reproduce the profiling performed on the real-world experiment trials follow the instructions available in the [real\_script\_trials\_profiling/README.md](https://github.com/dew-uff/memoization/blob/main/real_script_trials_profiling/README.md).
+
+### Reproducing the Article Analyses
+All analyses were conducted using SpeeduPy release [v1.0.1-time-measure](https://github.com/dew-uff/speedupy/releases/tag/v1.0.1-time-measure). To set it up, follow these steps:
+
+1. Install **Python 3.9** on your machine.
+2. Download and extract the SpeeduPy release [v1.0.1-time-measure](https://github.com/dew-uff/speedupy/releases/tag/v1.0.1-time-measure).
+3. Install SpeeduPy by running the following commands:
+```bash
+mv speedupy-1.0.1-time-measure/ speedupy/
+cd speedupy/
+pip install -r requirements.txt
+```
+4. To reproduce a specific analysis, follow the appropriate link below:
+- [Data Loading - Real Script Analysis](https://github.com/dew-uff/memoization/blob/main/data_loading/real_script_analysis/README.md)
+- [Main Memory Data Structures - Real Script Analysis](https://github.com/dew-uff/memoization/blob/main/main_memory_data_structures/real_script_analysis/README.md)
+- [Main Memory Data Structures - Synthetic Analysis](https://github.com/dew-uff/memoization/blob/main/main_memory_data_structures/synthetic_analysis/README.md)
+- [Storage - Real Script Analysis](https://github.com/dew-uff/memoization/blob/main/storage/real_script_analysis/README.md)
+- [Storage - Synthetic Analysis](https://github.com/dew-uff/memoization/blob/main/storage/synthetic_analysis/README.md)
