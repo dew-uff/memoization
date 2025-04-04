@@ -2,7 +2,7 @@
 
 ## Run Simulation
 
-To reproduce the analysis presented in the article, execute the following command:
+To reproduce the analysis presented in the article, update experiment paths in **scripts/new_new_scripts_trials_dicts_comparison.sh** to match your local setup and execute the following command:
 
 ```bash
 cd scripts/
