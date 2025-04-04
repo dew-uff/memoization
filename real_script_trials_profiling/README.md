@@ -13,7 +13,6 @@ mv speedupy-1.0.1-profiling/ speedupy/
 cd speedupy/
 pip install -r requirements.txt
 ```
-4. Install the real-world experiments as described in section **Installing Real-world Experiments** of the [README.md](https://github.com/dew-uff/memoization/blob/main/README.md) file located at the root of this project.
 5. Update experiment paths in **./new_new_scripts_trials_profiling.sh** to match your local setup, then run:
 ```bash
 cd scripts/
