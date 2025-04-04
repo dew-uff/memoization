@@ -2,10 +2,19 @@
 
 This folder contains information on how to reproduce the profiling conducted on the real-world script trials.
 
-## Run Scripts
+## Reproducibility
+To reproduce the profiling analysis used to group each experiment trial based on the number of cache requests and cache misses, follow these steps:
 
-To reproduce the profiling, execute the following commands:
-
+1. Install **Python 3.9** on your machine.
+2. Download and extract the SpeeduPy release [v1.0.1-profiling](https://github.com/dew-uff/speedupy/releases/tag/v1.0.1-profiling).
+3. Install SpeeduPy by running the following commands:
+```bash
+mv speedupy-1.0.1-profiling/ speedupy/
+cd speedupy/
+pip install -r requirements.txt
+```
+4. Install the real-world experiments as described in the **README.md** file located at the root of this project.
+5. Update experiment paths in **./new_new_scripts_trials_profiling.sh** to match your local setup, then run:
 ```bash
 cd scripts/
 ./new_new_scripts_trials_profiling.sh
