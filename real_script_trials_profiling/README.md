@@ -13,7 +13,7 @@ mv speedupy-1.0.1-profiling/ speedupy/
 cd speedupy/
 pip install -r requirements.txt
 ```
-4. Update experiment paths in **./new_new_scripts_trials_profiling.sh** to match your local setup, then run:
+4. Update experiment paths in **scripts/new_new_scripts_trials_profiling.sh** to match your local setup, then run:
 ```bash
 cd scripts/
 ./new_new_scripts_trials_profiling.sh
