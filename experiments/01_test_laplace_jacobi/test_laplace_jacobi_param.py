@@ -24,7 +24,7 @@ def loop_time_step(u, func_globals=None):
     return (aux, np.sqrt(error))
 
 @deterministic
-def loop_solver(n, func_globals=None):
+def loop_solver(n, target_error, func_globals=None):
     """
         Find the desired numerical solution using loops
     """
@@ -36,7 +36,7 @@ def loop_solver(n, func_globals=None):
     u[n - 1, :] = np.sin(x) * np.exp(-pi_c)
     iteration = 0
     error = 2
-    while iteration < 1000000 and error > 0.0001:
+    while iteration < 1000000 and error > target_error:
         u, error = loop_time_step(u, func_globals=globals())
         iteration += 1
     return (u, error, iteration)
@@ -53,7 +53,7 @@ def vector_time_step(u, func_globals=None):
     return (aux, np.linalg.norm(aux - u_old))
 
 @deterministic
-def vectorized_solver(n, func_globals=None):
+def vectorized_solver(n, target_error, func_globals=None):
     """
         Find the desired numerical solution using vectorization
     """
@@ -65,7 +65,7 @@ def vectorized_solver(n, func_globals=None):
     u[n - 1, :] = np.sin(x) * np.exp(-pi_c)
     iteration = 0
     error = 2
-    while iteration < 1000000 and error > 0.0001:
+    while iteration < 1000000 and error > target_error:
         u, error = vector_time_step(u, func_globals=globals())
         iteration += 1
     return (u, error, iteration)
@@ -73,11 +73,12 @@ def vectorized_solver(n, func_globals=None):
 @initialize_speedupy
 def main():
     num_points = int(sys.argv[1])
+    target_error = float(sys.argv[2])
     dti = time.perf_counter()
-    u, error, iteration = loop_solver(num_points, func_globals=globals())
+    u, error, iteration = loop_solver(num_points, target_error, func_globals=globals())
     print(time.perf_counter() - dti)
     dti = time.perf_counter()
-    u, error, iteration = vectorized_solver(num_points, func_globals=globals())
+    u, error, iteration = vectorized_solver(num_points, target_error, func_globals=globals())
     print(time.perf_counter() - dti)
 if __name__ == '__main__':
     main()
