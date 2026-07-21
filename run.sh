@@ -259,20 +259,20 @@ run_without_cache \
   "detecting_paleoclimate_transitions_image"
 
 
-# # EXPERIMENT HARMONIC ENSEMBLE SIMILARITY
-# run_without_cache \
-#   "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_1.py" \
-#   "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_2.py" \
-#   "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_3.py" \
-#   "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_4.py" \
-#   "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_5.py" \
-#   "python harmonic_ensemble_similarity_1.py" \
-#   "python harmonic_ensemble_similarity_2.py" \
-#   "python harmonic_ensemble_similarity_3.py" \
-#   "python harmonic_ensemble_similarity_4.py" \
-#   "python harmonic_ensemble_similarity_5.py" \
-#   "${BASE_DIR}/09_MDAnalysis_UserGuide/doc/source/examples/analysis/trajectory_similarity" \
-#   "mdanalysis-env"
+# EXPERIMENT HARMONIC ENSEMBLE SIMILARITY
+run_without_cache \
+  "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_param.py" \
+  "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_param.py" \
+  "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_param.py" \
+  "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_param.py" \
+  "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_param.py" \
+  "python harmonic_ensemble_similarity_param.py 'backbone'" \
+  "python harmonic_ensemble_similarity_param.py 'backbone or (resname PHE TYR TRP and name CG CD* CE*)'" \
+  "python harmonic_ensemble_similarity_param.py 'backbone or name CB'" \
+  "python harmonic_ensemble_similarity_param.py 'backbone or name CG*'" \
+  "python harmonic_ensemble_similarity_param.py 'backbone or name CB or name CG'" \
+  "${BASE_DIR}/09_MDAnalysis_UserGuide" \
+  "experiments_image"
 
 for s in "${storages[@]}"; do
   for m in "${mem_arch[@]}"; do
@@ -423,21 +423,21 @@ for s in "${storages[@]}"; do
         "$inverted_order"
 
       # EXPERIMENT HARMONIC ENSEMBLE SIMILARITY
-      # run_with_cache \
-      #   "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_1.py" \
-      #   "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_2.py" \
-      #   "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_3.py" \
-      #   "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_4.py" \
-      #   "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_5.py" \
-      #   "python harmonic_ensemble_similarity_1.py" \
-      #   "python harmonic_ensemble_similarity_2.py" \
-      #   "python harmonic_ensemble_similarity_3.py" \
-      #   "python harmonic_ensemble_similarity_4.py" \
-      #   "python harmonic_ensemble_similarity_5.py" \
-      #   "-s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
-      #   "${BASE_DIR}/09_MDAnalysis_UserGuide/doc/source/examples/analysis/trajectory_similarity" \
-      #   "mdanalysis-env" \
-      #   "$inverted_order"
+      run_with_cache \
+        "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_param.py" \
+        "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_param.py" \
+        "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_param.py" \
+        "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_param.py" \
+        "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_param.py" \
+        "python harmonic_ensemble_similarity_param.py 'backbone'" \
+        "python harmonic_ensemble_similarity_param.py 'backbone or (resname PHE TYR TRP and name CG CD* CE*)'" \
+        "python harmonic_ensemble_similarity_param.py 'backbone or name CB'" \
+        "python harmonic_ensemble_similarity_param.py 'backbone or name CG*'" \
+        "python harmonic_ensemble_similarity_param.py 'backbone or name CB or name CG'" \
+        "-s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
+        "${BASE_DIR}/09_MDAnalysis_UserGuide" \
+        "experiments_image" \
+        "$inverted_order"
     done
   done
 done
