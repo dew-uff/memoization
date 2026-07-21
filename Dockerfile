@@ -22,6 +22,7 @@ RUN pip install --no-cache-dir \
     numpy \
     cython \
     setuptools \
+    lenstronomy==1.13.5 \
     scipy==1.13 \
     mmh3==4.0.1 \
     xxhash==3.4.1 \
@@ -30,5 +31,12 @@ RUN pip install --no-cache-dir \
     pymemcache==4.0.0 \
     mysql-connector-python==9.4.0 \
     cloudpickle==3.1.1
+
+# Installing squirrel
+COPY experiments/07_squirrel /tmp/squirrel
+
+RUN pip install -r /tmp/squirrel/requirements.txt && \
+    pip install /tmp/squirrel && \
+    rm -rf /tmp/squirrel
 
 CMD ["bash"]
