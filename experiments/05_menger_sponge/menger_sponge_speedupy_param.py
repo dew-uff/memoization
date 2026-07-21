@@ -8,7 +8,7 @@ from matplotlib.pylab import imshow, cm, show
 
 @deterministic
 def outside_unit_cube(triple, func_globals=None):
-    (x, y, z) = triple
+    x, y, z = triple
     if x < 0 or y < 0 or z < 0:
         return 1
     if x > 1 or y > 1 or z > 1:
@@ -19,7 +19,7 @@ def outside_unit_cube(triple, func_globals=None):
 def in_sponge(triple, level, func_globals=None):
     """Determine whether a point lies inside the Menger sponge
     after the number of iterations given by 'level.' """
-    (x, y, z) = triple
+    x, y, z = triple
     if outside_unit_cube(triple, func_globals=globals()):
         return 0
     if x == 1 or y == 1 or z == 1:
@@ -41,14 +41,14 @@ def in_sponge(triple, level, func_globals=None):
 
 @deterministic
 def cross_product(v, w, func_globals=None):
-    (v1, v2, v3) = v
-    (w1, w2, w3) = w
+    v1, v2, v3 = v
+    w1, w2, w3 = w
     return (v2 * w3 - v3 * w2, v3 * w1 - v1 * w3, v1 * w2 - v2 * w1)
 
 @deterministic
 def length(v, func_globals=None):
     """Euclidean length"""
-    (x, y, z) = v
+    x, y, z = v
     return sqrt(x * x + y * y + z * z)
 
 @maybe_deterministic
@@ -57,7 +57,7 @@ def plot_slice(normal, point, level, n):
     a plane containing the specified point and having
     the specified normal vector. The view is from
     the direction normal to the given plane."""
-    (nx, ny, nz) = normal
+    nx, ny, nz = normal
     if nx != 0:
         t = (0, 1, 1)
     elif ny != 0:
@@ -85,6 +85,5 @@ def main():
     point = (0.5, 0.5, 0.5)
     level = 3
     plot_slice(normal, point, level, n)
-
 if __name__ == '__main__':
     main()

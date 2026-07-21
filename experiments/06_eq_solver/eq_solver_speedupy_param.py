@@ -30,6 +30,5 @@ def main():
     start = time.perf_counter()
     exp_main(F_solution, n_solutions, func_globals=globals())
     print(time.perf_counter() - start)
-
 if __name__ == '__main__':
     main()

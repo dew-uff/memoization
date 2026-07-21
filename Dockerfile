@@ -20,7 +20,9 @@ RUN pip install --no-cache-dir \
     imageio \
     seaborn \
     numpy \
-    scipy \
+    cython \
+    setuptools \
+    scipy==1.13 \
     mmh3==4.0.1 \
     xxhash==3.4.1 \
     redis==4.3.6 \
