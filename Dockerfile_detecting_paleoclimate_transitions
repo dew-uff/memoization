@@ -10,12 +10,17 @@ RUN apt-get update && apt-get install -y \
     gfortran \
     libopenblas-dev \
     liblapack-dev \
+    ocl-icd-opencl-dev \
+    ocl-icd-libopencl1 \
+    pocl-opencl-icd \
+    clinfo \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 
 # Install Python dependencies
 RUN pip install --no-cache-dir \
+    ammonyte \
     setuptools \
     mmh3==4.0.1 \
     xxhash==3.4.1 \

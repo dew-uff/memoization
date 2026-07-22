@@ -22,6 +22,7 @@ RUN pip install --no-cache-dir \
     numpy \
     cython \
     setuptools \
+    MDAnalysisTests \
     MDAnalysis==2.9.0 \
     lenstronomy==1.13.5 \
     scipy==1.13 \
