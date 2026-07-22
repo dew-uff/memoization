@@ -107,16 +107,16 @@ run_with_cache() {
   local exp_options=("${11}")
   local exp_path=("${12}")
   local docker_image=("${13}")
-  local invert="${14}"
 
-  # conditionally invert
-  if [[ "$invert" == "true" ]]; then
-    mapfile -t setup_commands < <(printf "%s\n" "${setup_commands[@]}" | tac)
-    mapfile -t exec_commands  < <(printf "%s\n" "${exec_commands[@]}" | tac)
-  fi
+  run_trials_twice_isolated "${setup_commands[@]}" "${exec_commands[@]}" "$exp_options -mt 0.01 --exec-mode manual --measure-time" "$exp_path" "$docker_image"
+  run_trials_once_sequentially "${setup_commands[@]}" "${exec_commands[@]}" "$exp_options -mt 0.01 --exec-mode manual --measure-time" "$exp_path" "$docker_image"
+
+
+  # Inverting commands sequence
+  mapfile -t setup_commands < <(printf "%s\n" "${setup_commands[@]}" | tac)
+  mapfile -t exec_commands  < <(printf "%s\n" "${exec_commands[@]}" | tac)
 
   run_trials_once_sequentially "${setup_commands[@]}" "${exec_commands[@]}" "$exp_options -mt 0.01 --exec-mode manual --measure-time" "$exp_path" "$docker_image"
-  run_trials_twice_isolated "${setup_commands[@]}" "${exec_commands[@]}" "$exp_options -mt 0.01 --exec-mode manual --measure-time" "$exp_path" "$docker_image"
 }
 
 # Storages disponíveis: ("sqlite" "redis" "mongo-file" "mysql" "file")
@@ -130,7 +130,6 @@ retrieval_strategy_with_exec_mode=(
   "eager|sequential"
   # "eager|thread"
 )
-inverted_order=false
 
 # EXPERIMENT TEST LAPLACE JACOBI
 run_without_cache \
@@ -171,11 +170,11 @@ run_without_cache \
   "python speedupy/setup_exp/setup.py sphere_potentials_param.py" \
   "python speedupy/setup_exp/setup.py sphere_potentials_param.py" \
   "python speedupy/setup_exp/setup.py sphere_potentials_param.py" \
-  "python sphere_potentials_param.py 0.08;find . -maxdepth 1 \( -name "spheres-R*" -o -name "plates-S*" \) -exec rm -rf {} +" \
-  "python sphere_potentials_param.py 0.039;find . -maxdepth 1 \( -name "spheres-R*" -o -name "plates-S*" \) -exec rm -rf {} +" \
-  "python sphere_potentials_param.py 0.026;find . -maxdepth 1 \( -name "spheres-R*" -o -name "plates-S*" \) -exec rm -rf {} +" \
-  "python sphere_potentials_param.py 0.02;find . -maxdepth 1 \( -name "spheres-R*" -o -name "plates-S*" \) -exec rm -rf {} +" \
-  "python sphere_potentials_param.py 0.0157;find . -maxdepth 1 \( -name "spheres-R*" -o -name "plates-S*" \) -exec rm -rf {} +" \
+  "python sphere_potentials_param.py 0.08" \
+  "python sphere_potentials_param.py 0.039" \
+  "python sphere_potentials_param.py 0.026" \
+  "python sphere_potentials_param.py 0.02" \
+  "python sphere_potentials_param.py 0.0157" \
   "${BASE_DIR}/03_sphere_potentials" \
   "experiments_image"
 
@@ -293,8 +292,7 @@ for s in "${storages[@]}"; do
         "python test_laplace_jacobi_param.py 105 4e-05" \
         "-s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
         "${BASE_DIR}/01_test_laplace_jacobi" \
-        "experiments_image" \
-        "$inverted_order"
+        "experiments_image"
 
 
       # EXPERIMENT COUNT UNIQUE WORDS WITH HEADER REPETITIONS
@@ -311,8 +309,7 @@ for s in "${storages[@]}"; do
         "python count_unique_words_speedupy.py input15.txt" \
         "-s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem"\
         "${BASE_DIR}/02_count_unique_words" \
-        "experiments_image" \
-        "$inverted_order"
+        "experiments_image"
 
 
       # EXPERIMENT SPHERE POTENTIALS
@@ -329,8 +326,7 @@ for s in "${storages[@]}"; do
         "python sphere_potentials_param.py 0.0157" \
         "-s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
         "${BASE_DIR}/03_sphere_potentials" \
-        "experiments_image" \
-        "$inverted_order"
+        "experiments_image"
 
 
       # EXPERIMENT METROPOLIS HASTINGS
@@ -347,8 +343,7 @@ for s in "${storages[@]}"; do
         "python metropolis_hastings.py 29000000" \
         "-s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
         "${BASE_DIR}/04_metropolis_hastings" \
-        "experiments_image" \
-        "$inverted_order"
+        "experiments_image"
 
 
       # EXPERIMENT MENGER SPONGE
@@ -365,8 +360,7 @@ for s in "${storages[@]}"; do
         "python menger_sponge_speedupy_param.py 5360" \
         "-s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
         "${BASE_DIR}/05_menger_sponge" \
-        "experiments_image" \
-        "$inverted_order"
+        "experiments_image"
 
 
       # EXPERIMENT EQ SOLVER
@@ -383,8 +377,7 @@ for s in "${storages[@]}"; do
         "python eq_solver_speedupy_param.py 600 2499851" \
         "-s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
         "${BASE_DIR}/06_eq_solver" \
-        "experiments_image" \
-        "$inverted_order"
+        "experiments_image"
 
 
       # EXPERIMENT SQUIRREL
@@ -401,8 +394,7 @@ for s in "${storages[@]}"; do
         "python squirrel_example_param.py 72" \
         "-s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
         "${BASE_DIR}/07_squirrel/notebooks" \
-        "experiments_image" \
-        "$inverted_order"
+        "experiments_image"
 
 
       # EXPERIMENT Detecting_Paleoclimate_Transitions_with_LERM
@@ -419,8 +411,7 @@ for s in "${storages[@]}"; do
         "python ODP_LERM_param.py 1000000" \
         "-s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
         "${BASE_DIR}/08_detecting_paleoclimate_transitions" \
-        "detecting_paleoclimate_transitions_image" \
-        "$inverted_order"
+        "detecting_paleoclimate_transitions_image"
 
       # EXPERIMENT HARMONIC ENSEMBLE SIMILARITY
       run_with_cache \
@@ -436,8 +427,7 @@ for s in "${storages[@]}"; do
         "python harmonic_ensemble_similarity_param.py 'backbone or name CB or name CG'" \
         "-s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
         "${BASE_DIR}/09_MDAnalysis_UserGuide" \
-        "experiments_image" \
-        "$inverted_order"
+        "experiments_image"
     done
   done
 done
