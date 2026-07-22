@@ -19,6 +19,18 @@ def main():
     )
 
     parser.add_argument(
+        "num_inputs",
+        type=int,
+        help="Number of inputs to generate."
+    )
+
+    parser.add_argument(
+        "type",
+        choices=["int", "float"],
+        help="Type of value to generate."
+    )
+
+    parser.add_argument(
         "lower",
         type=float,
         help="Lower limit (inclusive)."
@@ -28,12 +40,6 @@ def main():
         "upper",
         type=float,
         help="Upper limit (inclusive for integers)."
-    )
-
-    parser.add_argument(
-        "type",
-        choices=["int", "float"],
-        help="Type of value to generate."
     )
 
     args = parser.parse_args()
@@ -48,11 +54,12 @@ def main():
     if args.type == "int":
         lower = int(args.lower)
         upper = int(args.upper)
-        value = rng.randint(lower, upper)
+        inputs = [rng.randint(lower, upper) for _ in range(args.num_inputs)]
     else:
-        value = rng.uniform(args.lower, args.upper)
+        inputs = [rng.uniform(args.lower, args.upper) for _ in range(args.num_inputs)]
 
-    print(json.dumps({"seed": seed, "value": value}))
+    results = {"seed": seed, "inputs": inputs}
+    print(json.dumps(results))
 
 
 if __name__ == "__main__":

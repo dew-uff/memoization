@@ -1,6 +1,15 @@
 #!/bin/bash
 # sleep 10
 
+# Checking if a seed was passed in the CLI
+if [ -n "$1" ]; then
+  SEED="$1"
+else
+  SEED=$(python -c "import secrets; print(secrets.randbits(64))")
+fi
+
+echo "Using seed: $SEED"
+
 BASE_DIR=
 SPEEDUPY_DIR=
 
@@ -80,6 +89,41 @@ run_trials_once_sequentially() {
   run_exp "$exp_path" "$docker_image" "${cmds[@]}"
 }
 
+run_random_trials_once_sequentially() {
+  local setup_commands=("${@:1:5}")
+  local exec_commands=("${@:6:5}")
+  local exp_options=("${11}")
+  local exp_path=("${12}")
+  local docker_image=("${13}")
+  local input_type=("${14}")
+  local input_lower=("${15}")
+  local input_upper=("${16}")
+
+  # Generate random value
+  echo "Generating random inputs: python random_input_generator.py 5 ${input_type} ${input_lower} ${input_upper} --seed ${SEED})"
+  result=$(python random_input_generator.py 5 "$input_type" "$input_lower" "$input_upper" --seed $SEED)
+
+  seed=$(jq -r '.seed' <<< "$result")
+  mapfile -t inputs < <(jq -r '.inputs[]' <<< "$result")
+
+  echo "Results: ${results}"
+
+  local random_exec_commands=()
+  for i in "${!exec_commands[@]}"; do
+    read -ra args <<< "${exec_commands[$i]}"
+
+    # Remove original variable input
+    unset 'args[-1]'
+
+    # Add generated input
+    args+=("${inputs[$i]}")
+
+    random_exec_commands+=("${args[*]}")
+  done
+
+  run_trials_once_sequentially "${setup_commands[@]}" "${random_exec_commands[@]}" "$exp_options" "$exp_path" "$docker_image"
+}
+
 run_trials_twice_isolated() {
   local setup_commands=("${@:1:5}")
   local exec_commands=("${@:6:5}")
@@ -107,6 +151,9 @@ run_with_cache() {
   local exp_options=("${11}")
   local exp_path=("${12}")
   local docker_image=("${13}")
+  local input_type=("${14}")
+  local input_lower=("${15}")
+  local input_upper=("${16}")
 
   run_trials_twice_isolated "${setup_commands[@]}" "${exec_commands[@]}" "$exp_options -mt 0.01 --exec-mode manual --measure-time" "$exp_path" "$docker_image"
   run_trials_once_sequentially "${setup_commands[@]}" "${exec_commands[@]}" "$exp_options -mt 0.01 --exec-mode manual --measure-time" "$exp_path" "$docker_image"
@@ -117,6 +164,10 @@ run_with_cache() {
   mapfile -t exec_commands  < <(printf "%s\n" "${exec_commands[@]}" | tac)
 
   run_trials_once_sequentially "${setup_commands[@]}" "${exec_commands[@]}" "$exp_options -mt 0.01 --exec-mode manual --measure-time" "$exp_path" "$docker_image"
+
+  for _ in {1..3}; do
+    run_random_trials_once_sequentially "${setup_commands[@]}" "${exec_commands[@]}" "$exp_options -mt 0.01 --exec-mode manual --measure-time" "$exp_path" "$docker_image" "$input_type" "$input_lower" "$input_upper"
+  done
 }
 
 # Storages disponíveis: ("sqlite" "redis" "mongo-file" "mysql" "file")
