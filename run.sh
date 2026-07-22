@@ -98,15 +98,18 @@ run_random_trials_once_sequentially() {
   local input_type=("${14}")
   local input_lower=("${15}")
   local input_upper=("${16}")
+  local random_seed=("${17}")
 
   # Generate random value
-  echo "Generating random inputs: python random_input_generator.py 5 ${input_type} ${input_lower} ${input_upper} --seed ${SEED})"
-  result=$(python random_input_generator.py 5 "$input_type" "$input_lower" "$input_upper" --seed $SEED)
+  echo "Entering repository: cd ${BASE_DIR}/.."
+  cd $BASE_DIR/..
+  
+  echo "Generating random inputs: python random_input_generator.py 5 ${input_type} ${input_lower} ${input_upper} --seed ${random_seed}"
+  result=$(python random_input_generator.py 5 "$input_type" "$input_lower" "$input_upper" --seed $random_seed)
 
-  seed=$(jq -r '.seed' <<< "$result")
   mapfile -t inputs < <(jq -r '.inputs[]' <<< "$result")
 
-  echo "Results: ${results}"
+  echo "Results: ${result}"
 
   local random_exec_commands=()
   for i in "${!exec_commands[@]}"; do
@@ -165,8 +168,9 @@ run_with_cache() {
 
   run_trials_once_sequentially "${setup_commands[@]}" "${exec_commands[@]}" "$exp_options -mt 0.01 --exec-mode manual --measure-time" "$exp_path" "$docker_image"
 
-  for _ in {1..3}; do
-    run_random_trials_once_sequentially "${setup_commands[@]}" "${exec_commands[@]}" "$exp_options -mt 0.01 --exec-mode manual --measure-time" "$exp_path" "$docker_image" "$input_type" "$input_lower" "$input_upper"
+  for i in {0..2}; do
+    run_random_trials_once_sequentially "${setup_commands[@]}" "${exec_commands[@]}" "--exec-mode no-cache --measure-time" "$exp_path" "$docker_image" "$input_type" "$input_lower" "$input_upper" "$((SEED+i))"
+    run_random_trials_once_sequentially "${setup_commands[@]}" "${exec_commands[@]}" "$exp_options -mt 0.01 --exec-mode manual --measure-time" "$exp_path" "$docker_image" "$input_type" "$input_lower" "$input_upper" "$((SEED+i))"
   done
 }
 
@@ -343,24 +347,27 @@ for s in "${storages[@]}"; do
         "python test_laplace_jacobi_param.py 105 4e-05" \
         "-s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
         "${BASE_DIR}/01_test_laplace_jacobi" \
-        "experiments_image"
+        "experiments_image" \
+        "float" \
+        "4e-05" \
+        "0.005"
 
 
-      # EXPERIMENT COUNT UNIQUE WORDS WITH HEADER REPETITIONS
-      run_with_cache \
-        "python speedupy/setup_exp/setup.py count_unique_words_speedupy.py" \
-        "python speedupy/setup_exp/setup.py count_unique_words_speedupy.py" \
-        "python speedupy/setup_exp/setup.py count_unique_words_speedupy.py" \
-        "python speedupy/setup_exp/setup.py count_unique_words_speedupy.py" \
-        "python speedupy/setup_exp/setup.py count_unique_words_speedupy.py" \
-        "python count_unique_words_speedupy.py input11.txt" \
-        "python count_unique_words_speedupy.py input12.txt" \
-        "python count_unique_words_speedupy.py input13.txt" \
-        "python count_unique_words_speedupy.py input14.txt" \
-        "python count_unique_words_speedupy.py input15.txt" \
-        "-s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem"\
-        "${BASE_DIR}/02_count_unique_words" \
-        "experiments_image"
+      # # EXPERIMENT COUNT UNIQUE WORDS WITH HEADER REPETITIONS
+      # run_with_cache \
+      #   "python speedupy/setup_exp/setup.py count_unique_words_speedupy.py" \
+      #   "python speedupy/setup_exp/setup.py count_unique_words_speedupy.py" \
+      #   "python speedupy/setup_exp/setup.py count_unique_words_speedupy.py" \
+      #   "python speedupy/setup_exp/setup.py count_unique_words_speedupy.py" \
+      #   "python speedupy/setup_exp/setup.py count_unique_words_speedupy.py" \
+      #   "python count_unique_words_speedupy.py input11.txt" \
+      #   "python count_unique_words_speedupy.py input12.txt" \
+      #   "python count_unique_words_speedupy.py input13.txt" \
+      #   "python count_unique_words_speedupy.py input14.txt" \
+      #   "python count_unique_words_speedupy.py input15.txt" \
+      #   "-s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem"\
+      #   "${BASE_DIR}/02_count_unique_words" \
+      #   "experiments_image"
 
 
       # EXPERIMENT SPHERE POTENTIALS
@@ -377,7 +384,10 @@ for s in "${storages[@]}"; do
         "python sphere_potentials_param.py 0.0157" \
         "-s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
         "${BASE_DIR}/03_sphere_potentials" \
-        "experiments_image"
+        "experiments_image" \
+        "float" \
+        "0.0157" \
+        "0.08"
 
 
       # EXPERIMENT METROPOLIS HASTINGS
@@ -394,7 +404,10 @@ for s in "${storages[@]}"; do
         "python metropolis_hastings.py 29000000" \
         "-s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
         "${BASE_DIR}/04_metropolis_hastings" \
-        "experiments_image"
+        "experiments_image" \
+        "int" \
+        "6000000" \
+        "29000000"
 
 
       # EXPERIMENT MENGER SPONGE
@@ -411,7 +424,10 @@ for s in "${storages[@]}"; do
         "python menger_sponge_speedupy_param.py 5360" \
         "-s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
         "${BASE_DIR}/05_menger_sponge" \
-        "experiments_image"
+        "experiments_image" \
+        "int" \
+        "2400" \
+        "5360"
 
 
       # EXPERIMENT EQ SOLVER
@@ -428,7 +444,10 @@ for s in "${storages[@]}"; do
         "python eq_solver_speedupy_param.py 600 2499851" \
         "-s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
         "${BASE_DIR}/06_eq_solver" \
-        "experiments_image"
+        "experiments_image" \
+        "int" \
+        "499976" \
+        "2499851"
 
 
       # EXPERIMENT SQUIRREL
@@ -445,7 +464,10 @@ for s in "${storages[@]}"; do
         "python squirrel_example_param.py 72" \
         "-s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
         "${BASE_DIR}/07_squirrel/notebooks" \
-        "experiments_image"
+        "experiments_image" \
+        "int" \
+        "2" \
+        "72"
 
 
       # EXPERIMENT Detecting_Paleoclimate_Transitions_with_LERM
@@ -462,23 +484,26 @@ for s in "${storages[@]}"; do
         "python ODP_LERM_param.py 1000000" \
         "-s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
         "${BASE_DIR}/08_detecting_paleoclimate_transitions" \
-        "detecting_paleoclimate_transitions_image"
+        "detecting_paleoclimate_transitions_image" \
+        "int" \
+        "25000" \
+        "1000000"
 
-      # EXPERIMENT HARMONIC ENSEMBLE SIMILARITY
-      run_with_cache \
-        "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_param.py" \
-        "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_param.py" \
-        "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_param.py" \
-        "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_param.py" \
-        "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_param.py" \
-        "python harmonic_ensemble_similarity_param.py 'backbone'" \
-        "python harmonic_ensemble_similarity_param.py 'backbone or (resname PHE TYR TRP and name CG CD* CE*)'" \
-        "python harmonic_ensemble_similarity_param.py 'backbone or name CB'" \
-        "python harmonic_ensemble_similarity_param.py 'backbone or name CG*'" \
-        "python harmonic_ensemble_similarity_param.py 'backbone or name CB or name CG'" \
-        "-s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
-        "${BASE_DIR}/09_MDAnalysis_UserGuide" \
-        "experiments_image"
+      # # EXPERIMENT HARMONIC ENSEMBLE SIMILARITY
+      # run_with_cache \
+      #   "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_param.py" \
+      #   "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_param.py" \
+      #   "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_param.py" \
+      #   "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_param.py" \
+      #   "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_param.py" \
+      #   "python harmonic_ensemble_similarity_param.py 'backbone'" \
+      #   "python harmonic_ensemble_similarity_param.py 'backbone or (resname PHE TYR TRP and name CG CD* CE*)'" \
+      #   "python harmonic_ensemble_similarity_param.py 'backbone or name CB'" \
+      #   "python harmonic_ensemble_similarity_param.py 'backbone or name CG*'" \
+      #   "python harmonic_ensemble_similarity_param.py 'backbone or name CB or name CG'" \
+      #   "-s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
+      #   "${BASE_DIR}/09_MDAnalysis_UserGuide" \
+      #   "experiments_image"
     done
   done
 done
