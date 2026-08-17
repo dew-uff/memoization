@@ -97,10 +97,7 @@ run_random_trials_once_sequentially() {
   local exp_options=("${11}")
   local exp_path=("${12}")
   local docker_image=("${13}")
-  local input_type=("${14}")
-  local input_lower=("${15}")
-  local input_upper=("${16}")
-  local random_seed=("${17}")
+  local random_seed=("${14}")
 
   # Generate random value
   echo "Entering repository: cd ${BASE_DIR}/.."
@@ -152,9 +149,6 @@ run_with_cache() {
   local exp_options=("${11}")
   local exp_path=("${12}")
   local docker_image=("${13}")
-  local input_type=("${14}")
-  local input_lower=("${15}")
-  local input_upper=("${16}")
 
   run_trials_twice_isolated "${setup_commands[@]}" "${exec_commands[@]}" "$exp_options -mt 0.01 --exec-mode manual --measure-time" "$exp_path" "$docker_image"
   run_trials_once_sequentially "${setup_commands[@]}" "${exec_commands[@]}" "$exp_options -mt 0.01 --exec-mode manual --measure-time" "$exp_path" "$docker_image"
@@ -166,13 +160,11 @@ run_with_cache() {
 
   run_trials_once_sequentially "${setup_commands[@]}" "${exec_commands[@]}" "$exp_options -mt 0.01 --exec-mode manual --measure-time" "$exp_path" "$docker_image"
 
-  if [[ -n "${input_type:-}" && -n "${input_lower:-}" && -n "${input_upper:-}" ]]; then
-    local i
-    for i in {0..2}; do
-      run_random_trials_once_sequentially "${setup_commands[@]}" "${exec_commands[@]}" "--exec-mode no-cache --measure-time" "$exp_path" "$docker_image" "$input_type" "$input_lower" "$input_upper" "$((SEED+i))"
-      run_random_trials_once_sequentially "${setup_commands[@]}" "${exec_commands[@]}" "$exp_options -mt 0.01 --exec-mode manual --measure-time" "$exp_path" "$docker_image" "$input_type" "$input_lower" "$input_upper" "$((SEED+i))"
-    done
-  fi
+  local i
+  for i in {0..2}; do
+    run_random_trials_once_sequentially "${setup_commands[@]}" "${exec_commands[@]}" "--exec-mode no-cache --measure-time" "$exp_path" "$docker_image" "$((SEED+i))"
+    run_random_trials_once_sequentially "${setup_commands[@]}" "${exec_commands[@]}" "$exp_options -mt 0.01 --exec-mode manual --measure-time" "$exp_path" "$docker_image" "$((SEED+i))"
+  done
 }
 
 # Hashes disponíveis: ("md5" "murmur" "xxhash" "meowhash" "museair" "a5hash")
@@ -351,10 +343,7 @@ for h in "${hashes[@]}"; do
           "python test_laplace_jacobi_param.py 105 0.00008" \
           "-H $h -s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
           "${BASE_DIR}/01_test_laplace_jacobi" \
-          "experiments_image" \
-          "float" \
-          "4e-05" \
-          "0.005"
+          "experiments_image"
 
 
         # EXPERIMENT COUNT UNIQUE WORDS WITH HEADER REPETITIONS
@@ -388,10 +377,7 @@ for h in "${hashes[@]}"; do
           "python sphere_potentials_param.py 0.0157" \
           "-H $h -s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
           "${BASE_DIR}/03_sphere_potentials" \
-          "experiments_image" \
-          "float" \
-          "0.0157" \
-          "0.08"
+          "experiments_image"
 
 
         # EXPERIMENT METROPOLIS HASTINGS
@@ -408,10 +394,7 @@ for h in "${hashes[@]}"; do
           "python metropolis_hastings.py 29000000" \
           "-H $h -s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
           "${BASE_DIR}/04_metropolis_hastings" \
-          "experiments_image" \
-          "int" \
-          "6000000" \
-          "29000000"
+          "experiments_image"
 
 
         # EXPERIMENT MENGER SPONGE
@@ -428,10 +411,7 @@ for h in "${hashes[@]}"; do
           "python menger_sponge_speedupy_param.py 5000" \
           "-H $h -s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
           "${BASE_DIR}/05_menger_sponge" \
-          "experiments_image" \
-          "int" \
-          "2400" \
-          "5360"
+          "experiments_image"
 
 
         # EXPERIMENT EQ SOLVER
@@ -448,10 +428,7 @@ for h in "${hashes[@]}"; do
           "python eq_solver_speedupy_param.py 600 2499851" \
           "-H $h -s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
           "${BASE_DIR}/06_eq_solver" \
-          "experiments_image" \
-          "int" \
-          "499976" \
-          "2499851"
+          "experiments_image"
 
 
         # EXPERIMENT SQUIRREL
@@ -468,10 +445,7 @@ for h in "${hashes[@]}"; do
           "python squirrel_example_param.py 60" \
           "-H $h -s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
           "${BASE_DIR}/07_squirrel/notebooks" \
-          "experiments_image" \
-          "int" \
-          "2" \
-          "72"
+          "experiments_image"
 
 
         # EXPERIMENT Detecting_Paleoclimate_Transitions_with_LERM
@@ -488,10 +462,8 @@ for h in "${hashes[@]}"; do
           "python ODP_LERM_param.py 820000" \
           "-H $h -s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
           "${BASE_DIR}/08_detecting_paleoclimate_transitions" \
-          "detecting_paleoclimate_transitions_image" \
-          "int" \
-          "25000" \
-          "1000000"
+          "detecting_paleoclimate_transitions_image"
+
 
         # EXPERIMENT HARMONIC ENSEMBLE SIMILARITY
         run_with_cache \
