@@ -24,39 +24,23 @@ def main():
         help="Number of inputs to generate."
     )
 
-    parser.add_argument(
-        "type",
-        choices=["int", "float"],
-        help="Type of value to generate."
-    )
-
-    parser.add_argument(
-        "lower",
-        type=float,
-        help="Lower limit (inclusive)."
-    )
-
-    parser.add_argument(
-        "upper",
-        type=float,
-        help="Upper limit (inclusive for integers)."
-    )
-
     args = parser.parse_args()
-
-    if args.lower > args.upper:
-        sys.exit("Error: lower must be <= upper.")
 
     seed = args.seed if args.seed is not None else secrets.randbits(64)
 
     rng = random.Random(seed)
 
-    if args.type == "int":
-        lower = int(args.lower)
-        upper = int(args.upper)
-        inputs = [rng.randint(lower, upper) for _ in range(args.num_inputs)]
-    else:
-        inputs = [rng.uniform(args.lower, args.upper) for _ in range(args.num_inputs)]
+    base = list(range(args.num_inputs))
+
+    if args.num_inputs <= 2:
+        raise ValueError("num_inputs must be > 2 to avoid identity and reverse permutations")
+
+    while True:
+        inputs = base[:]
+        rng.shuffle(inputs)
+
+        if inputs != base and inputs != base[::-1]:
+            break
 
     results = {"seed": seed, "inputs": inputs}
     print(json.dumps(results))

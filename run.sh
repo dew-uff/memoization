@@ -106,28 +106,22 @@ run_random_trials_once_sequentially() {
   echo "Entering repository: cd ${BASE_DIR}/.."
   cd $BASE_DIR/..
   
-  echo "Generating random inputs: python random_input_generator.py 5 ${input_type} ${input_lower} ${input_upper} --seed ${random_seed}"
-  result=$(python random_input_generator.py 5 "$input_type" "$input_lower" "$input_upper" --seed $random_seed)
+  echo "Generating random inputs: python random_input_generator.py ${#setup_commands[@]} --seed ${random_seed}"
+  result=$(python random_input_generator.py ${#setup_commands[@]} --seed $random_seed)
 
   mapfile -t inputs < <(jq -r '.inputs[]' <<< "$result")
 
   echo "Results: ${result}"
 
+  local random_setup_commands=()
   local random_exec_commands=()
   local i
-  for i in "${!exec_commands[@]}"; do
-    read -ra args <<< "${exec_commands[$i]}"
-
-    # Remove original variable input
-    unset 'args[-1]'
-
-    # Add generated input
-    args+=("${inputs[$i]}")
-
-    random_exec_commands+=("${args[*]}")
+  for i in "${inputs[@]}"; do
+    random_setup_commands+=("${setup_commands[i]}")
+    random_exec_commands+=("${exec_commands[i]}")
   done
 
-  run_trials_once_sequentially "${setup_commands[@]}" "${random_exec_commands[@]}" "$exp_options" "$exp_path" "$docker_image"
+  run_trials_once_sequentially "${random_setup_commands[@]}" "${random_exec_commands[@]}" "$exp_options" "$exp_path" "$docker_image"
 }
 
 run_trials_twice_isolated() {
@@ -202,11 +196,11 @@ run_without_cache \
   "python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py" \
   "python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py" \
   "python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py" \
-  "python test_laplace_jacobi_param.py 105 0.005" \
-  "python test_laplace_jacobi_param.py 105 0.0015" \
-  "python test_laplace_jacobi_param.py 105 0.0004" \
-  "python test_laplace_jacobi_param.py 105 0.0001" \
-  "python test_laplace_jacobi_param.py 105 4e-05" \
+  "python test_laplace_jacobi_param.py 105 0.006" \
+  "python test_laplace_jacobi_param.py 105 0.002" \
+  "python test_laplace_jacobi_param.py 105 0.0006" \
+  "python test_laplace_jacobi_param.py 105 0.0003" \
+  "python test_laplace_jacobi_param.py 105 0.00008" \
   "${BASE_DIR}/01_test_laplace_jacobi" \
   "experiments_image"
 
@@ -252,7 +246,7 @@ run_without_cache \
   "python metropolis_hastings.py 6000000" \
   "python metropolis_hastings.py 11000000" \
   "python metropolis_hastings.py 17000000" \
-  "python metropolis_hastings.py 23000000" \
+  "python metropolis_hastings.py 19000000" \
   "python metropolis_hastings.py 29000000" \
   "${BASE_DIR}/04_metropolis_hastings" \
   "experiments_image"
@@ -266,10 +260,10 @@ run_without_cache \
   "python speedupy/setup_exp/setup.py menger_sponge_speedupy_param.py" \
   "python speedupy/setup_exp/setup.py menger_sponge_speedupy_param.py" \
   "python menger_sponge_speedupy_param.py 2400" \
-  "python menger_sponge_speedupy_param.py 3400" \
-  "python menger_sponge_speedupy_param.py 4100" \
-  "python menger_sponge_speedupy_param.py 4700" \
-  "python menger_sponge_speedupy_param.py 5360" \
+  "python menger_sponge_speedupy_param.py 3100" \
+  "python menger_sponge_speedupy_param.py 3800" \
+  "python menger_sponge_speedupy_param.py 4750" \
+  "python menger_sponge_speedupy_param.py 5000" \
   "${BASE_DIR}/05_menger_sponge" \
   "experiments_image"
 
@@ -282,7 +276,7 @@ run_without_cache \
   "python speedupy/setup_exp/setup.py eq_solver_speedupy_param.py" \
   "python speedupy/setup_exp/setup.py eq_solver_speedupy_param.py" \
   "python eq_solver_speedupy_param.py 600 499976" \
-  "python eq_solver_speedupy_param.py 600 999951" \
+  "python eq_solver_speedupy_param.py 600 1000000" \
   "python eq_solver_speedupy_param.py 600 1420000" \
   "python eq_solver_speedupy_param.py 600 1999901" \
   "python eq_solver_speedupy_param.py 600 2499851" \
@@ -297,11 +291,11 @@ run_without_cache \
   "python simulate_mock_datacube.py; python speedupy/setup_exp/setup.py squirrel_example_param.py" \
   "python simulate_mock_datacube.py; python speedupy/setup_exp/setup.py squirrel_example_param.py" \
   "python simulate_mock_datacube.py; python speedupy/setup_exp/setup.py squirrel_example_param.py" \
-  "python squirrel_example_param.py 2" \
-  "python squirrel_example_param.py 22" \
-  "python squirrel_example_param.py 42" \
-  "python squirrel_example_param.py 55" \
-  "python squirrel_example_param.py 72" \
+  "python squirrel_example_param.py 1" \
+  "python squirrel_example_param.py 17" \
+  "python squirrel_example_param.py 33" \
+  "python squirrel_example_param.py 50" \
+  "python squirrel_example_param.py 60" \
   "${BASE_DIR}/07_squirrel/notebooks" \
   "experiments_image"
 
@@ -313,11 +307,11 @@ run_without_cache \
   "python speedupy/setup_exp/setup.py ODP_LERM_param.py" \
   "python speedupy/setup_exp/setup.py ODP_LERM_param.py" \
   "python speedupy/setup_exp/setup.py ODP_LERM_param.py" \
-  "python ODP_LERM_param.py 25000" \
-  "python ODP_LERM_param.py 250000" \
-  "python ODP_LERM_param.py 525000" \
+  "python ODP_LERM_param.py 1" \
+  "python ODP_LERM_param.py 130000" \
+  "python ODP_LERM_param.py 350000" \
+  "python ODP_LERM_param.py 540000" \
   "python ODP_LERM_param.py 820000" \
-  "python ODP_LERM_param.py 1000000" \
   "${BASE_DIR}/08_detecting_paleoclimate_transitions" \
   "detecting_paleoclimate_transitions_image"
 
@@ -330,10 +324,10 @@ run_without_cache \
   "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_param.py" \
   "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_param.py" \
   "python harmonic_ensemble_similarity_param.py 'backbone'" \
-  "python harmonic_ensemble_similarity_param.py 'backbone or (resname PHE TYR TRP and name CG CD* CE*)'" \
-  "python harmonic_ensemble_similarity_param.py 'backbone or name CB'" \
   "python harmonic_ensemble_similarity_param.py 'backbone or name CG*'" \
   "python harmonic_ensemble_similarity_param.py 'backbone or name CB or name CG'" \
+  "python harmonic_ensemble_similarity_param.py 'backbone or name CB or name CG or name CD or name CE'" \
+  "python harmonic_ensemble_similarity_param.py 'backbone or name CB or name CG or name CD or name CG1 or name CG2 or name CE or name NZ or (resname PHE TYR TRP and name CZ CE* CD*)'" \
   "${BASE_DIR}/09_MDAnalysis_UserGuide" \
   "experiments_image"
 
@@ -350,11 +344,11 @@ for h in "${hashes[@]}"; do
           "python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py" \
           "python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py" \
           "python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py" \
-          "python test_laplace_jacobi_param.py 105 0.005" \
-          "python test_laplace_jacobi_param.py 105 0.0015" \
-          "python test_laplace_jacobi_param.py 105 0.0004" \
-          "python test_laplace_jacobi_param.py 105 0.0001" \
-          "python test_laplace_jacobi_param.py 105 4e-05" \
+          "python test_laplace_jacobi_param.py 105 0.006" \
+          "python test_laplace_jacobi_param.py 105 0.002" \
+          "python test_laplace_jacobi_param.py 105 0.0006" \
+          "python test_laplace_jacobi_param.py 105 0.0003" \
+          "python test_laplace_jacobi_param.py 105 0.00008" \
           "-H $h -s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
           "${BASE_DIR}/01_test_laplace_jacobi" \
           "experiments_image" \
@@ -410,7 +404,7 @@ for h in "${hashes[@]}"; do
           "python metropolis_hastings.py 6000000" \
           "python metropolis_hastings.py 11000000" \
           "python metropolis_hastings.py 17000000" \
-          "python metropolis_hastings.py 23000000" \
+          "python metropolis_hastings.py 19000000" \
           "python metropolis_hastings.py 29000000" \
           "-H $h -s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
           "${BASE_DIR}/04_metropolis_hastings" \
@@ -428,10 +422,10 @@ for h in "${hashes[@]}"; do
           "python speedupy/setup_exp/setup.py menger_sponge_speedupy_param.py" \
           "python speedupy/setup_exp/setup.py menger_sponge_speedupy_param.py" \
           "python menger_sponge_speedupy_param.py 2400" \
-          "python menger_sponge_speedupy_param.py 3400" \
-          "python menger_sponge_speedupy_param.py 4100" \
-          "python menger_sponge_speedupy_param.py 4700" \
-          "python menger_sponge_speedupy_param.py 5360" \
+          "python menger_sponge_speedupy_param.py 3100" \
+          "python menger_sponge_speedupy_param.py 3800" \
+          "python menger_sponge_speedupy_param.py 4750" \
+          "python menger_sponge_speedupy_param.py 5000" \
           "-H $h -s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
           "${BASE_DIR}/05_menger_sponge" \
           "experiments_image" \
@@ -448,7 +442,7 @@ for h in "${hashes[@]}"; do
           "python speedupy/setup_exp/setup.py eq_solver_speedupy_param.py" \
           "python speedupy/setup_exp/setup.py eq_solver_speedupy_param.py" \
           "python eq_solver_speedupy_param.py 600 499976" \
-          "python eq_solver_speedupy_param.py 600 999951" \
+          "python eq_solver_speedupy_param.py 600 1000000" \
           "python eq_solver_speedupy_param.py 600 1420000" \
           "python eq_solver_speedupy_param.py 600 1999901" \
           "python eq_solver_speedupy_param.py 600 2499851" \
@@ -467,11 +461,11 @@ for h in "${hashes[@]}"; do
           "python simulate_mock_datacube.py; python speedupy/setup_exp/setup.py squirrel_example_param.py" \
           "python simulate_mock_datacube.py; python speedupy/setup_exp/setup.py squirrel_example_param.py" \
           "python simulate_mock_datacube.py; python speedupy/setup_exp/setup.py squirrel_example_param.py" \
-          "python squirrel_example_param.py 2" \
-          "python squirrel_example_param.py 22" \
-          "python squirrel_example_param.py 42" \
-          "python squirrel_example_param.py 55" \
-          "python squirrel_example_param.py 72" \
+          "python squirrel_example_param.py 1" \
+          "python squirrel_example_param.py 17" \
+          "python squirrel_example_param.py 33" \
+          "python squirrel_example_param.py 50" \
+          "python squirrel_example_param.py 60" \
           "-H $h -s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
           "${BASE_DIR}/07_squirrel/notebooks" \
           "experiments_image" \
@@ -487,11 +481,11 @@ for h in "${hashes[@]}"; do
           "python speedupy/setup_exp/setup.py ODP_LERM_param.py" \
           "python speedupy/setup_exp/setup.py ODP_LERM_param.py" \
           "python speedupy/setup_exp/setup.py ODP_LERM_param.py" \
-          "python ODP_LERM_param.py 25000" \
-          "python ODP_LERM_param.py 250000" \
-          "python ODP_LERM_param.py 525000" \
+          "python ODP_LERM_param.py 1" \
+          "python ODP_LERM_param.py 130000" \
+          "python ODP_LERM_param.py 350000" \
+          "python ODP_LERM_param.py 540000" \
           "python ODP_LERM_param.py 820000" \
-          "python ODP_LERM_param.py 1000000" \
           "-H $h -s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
           "${BASE_DIR}/08_detecting_paleoclimate_transitions" \
           "detecting_paleoclimate_transitions_image" \
@@ -507,10 +501,10 @@ for h in "${hashes[@]}"; do
           "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_param.py" \
           "python speedupy/setup_exp/setup.py harmonic_ensemble_similarity_param.py" \
           "python harmonic_ensemble_similarity_param.py 'backbone'" \
-          "python harmonic_ensemble_similarity_param.py 'backbone or (resname PHE TYR TRP and name CG CD* CE*)'" \
-          "python harmonic_ensemble_similarity_param.py 'backbone or name CB'" \
           "python harmonic_ensemble_similarity_param.py 'backbone or name CG*'" \
           "python harmonic_ensemble_similarity_param.py 'backbone or name CB or name CG'" \
+          "python harmonic_ensemble_similarity_param.py 'backbone or name CB or name CG or name CD or name CE'" \
+          "python harmonic_ensemble_similarity_param.py 'backbone or name CB or name CG or name CD or name CG1 or name CG2 or name CE or name NZ or (resname PHE TYR TRP and name CZ CE* CD*)'" \
           "-H $h -s $s --mem-arch $m --retrieval-strategy $rs --retrieval-exec-mode $rem" \
           "${BASE_DIR}/09_MDAnalysis_UserGuide" \
           "experiments_image"
