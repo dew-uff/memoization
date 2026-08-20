@@ -162,7 +162,6 @@ run_with_cache() {
 
   local i
   for i in {0..2}; do
-    run_random_trials_once_sequentially "${setup_commands[@]}" "${exec_commands[@]}" "--exec-mode no-cache --measure-time" "$exp_path" "$docker_image" "$((SEED+i))"
     run_random_trials_once_sequentially "${setup_commands[@]}" "${exec_commands[@]}" "$exp_options -mt 0.01 --exec-mode manual --measure-time" "$exp_path" "$docker_image" "$((SEED+i))"
   done
 }
