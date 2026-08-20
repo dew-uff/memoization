@@ -27,7 +27,7 @@ def func_3(u1, u2, u3):
 def func_4(u1, u2, u3, u4, select, func_globals=None):
     """Cell 4: calcula a Harmonic Ensemble Similarity
     """
-    (hes, details) = encore.hes([u1, u2, u3, u4], select=select, align=True, cov_estimator='shrinkage', weights='mass')
+    hes, details = encore.hes([u1, u2, u3, u4], select=select, align=True, cov_estimator='shrinkage', weights='mass')
     return (hes, details)
 
 @maybe_deterministic
@@ -46,7 +46,7 @@ def func_6(details):
 @maybe_deterministic
 def func_7(hes, labels):
     """Cell 7: plota a matriz de similaridade harmônica."""
-    (fig, ax) = plt.subplots()
+    fig, ax = plt.subplots()
     im = plt.imshow(hes)
     plt.xticks(np.arange(4), labels)
     plt.yticks(np.arange(4), labels)
@@ -57,9 +57,9 @@ def func_7(hes, labels):
 @initialize_speedupy
 def main():
     select = sys.argv[1]
-    (u1, u2, u3, u4, labels) = func_2()
+    u1, u2, u3, u4, labels = func_2()
     func_3(u1, u2, u3)
-    (hes, details) = func_4(u1, u2, u3, u4, select, func_globals=globals())
+    hes, details = func_4(u1, u2, u3, u4, select, func_globals=globals())
     func_5(hes)
     func_6(details)
     func_7(hes, labels)

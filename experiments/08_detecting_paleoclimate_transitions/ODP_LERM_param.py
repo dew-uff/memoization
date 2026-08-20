@@ -40,7 +40,7 @@ def cell_4(group_names):
         t4 = series.slice((min_time, max_time))
         t12.append(t4.interp())
     ms = pyleo.MultipleSeries(t12)
-    fig, ax = ms.stackplot(colors=color_list[:len(ms.series_list)], figsize=(8, 10))
+    (fig, ax) = ms.stackplot(colors=color_list[:len(ms.series_list)], figsize=(8, 10))
     fig.savefig('out1.png')
     return [color_list, ms]
 
@@ -65,9 +65,9 @@ def detect_transitions(series, transition_interval=None):
     """
     series_fine = series.interp(step=1)
     if transition_interval is None:
-        upper, lower = amt.utils.sampling.confidence_interval(series)
+        (upper, lower) = amt.utils.sampling.confidence_interval(series)
     else:
-        upper, lower = transition_interval
+        (upper, lower) = transition_interval
     above_thresh = np.where(series_fine.value > upper, 1, 0)
     below_thresh = np.where(series_fine.value < lower, 1, 0)
     transition_above = np.diff(above_thresh)
@@ -103,7 +103,7 @@ def cell_6(ms, func_globals=None):
     lp_fi = {}
     m = 13
     t5 = ms.common_time()
-    for idx, series in enumerate(t5.series_list):
+    for (idx, series) in enumerate(t5.series_list):
         t6 = series.convert_time_unit('Years')
         t7 = t6.interp()
         series = t7.detrend(method='savitzky-golay')
@@ -129,9 +129,9 @@ def cell_7(ms, group_names, lp_fi, lp_series, color_list, n_samples):
     plt.rc('ytick', labelsize=MEDIUM_SIZE)
     plt.rc('legend', fontsize=SMALL_SIZE)
     plt.rc('figure', titlesize=BIGGER_SIZE)
-    fig, axes = plt.subplots(nrows=len(group_names), ncols=1, sharex=True, figsize=(16, 10))
+    (fig, axes) = plt.subplots(nrows=len(group_names), ncols=1, sharex=True, figsize=(16, 10))
     transition_timing = []
-    for idx, site in enumerate(group_names):
+    for (idx, site) in enumerate(group_names):
         ts = lp_fi[site]
         ts.label = lp_series.label
         ts.value_name = 'FI'
@@ -140,7 +140,7 @@ def cell_7(ms, group_names, lp_fi, lp_series, color_list, n_samples):
         ts.time_unit = 'ka'
         ax = axes[idx]
         ts_smooth = amt.utils.fisher.smooth_series(series=ts, block_size=3)
-        upper, lower = amt.utils.sampling.confidence_interval(series=ts, upper=95, lower=5, w=50, n_samples=n_samples)
+        (upper, lower) = amt.utils.sampling.confidence_interval(series=ts, upper=95, lower=5, w=50, n_samples=n_samples)
         transitions = detect_transitions(ts_smooth, transition_interval=(upper, lower))
         transition_timing.append(transitions[0])
         ts.confidence_smooth_plot(ax=ax, background_series=ms.series_list[idx], transition_interval=(upper, lower), block_size=3, color=color_list[idx], figsize=(12, 6), legend=True, lgd_kwargs={'loc': 'upper left'}, hline_kwargs={'label': None}, background_kwargs={'ylabel': 'delta^{18}O$ [permil]', 'legend': False, 'linewidth': 0.8, 'color': 'grey', 'alpha': 0.8})
@@ -182,11 +182,10 @@ def main():
     warnings.filterwarnings('ignore')
     n_samples = int(sys.argv[1])
     group_names = ['ODP 925', 'ODP 927', 'ODP 929', 'ODP 846', 'ODP 849']
-    color_list, ms = cell_4(group_names)
-    ms, lp_fi, lp_series = cell_6(ms, func_globals=globals())
+    (color_list, ms) = cell_4(group_names)
+    (ms, lp_fi, lp_series) = cell_6(ms, func_globals=globals())
     transition_timing = cell_7(ms, group_names, lp_fi, lp_series, color_list, n_samples)
     cell_8(transition_timing)
     cell_9(transition_timing)
-
 if __name__ == '__main__':
     main()
