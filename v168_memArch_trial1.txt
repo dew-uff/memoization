@@ -44,38 +44,37 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt --exec-mode no-cache --measure-time
-35.10929936100729
-35.038165916106664
+35.983077907934785
+35.89302718010731
 
-TOTAL EXECUTION TIME: 70.14748267096002
+TOTAL EXECUTION TIME: 71.87613931996748
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input12.txt --exec-mode no-cache --measure-time
-8.408795110881329e-05
-6.005296017974615e-05
+72.02936225803569
+71.82131675397977
 
-TOTAL EXECUTION TIME: 0.00015651399735361338
+TOTAL EXECUTION TIME: 143.8506994950585
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input13.txt --exec-mode no-cache --measure-time
-92.99086470005568
-91.67892206204124
+96.442302610958
+95.35723086399958
 
-TOTAL EXECUTION TIME: 184.66980359796435
+TOTAL EXECUTION TIME: 191.80781349004246
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input14.txt --exec-mode no-cache --measure-time
-118.58349795499817
-117.07480286201462
+122.12266937480308
+121.94502157205716
 
-TOTAL EXECUTION TIME: 235.6583190370584
+TOTAL EXECUTION TIME: 244.06770883314312
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input15.txt --exec-mode no-cache --measure-time
-154.46536837809253
-154.08410054596607
+161.3521676370874
+159.02141182101332
 
-TOTAL EXECUTION TIME: 308.54948660894297
+TOTAL EXECUTION TIME: 320.37359928013757
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
-mail: Content-Type: not setting header
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Using Docker image: experiments_image
 
@@ -1850,15 +1849,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-22.94761610601563
-36.25881877692882
+36.23030802607536
+36.48397974506952
 
-TOTAL EXECUTION TIME: 59.367742820992135
+TOTAL EXECUTION TIME: 72.87727168900892
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-1.8573840479366481
-1.8491480780066922
+1.8937415920663625
+1.88613289501518
 
-TOTAL EXECUTION TIME: 3.8598180989502
+TOTAL EXECUTION TIME: 3.9329646821133792
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -1871,15 +1870,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.00877348193898797
-0.00013378402218222618
+66.76330882799812
+39.9824773799628
 
-TOTAL EXECUTION TIME: 0.17158498300705105
+TOTAL EXECUTION TIME: 106.9109403830953
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.00031850801315158606
-0.00012856500688940287
+3.856424411991611
+3.8547023839782923
 
-TOTAL EXECUTION TIME: 0.15402095299214125
+TOTAL EXECUTION TIME: 7.8654814548790455
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -1892,15 +1891,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-91.75571261206642
-96.75677487999201
+95.37914865487255
+94.90316630899906
 
-TOTAL EXECUTION TIME: 188.67426375602372
+TOTAL EXECUTION TIME: 190.44403508491814
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-4.83556023798883
-4.836697437101975
+4.9344845961313695
+4.922988665988669
 
-TOTAL EXECUTION TIME: 9.826036548009142
+TOTAL EXECUTION TIME: 10.011472425889224
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -1913,15 +1912,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-122.14702030003536
-122.16865659400355
+123.66142608202063
+123.2780027568806
 
-TOTAL EXECUTION TIME: 244.47725633496884
+TOTAL EXECUTION TIME: 247.10245801485144
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-6.1248859979677945
-6.118366169044748
+6.23367724311538
+6.213456508005038
 
-TOTAL EXECUTION TIME: 12.39875894994475
+TOTAL EXECUTION TIME: 12.602854158030823
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -1934,15 +1933,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-161.62540214392357
-159.51168597105425
+162.78474402986467
+160.5790923901368
 
-TOTAL EXECUTION TIME: 321.303364116
+TOTAL EXECUTION TIME: 323.52867622184567
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-8.077006024075672
-8.064820394967683
+8.211180951911956
+8.207722091116011
 
-TOTAL EXECUTION TIME: 16.295285830972716
+TOTAL EXECUTION TIME: 16.57495177979581
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -1953,76 +1952,76 @@ Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/mem
 Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
 
 
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.94018097501248
-37.071522456011735
-
-TOTAL EXECUTION TIME: 74.17339956399519
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.00033364107366651297
-0.00013385491911321878
-
-TOTAL EXECUTION TIME: 0.15739868895616382
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-95.43627443991136
-95.27372643304989
-
-TOTAL EXECUTION TIME: 190.86406199203338
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-122.95855830202345
-121.96314015507232
-
-TOTAL EXECUTION TIME: 245.07455740100704
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-161.14608169801068
-159.77152517589275
-
-TOTAL EXECUTION TIME: 321.07164358894806
-
-
-Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-Using Docker image: experiments_image
-
-Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/02_count_unique_words
-Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
-
-
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-160.65038003691006
-158.7701535510132
-
-TOTAL EXECUTION TIME: 319.58269051497336
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-122.04442535398994
-120.98174597707111
-
-TOTAL EXECUTION TIME: 243.178813120001
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-96.54964268789627
-96.16107985610142
-
-TOTAL EXECUTION TIME: 192.86611094803084
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.0003275889903306961
-0.00012950401287525892
-
-TOTAL EXECUTION TIME: 0.1538860909640789
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.55570561403874
-36.45176199497655
+36.234767799964175
+36.219669819111004
 
-TOTAL EXECUTION TIME: 73.16072168701794
+TOTAL EXECUTION TIME: 72.62029619887471
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+72.70416274806485
+72.06406849180348
+
+TOTAL EXECUTION TIME: 144.92251869500615
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+95.5287489159964
+95.04921221290715
+
+TOTAL EXECUTION TIME: 190.7318581789732
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+122.91799197299406
+88.00671696988866
+
+TOTAL EXECUTION TIME: 211.07899525016546
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+161.5176395799499
+160.31700480892323
+
+TOTAL EXECUTION TIME: 321.9880012581125
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/02_count_unique_words
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+163.0871080129873
+161.23035259591416
+
+TOTAL EXECUTION TIME: 324.4798744500149
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+121.53410547506064
+121.33779822383076
+
+TOTAL EXECUTION TIME: 243.02844155183993
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+96.44543793611228
+96.14489762485027
+
+TOTAL EXECUTION TIME: 192.74426825810224
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+72.8962625300046
+72.85928380303085
+
+TOTAL EXECUTION TIME: 145.90914559317753
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+36.2603168990463
+36.148782928008586
+
+TOTAL EXECUTION TIME: 72.56264072610065
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -2038,34 +2037,34 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-123.53811578406021
-123.01008692604955
+123.3949039769359
+122.4190512590576
 
-TOTAL EXECUTION TIME: 246.71340621600393
+TOTAL EXECUTION TIME: 245.97554645105265
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-95.63151781796478
-94.9253105870448
+95.56074534892105
+95.16001561097801
 
-TOTAL EXECUTION TIME: 190.71314923092723
+TOTAL EXECUTION TIME: 190.87452546600252
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.123926608939655
-36.22105113498401
+36.210601089987904
+36.2869174790103
 
-TOTAL EXECUTION TIME: 72.49890556698665
+TOTAL EXECUTION TIME: 72.65283136582002
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.00032706197816878557
-0.0001310750376433134
+73.26312104985118
+72.33355445810594
 
-TOTAL EXECUTION TIME: 0.15404456399846822
+TOTAL EXECUTION TIME: 145.74961978010833
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-161.719632214983
-159.76340310205705
+161.87292486289516
+160.8438069380354
 
-TOTAL EXECUTION TIME: 321.63612348993775
+TOTAL EXECUTION TIME: 322.87115417211317
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -2081,34 +2080,34 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-161.11274740006775
-160.18542608094867
+160.4772114639636
+159.756629524054
 
-TOTAL EXECUTION TIME: 321.4608597860206
+TOTAL EXECUTION TIME: 320.3965751018841
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.00032929296139627695
-0.00013082206714898348
+72.85198741196655
+73.83455841592513
 
-TOTAL EXECUTION TIME: 0.1540818610228598
+TOTAL EXECUTION TIME: 146.83977508707903
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-95.5953752809437
-95.10677750804462
+96.95142560498789
+95.85638173599727
 
-TOTAL EXECUTION TIME: 190.855754859047
+TOTAL EXECUTION TIME: 192.96138471993618
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-123.23397585307248
-122.49439353798516
+121.92344959080219
+121.28641740907915
 
-TOTAL EXECUTION TIME: 245.88262967497576
+TOTAL EXECUTION TIME: 243.36255999910645
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.11034838890191
-36.03584915807005
+36.03656431892887
+36.3588099910412
 
-TOTAL EXECUTION TIME: 72.300927810953
+TOTAL EXECUTION TIME: 72.55189883708954
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -2124,38 +2123,37 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-123.25371876405552
-123.40398864995223
+121.80028898594901
+121.3371431780979
 
-TOTAL EXECUTION TIME: 246.82147111708764
+TOTAL EXECUTION TIME: 243.3010131160263
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.10373085201718
-36.1569132959703
+36.557928037131205
+36.581217780010775
 
-TOTAL EXECUTION TIME: 72.41507489199284
+TOTAL EXECUTION TIME: 73.29166155704297
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.0003406490432098508
-0.00013452197890728712
+72.35275173606351
+72.80347101390362
 
-TOTAL EXECUTION TIME: 0.15810166799928993
+TOTAL EXECUTION TIME: 145.3124908739701
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-160.19242321292404
-160.14368983800523
+162.62935355305672
+160.66073153889738
 
-TOTAL EXECUTION TIME: 320.4903782160254
+TOTAL EXECUTION TIME: 323.44361406797543
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 0-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-95.6872865720652
-84.16564234998077
+96.7260163789615
+95.62726690899581
 
-TOTAL EXECUTION TIME: 180.00695816299412
+TOTAL EXECUTION TIME: 192.50897144409828
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
-mail: Content-Type: not setting header
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Using Docker image: experiments_image
 
@@ -13039,15 +13037,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.26507808000315
-36.153357125935145
+36.26583387190476
+36.42364122509025
 
-TOTAL EXECUTION TIME: 72.57998223800678
+TOTAL EXECUTION TIME: 72.85256607993506
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-1.87510273209773
-1.865806290996261
+1.9086357499472797
+1.9063840019516647
 
-TOTAL EXECUTION TIME: 3.894772466039285
+TOTAL EXECUTION TIME: 3.9721349419560283
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -13060,15 +13058,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.00865541398525238
-0.0001688770717009902
+72.1466144809965
+72.56439510011114
 
-TOTAL EXECUTION TIME: 0.17386699002236128
+TOTAL EXECUTION TIME: 144.87348498799838
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.00036229100078344345
-0.00013366504572331905
+3.911086722975597
+3.9090737169608474
 
-TOTAL EXECUTION TIME: 0.15512962697539479
+TOTAL EXECUTION TIME: 7.974292294122279
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -13081,15 +13079,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-97.39925724407658
-95.57989104790613
+95.78541766596027
+95.03850661986507
 
-TOTAL EXECUTION TIME: 193.14426906197332
+TOTAL EXECUTION TIME: 190.98626647912897
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-4.909623301937245
-4.89052645501215
+5.019959105877206
+5.007040278986096
 
-TOTAL EXECUTION TIME: 9.957705134991556
+TOTAL EXECUTION TIME: 10.18022168893367
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -13102,15 +13100,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-123.00345539301634
-122.59336673899088
+122.08421673998237
+121.2931039459072
 
-TOTAL EXECUTION TIME: 245.7622583389748
+TOTAL EXECUTION TIME: 243.53998236102052
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-6.196068393997848
-6.193012453033589
+6.37107442994602
+6.347901935921982
 
-TOTAL EXECUTION TIME: 12.543913718080148
+TOTAL EXECUTION TIME: 12.87342126085423
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -13123,15 +13121,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-164.3841300989734
-160.30127009993885
+160.42402938590385
+159.00366854807362
 
-TOTAL EXECUTION TIME: 324.8518633620115
+TOTAL EXECUTION TIME: 319.5922678790521
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-8.142971578985453
-8.129917711019516
+8.329511279938743
+8.319730795919895
 
-TOTAL EXECUTION TIME: 16.428442509961314
+TOTAL EXECUTION TIME: 16.80264899181202
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -13142,76 +13140,76 @@ Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/mem
 Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
 
 
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.16968448192347
-36.26160802796949
-
-TOTAL EXECUTION TIME: 72.59703808801714
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.0003419279819354415
-0.00013679603580385447
-
-TOTAL EXECUTION TIME: 0.15516457799822092
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-95.57988674601074
-95.62719696492422
-
-TOTAL EXECUTION TIME: 191.3608097190736
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-121.67018504906446
-121.00783322600182
-
-TOTAL EXECUTION TIME: 242.83182807895355
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-160.8319216480013
-159.92748816905078
-
-TOTAL EXECUTION TIME: 320.9161043020431
-
-
-Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-Using Docker image: experiments_image
-
-Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/02_count_unique_words
-Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
-
-
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-160.52613099000882
-158.91383615101222
-
-TOTAL EXECUTION TIME: 319.60405295796227
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-121.63413954991847
-121.29540410498157
-
-TOTAL EXECUTION TIME: 243.08313653303776
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-95.51238333701622
-95.16906306194142
-
-TOTAL EXECUTION TIME: 190.83691696205642
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.00035159499384462833
-0.0001395139843225479
-
-TOTAL EXECUTION TIME: 0.15519965800922364
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.1646674569929
-36.16395194304641
+32.169259305112064
+36.295695832930505
 
-TOTAL EXECUTION TIME: 72.4831863460131
+TOTAL EXECUTION TIME: 68.634822872933
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+66.23240276309662
+40.09970487188548
+
+TOTAL EXECUTION TIME: 106.48783847689629
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+97.00718390895054
+96.00333817419596
+
+TOTAL EXECUTION TIME: 193.16709965001792
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+122.15116776595823
+122.1589218750596
+
+TOTAL EXECUTION TIME: 244.4664622549899
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+160.27330590994097
+158.45844292384572
+
+TOTAL EXECUTION TIME: 318.88512463797815
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/02_count_unique_words
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+162.4990015688818
+161.52811842109077
+
+TOTAL EXECUTION TIME: 324.1891993461177
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+122.96495161182247
+123.64866334898397
+
+TOTAL EXECUTION TIME: 246.7709247970488
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+96.3518251418136
+96.12301792902872
+
+TOTAL EXECUTION TIME: 192.62872028490528
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+73.89587258105166
+73.17594646685757
+
+TOTAL EXECUTION TIME: 147.22575304098427
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+36.777363738045096
+36.7973940980155
+
+TOTAL EXECUTION TIME: 73.73170444602147
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -13227,34 +13225,34 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-122.10786907700822
-121.39970607601572
+123.36779800895602
+122.59414640488103
 
-TOTAL EXECUTION TIME: 243.67033923999406
+TOTAL EXECUTION TIME: 246.12438799394295
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-71.96638304705266
-94.72704338701442
+97.66439208481461
+95.63741794903763
 
-TOTAL EXECUTION TIME: 166.84718189795967
+TOTAL EXECUTION TIME: 193.45451959897764
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.53906119498424
-36.40942548098974
+36.2176969749853
+36.32296776212752
 
-TOTAL EXECUTION TIME: 73.10769145702943
+TOTAL EXECUTION TIME: 72.6931715789251
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.0003444820176810026
-0.000136201037093997
+73.04268192895688
+72.15460455208085
 
-TOTAL EXECUTION TIME: 0.15583809302188456
+TOTAL EXECUTION TIME: 145.35028783418238
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-159.68800859700423
-158.8422628659755
+160.5600762651302
+159.06061643199064
 
-TOTAL EXECUTION TIME: 318.684510202962
+TOTAL EXECUTION TIME: 319.7731504768599
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -13270,34 +13268,34 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-159.9747424130328
-158.5336274569854
+160.92627514805645
+161.46712164999917
 
-TOTAL EXECUTION TIME: 318.6701014019782
+TOTAL EXECUTION TIME: 322.564687875798
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.00034383393358439207
-0.0001369210658594966
+72.85398356686346
+72.64443814195693
 
-TOTAL EXECUTION TIME: 0.1540008489973843
+TOTAL EXECUTION TIME: 145.6513180451002
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-95.61151260207407
-95.35151917592157
+95.84316591313109
+95.40302963391878
 
-TOTAL EXECUTION TIME: 191.12043376103975
+TOTAL EXECUTION TIME: 191.39974799007177
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-122.21862562792376
-121.25596597301774
+123.4939308189787
+123.18419770500623
 
-TOTAL EXECUTION TIME: 243.63022887997795
+TOTAL EXECUTION TIME: 246.83192859380506
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.37440476799384
-36.31563818908762
+36.24877841304988
+36.264169827103615
 
-TOTAL EXECUTION TIME: 72.84448342910036
+TOTAL EXECUTION TIME: 72.66609953087755
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -13313,38 +13311,37 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-117.14448363194242
-121.23200603399891
+121.78853531507775
+121.04393825191073
 
-TOTAL EXECUTION TIME: 238.5410070429789
+TOTAL EXECUTION TIME: 243.00457342597656
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.09558650897816
-36.400212083011866
+36.50394101510756
+36.27477596397512
 
-TOTAL EXECUTION TIME: 72.64979202288669
+TOTAL EXECUTION TIME: 72.93587293103337
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.0003520260797813535
-0.00013749301433563232
+72.29852301208302
+72.4314801688306
 
-TOTAL EXECUTION TIME: 0.15657784999348223
+TOTAL EXECUTION TIME: 144.8824416359421
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-162.19303650700022
-160.04353332403116
+160.57463899999857
+158.81704869889654
 
-TOTAL EXECUTION TIME: 322.3909222059883
+TOTAL EXECUTION TIME: 319.5456399740651
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 1-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-95.03115862398408
-95.50316634098999
+95.53935336298309
+95.19222812191583
 
-TOTAL EXECUTION TIME: 190.68615782400593
+TOTAL EXECUTION TIME: 190.8878230128903
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
-mail: Content-Type: not setting header
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Using Docker image: experiments_image
 
@@ -24229,15 +24226,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.44886206195224
-36.37997054809239
+36.33476170594804
+36.29800590407103
 
-TOTAL EXECUTION TIME: 72.99462457199115
+TOTAL EXECUTION TIME: 72.79825673205778
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-1.8729408610379323
-1.8510249940445647
+1.908444503089413
+1.905572545947507
 
-TOTAL EXECUTION TIME: 3.876181393978186
+TOTAL EXECUTION TIME: 3.9667151998728514
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -24250,15 +24247,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.000345138949342072
-0.00013598299119621515
+74.3366825231351
+73.13981646602042
 
-TOTAL EXECUTION TIME: 0.16202899091877043
+TOTAL EXECUTION TIME: 147.63870445103385
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.00033943704329431057
-0.0001352389808744192
+3.9225316331721842
+3.9155876329168677
 
-TOTAL EXECUTION TIME: 0.15322619793005288
+TOTAL EXECUTION TIME: 7.99314213800244
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -24271,15 +24268,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-96.05231989594176
-95.48610356601421
+83.47479980089702
+95.92613275302574
 
-TOTAL EXECUTION TIME: 191.7000453050714
+TOTAL EXECUTION TIME: 179.56413651513867
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-4.837100819917396
-4.837554459110834
+5.027057881001383
+5.012452336959541
 
-TOTAL EXECUTION TIME: 9.827808831003495
+TOTAL EXECUTION TIME: 10.193818500963971
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -24292,15 +24289,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-123.39829735597596
-122.84044597495813
+122.73821619199589
+122.18545432109386
 
-TOTAL EXECUTION TIME: 246.40110702998936
+TOTAL EXECUTION TIME: 245.08553844108246
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-6.163663125014864
-6.159415406989865
+6.326270001009107
+6.3213747560512275
 
-TOTAL EXECUTION TIME: 12.477052956004627
+TOTAL EXECUTION TIME: 12.800922523951158
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -24313,15 +24310,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-160.9738188419724
-159.53206731495447
+158.7662237319164
+159.13623773818836
 
-TOTAL EXECUTION TIME: 320.6680348010268
+TOTAL EXECUTION TIME: 318.0657511409372
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-8.119973815977573
-8.087240974069573
+8.347303279908374
+8.334393978118896
 
-TOTAL EXECUTION TIME: 16.360493439948186
+TOTAL EXECUTION TIME: 16.837684439029545
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -24332,76 +24329,76 @@ Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/mem
 Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
 
 
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.191398654016666
-36.4375404700404
-
-TOTAL EXECUTION TIME: 72.79023250401951
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.00038353202398866415
-0.000138254021294415
-
-TOTAL EXECUTION TIME: 0.15526962792500854
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-95.6518540069228
-90.08373172208667
-
-TOTAL EXECUTION TIME: 185.88853688293602
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-115.25319842901081
-115.39252453995869
-
-TOTAL EXECUTION TIME: 230.7988393099513
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-160.90262742398772
-159.82795350602828
-
-TOTAL EXECUTION TIME: 320.8839251350146
-
-
-Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-Using Docker image: experiments_image
-
-Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/02_count_unique_words
-Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
-
-
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-160.6225334550254
-158.63808778394014
-
-TOTAL EXECUTION TIME: 319.42588909808546
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-122.2023930089781
-121.45983317296486
-
-TOTAL EXECUTION TIME: 243.81536565592978
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-96.46874314500019
-94.92766077909619
-
-TOTAL EXECUTION TIME: 191.55086927092634
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.00035462796222418547
-0.0001397969899699092
-
-TOTAL EXECUTION TIME: 0.15440018789377064
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.403682857053354
-36.45243640500121
+36.46345208003186
+36.63051205105148
 
-TOTAL EXECUTION TIME: 73.0126741649583
+TOTAL EXECUTION TIME: 73.25599129893817
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+72.64144961186685
+72.0785827501677
+
+TOTAL EXECUTION TIME: 144.88200758513995
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+96.08164197998121
+95.72965455590747
+
+TOTAL EXECUTION TIME: 191.96448963903822
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+121.73807027703151
+121.71314386301674
+
+TOTAL EXECUTION TIME: 243.60738013195805
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+164.13582511991262
+161.98440154804848
+
+TOTAL EXECUTION TIME: 326.27601698902436
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/02_count_unique_words
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+159.70819784910418
+156.4684359410312
+
+TOTAL EXECUTION TIME: 316.34255946194753
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+122.87557052983902
+97.72421444696374
+
+TOTAL EXECUTION TIME: 220.75552008999512
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+96.97707396512851
+96.15818648296408
+
+TOTAL EXECUTION TIME: 193.28950013197027
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+73.35939759807661
+72.76562693994492
+
+TOTAL EXECUTION TIME: 146.2801084970124
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+36.103635012870654
+36.20047448412515
+
+TOTAL EXECUTION TIME: 72.45991533296183
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -24417,34 +24414,34 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-118.74558079603594
-121.02027251303662
+123.0427858310286
+122.35564819094725
 
-TOTAL EXECUTION TIME: 239.92678111803252
+TOTAL EXECUTION TIME: 245.5639850399457
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-96.01007984706666
-84.13461071799975
+96.09972124709748
+95.44755144487135
 
-TOTAL EXECUTION TIME: 180.3012557210168
+TOTAL EXECUTION TIME: 191.70123393414542
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.19850658602081
-36.280463956994936
+36.63156625581905
+36.58669942105189
 
-TOTAL EXECUTION TIME: 72.63120403094217
+TOTAL EXECUTION TIME: 73.37173785292543
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.0003462469903752208
-0.00013540801592171192
+73.38246760098264
+73.39796062209643
 
-TOTAL EXECUTION TIME: 0.1538091639522463
+TOTAL EXECUTION TIME: 146.93481715698726
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-159.51850678701885
-158.91860027902294
+164.19144764496014
+162.01076530804858
 
-TOTAL EXECUTION TIME: 318.59039929206483
+TOTAL EXECUTION TIME: 326.35867487383075
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -24460,34 +24457,34 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-160.7908574490575
-160.35446268692613
+161.73988849809393
+159.2970046501141
 
-TOTAL EXECUTION TIME: 321.30821551696863
+TOTAL EXECUTION TIME: 321.19976940285414
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.00035449699498713017
-0.0001407699892297387
+72.90079812100157
+72.05018575908616
 
-TOTAL EXECUTION TIME: 0.1551690149353817
+TOTAL EXECUTION TIME: 145.10430310992524
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-96.29002044897061
-95.99577389704064
+96.7100627978798
+96.76068929210305
 
-TOTAL EXECUTION TIME: 192.43863167695235
+TOTAL EXECUTION TIME: 193.62540183891542
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-122.28340987989213
-121.18193353305105
+123.01429344015196
+122.90997621393763
 
-TOTAL EXECUTION TIME: 243.61952494701836
+TOTAL EXECUTION TIME: 246.0787828869652
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.84264497400727
-36.57931169390213
+36.618218205170706
+27.474359274841845
 
-TOTAL EXECUTION TIME: 73.57666746794712
+TOTAL EXECUTION TIME: 64.25748516293243
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -24503,38 +24500,37 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-123.28273130895104
-122.20149832009338
+122.48614546307363
+121.71566518605687
 
-TOTAL EXECUTION TIME: 245.64745877403766
+TOTAL EXECUTION TIME: 244.3673586549703
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.40154128393624
-36.40704977698624
+36.65747316204943
+36.67666914104484
 
-TOTAL EXECUTION TIME: 72.96441464696545
+TOTAL EXECUTION TIME: 73.48810989200138
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.0003458659630268812
-0.00013805599883198738
+75.25619372399524
+73.16282913601026
 
-TOTAL EXECUTION TIME: 0.15690202300902456
+TOTAL EXECUTION TIME: 148.57703419821337
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-162.96302324195858
-155.19670534902252
+162.14510034606792
+161.09183047199622
 
-TOTAL EXECUTION TIME: 318.31315910001285
+TOTAL EXECUTION TIME: 323.3994818411302
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 2-dict --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-95.49801324296277
-94.97427854407579
+70.77317074988969
+95.5405490170233
 
-TOTAL EXECUTION TIME: 190.62536767602433
+TOTAL EXECUTION TIME: 166.469861458987
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
-mail: Content-Type: not setting header
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Using Docker image: experiments_image
 
@@ -35419,15 +35415,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.69042974093463
-37.22987891105004
+36.22756100911647
+36.574304837035015
 
-TOTAL EXECUTION TIME: 74.08415344194509
+TOTAL EXECUTION TIME: 72.96734993602149
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-1.8578478259732947
-1.860362407984212
+1.9137415748555213
+1.908595347078517
 
-TOTAL EXECUTION TIME: 3.870834606932476
+TOTAL EXECUTION TIME: 3.9772794540040195
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -35440,15 +35436,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.009650737047195435
-0.0005518299294635653
+73.21462005609646
+72.64910049689934
 
-TOTAL EXECUTION TIME: 0.1738661810522899
+TOTAL EXECUTION TIME: 146.0286195438821
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.00034132495056837797
-0.00013528205454349518
+3.902180830016732
+3.8744044699706137
 
-TOTAL EXECUTION TIME: 0.1551869830582291
+TOTAL EXECUTION TIME: 7.9304056039545685
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -35461,15 +35457,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-96.33307477307972
-95.51146608393174
+96.80061816703528
+95.6908094000537
 
-TOTAL EXECUTION TIME: 192.00799467298202
+TOTAL EXECUTION TIME: 192.65269954688847
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-4.847365043940954
-4.830750001012348
+4.996497087879106
+4.969240417936817
 
-TOTAL EXECUTION TIME: 9.831074451911263
+TOTAL EXECUTION TIME: 10.12044870806858
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -35482,15 +35478,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-122.84039910300635
-110.46078980097082
+123.2548431979958
+122.77751629101112
 
-TOTAL EXECUTION TIME: 233.4637705689529
+TOTAL EXECUTION TIME: 246.19548218883574
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-6.112931868992746
-6.107960130088031
+6.302865763893351
+6.283067065058276
 
-TOTAL EXECUTION TIME: 12.376173757016659
+TOTAL EXECUTION TIME: 12.739957466954365
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -35503,15 +35499,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-162.7374247009866
-159.39331092708744
+162.54748643096536
+160.76782653317787
 
-TOTAL EXECUTION TIME: 322.2937718570465
+TOTAL EXECUTION TIME: 323.4772353679873
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-8.10018535098061
-8.099829274928197
+8.342256635893136
+8.327821071026847
 
-TOTAL EXECUTION TIME: 16.35384654707741
+TOTAL EXECUTION TIME: 16.82415111688897
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -35522,76 +35518,76 @@ Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/mem
 Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
 
 
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.19213967304677
-36.29560163593851
-
-TOTAL EXECUTION TIME: 72.65098795597441
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.0003474339609965682
-0.00013726204633712769
-
-TOTAL EXECUTION TIME: 0.15491778391879052
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-91.43507174903061
-94.77142804092728
-
-TOTAL EXECUTION TIME: 186.35889120097272
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-123.25907807494514
-122.64877798000816
-
-TOTAL EXECUTION TIME: 246.06130724994
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-161.69836799404584
-160.3979903679574
-
-TOTAL EXECUTION TIME: 322.2493762719678
-
-
-Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-Using Docker image: experiments_image
-
-Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/02_count_unique_words
-Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
-
-
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-159.9984793739859
-159.15708917099983
-
-TOTAL EXECUTION TIME: 319.3176176790148
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-121.76375540602021
-121.1187726269709
-
-TOTAL EXECUTION TIME: 243.03557355003431
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-96.02723441401031
-95.03869854297955
-
-TOTAL EXECUTION TIME: 191.2218638350023
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.0003482879837974906
-0.0001385000068694353
-
-TOTAL EXECUTION TIME: 0.15523507702164352
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.26736139995046
-36.51934452995192
+36.54085347079672
+36.66445228410885
 
-TOTAL EXECUTION TIME: 72.94085846398957
+TOTAL EXECUTION TIME: 73.36767589510418
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+72.3674607318826
+71.82542912312783
+
+TOTAL EXECUTION TIME: 144.34612323204055
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+95.31388306408189
+95.19917567493394
+
+TOTAL EXECUTION TIME: 190.66866354597732
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+121.06643209117465
+121.55382562894374
+
+TOTAL EXECUTION TIME: 242.77309088408947
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+161.48398591810837
+161.10647225985304
+
+TOTAL EXECUTION TIME: 322.7432935689576
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/02_count_unique_words
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+161.4923953199759
+160.7129441748839
+
+TOTAL EXECUTION TIME: 322.3678096239455
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+122.84363462706096
+121.5476314581465
+
+TOTAL EXECUTION TIME: 244.54533744999208
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+95.76699970499612
+95.1082995410543
+
+TOTAL EXECUTION TIME: 191.0290647149086
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+72.62695688707754
+72.06720770895481
+
+TOTAL EXECUTION TIME: 144.84845486399718
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+34.73246886814013
+20.26888252887875
+
+TOTAL EXECUTION TIME: 55.156298872083426
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -35607,34 +35603,34 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-121.55612575798295
-121.34249387902673
+123.85622473992407
+121.93991518998519
 
-TOTAL EXECUTION TIME: 243.06087267398834
+TOTAL EXECUTION TIME: 245.96093066199683
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-95.34711754391901
-94.91464004607406
+96.49173385696486
+96.08104781294242
 
-TOTAL EXECUTION TIME: 190.41669996303972
+TOTAL EXECUTION TIME: 192.72648921306245
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.27718123199884
-36.41757787798997
+37.01951613998972
+36.949892139062285
 
-TOTAL EXECUTION TIME: 72.84932185895741
+TOTAL EXECUTION TIME: 74.12276778602973
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.00042087503243237734
-0.00014107301831245422
+72.41089130192995
+72.62093386612833
 
-TOTAL EXECUTION TIME: 0.1559795340290293
+TOTAL EXECUTION TIME: 145.18434527795762
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-160.898955025943
-159.29367208108306
+120.15168634196743
+158.88948545511812
 
-TOTAL EXECUTION TIME: 320.34691146796104
+TOTAL EXECUTION TIME: 279.1931445559021
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -35650,34 +35646,34 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-161.6902732559247
-159.26674282108434
+160.60964498505928
+158.9303694430273
 
-TOTAL EXECUTION TIME: 321.1198890119558
+TOTAL EXECUTION TIME: 319.70236111502163
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.00034997204784303904
-0.00013551698066294193
+72.24615381797776
+72.12640303908847
 
-TOTAL EXECUTION TIME: 0.15378639905247837
+TOTAL EXECUTION TIME: 144.5268191730138
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-96.22506521001924
-96.40390937204938
+95.15118928812444
+94.81338699604385
 
-TOTAL EXECUTION TIME: 192.79159218701534
+TOTAL EXECUTION TIME: 190.11727582896128
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-122.50465679890476
-121.92916855600197
+122.54867261298932
+121.55948384990916
 
-TOTAL EXECUTION TIME: 244.5909322500229
+TOTAL EXECUTION TIME: 244.2617383301258
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.54286288598087
-36.38435595203191
+36.18537681596354
+36.20612420095131
 
-TOTAL EXECUTION TIME: 73.08112447999883
+TOTAL EXECUTION TIME: 72.5479004229419
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -35693,38 +35689,37 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-121.73591526900418
-120.79865287605207
+122.22833985905163
+121.43943406501785
 
-TOTAL EXECUTION TIME: 242.6969172480749
+TOTAL EXECUTION TIME: 243.8302042169962
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.438076738035306
-36.48853854998015
+36.48447807598859
+36.3981422111392
 
-TOTAL EXECUTION TIME: 73.08067680697422
+TOTAL EXECUTION TIME: 73.03926966083236
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.00034950789995491505
-0.00013868906535208225
+73.03590496513061
+73.82732105185278
 
-TOTAL EXECUTION TIME: 0.15472798503469676
+TOTAL EXECUTION TIME: 147.0164837820921
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-162.50972261698917
-160.539161242079
+146.07377557596192
+159.01838683104143
 
-TOTAL EXECUTION TIME: 323.2016552799614
+TOTAL EXECUTION TIME: 305.2450286131352
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch 2-dict-fast --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-96.90903262002394
-94.85637348599266
+96.11897724913433
+96.04802150698379
 
-TOTAL EXECUTION TIME: 191.91928599402308
+TOTAL EXECUTION TIME: 192.31950002000667
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
-mail: Content-Type: not setting header
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Using Docker image: experiments_image
 
@@ -46609,15 +46604,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.551455404027365
-36.53740208200179
+35.67997516319156
+36.525187741965055
 
-TOTAL EXECUTION TIME: 73.25246043805964
+TOTAL EXECUTION TIME: 72.36992711992934
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-1.841865704045631
-1.8386473800055683
+1.8896970599889755
+1.8893430288881063
 
-TOTAL EXECUTION TIME: 3.8342551339883357
+TOTAL EXECUTION TIME: 3.9325164400506765
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -46630,15 +46625,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.009036272997036576
-0.0003436399856582284
+72.62021409301087
+72.40292970906012
 
-TOTAL EXECUTION TIME: 0.17233171209227294
+TOTAL EXECUTION TIME: 145.18684008996934
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.0006400559796020389
-0.0002805250696837902
+3.8246010451111943
+3.8236765230540186
 
-TOTAL EXECUTION TIME: 0.15488911408465356
+TOTAL EXECUTION TIME: 7.805828124983236
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -46651,15 +46646,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-95.40387336502317
-94.36428804299794
+97.22361661097966
+96.80910056107678
 
-TOTAL EXECUTION TIME: 189.92943745292723
+TOTAL EXECUTION TIME: 194.1962222030852
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-4.828911233926192
-4.831851568073034
+4.896946012973785
+4.889426747104153
 
-TOTAL EXECUTION TIME: 9.815084419911727
+TOTAL EXECUTION TIME: 9.943814932834357
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -46672,15 +46667,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-123.7698090110207
-122.47373449790757
+123.36258771806024
+123.24784089904279
 
-TOTAL EXECUTION TIME: 246.40639191900846
+TOTAL EXECUTION TIME: 246.77441429300234
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-6.11137706192676
-6.105178781086579
+6.186239339178428
+6.187132606981322
 
-TOTAL EXECUTION TIME: 12.370995427947491
+TOTAL EXECUTION TIME: 12.527865902986377
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -46693,15 +46688,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-161.9464854709804
-159.6648725590203
+160.04418928199448
+159.5093034610618
 
-TOTAL EXECUTION TIME: 321.77605116693303
+TOTAL EXECUTION TIME: 319.71637257095426
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-8.09925373410806
-8.094650835962966
+8.267309298040345
+8.29371882788837
 
-TOTAL EXECUTION TIME: 16.346940767019987
+TOTAL EXECUTION TIME: 16.717603605007753
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -46712,76 +46707,76 @@ Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/mem
 Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
 
 
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.209051295998506
-36.34102337807417
-
-TOTAL EXECUTION TIME: 72.71322017803323
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.0007177019724622369
-0.00027699104975908995
-
-TOTAL EXECUTION TIME: 0.15414855408016592
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-96.42333443800453
-95.92688315105624
-
-TOTAL EXECUTION TIME: 192.50475049600936
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-123.02926422399469
-122.67918037297204
-
-TOTAL EXECUTION TIME: 245.86210404196754
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-160.240730309044
-159.02496396901552
-
-TOTAL EXECUTION TIME: 319.42138728604186
-
-
-Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-Using Docker image: experiments_image
-
-Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/02_count_unique_words
-Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
-
-
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-161.04174870299175
-159.06487934407778
-
-TOTAL EXECUTION TIME: 320.2696484120097
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-122.49984964204486
-122.37914038298186
-
-TOTAL EXECUTION TIME: 245.03326506598387
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-95.82649932405911
-96.21683491300792
-
-TOTAL EXECUTION TIME: 192.19668797694612
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.0007232179632410407
-0.00032568303868174553
-
-TOTAL EXECUTION TIME: 0.153976641013287
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.043739683926105
-36.10918173007667
+36.66750269313343
+36.697461725911126
 
-TOTAL EXECUTION TIME: 72.30888859496918
+TOTAL EXECUTION TIME: 73.52984145679511
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+72.12637419300154
+72.21539083891548
+
+TOTAL EXECUTION TIME: 144.49443289195187
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+95.45228730514646
+95.51653954782523
+
+TOTAL EXECUTION TIME: 191.12446186086163
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+121.81442408612929
+122.56861916789785
+
+TOTAL EXECUTION TIME: 244.53748738206923
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+161.7040104418993
+160.45114542008378
+
+TOTAL EXECUTION TIME: 322.31241077487357
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/02_count_unique_words
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+160.46959854708984
+158.8314144120086
+
+TOTAL EXECUTION TIME: 319.4662597819697
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+122.84962615417317
+133.33096885983832
+
+TOTAL EXECUTION TIME: 256.3332332451828
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+104.05500712990761
+100.0772203549277
+
+TOTAL EXECUTION TIME: 204.30366308800876
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+73.32890332094394
+72.70837301202118
+
+TOTAL EXECUTION TIME: 146.20186796202324
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+36.352384397992864
+36.16665616584942
+
+TOTAL EXECUTION TIME: 72.6745391250588
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -46797,34 +46792,34 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-123.13292400992941
-121.62565266201273
+122.19034272106364
+122.12551746191457
 
-TOTAL EXECUTION TIME: 244.92218127602246
+TOTAL EXECUTION TIME: 244.47770146187395
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-96.55656054406427
-96.60554417199455
+95.66284944396466
+95.67749700206332
 
-TOTAL EXECUTION TIME: 193.31620034901425
+TOTAL EXECUTION TIME: 191.49583825096488
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.277978230966255
-36.2216812830884
+35.475421929964796
+36.79699849197641
 
-TOTAL EXECUTION TIME: 72.65326347900555
+TOTAL EXECUTION TIME: 72.43002925883047
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.0005568889901041985
-0.00019377795979380608
+72.5479703519959
+72.65473876404576
 
-TOTAL EXECUTION TIME: 0.15422125405166298
+TOTAL EXECUTION TIME: 145.3601906138938
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-159.25529698305763
-158.53495498991106
+160.44234146899544
+153.25447902502492
 
-TOTAL EXECUTION TIME: 317.9444263939513
+TOTAL EXECUTION TIME: 313.8516359629575
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -46840,34 +46835,34 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-161.4223557539517
-160.1698845620267
+161.64195815310813
+160.29580732178874
 
-TOTAL EXECUTION TIME: 321.75538938399404
+TOTAL EXECUTION TIME: 322.10078966082074
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.0006988770328462124
-0.0002804739633575082
+73.86995104700327
+73.43388581997715
 
-TOTAL EXECUTION TIME: 0.15433127200230956
+TOTAL EXECUTION TIME: 147.45898125506938
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-95.29120172793046
-95.48546421597712
+95.75345450500026
+95.42152157099918
 
-TOTAL EXECUTION TIME: 190.92925132194068
+TOTAL EXECUTION TIME: 191.33018466993235
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-122.52742256899364
-122.30365648597945
+122.8790234378539
+121.58280983613804
 
-TOTAL EXECUTION TIME: 244.98839706601575
+TOTAL EXECUTION TIME: 244.61621784395538
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.262362724984996
-36.61264110903721
+36.27837876509875
+36.223352590808645
 
-TOTAL EXECUTION TIME: 73.02936465409584
+TOTAL EXECUTION TIME: 72.6552497681696
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -46883,38 +46878,37 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-98.24242331192363
-122.40410558204167
+122.42248664307408
+122.30458217998967
 
-TOTAL EXECUTION TIME: 220.810336243012
+TOTAL EXECUTION TIME: 244.89419986400753
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.42459098005202
-36.458596013020724
+36.14076597196981
+36.31372163188644
 
-TOTAL EXECUTION TIME: 73.0365734678926
+TOTAL EXECUTION TIME: 72.60940482094884
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.0008006850257515907
-0.00033675599843263626
+72.22677433816716
+72.08713097986765
 
-TOTAL EXECUTION TIME: 0.15554237004835159
+TOTAL EXECUTION TIME: 144.46846895315684
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-161.6816086730687
-160.63115644198842
+162.29785042605363
+160.92863458907232
 
-TOTAL EXECUTION TIME: 322.4672497379361
+TOTAL EXECUTION TIME: 323.38720970391296
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch memcached-wt --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-96.04734655306675
-95.37274693802465
+95.36138649913482
+95.36950536002405
 
-TOTAL EXECUTION TIME: 191.5739625550341
+TOTAL EXECUTION TIME: 190.8887598339934
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
-mail: Content-Type: not setting header
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Using Docker image: experiments_image
 
@@ -57981,15 +57975,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.54398326599039
-36.7226468679728
+31.26108231698163
+36.4563217330724
 
-TOTAL EXECUTION TIME: 73.46271121595055
+TOTAL EXECUTION TIME: 67.91387247107923
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-1.870092730037868
-1.877755993977189
+1.863494878867641
+1.8544782300014049
 
-TOTAL EXECUTION TIME: 3.902626913972199
+TOTAL EXECUTION TIME: 3.8748936890624464
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -58002,15 +57996,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.010122286970727146
-0.0007714059902355075
+72.55563608091325
+72.44955050107092
 
-TOTAL EXECUTION TIME: 0.17352974193636328
+TOTAL EXECUTION TIME: 145.1981721201446
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.0005634879926219583
-0.00019235210493206978
+3.8159894379787147
+3.811050570104271
 
-TOTAL EXECUTION TIME: 0.1571037929970771
+TOTAL EXECUTION TIME: 7.795857141027227
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -58023,15 +58017,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-93.13165345299058
-80.45092768897302
+95.68329407298006
+94.69467280711979
 
-TOTAL EXECUTION TIME: 173.770888170111
+TOTAL EXECUTION TIME: 190.56173498299904
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-4.861039268085733
-4.858271320001222
+4.9373436130117625
+4.934188647894189
 
-TOTAL EXECUTION TIME: 9.873776777996682
+TOTAL EXECUTION TIME: 10.049037822056562
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -58044,15 +58038,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-121.90162282309029
-121.2627887109993
+121.89671961194836
+121.40351906209253
 
-TOTAL EXECUTION TIME: 243.35092694999184
+TOTAL EXECUTION TIME: 243.48089430085383
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-6.174757032073103
-6.129156708950177
+6.300923333968967
+6.2664213459938765
 
-TOTAL EXECUTION TIME: 12.457752714981325
+TOTAL EXECUTION TIME: 12.7280643528793
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -58065,15 +58059,15 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-160.21739394997712
-159.0605058770161
+162.13918389496394
+160.30217218212783
 
-TOTAL EXECUTION TIME: 319.45688722189516
+TOTAL EXECUTION TIME: 322.6097336469684
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-8.096072523971088
-8.082588238990866
+8.302951865131035
+8.275048026815057
 
-TOTAL EXECUTION TIME: 16.331903856946155
+TOTAL EXECUTION TIME: 16.75959503883496
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -58084,76 +58078,76 @@ Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/mem
 Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
 
 
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.798816633061506
-36.600521583925
-
-TOTAL EXECUTION TIME: 73.601584082935
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.0008550520287826657
-0.00028878101147711277
-
-TOTAL EXECUTION TIME: 0.15824010607320815
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-95.42281718202867
-95.59721973305568
-
-TOTAL EXECUTION TIME: 191.20289453899022
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-123.68001737294253
-122.51470000704285
-
-TOTAL EXECUTION TIME: 246.38159552402794
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-160.25075115496293
-160.72018782095984
-
-TOTAL EXECUTION TIME: 321.14574652002193
-
-
-Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-Using Docker image: experiments_image
-
-Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/02_count_unique_words
-Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
-
-
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-153.4780532529112
-155.87955780804623
-
-TOTAL EXECUTION TIME: 309.5393798559671
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-123.85921630798839
-123.99557123100385
-
-TOTAL EXECUTION TIME: 248.0359116239706
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-90.66903481807094
-94.81189306091983
-
-TOTAL EXECUTION TIME: 185.66131259396207
-Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
-Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.0007778590079396963
-0.00028418609872460365
-
-TOTAL EXECUTION TIME: 0.1546232420951128
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.68971703306306
-36.61414645193145
+36.57814191794023
+36.65484273713082
 
-TOTAL EXECUTION TIME: 73.49570700200275
+TOTAL EXECUTION TIME: 73.42860605404712
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+72.48222454404458
+72.28626669710502
+
+TOTAL EXECUTION TIME: 144.94726570206694
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+86.38451008498669
+95.15142875909805
+
+TOTAL EXECUTION TIME: 181.70853255386464
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+122.89541084086522
+122.58643718622625
+
+TOTAL EXECUTION TIME: 245.65055404184386
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+161.72090574190952
+161.38662242912687
+
+TOTAL EXECUTION TIME: 323.26933420612477
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/02_count_unique_words
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+162.26430986798368
+161.58112209197134
+
+TOTAL EXECUTION TIME: 324.0193972841371
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+118.46412638598122
+121.54773522191681
+
+TOTAL EXECUTION TIME: 240.18163267197087
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+97.42430213582702
+97.58080451213755
+
+TOTAL EXECUTION TIME: 195.17989740893245
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+73.18055544910021
+72.50597924785689
+
+TOTAL EXECUTION TIME: 145.8636089048814
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
+36.391504500061274
+36.52860649093054
+
+TOTAL EXECUTION TIME: 73.10724675515667
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -58169,34 +58163,34 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-104.89994420600124
-116.80805068893824
+122.29489993001334
+122.20278409100138
 
-TOTAL EXECUTION TIME: 221.90373233694118
+TOTAL EXECUTION TIME: 244.67563979700208
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-96.6420215429971
-96.02963927702513
+95.5453975230921
+79.84384450991638
 
-TOTAL EXECUTION TIME: 192.85475590697024
+TOTAL EXECUTION TIME: 175.56014646403491
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.15522111800965
-36.48308261006605
+36.50083361403085
+36.51152305211872
 
-TOTAL EXECUTION TIME: 72.82686809892766
+TOTAL EXECUTION TIME: 73.20089007006027
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.0008185619954019785
-0.00033271301072090864
+73.25884118792601
+73.54138910211623
 
-TOTAL EXECUTION TIME: 0.1547116810688749
+TOTAL EXECUTION TIME: 146.97772664390504
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-144.74917430989444
-159.60617371008266
+160.58083337009884
+159.81193699408323
 
-TOTAL EXECUTION TIME: 304.5259514589561
+TOTAL EXECUTION TIME: 320.55509228701703
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -58212,34 +58206,34 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-161.55644417006988
-160.30992559401784
+160.77946061897092
+159.10206233197823
 
-TOTAL EXECUTION TIME: 322.0454782040324
+TOTAL EXECUTION TIME: 320.05819036997855
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.0007802650798112154
-0.00028469099197536707
+72.90726315206848
+63.36388197890483
 
-TOTAL EXECUTION TIME: 0.15454559901263565
+TOTAL EXECUTION TIME: 136.44684216589667
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-97.00659980101045
-96.44413417298347
+96.91701802611351
+95.07068461598828
 
-TOTAL EXECUTION TIME: 193.63380730699282
+TOTAL EXECUTION TIME: 192.15984927886166
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-115.52917052991688
-122.12660650501493
+122.03717751195654
+121.19648940302432
 
-TOTAL EXECUTION TIME: 237.83582718402613
+TOTAL EXECUTION TIME: 243.4056749669835
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.15091013000347
-36.41938991704956
+36.48390015796758
+36.41673840302974
 
-TOTAL EXECUTION TIME: 72.76046735292766
+TOTAL EXECUTION TIME: 73.08809735998511
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
@@ -58255,38 +58249,38 @@ Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoEx
 
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input14.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-122.80776726303156
-123.1141365559306
+123.28675324795768
+122.39014951488934
 
-TOTAL EXECUTION TIME: 246.10693787003402
+TOTAL EXECUTION TIME: 245.85513999895193
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input11.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-36.40439872595016
-36.94148448097985
+36.303461752133444
+36.2469133939594
 
-TOTAL EXECUTION TIME: 73.53848238894716
+TOTAL EXECUTION TIME: 72.73486525402404
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input12.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-0.0008016129722818732
-0.0002852149773389101
+72.60301580303349
+72.35401449794881
 
-TOTAL EXECUTION TIME: 0.1548852629493922
+TOTAL EXECUTION TIME: 145.1354257168714
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input15.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-160.55298808205407
-159.30132959003095
+160.12400383711793
+158.50545759382658
 
-TOTAL EXECUTION TIME: 320.0293829969596
+TOTAL EXECUTION TIME: 318.791833918076
 Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
 Executing command: python count_unique_words_speedupy.py input13.txt -H museair -s file --mem-arch memcached-wb --retrieval-strategy lazy --retrieval-exec-mode sequential -mt 0.01 --exec-mode manual --measure-time
-96.66226628702134
-97.00492585403845
+96.92311848304234
+94.91943753580563
 
-TOTAL EXECUTION TIME: 193.84690183098428
+TOTAL EXECUTION TIME: 192.01664937194437
 
 
 Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
-mail: Content-Type: not setting header
+
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Using Docker image: experiments_image
 
