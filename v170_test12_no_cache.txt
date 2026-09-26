@@ -1,0 +1,1117 @@
+Using seed: 15993685291232517555
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/01_test_laplace_jacobi
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py
+Executing command: python test_laplace_jacobi_param.py 105 0.006 --exec-mode no-cache --measure-time
+65.93696795892902
+0.1685931661631912
+TOTAL EXECUTION TIME: 66.105577836046
+Executing command: python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py
+Executing command: python test_laplace_jacobi_param.py 105 0.002 --exec-mode no-cache --measure-time
+123.53757195617072
+0.4090892628300935
+TOTAL EXECUTION TIME: 123.94667936791666
+Executing command: python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py
+Executing command: python test_laplace_jacobi_param.py 105 0.0006 --exec-mode no-cache --measure-time
+191.55697314604186
+0.7040562890470028
+TOTAL EXECUTION TIME: 192.26104816491716
+Executing command: python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py
+Executing command: python test_laplace_jacobi_param.py 105 0.0003 --exec-mode no-cache --measure-time
+230.90809632395394
+0.8776207489427179
+TOTAL EXECUTION TIME: 231.78573544486426
+Executing command: python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py
+Executing command: python test_laplace_jacobi_param.py 105 0.00008 --exec-mode no-cache --measure-time
+266.04019130789675
+1.2272090909536928
+TOTAL EXECUTION TIME: 267.26742230006494
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/01_test_laplace_jacobi
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py
+Executing command: python test_laplace_jacobi_param.py 105 0.00008 --exec-mode no-cache --measure-time
+298.7073711559642
+1.2363484480883926
+TOTAL EXECUTION TIME: 299.9437410880346
+Executing command: python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py
+Executing command: python test_laplace_jacobi_param.py 105 0.0003 --exec-mode no-cache --measure-time
+229.52621209900826
+0.8732456979341805
+TOTAL EXECUTION TIME: 230.3994768129196
+Executing command: python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py
+Executing command: python test_laplace_jacobi_param.py 105 0.0006 --exec-mode no-cache --measure-time
+189.64159013400786
+0.6939798160456121
+TOTAL EXECUTION TIME: 190.33558973204345
+Executing command: python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py
+Executing command: python test_laplace_jacobi_param.py 105 0.002 --exec-mode no-cache --measure-time
+123.6318138029892
+0.393973623868078
+TOTAL EXECUTION TIME: 124.02580485679209
+Executing command: python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py
+Executing command: python test_laplace_jacobi_param.py 105 0.006 --exec-mode no-cache --measure-time
+66.21047699498013
+0.1693092519417405
+TOTAL EXECUTION TIME: 66.37980477884412
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+Entering repository: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/..
+Generating random inputs: python random_input_generator.py 5 --seed -2453058782477034061
+Results: {"seed": -2453058782477034061, "inputs": [1, 2, 4, 3, 0]}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/01_test_laplace_jacobi
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py
+Executing command: python test_laplace_jacobi_param.py 105 0.0003 --exec-mode no-cache --measure-time
+231.76473924098536
+0.8648162251338363
+TOTAL EXECUTION TIME: 232.62957500386983
+Executing command: python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py
+Executing command: python test_laplace_jacobi_param.py 105 0.0006 --exec-mode no-cache --measure-time
+190.50696884887293
+0.7066278101410717
+TOTAL EXECUTION TIME: 191.21361546288244
+Executing command: python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py
+Executing command: python test_laplace_jacobi_param.py 105 0.006 --exec-mode no-cache --measure-time
+68.93379108211957
+0.18087312090210617
+TOTAL EXECUTION TIME: 69.11468577105552
+Executing command: python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py
+Executing command: python test_laplace_jacobi_param.py 105 0.002 --exec-mode no-cache --measure-time
+132.96795953204855
+0.4233553819358349
+TOTAL EXECUTION TIME: 133.39133784594014
+Executing command: python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py
+Executing command: python test_laplace_jacobi_param.py 105 0.00008 --exec-mode no-cache --measure-time
+309.64459109981544
+1.2474076410289854
+TOTAL EXECUTION TIME: 310.8920185121242
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+Entering repository: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/..
+Generating random inputs: python random_input_generator.py 5 --seed -2453058782477034060
+Results: {"seed": -2453058782477034060, "inputs": [0, 3, 2, 1, 4]}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/01_test_laplace_jacobi
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py
+Executing command: python test_laplace_jacobi_param.py 105 0.00008 --exec-mode no-cache --measure-time
+302.4144355880562
+1.2204814387951046
+TOTAL EXECUTION TIME: 303.6349361098837
+Executing command: python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py
+Executing command: python test_laplace_jacobi_param.py 105 0.002 --exec-mode no-cache --measure-time
+119.22202206403017
+0.40916330297477543
+TOTAL EXECUTION TIME: 119.6312045850791
+Executing command: python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py
+Executing command: python test_laplace_jacobi_param.py 105 0.0006 --exec-mode no-cache --measure-time
+189.0422554682009
+0.6906910871621221
+TOTAL EXECUTION TIME: 189.73296498996206
+Executing command: python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py
+Executing command: python test_laplace_jacobi_param.py 105 0.0003 --exec-mode no-cache --measure-time
+233.60435817088
+0.873412859858945
+TOTAL EXECUTION TIME: 234.47778866393492
+Executing command: python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py
+Executing command: python test_laplace_jacobi_param.py 105 0.006 --exec-mode no-cache --measure-time
+65.30749506689608
+0.16866522701457143
+TOTAL EXECUTION TIME: 65.47617887007073
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+Entering repository: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/..
+Generating random inputs: python random_input_generator.py 5 --seed -2453058782477034059
+Results: {"seed": -2453058782477034059, "inputs": [1, 4, 3, 0, 2]}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/01_test_laplace_jacobi
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py
+Executing command: python test_laplace_jacobi_param.py 105 0.0003 --exec-mode no-cache --measure-time
+231.31689358619042
+0.8650165779981762
+TOTAL EXECUTION TIME: 232.18192831915803
+Executing command: python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py
+Executing command: python test_laplace_jacobi_param.py 105 0.006 --exec-mode no-cache --measure-time
+66.0399294339586
+0.16353041888214648
+TOTAL EXECUTION TIME: 66.2034770778846
+Executing command: python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py
+Executing command: python test_laplace_jacobi_param.py 105 0.002 --exec-mode no-cache --measure-time
+123.49059138190933
+0.39083805796690285
+TOTAL EXECUTION TIME: 123.88144717481919
+Executing command: python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py
+Executing command: python test_laplace_jacobi_param.py 105 0.00008 --exec-mode no-cache --measure-time
+303.5031077521853
+1.2222107050474733
+TOTAL EXECUTION TIME: 304.7253389309626
+Executing command: python speedupy/setup_exp/setup.py test_laplace_jacobi_param.py
+Executing command: python test_laplace_jacobi_param.py 105 0.0006 --exec-mode no-cache --measure-time
+191.14831240405329
+0.6907320050522685
+TOTAL EXECUTION TIME: 191.83906242693774
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/02_count_unique_words
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input11.txt --exec-mode no-cache --measure-time
+35.269237890141085
+35.106103342957795
+
+TOTAL EXECUTION TIME: 70.37535921484232
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input12.txt --exec-mode no-cache --measure-time
+69.72100149001926
+69.17925861105323
+
+TOTAL EXECUTION TIME: 138.90027633914724
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input13.txt --exec-mode no-cache --measure-time
+71.89187336689793
+92.3399311399553
+
+TOTAL EXECUTION TIME: 164.2318220490124
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input14.txt --exec-mode no-cache --measure-time
+118.68568540783599
+117.75964986206964
+
+TOTAL EXECUTION TIME: 236.4453525361605
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input15.txt --exec-mode no-cache --measure-time
+156.05585373402573
+154.22020223387517
+
+TOTAL EXECUTION TIME: 310.27607455593534
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/02_count_unique_words
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input15.txt --exec-mode no-cache --measure-time
+155.1723398868926
+153.83595507708378
+
+TOTAL EXECUTION TIME: 309.0083122930955
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input14.txt --exec-mode no-cache --measure-time
+122.77790062013082
+106.77023359993473
+
+TOTAL EXECUTION TIME: 229.54815870593302
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input13.txt --exec-mode no-cache --measure-time
+93.08158382494003
+91.99576326692477
+
+TOTAL EXECUTION TIME: 185.07736610621214
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input12.txt --exec-mode no-cache --measure-time
+70.53971015498973
+69.95537510793656
+
+TOTAL EXECUTION TIME: 140.49510205420665
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input11.txt --exec-mode no-cache --measure-time
+35.1740744500421
+35.3279780598823
+
+TOTAL EXECUTION TIME: 70.50206843018532
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+Entering repository: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/..
+Generating random inputs: python random_input_generator.py 5 --seed -2453058782477034061
+Results: {"seed": -2453058782477034061, "inputs": [1, 2, 4, 3, 0]}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/02_count_unique_words
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input14.txt --exec-mode no-cache --measure-time
+107.03315533115529
+116.62357649602927
+
+TOTAL EXECUTION TIME: 223.6567495551426
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input13.txt --exec-mode no-cache --measure-time
+92.97349603194743
+92.06567936507054
+
+TOTAL EXECUTION TIME: 185.03919324814342
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input11.txt --exec-mode no-cache --measure-time
+34.742934993933886
+34.96283266507089
+
+TOTAL EXECUTION TIME: 69.70578443398699
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input12.txt --exec-mode no-cache --measure-time
+69.67174622602761
+69.23764322395436
+
+TOTAL EXECUTION TIME: 138.90940587292425
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input15.txt --exec-mode no-cache --measure-time
+155.1215675319545
+153.7140165970195
+
+TOTAL EXECUTION TIME: 308.8356009090785
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+Entering repository: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/..
+Generating random inputs: python random_input_generator.py 5 --seed -2453058782477034060
+Results: {"seed": -2453058782477034060, "inputs": [0, 3, 2, 1, 4]}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/02_count_unique_words
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input15.txt --exec-mode no-cache --measure-time
+156.9200949370861
+129.6015540168155
+
+TOTAL EXECUTION TIME: 286.52166877500713
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input12.txt --exec-mode no-cache --measure-time
+70.01043659611605
+69.98836085596122
+
+TOTAL EXECUTION TIME: 139.99881395394914
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input13.txt --exec-mode no-cache --measure-time
+91.92970801284537
+91.77113777119666
+
+TOTAL EXECUTION TIME: 183.70086406497285
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input14.txt --exec-mode no-cache --measure-time
+117.12997966003604
+116.75353932892904
+
+TOTAL EXECUTION TIME: 233.88353717816062
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input11.txt --exec-mode no-cache --measure-time
+34.99576837895438
+35.27605504798703
+
+TOTAL EXECUTION TIME: 70.27183894487098
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+Entering repository: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/..
+Generating random inputs: python random_input_generator.py 5 --seed -2453058782477034059
+Results: {"seed": -2453058782477034059, "inputs": [1, 4, 3, 0, 2]}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/02_count_unique_words
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input14.txt --exec-mode no-cache --measure-time
+108.13633366907015
+118.32637894595973
+
+TOTAL EXECUTION TIME: 226.46273205103353
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input11.txt --exec-mode no-cache --measure-time
+34.980070397024974
+34.97024677298032
+
+TOTAL EXECUTION TIME: 69.95033373101614
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input12.txt --exec-mode no-cache --measure-time
+70.18464256706648
+69.90356753603555
+
+TOTAL EXECUTION TIME: 140.08822753513232
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input15.txt --exec-mode no-cache --measure-time
+156.9494444928132
+153.79915404412895
+
+TOTAL EXECUTION TIME: 310.7486171219498
+Executing command: python speedupy/setup_exp/setup.py count_unique_words_speedupy.py
+Executing command: python count_unique_words_speedupy.py input13.txt --exec-mode no-cache --measure-time
+83.37231764686294
+78.34334224602208
+
+TOTAL EXECUTION TIME: 161.71567848417908
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/03_sphere_potentials
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py sphere_potentials_param.py
+Executing command: python sphere_potentials_param.py 0.08 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 62.64640386495739
+Executing command: python speedupy/setup_exp/setup.py sphere_potentials_param.py
+Executing command: python sphere_potentials_param.py 0.039 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 126.1906950478442
+Executing command: python speedupy/setup_exp/setup.py sphere_potentials_param.py
+Executing command: python sphere_potentials_param.py 0.026 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 182.67670706496574
+Executing command: python speedupy/setup_exp/setup.py sphere_potentials_param.py
+Executing command: python sphere_potentials_param.py 0.02 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 224.38826691079885
+Executing command: python speedupy/setup_exp/setup.py sphere_potentials_param.py
+Executing command: python sphere_potentials_param.py 0.0157 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 298.71124744112603
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/03_sphere_potentials
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py sphere_potentials_param.py
+Executing command: python sphere_potentials_param.py 0.0157 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 304.92229132307693
+Executing command: python speedupy/setup_exp/setup.py sphere_potentials_param.py
+Executing command: python sphere_potentials_param.py 0.02 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 240.97797073610127
+Executing command: python speedupy/setup_exp/setup.py sphere_potentials_param.py
+Executing command: python sphere_potentials_param.py 0.026 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 182.94433321803808
+Executing command: python speedupy/setup_exp/setup.py sphere_potentials_param.py
+Executing command: python sphere_potentials_param.py 0.039 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 116.72087677405216
+Executing command: python speedupy/setup_exp/setup.py sphere_potentials_param.py
+Executing command: python sphere_potentials_param.py 0.08 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 63.03513457183726
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+Entering repository: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/..
+Generating random inputs: python random_input_generator.py 5 --seed -2453058782477034061
+Results: {"seed": -2453058782477034061, "inputs": [1, 2, 4, 3, 0]}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/03_sphere_potentials
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py sphere_potentials_param.py
+Executing command: python sphere_potentials_param.py 0.02 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 240.09434902202338
+Executing command: python speedupy/setup_exp/setup.py sphere_potentials_param.py
+Executing command: python sphere_potentials_param.py 0.026 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 183.52398352697492
+Executing command: python speedupy/setup_exp/setup.py sphere_potentials_param.py
+Executing command: python sphere_potentials_param.py 0.08 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 62.95812159194611
+Executing command: python speedupy/setup_exp/setup.py sphere_potentials_param.py
+Executing command: python sphere_potentials_param.py 0.039 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 126.31805916316807
+Executing command: python speedupy/setup_exp/setup.py sphere_potentials_param.py
+Executing command: python sphere_potentials_param.py 0.0157 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 289.2316952510737
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+Entering repository: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/..
+Generating random inputs: python random_input_generator.py 5 --seed -2453058782477034060
+Results: {"seed": -2453058782477034060, "inputs": [0, 3, 2, 1, 4]}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/03_sphere_potentials
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py sphere_potentials_param.py
+Executing command: python sphere_potentials_param.py 0.0157 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 303.7154225050472
+Executing command: python speedupy/setup_exp/setup.py sphere_potentials_param.py
+Executing command: python sphere_potentials_param.py 0.039 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 126.2686104318127
+Executing command: python speedupy/setup_exp/setup.py sphere_potentials_param.py
+Executing command: python sphere_potentials_param.py 0.026 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 183.24282256001607
+Executing command: python speedupy/setup_exp/setup.py sphere_potentials_param.py
+Executing command: python sphere_potentials_param.py 0.02 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 237.87335424195044
+Executing command: python speedupy/setup_exp/setup.py sphere_potentials_param.py
+Executing command: python sphere_potentials_param.py 0.08 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 62.735019114101306
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+Entering repository: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/..
+Generating random inputs: python random_input_generator.py 5 --seed -2453058782477034059
+Results: {"seed": -2453058782477034059, "inputs": [1, 4, 3, 0, 2]}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/03_sphere_potentials
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py sphere_potentials_param.py
+Executing command: python sphere_potentials_param.py 0.02 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 242.1648425650783
+Executing command: python speedupy/setup_exp/setup.py sphere_potentials_param.py
+Executing command: python sphere_potentials_param.py 0.08 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 63.035520859993994
+Executing command: python speedupy/setup_exp/setup.py sphere_potentials_param.py
+Executing command: python sphere_potentials_param.py 0.039 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 110.04100539302453
+Executing command: python speedupy/setup_exp/setup.py sphere_potentials_param.py
+Executing command: python sphere_potentials_param.py 0.0157 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 301.36035857419483
+Executing command: python speedupy/setup_exp/setup.py sphere_potentials_param.py
+Executing command: python sphere_potentials_param.py 0.026 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 183.31188660790212
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/04_metropolis_hastings
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py metropolis_hastings.py
+Executing command: python metropolis_hastings.py 6000000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 76.90793521190062
+76.90794841805473
+Executing command: python speedupy/setup_exp/setup.py metropolis_hastings.py
+Executing command: python metropolis_hastings.py 11000000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 139.09132795990445
+139.0913419749122
+Executing command: python speedupy/setup_exp/setup.py metropolis_hastings.py
+Executing command: python metropolis_hastings.py 17000000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 214.0606586940121
+214.06067233113572
+Executing command: python speedupy/setup_exp/setup.py metropolis_hastings.py
+Executing command: python metropolis_hastings.py 19000000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 238.64488956099376
+238.64490277017467
+Executing command: python speedupy/setup_exp/setup.py metropolis_hastings.py
+Executing command: python metropolis_hastings.py 29000000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 364.7928930639755
+364.79290590807796
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/04_metropolis_hastings
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py metropolis_hastings.py
+Executing command: python metropolis_hastings.py 29000000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 362.75830936897546
+362.75832354510203
+Executing command: python speedupy/setup_exp/setup.py metropolis_hastings.py
+Executing command: python metropolis_hastings.py 19000000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 241.45837641507387
+241.45838875998743
+Executing command: python speedupy/setup_exp/setup.py metropolis_hastings.py
+Executing command: python metropolis_hastings.py 17000000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 215.24387729214504
+215.24389264103957
+Executing command: python speedupy/setup_exp/setup.py metropolis_hastings.py
+Executing command: python metropolis_hastings.py 11000000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 138.39154391689226
+138.39155704691075
+Executing command: python speedupy/setup_exp/setup.py metropolis_hastings.py
+Executing command: python metropolis_hastings.py 6000000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 74.8617729099933
+74.86178523604758
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+Entering repository: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/..
+Generating random inputs: python random_input_generator.py 5 --seed -2453058782477034061
+Results: {"seed": -2453058782477034061, "inputs": [1, 2, 4, 3, 0]}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/04_metropolis_hastings
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py metropolis_hastings.py
+Executing command: python metropolis_hastings.py 19000000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 241.57857936411165
+241.5785935241729
+Executing command: python speedupy/setup_exp/setup.py metropolis_hastings.py
+Executing command: python metropolis_hastings.py 17000000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 214.22859918000177
+214.22861260315403
+Executing command: python speedupy/setup_exp/setup.py metropolis_hastings.py
+Executing command: python metropolis_hastings.py 6000000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 75.43966442695819
+75.43967689201236
+Executing command: python speedupy/setup_exp/setup.py metropolis_hastings.py
+Executing command: python metropolis_hastings.py 11000000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 137.75303186988458
+137.75304504903033
+Executing command: python speedupy/setup_exp/setup.py metropolis_hastings.py
+Executing command: python metropolis_hastings.py 29000000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 363.97600196301937
+363.97601674101315
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+Entering repository: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/..
+Generating random inputs: python random_input_generator.py 5 --seed -2453058782477034060
+Results: {"seed": -2453058782477034060, "inputs": [0, 3, 2, 1, 4]}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/04_metropolis_hastings
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py metropolis_hastings.py
+Executing command: python metropolis_hastings.py 29000000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 371.81583824404515
+371.81585176079534
+Executing command: python speedupy/setup_exp/setup.py metropolis_hastings.py
+Executing command: python metropolis_hastings.py 11000000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 137.66877385694534
+137.66878744610585
+Executing command: python speedupy/setup_exp/setup.py metropolis_hastings.py
+Executing command: python metropolis_hastings.py 17000000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 215.43594198999926
+215.43595477496274
+Executing command: python speedupy/setup_exp/setup.py metropolis_hastings.py
+Executing command: python metropolis_hastings.py 19000000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 237.22634420311078
+237.2263576411642
+Executing command: python speedupy/setup_exp/setup.py metropolis_hastings.py
+Executing command: python metropolis_hastings.py 6000000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 75.65552363009192
+75.6555376520846
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+Entering repository: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/..
+Generating random inputs: python random_input_generator.py 5 --seed -2453058782477034059
+Results: {"seed": -2453058782477034059, "inputs": [1, 4, 3, 0, 2]}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/04_metropolis_hastings
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py metropolis_hastings.py
+Executing command: python metropolis_hastings.py 19000000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 248.55830880999565
+248.5583238748368
+Executing command: python speedupy/setup_exp/setup.py metropolis_hastings.py
+Executing command: python metropolis_hastings.py 6000000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 74.83948478288949
+74.83949756994843
+Executing command: python speedupy/setup_exp/setup.py metropolis_hastings.py
+Executing command: python metropolis_hastings.py 11000000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 131.64735377510078
+131.64736646902747
+Executing command: python speedupy/setup_exp/setup.py metropolis_hastings.py
+Executing command: python metropolis_hastings.py 29000000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 364.4737685620785
+364.4737817288842
+Executing command: python speedupy/setup_exp/setup.py metropolis_hastings.py
+Executing command: python metropolis_hastings.py 17000000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 215.20603583590128
+215.20604932983406
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/05_menger_sponge
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py menger_sponge_speedupy_param.py
+Executing command: python menger_sponge_speedupy_param.py 2400 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 69.56914725806564
+Executing command: python speedupy/setup_exp/setup.py menger_sponge_speedupy_param.py
+Executing command: python menger_sponge_speedupy_param.py 3100 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 116.94996716710739
+Executing command: python speedupy/setup_exp/setup.py menger_sponge_speedupy_param.py
+Executing command: python menger_sponge_speedupy_param.py 3800 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 174.12263177591376
+Executing command: python speedupy/setup_exp/setup.py menger_sponge_speedupy_param.py
+Executing command: python menger_sponge_speedupy_param.py 4750 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 261.22599152405746
+Executing command: python speedupy/setup_exp/setup.py menger_sponge_speedupy_param.py
+Executing command: python menger_sponge_speedupy_param.py 5000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 301.2998184149619
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/05_menger_sponge
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py menger_sponge_speedupy_param.py
+Executing command: python menger_sponge_speedupy_param.py 5000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 304.1884117089212
+Executing command: python speedupy/setup_exp/setup.py menger_sponge_speedupy_param.py
+Executing command: python menger_sponge_speedupy_param.py 4750 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 282.77505445992574
+Executing command: python speedupy/setup_exp/setup.py menger_sponge_speedupy_param.py
+Executing command: python menger_sponge_speedupy_param.py 3800 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 186.55870164278895
+Executing command: python speedupy/setup_exp/setup.py menger_sponge_speedupy_param.py
+Executing command: python menger_sponge_speedupy_param.py 3100 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 115.52496969304048
+Executing command: python speedupy/setup_exp/setup.py menger_sponge_speedupy_param.py
+Executing command: python menger_sponge_speedupy_param.py 2400 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 69.20406418200582
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+Entering repository: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/..
+Generating random inputs: python random_input_generator.py 5 --seed -2453058782477034061
+Results: {"seed": -2453058782477034061, "inputs": [1, 2, 4, 3, 0]}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/05_menger_sponge
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py menger_sponge_speedupy_param.py
+Executing command: python menger_sponge_speedupy_param.py 4750 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 288.0264453939162
+Executing command: python speedupy/setup_exp/setup.py menger_sponge_speedupy_param.py
+Executing command: python menger_sponge_speedupy_param.py 3800 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 173.57820781692863
+Executing command: python speedupy/setup_exp/setup.py menger_sponge_speedupy_param.py
+Executing command: python menger_sponge_speedupy_param.py 2400 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 69.56680392404087
+Executing command: python speedupy/setup_exp/setup.py menger_sponge_speedupy_param.py
+Executing command: python menger_sponge_speedupy_param.py 3100 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 117.45772852003574
+Executing command: python speedupy/setup_exp/setup.py menger_sponge_speedupy_param.py
+Executing command: python menger_sponge_speedupy_param.py 5000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 302.78453509300016
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+Entering repository: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/..
+Generating random inputs: python random_input_generator.py 5 --seed -2453058782477034060
+Results: {"seed": -2453058782477034060, "inputs": [0, 3, 2, 1, 4]}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/05_menger_sponge
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py menger_sponge_speedupy_param.py
+Executing command: python menger_sponge_speedupy_param.py 5000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 292.63036904111505
+Executing command: python speedupy/setup_exp/setup.py menger_sponge_speedupy_param.py
+Executing command: python menger_sponge_speedupy_param.py 3100 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 115.54349972796626
+Executing command: python speedupy/setup_exp/setup.py menger_sponge_speedupy_param.py
+Executing command: python menger_sponge_speedupy_param.py 3800 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 173.5424120419193
+Executing command: python speedupy/setup_exp/setup.py menger_sponge_speedupy_param.py
+Executing command: python menger_sponge_speedupy_param.py 4750 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 270.9497655450832
+Executing command: python speedupy/setup_exp/setup.py menger_sponge_speedupy_param.py
+Executing command: python menger_sponge_speedupy_param.py 2400 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 69.66980285919271
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+Entering repository: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/..
+Generating random inputs: python random_input_generator.py 5 --seed -2453058782477034059
+Results: {"seed": -2453058782477034059, "inputs": [1, 4, 3, 0, 2]}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/05_menger_sponge
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py menger_sponge_speedupy_param.py
+Executing command: python menger_sponge_speedupy_param.py 4750 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 261.74293038714677
+Executing command: python speedupy/setup_exp/setup.py menger_sponge_speedupy_param.py
+Executing command: python menger_sponge_speedupy_param.py 2400 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 69.69713335484266
+Executing command: python speedupy/setup_exp/setup.py menger_sponge_speedupy_param.py
+Executing command: python menger_sponge_speedupy_param.py 3100 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 117.43860751297325
+Executing command: python speedupy/setup_exp/setup.py menger_sponge_speedupy_param.py
+Executing command: python menger_sponge_speedupy_param.py 5000 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 301.9067618541885
+Executing command: python speedupy/setup_exp/setup.py menger_sponge_speedupy_param.py
+Executing command: python menger_sponge_speedupy_param.py 3800 --exec-mode no-cache --measure-time
+TOTAL EXECUTION TIME: 171.8022407758981
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/06_eq_solver
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py eq_solver_speedupy_param.py
+Executing command: python eq_solver_speedupy_param.py 600 499976 --exec-mode no-cache --measure-time
+/app/eq_solver_speedupy_param.py:22: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+30.683671348029748
+TOTAL EXECUTION TIME: 30.68368091690354
+Executing command: python speedupy/setup_exp/setup.py eq_solver_speedupy_param.py
+Executing command: python eq_solver_speedupy_param.py 600 1000000 --exec-mode no-cache --measure-time
+/app/eq_solver_speedupy_param.py:22: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+122.61601966316812
+TOTAL EXECUTION TIME: 122.61603072402067
+Executing command: python speedupy/setup_exp/setup.py eq_solver_speedupy_param.py
+Executing command: python eq_solver_speedupy_param.py 600 1420000 --exec-mode no-cache --measure-time
+/app/eq_solver_speedupy_param.py:22: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+175.34306559409015
+TOTAL EXECUTION TIME: 175.34307657903992
+Executing command: python speedupy/setup_exp/setup.py eq_solver_speedupy_param.py
+Executing command: python eq_solver_speedupy_param.py 600 1999901 --exec-mode no-cache --measure-time
+/app/eq_solver_speedupy_param.py:22: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+241.48412435501814
+TOTAL EXECUTION TIME: 241.48413492715918
+Executing command: python speedupy/setup_exp/setup.py eq_solver_speedupy_param.py
+Executing command: python eq_solver_speedupy_param.py 600 2499851 --exec-mode no-cache --measure-time
+/app/eq_solver_speedupy_param.py:22: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+301.16312925401144
+TOTAL EXECUTION TIME: 301.1631412669085
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/06_eq_solver
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py eq_solver_speedupy_param.py
+Executing command: python eq_solver_speedupy_param.py 600 2499851 --exec-mode no-cache --measure-time
+/app/eq_solver_speedupy_param.py:22: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+293.3736213359516
+TOTAL EXECUTION TIME: 293.37363187177107
+Executing command: python speedupy/setup_exp/setup.py eq_solver_speedupy_param.py
+Executing command: python eq_solver_speedupy_param.py 600 1999901 --exec-mode no-cache --measure-time
+/app/eq_solver_speedupy_param.py:22: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+239.8173872740008
+TOTAL EXECUTION TIME: 239.81739747500978
+Executing command: python speedupy/setup_exp/setup.py eq_solver_speedupy_param.py
+Executing command: python eq_solver_speedupy_param.py 600 1420000 --exec-mode no-cache --measure-time
+/app/eq_solver_speedupy_param.py:22: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+173.5041508139111
+TOTAL EXECUTION TIME: 173.50416174600832
+Executing command: python speedupy/setup_exp/setup.py eq_solver_speedupy_param.py
+Executing command: python eq_solver_speedupy_param.py 600 1000000 --exec-mode no-cache --measure-time
+/app/eq_solver_speedupy_param.py:22: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+122.4811111970339
+TOTAL EXECUTION TIME: 122.48112120083533
+Executing command: python speedupy/setup_exp/setup.py eq_solver_speedupy_param.py
+Executing command: python eq_solver_speedupy_param.py 600 499976 --exec-mode no-cache --measure-time
+/app/eq_solver_speedupy_param.py:22: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+61.48698116187006
+TOTAL EXECUTION TIME: 61.48699145298451
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+Entering repository: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/..
+Generating random inputs: python random_input_generator.py 5 --seed -2453058782477034061
+Results: {"seed": -2453058782477034061, "inputs": [1, 2, 4, 3, 0]}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/06_eq_solver
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py eq_solver_speedupy_param.py
+Executing command: python eq_solver_speedupy_param.py 600 1999901 --exec-mode no-cache --measure-time
+/app/eq_solver_speedupy_param.py:22: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+240.84208194701932
+TOTAL EXECUTION TIME: 240.84209274384193
+Executing command: python speedupy/setup_exp/setup.py eq_solver_speedupy_param.py
+Executing command: python eq_solver_speedupy_param.py 600 1420000 --exec-mode no-cache --measure-time
+/app/eq_solver_speedupy_param.py:22: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+174.48269669595174
+TOTAL EXECUTION TIME: 174.48270709300414
+Executing command: python speedupy/setup_exp/setup.py eq_solver_speedupy_param.py
+Executing command: python eq_solver_speedupy_param.py 600 499976 --exec-mode no-cache --measure-time
+/app/eq_solver_speedupy_param.py:22: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+53.721196016995236
+TOTAL EXECUTION TIME: 53.7212053949479
+Executing command: python speedupy/setup_exp/setup.py eq_solver_speedupy_param.py
+Executing command: python eq_solver_speedupy_param.py 600 1000000 --exec-mode no-cache --measure-time
+/app/eq_solver_speedupy_param.py:22: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+122.00302252196707
+TOTAL EXECUTION TIME: 122.0030322431121
+Executing command: python speedupy/setup_exp/setup.py eq_solver_speedupy_param.py
+Executing command: python eq_solver_speedupy_param.py 600 2499851 --exec-mode no-cache --measure-time
+/app/eq_solver_speedupy_param.py:22: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+292.7383991291281
+TOTAL EXECUTION TIME: 292.73840976692736
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+Entering repository: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/..
+Generating random inputs: python random_input_generator.py 5 --seed -2453058782477034060
+Results: {"seed": -2453058782477034060, "inputs": [0, 3, 2, 1, 4]}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/06_eq_solver
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py eq_solver_speedupy_param.py
+Executing command: python eq_solver_speedupy_param.py 600 2499851 --exec-mode no-cache --measure-time
+/app/eq_solver_speedupy_param.py:22: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+292.0881640659645
+TOTAL EXECUTION TIME: 292.088175120065
+Executing command: python speedupy/setup_exp/setup.py eq_solver_speedupy_param.py
+Executing command: python eq_solver_speedupy_param.py 600 1000000 --exec-mode no-cache --measure-time
+/app/eq_solver_speedupy_param.py:22: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+122.70128734200262
+TOTAL EXECUTION TIME: 122.70129811088555
+Executing command: python speedupy/setup_exp/setup.py eq_solver_speedupy_param.py
+Executing command: python eq_solver_speedupy_param.py 600 1420000 --exec-mode no-cache --measure-time
+/app/eq_solver_speedupy_param.py:22: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+172.08344703610055
+TOTAL EXECUTION TIME: 172.0834573470056
+Executing command: python speedupy/setup_exp/setup.py eq_solver_speedupy_param.py
+Executing command: python eq_solver_speedupy_param.py 600 1999901 --exec-mode no-cache --measure-time
+/app/eq_solver_speedupy_param.py:22: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+240.77089072810486
+TOTAL EXECUTION TIME: 240.77090145996772
+Executing command: python speedupy/setup_exp/setup.py eq_solver_speedupy_param.py
+Executing command: python eq_solver_speedupy_param.py 600 499976 --exec-mode no-cache --measure-time
+/app/eq_solver_speedupy_param.py:22: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+61.10126511915587
+TOTAL EXECUTION TIME: 61.10127657512203
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+Entering repository: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/..
+Generating random inputs: python random_input_generator.py 5 --seed -2453058782477034059
+Results: {"seed": -2453058782477034059, "inputs": [1, 4, 3, 0, 2]}
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/06_eq_solver
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python speedupy/setup_exp/setup.py eq_solver_speedupy_param.py
+Executing command: python eq_solver_speedupy_param.py 600 1999901 --exec-mode no-cache --measure-time
+/app/eq_solver_speedupy_param.py:22: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+242.13765189703554
+TOTAL EXECUTION TIME: 242.13766223401763
+Executing command: python speedupy/setup_exp/setup.py eq_solver_speedupy_param.py
+Executing command: python eq_solver_speedupy_param.py 600 499976 --exec-mode no-cache --measure-time
+/app/eq_solver_speedupy_param.py:22: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+61.4176187471021
+TOTAL EXECUTION TIME: 61.417628850089386
+Executing command: python speedupy/setup_exp/setup.py eq_solver_speedupy_param.py
+Executing command: python eq_solver_speedupy_param.py 600 1000000 --exec-mode no-cache --measure-time
+/app/eq_solver_speedupy_param.py:22: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+122.4982669739984
+TOTAL EXECUTION TIME: 122.49827719805762
+Executing command: python speedupy/setup_exp/setup.py eq_solver_speedupy_param.py
+Executing command: python eq_solver_speedupy_param.py 600 2499851 --exec-mode no-cache --measure-time
+/app/eq_solver_speedupy_param.py:22: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+293.07314385008067
+TOTAL EXECUTION TIME: 293.0731541940477
+Executing command: python speedupy/setup_exp/setup.py eq_solver_speedupy_param.py
+Executing command: python eq_solver_speedupy_param.py 600 1420000 --exec-mode no-cache --measure-time
+/app/eq_solver_speedupy_param.py:22: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  F_list[i] = F_solution
+174.96862756600603
+TOTAL EXECUTION TIME: 174.96863760286942
+
+
+Erasing cache using experiments_image: rm -rf speeedupy/ .speedupy/
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Using Docker image: experiments_image
+
+Entering exp folder: cd /home/joaopedrolopez/Downloads/AvaliacaoExperimental/memoization/experiments/07_squirrel/notebooks
+Copying speedupy to exp folder: cp -r /home/joaopedrolopez/Downloads/AvaliacaoExperimental/speedupy ./
+
+
+Executing command: python simulate_mock_datacube.py; python speedupy/setup_exp/setup.py squirrel_example_param.py
+/app/simulate_mock_datacube.py:180: RuntimeWarning: divide by zero encountered in log10
+  axes[2].matshow(np.log10(point_source_light), origin="lower", vmin=-1, vmax=2)
+Datacube shape: (362, 120, 120)
+Executing command: python squirrel_example_param.py 1 --exec-mode no-cache --measure-time
+/usr/local/lib/python3.13/site-packages/squirrel/pipeline.py:11: UserWarning: ⚠️ VorBin is deprecated and superseded by PowerBin https://pypi.org/project/powerbin/ 
+  from vorbin.voronoi_2d_binning import voronoi_2d_binning
+/usr/local/lib/python3.13/site-packages/squirrel/pipeline.py:212: UserWarning: ⚠️ VorBin is deprecated and superseded by PowerBin https://pypi.org/project/powerbin/ 
+  ) = voronoi_2d_binning(
+Bin-accretion...
+190  initial bins.
+Reassign bad bins...
+185  good bins.
+Modified Lloyd algorithm...
+Iter:    1  Diff: 0.6401
+Iter:    2  Diff: 0
+1  iterations.
+Unbinned pixels: 86/317
+Fractional S/N scatter (per cent): 8.19
+Elapsed time accretion: 0.05 seconds
+Elapsed time optimization: 0.02 seconds
+  0%|          | 0/185 [00:00<?, ?it/s]  1%|          | 1/185 [00:00<00:58,  3.15it/s]  1%|          | 2/185 [00:00<00:56,  3.24it/s]  2%|▏         | 3/185 [00:00<00:55,  3.28it/s]  2%|▏         | 4/185 [00:01<00:55,  3.28it/s]  3%|▎         | 5/185 [00:01<00:54,  3.28it/s]  3%|▎         | 6/185 [00:01<00:54,  3.29it/s]  4%|▍         | 7/185 [00:02<00:53,  3.30it/s]  4%|▍         | 8/185 [00:02<00:53,  3.30it/s]  5%|▍         | 9/185 [00:02<00:53,  3.30it/s]  5%|▌         | 10/185 [00:03<00:53,  3.30it/s]  6%|▌         | 11/185 [00:03<00:52,  3.30it/s]  6%|▋         | 12/185 [00:03<00:52,  3.30it/s]  7%|▋         | 13/185 [00:03<00:52,  3.30it/s]  8%|▊         | 14/185 [00:04<00:51,  3.31it/s]  8%|▊         | 15/185 [00:04<00:51,  3.31it/s]  9%|▊         | 16/185 [00:04<00:51,  3.31it/s]  9%|▉         | 17/185 [00:05<00:50,  3.31it/s] 10%|▉         | 18/185 [00:05<00:50,  3.31it/s] 10%|█         | 19/185 [00:05<00:50,  3.31it/s] 11%|█         | 20/185 [00:06<00:49,  3.31it/s] 11%|█▏        | 21/185 [00:06<00:49,  3.31it/s] 12%|█▏        | 22/185 [00:06<00:49,  3.31it/s] 12%|█▏        | 23/185 [00:06<00:48,  3.31it/s] 13%|█▎        | 24/185 [00:07<00:48,  3.31it/s] 14%|█▎        | 25/185 [00:07<00:48,  3.30it/s] 14%|█▍        | 26/185 [00:07<00:48,  3.31it/s] 15%|█▍        | 27/185 [00:08<00:47,  3.31it/s] 15%|█▌        | 28/185 [00:08<00:47,  3.31it/s] 16%|█▌        | 29/185 [00:08<00:47,  3.31it/s] 16%|█▌        | 30/185 [00:09<00:46,  3.31it/s] 17%|█▋        | 31/185 [00:09<00:46,  3.31it/s] 17%|█▋        | 32/185 [00:09<00:46,  3.31it/s] 18%|█▊        | 33/185 [00:09<00:45,  3.32it/s] 18%|█▊        | 34/185 [00:10<00:45,  3.32it/s] 19%|█▉        | 35/185 [00:10<00:45,  3.32it/s] 19%|█▉        | 36/185 [00:10<00:44,  3.32it/s] 20%|██        | 37/185 [00:11<00:44,  3.32it/s] 21%|██        | 38/185 [00:11<00:44,  3.32it/s] 21%|██        | 39/185 [00:11<00:43,  3.32it/s] 22%|██▏       | 40/185 [00:12<00:43,  3.32it/s] 22%|██▏       | 41/185 [00:12<00:43,  3.32it/s] 23%|██▎       | 42/185 [00:12<00:43,  3.32it/s] 23%|██▎       | 43/185 [00:13<00:42,  3.32it/s] 24%|██▍       | 44/185 [00:13<00:42,  3.32it/s] 24%|██▍       | 45/185 [00:13<00:42,  3.32it/s] 25%|██▍       | 46/185 [00:13<00:41,  3.31it/s] 25%|██▌       | 47/185 [00:14<00:41,  3.31it/s] 26%|██▌       | 48/185 [00:14<00:41,  3.31it/s] 26%|██▋       | 49/185 [00:14<00:41,  3.31it/s] 27%|██▋       | 50/185 [00:15<00:40,  3.31it/s] 28%|██▊       | 51/185 [00:15<00:40,  3.31it/s] 28%|██▊       | 52/185 [00:15<00:40,  3.31it/s] 29%|██▊       | 53/185 [00:16<00:39,  3.31it/s] 29%|██▉       | 54/185 [00:16<00:39,  3.31it/s] 30%|██▉       | 55/185 [00:16<00:39,  3.31it/s] 30%|███       | 56/185 [00:16<00:38,  3.31it/s] 31%|███       | 57/185 [00:17<00:38,  3.31it/s] 31%|███▏      | 58/185 [00:17<00:38,  3.31it/s] 32%|███▏      | 59/185 [00:17<00:38,  3.31it/s] 32%|███▏      | 60/185 [00:18<00:37,  3.31it/s] 33%|███▎      | 61/185 [00:18<00:37,  3.31it/s] 34%|███▎      | 62/185 [00:18<00:37,  3.31it/s] 34%|███▍      | 63/185 [00:19<00:36,  3.31it/s] 35%|███▍      | 64/185 [00:19<00:36,  3.31it/s] 35%|███▌      | 65/185 [00:19<00:36,  3.31it/s] 36%|███▌      | 66/185 [00:19<00:35,  3.32it/s] 36%|███▌      | 67/185 [00:20<00:35,  3.32it/s] 37%|███▋      | 68/185 [00:20<00:35,  3.32it/s] 37%|███▋      | 69/185 [00:20<00:34,  3.32it/s] 38%|███▊      | 70/185 [00:21<00:34,  3.30it/s] 38%|███▊      | 71/185 [00:21<00:34,  3.31it/s] 39%|███▉      | 72/185 [00:21<00:34,  3.31it/s] 39%|███▉      | 73/185 [00:22<00:33,  3.31it/s] 40%|████      | 74/185 [00:22<00:33,  3.31it/s] 41%|████      | 75/185 [00:22<00:33,  3.31it/s] 41%|████      | 76/185 [00:22<00:32,  3.30it/s] 42%|████▏     | 77/185 [00:23<00:32,  3.30it/s] 42%|████▏     | 78/185 [00:23<00:32,  3.31it/s] 43%|████▎     | 79/185 [00:23<00:32,  3.31it/s] 43%|████▎     | 80/185 [00:24<00:31,  3.31it/s] 44%|████▍     | 81/185 [00:24<00:31,  3.31it/s] 44%|████▍     | 82/185 [00:24<00:31,  3.31it/s] 45%|████▍     | 83/185 [00:25<00:30,  3.31it/s] 45%|████▌     | 84/185 [00:25<00:30,  3.31it/s] 46%|████▌     | 85/185 [00:25<00:30,  3.31it/s] 46%|████▋     | 86/185 [00:25<00:29,  3.31it/s] 47%|████▋     | 87/185 [00:26<00:29,  3.32it/s] 48%|████▊     | 88/185 [00:26<00:29,  3.32it/s] 48%|████▊     | 89/185 [00:26<00:28,  3.31it/s] 49%|████▊     | 90/185 [00:27<00:28,  3.31it/s] 49%|████▉     | 91/185 [00:27<00:28,  3.31it/s] 50%|████▉     | 92/185 [00:27<00:28,  3.31it/s] 50%|█████     | 93/185 [00:28<00:27,  3.32it/s] 51%|█████     | 94/185 [00:28<00:27,  3.31it/s] 51%|█████▏    | 95/185 [00:28<00:27,  3.31it/s] 52%|█████▏    | 96/185 [00:29<00:26,  3.32it/s] 52%|█████▏    | 97/185 [00:29<00:26,  3.32it/s] 53%|█████▎    | 98/185 [00:29<00:26,  3.32it/s] 54%|█████▎    | 99/185 [00:29<00:25,  3.32it/s] 54%|█████▍    | 100/185 [00:30<00:25,  3.32it/s] 55%|█████▍    | 101/185 [00:30<00:25,  3.32it/s] 55%|█████▌    | 102/185 [00:30<00:24,  3.32it/s] 56%|█████▌    | 103/185 [00:31<00:24,  3.31it/s] 56%|█████▌    | 104/185 [00:31<00:24,  3.30it/s] 57%|█████▋    | 105/185 [00:31<00:24,  3.29it/s] 57%|█████▋    | 106/185 [00:32<00:23,  3.30it/s] 58%|█████▊    | 107/185 [00:32<00:23,  3.30it/s] 58%|█████▊    | 108/185 [00:32<00:23,  3.31it/s] 59%|█████▉    | 109/185 [00:32<00:22,  3.31it/s] 59%|█████▉    | 110/185 [00:33<00:22,  3.31it/s] 60%|██████    | 111/185 [00:33<00:22,  3.31it/s] 61%|██████    | 112/185 [00:33<00:22,  3.31it/s] 61%|██████    | 113/185 [00:34<00:21,  3.31it/s] 62%|██████▏   | 114/185 [00:34<00:21,  3.31it/s] 62%|██████▏   | 115/185 [00:34<00:21,  3.31it/s] 63%|██████▎   | 116/185 [00:35<00:20,  3.31it/s] 63%|██████▎   | 117/185 [00:35<00:20,  3.31it/s] 64%|██████▍   | 118/185 [00:35<00:20,  3.31it/s] 64%|██████▍   | 119/185 [00:35<00:19,  3.31it/s] 65%|██████▍   | 120/185 [00:36<00:19,  3.31it/s] 65%|██████▌   | 121/185 [00:36<00:19,  3.31it/s] 66%|██████▌   | 122/185 [00:36<00:19,  3.31it/s] 66%|██████▋   | 123/185 [00:37<00:18,  3.32it/s] 67%|██████▋   | 124/185 [00:37<00:18,  3.32it/s] 68%|██████▊   | 125/185 [00:37<00:18,  3.31it/s] 68%|██████▊   | 126/185 [00:38<00:17,  3.32it/s] 69%|██████▊   | 127/185 [00:38<00:17,  3.31it/s] 69%|██████▉   | 128/185 [00:38<00:17,  3.31it/s] 70%|██████▉   | 129/185 [00:38<00:16,  3.31it/s] 70%|███████   | 130/185 [00:39<00:16,  3.31it/s] 71%|███████   | 131/185 [00:39<00:16,  3.31it/s] 71%|███████▏  | 132/185 [00:39<00:15,  3.31it/s] 72%|███████▏  | 133/185 [00:40<00:15,  3.31it/s] 72%|███████▏  | 134/185 [00:40<00:15,  3.31it/s] 73%|███████▎  | 135/185 [00:40<00:15,  3.31it/s] 74%|███████▎  | 136/185 [00:41<00:14,  3.31it/s] 74%|███████▍  | 137/185 [00:41<00:14,  3.30it/s] 75%|███████▍  | 138/185 [00:41<00:14,  3.30it/s] 75%|███████▌  | 139/185 [00:41<00:13,  3.30it/s] 76%|███████▌  | 140/185 [00:42<00:13,  3.30it/s] 76%|███████▌  | 141/185 [00:42<00:13,  3.31it/s] 77%|███████▋  | 142/185 [00:42<00:12,  3.31it/s] 77%|███████▋  | 143/185 [00:43<00:12,  3.31it/s] 78%|███████▊  | 144/185 [00:43<00:12,  3.31it/s] 78%|███████▊  | 145/185 [00:43<00:12,  3.32it/s] 79%|███████▉  | 146/185 [00:44<00:11,  3.32it/s] 79%|███████▉  | 147/185 [00:44<00:11,  3.32it/s] 80%|████████  | 148/185 [00:44<00:11,  3.31it/s] 81%|████████  | 149/185 [00:45<00:10,  3.31it/s] 81%|████████  | 150/185 [00:45<00:10,  3.31it/s] 82%|████████▏ | 151/185 [00:45<00:10,  3.31it/s] 82%|████████▏ | 152/185 [00:45<00:09,  3.31it/s] 83%|████████▎ | 153/185 [00:46<00:09,  3.31it/s] 83%|████████▎ | 154/185 [00:46<00:09,  3.30it/s] 84%|████████▍ | 155/185 [00:46<00:09,  3.31it/s] 84%|████████▍ | 156/185 [00:47<00:08,  3.30it/s] 85%|████████▍ | 157/185 [00:47<00:08,  3.30it/s] 85%|████████▌ | 158/185 [00:47<00:08,  3.30it/s] 86%|████████▌ | 159/185 [00:48<00:07,  3.30it/s] 86%|████████▋ | 160/185 [00:48<00:07,  3.30it/s] 87%|████████▋ | 161/185 [00:48<00:07,  3.31it/s] 88%|████████▊ | 162/185 [00:48<00:06,  3.31it/s] 88%|████████▊ | 163/185 [00:49<00:06,  3.31it/s] 89%|████████▊ | 164/185 [00:49<00:06,  3.31it/s] 89%|████████▉ | 165/185 [00:49<00:06,  3.31it/s] 90%|████████▉ | 166/185 [00:50<00:05,  3.31it/s] 90%|█████████ | 167/185 [00:50<00:05,  3.31it/s] 91%|█████████ | 168/185 [00:50<00:05,  3.32it/s] 91%|█████████▏| 169/185 [00:51<00:04,  3.32it/s] 92%|█████████▏| 170/185 [00:51<00:04,  3.31it/s] 92%|█████████▏| 171/185 [00:51<00:04,  3.30it/s] 93%|█████████▎| 172/185 [00:51<00:03,  3.29it/s] 94%|█████████▎| 173/185 [00:52<00:03,  3.30it/s] 94%|█████████▍| 174/185 [00:52<00:03,  3.30it/s] 95%|█████████▍| 175/185 [00:52<00:03,  3.31it/s] 95%|█████████▌| 176/185 [00:53<00:02,  3.31it/s] 96%|█████████▌| 177/185 [00:53<00:02,  3.31it/s] 96%|█████████▌| 178/185 [00:53<00:02,  3.31it/s] 97%|█████████▋| 179/185 [00:54<00:01,  3.31it/s] 97%|█████████▋| 180/185 [00:54<00:01,  3.31it/s] 98%|█████████▊| 181/185 [00:54<00:01,  3.30it/s] 98%|█████████▊| 182/185 [00:54<00:00,  3.29it/s] 99%|█████████▉| 183/185 [00:55<00:00,  3.30it/s] 99%|█████████▉| 184/185 [00:55<00:00,  3.31it/s]100%|██████████| 185/185 [00:55<00:00,  3.31it/s]100%|██████████| 185/185 [00:55<00:00,  3.31it/s]
+(1040, 150)
+TOTAL EXECUTION TIME: 69.83159887604415
+Executing command: python simulate_mock_datacube.py; python speedupy/setup_exp/setup.py squirrel_example_param.py
+/app/simulate_mock_datacube.py:180: RuntimeWarning: divide by zero encountered in log10
+  axes[2].matshow(np.log10(point_source_light), origin="lower", vmin=-1, vmax=2)
+Datacube shape: (362, 120, 120)
+Executing command: python squirrel_example_param.py 17 --exec-mode no-cache --measure-time
+/usr/local/lib/python3.13/site-packages/squirrel/pipeline.py:11: UserWarning: ⚠️ VorBin is deprecated and superseded by PowerBin https://pypi.org/project/powerbin/ 
+  from vorbin.voronoi_2d_binning import voronoi_2d_binning
+/usr/local/lib/python3.13/site-packages/squirrel/pipeline.py:212: UserWarning: ⚠️ VorBin is deprecated and superseded by PowerBin https://pypi.org/project/powerbin/ 
+  ) = voronoi_2d_binning(
+Bin-accretion...
+190  initial bins.
+Reassign bad bins...
+185  good bins.
+Modified Lloyd algorithm...
+Iter:    1  Diff: 0.6401
+Iter:    2  Diff: 0
+1  iterations.
+Unbinned pixels: 86/317
+Fractional S/N scatter (per cent): 8.19
+Elapsed time accretion: 0.05 seconds
+Elapsed time optimization: 0.02 seconds
+  0%|          | 0/185 [00:00<?, ?it/s]  1%|          | 1/185 [00:00<00:58,  3.13it/s]  1%|          | 2/185 [00:00<00:56,  3.21it/s]  2%|▏         | 3/185 [00:00<00:56,  3.24it/s]  2%|▏         | 4/185 [00:01<00:55,  3.25it/s]  3%|▎         | 5/185 [00:01<00:55,  3.26it/s]  3%|▎         | 6/185 [00:01<00:54,  3.27it/s]  4%|▍         | 7/185 [00:02<00:54,  3.27it/s]  4%|▍         | 8/185 [00:02<00:54,  3.27it/s]  5%|▍         | 9/185 [00:02<00:53,  3.27it/s]  5%|▌         | 10/185 [00:03<00:53,  3.27it/s]  6%|▌         | 11/185 [00:03<00:53,  3.27it/s]  6%|▋         | 12/185 [00:03<00:52,  3.28it/s]  7%|▋         | 13/185 [00:03<00:52,  3.26it/s]  8%|▊         | 14/185 [00:04<00:52,  3.27it/s]  8%|▊         | 15/185 [00:04<00:52,  3.27it/s]  9%|▊         | 16/185 [00:04<00:51,  3.27it/s]  9%|▉         | 17/185 [00:05<00:51,  3.28it/s] 10%|▉         | 18/185 [00:05<00:50,  3.28it/s] 10%|█         | 19/185 [00:05<00:50,  3.28it/s] 11%|█         | 20/185 [00:06<00:50,  3.28it/s] 11%|█▏        | 21/185 [00:06<00:50,  3.27it/s] 12%|█▏        | 22/185 [00:06<00:49,  3.28it/s] 12%|█▏        | 23/185 [00:07<00:49,  3.28it/s] 13%|█▎        | 24/185 [00:07<00:49,  3.28it/s] 14%|█▎        | 25/185 [00:07<00:48,  3.28it/s] 14%|█▍        | 26/185 [00:07<00:48,  3.28it/s] 15%|█▍        | 27/185 [00:08<00:48,  3.27it/s] 15%|█▌        | 28/185 [00:08<00:47,  3.27it/s] 16%|█▌        | 29/185 [00:08<00:47,  3.27it/s] 16%|█▌        | 30/185 [00:09<00:47,  3.27it/s] 17%|█▋        | 31/185 [00:09<00:47,  3.27it/s] 17%|█▋        | 32/185 [00:09<00:46,  3.27it/s] 18%|█▊        | 33/185 [00:10<00:46,  3.27it/s] 18%|█▊        | 34/185 [00:10<00:46,  3.27it/s] 19%|█▉        | 35/185 [00:10<00:45,  3.28it/s] 19%|█▉        | 36/185 [00:11<00:45,  3.27it/s] 20%|██        | 37/185 [00:11<00:45,  3.27it/s] 21%|██        | 38/185 [00:11<00:44,  3.27it/s] 21%|██        | 39/185 [00:11<00:44,  3.27it/s] 22%|██▏       | 40/185 [00:12<00:44,  3.27it/s] 22%|██▏       | 41/185 [00:12<00:44,  3.27it/s] 23%|██▎       | 42/185 [00:12<00:43,  3.25it/s] 23%|██▎       | 43/185 [00:13<00:43,  3.26it/s] 24%|██▍       | 44/185 [00:13<00:43,  3.26it/s] 24%|██▍       | 45/185 [00:13<00:42,  3.26it/s] 25%|██▍       | 46/185 [00:14<00:42,  3.27it/s] 25%|██▌       | 47/185 [00:14<00:42,  3.26it/s] 26%|██▌       | 48/185 [00:14<00:41,  3.26it/s] 26%|██▋       | 49/185 [00:14<00:41,  3.27it/s] 27%|██▋       | 50/185 [00:15<00:41,  3.27it/s] 28%|██▊       | 51/185 [00:15<00:40,  3.28it/s] 28%|██▊       | 52/185 [00:15<00:40,  3.28it/s] 29%|██▊       | 53/185 [00:16<00:40,  3.28it/s] 29%|██▉       | 54/185 [00:16<00:39,  3.28it/s] 30%|██▉       | 55/185 [00:16<00:39,  3.28it/s] 30%|███       | 56/185 [00:17<00:39,  3.28it/s] 31%|███       | 57/185 [00:17<00:38,  3.29it/s] 31%|███▏      | 58/185 [00:17<00:38,  3.29it/s] 32%|███▏      | 59/185 [00:18<00:38,  3.29it/s] 32%|███▏      | 60/185 [00:18<00:37,  3.29it/s] 33%|███▎      | 61/185 [00:18<00:37,  3.29it/s] 34%|███▎      | 62/185 [00:18<00:37,  3.29it/s] 34%|███▍      | 63/185 [00:19<00:37,  3.28it/s] 35%|███▍      | 64/185 [00:19<00:36,  3.28it/s] 35%|███▌      | 65/185 [00:19<00:36,  3.29it/s] 36%|███▌      | 66/185 [00:20<00:36,  3.28it/s] 36%|███▌      | 67/185 [00:20<00:35,  3.28it/s] 37%|███▋      | 68/185 [00:20<00:35,  3.28it/s] 37%|███▋      | 69/185 [00:21<00:35,  3.28it/s] 38%|███▊      | 70/185 [00:21<00:35,  3.28it/s] 38%|███▊      | 71/185 [00:21<00:34,  3.28it/s] 39%|███▉      | 72/185 [00:21<00:34,  3.28it/s] 39%|███▉      | 73/185 [00:22<00:34,  3.28it/s] 40%|████      | 74/185 [00:22<00:33,  3.28it/s] 41%|████      | 75/185 [00:22<00:33,  3.28it/s] 41%|████      | 76/185 [00:23<00:33,  3.28it/s] 42%|████▏     | 77/185 [00:23<00:32,  3.28it/s] 42%|████▏     | 78/185 [00:23<00:32,  3.27it/s] 43%|████▎     | 79/185 [00:24<00:32,  3.28it/s] 43%|████▎     | 80/185 [00:24<00:32,  3.28it/s] 44%|████▍     | 81/185 [00:24<00:31,  3.28it/s] 44%|████▍     | 82/185 [00:25<00:31,  3.27it/s] 45%|████▍     | 83/185 [00:25<00:31,  3.28it/s] 45%|████▌     | 84/185 [00:25<00:30,  3.28it/s] 46%|████▌     | 85/185 [00:25<00:30,  3.28it/s] 46%|████▋     | 86/185 [00:26<00:30,  3.28it/s] 47%|████▋     | 87/185 [00:26<00:29,  3.28it/s] 48%|████▊     | 88/185 [00:26<00:29,  3.28it/s] 48%|████▊     | 89/185 [00:27<00:29,  3.28it/s] 49%|████▊     | 90/185 [00:27<00:29,  3.27it/s] 49%|████▉     | 91/185 [00:27<00:28,  3.27it/s] 50%|████▉     | 92/185 [00:28<00:28,  3.27it/s] 50%|█████     | 93/185 [00:28<00:28,  3.27it/s] 51%|█████     | 94/185 [00:28<00:27,  3.28it/s] 51%|█████▏    | 95/185 [00:29<00:27,  3.28it/s] 52%|█████▏    | 96/185 [00:29<00:27,  3.28it/s] 52%|█████▏    | 97/185 [00:29<00:26,  3.28it/s] 53%|█████▎    | 98/185 [00:29<00:26,  3.28it/s] 54%|█████▎    | 99/185 [00:30<00:26,  3.28it/s] 54%|█████▍    | 100/185 [00:30<00:25,  3.28it/s] 55%|█████▍    | 101/185 [00:30<00:25,  3.28it/s] 55%|█████▌    | 102/185 [00:31<00:25,  3.28it/s] 56%|█████▌    | 103/185 [00:31<00:25,  3.28it/s] 56%|█████▌    | 104/185 [00:31<00:24,  3.28it/s] 57%|█████▋    | 105/185 [00:32<00:24,  3.28it/s] 57%|█████▋    | 106/185 [00:32<00:24,  3.28it/s] 58%|█████▊    | 107/185 [00:32<00:23,  3.27it/s] 58%|█████▊    | 108/185 [00:32<00:23,  3.28it/s] 59%|█████▉    | 109/185 [00:33<00:23,  3.28it/s] 59%|█████▉    | 110/185 [00:33<00:22,  3.28it/s] 60%|██████    | 111/185 [00:33<00:22,  3.28it/s] 61%|██████    | 112/185 [00:34<00:22,  3.28it/s] 61%|██████    | 113/185 [00:34<00:21,  3.28it/s] 62%|██████▏   | 114/185 [00:34<00:21,  3.28it/s] 62%|██████▏   | 115/185 [00:35<00:21,  3.28it/s] 63%|██████▎   | 116/185 [00:35<00:21,  3.28it/s] 63%|██████▎   | 117/185 [00:35<00:20,  3.29it/s] 64%|██████▍   | 118/185 [00:36<00:20,  3.29it/s] 64%|██████▍   | 119/185 [00:36<00:20,  3.29it/s] 65%|██████▍   | 120/185 [00:36<00:19,  3.29it/s] 65%|██████▌   | 121/185 [00:36<00:19,  3.28it/s] 66%|██████▌   | 122/185 [00:37<00:19,  3.28it/s] 66%|██████▋   | 123/185 [00:37<00:18,  3.28it/s] 67%|██████▋   | 124/185 [00:37<00:18,  3.27it/s] 68%|██████▊   | 125/185 [00:38<00:18,  3.27it/s] 68%|██████▊   | 126/185 [00:38<00:18,  3.27it/s] 69%|██████▊   | 127/185 [00:38<00:17,  3.28it/s] 69%|██████▉   | 128/185 [00:39<00:17,  3.28it/s] 70%|██████▉   | 129/185 [00:39<00:17,  3.28it/s] 70%|███████   | 130/185 [00:39<00:16,  3.28it/s] 71%|███████   | 131/185 [00:39<00:16,  3.27it/s] 71%|███████▏  | 132/185 [00:40<00:16,  3.28it/s] 72%|███████▏  | 133/185 [00:40<00:15,  3.27it/s] 72%|███████▏  | 134/185 [00:40<00:15,  3.28it/s] 73%|███████▎  | 135/185 [00:41<00:15,  3.27it/s] 74%|███████▎  | 136/185 [00:41<00:14,  3.27it/s] 74%|███████▍  | 137/185 [00:41<00:14,  3.27it/s] 75%|███████▍  | 138/185 [00:42<00:14,  3.27it/s] 75%|███████▌  | 139/185 [00:42<00:14,  3.27it/s] 76%|███████▌  | 140/185 [00:42<00:13,  3.28it/s] 76%|███████▌  | 141/185 [00:43<00:13,  3.28it/s] 77%|███████▋  | 142/185 [00:43<00:13,  3.27it/s] 77%|███████▋  | 143/185 [00:43<00:12,  3.28it/s] 78%|███████▊  | 144/185 [00:43<00:12,  3.28it/s] 78%|███████▊  | 145/185 [00:44<00:12,  3.28it/s] 79%|███████▉  | 146/185 [00:44<00:11,  3.28it/s] 79%|███████▉  | 147/185 [00:44<00:11,  3.28it/s] 80%|████████  | 148/185 [00:45<00:11,  3.28it/s] 81%|████████  | 149/185 [00:45<00:10,  3.28it/s] 81%|████████  | 150/185 [00:45<00:10,  3.28it/s] 82%|████████▏ | 151/185 [00:46<00:10,  3.28it/s] 82%|████████▏ | 152/185 [00:46<00:10,  3.28it/s] 83%|████████▎ | 153/185 [00:46<00:09,  3.28it/s] 83%|████████▎ | 154/185 [00:47<00:09,  3.28it/s] 84%|████████▍ | 155/185 [00:47<00:09,  3.28it/s] 84%|████████▍ | 156/185 [00:47<00:08,  3.29it/s] 85%|████████▍ | 157/185 [00:47<00:08,  3.29it/s] 85%|████████▌ | 158/185 [00:48<00:08,  3.28it/s] 86%|████████▌ | 159/185 [00:48<00:07,  3.28it/s] 86%|████████▋ | 160/185 [00:48<00:07,  3.28it/s] 87%|████████▋ | 161/185 [00:49<00:07,  3.27it/s] 88%|████████▊ | 162/185 [00:49<00:07,  3.27it/s] 88%|████████▊ | 163/185 [00:49<00:06,  3.28it/s] 89%|████████▊ | 164/185 [00:50<00:06,  3.28it/s] 89%|████████▉ | 165/185 [00:50<00:06,  3.28it/s] 90%|████████▉ | 166/185 [00:50<00:05,  3.26it/s] 90%|█████████ | 167/185 [00:50<00:05,  3.26it/s] 91%|█████████ | 168/185 [00:51<00:05,  3.26it/s] 91%|█████████▏| 169/185 [00:51<00:04,  3.26it/s] 92%|█████████▏| 170/185 [00:51<00:04,  3.27it/s] 92%|█████████▏| 171/185 [00:52<00:04,  3.27it/s] 93%|█████████▎| 172/185 [00:52<00:03,  3.27it/s] 94%|█████████▎| 173/185 [00:52<00:03,  3.27it/s] 94%|█████████▍| 174/185 [00:53<00:03,  3.25it/s] 95%|█████████▍| 175/185 [00:53<00:03,  3.24it/s] 95%|█████████▌| 176/185 [00:53<00:02,  3.25it/s] 96%|█████████▌| 177/185 [00:54<00:02,  3.26it/s] 96%|█████████▌| 178/185 [00:54<00:02,  3.26it/s] 97%|█████████▋| 179/185 [00:54<00:01,  3.25it/s] 97%|█████████▋| 180/185 [00:54<00:01,  3.26it/s] 98%|█████████▊| 181/185 [00:55<00:01,  3.26it/s] 98%|█████████▊| 182/185 [00:55<00:00,  3.27it/s] 99%|█████████▉| 183/185 [00:55<00:00,  3.27it/s] 99%|█████████▉| 184/185 [00:56<00:00,  3.27it/s]100%|██████████| 185/185 [00:56<00:00,  3.27it/s]100%|██████████| 185/185 [00:56<00:00,  3.27it/s]
+/usr/local/lib/python3.13/site-packages/capfit/capfit.py:802: RuntimeWarning: invalid value encountered in scalar divide
+  ratio = actred/prered
+(1040, 150)
+TOTAL EXECUTION TIME: 124.28305794904009
+Executing command: python simulate_mock_datacube.py; python speedupy/setup_exp/setup.py squirrel_example_param.py
+/app/simulate_mock_datacube.py:180: RuntimeWarning: divide by zero encountered in log10
+  axes[2].matshow(np.log10(point_source_light), origin="lower", vmin=-1, vmax=2)
+Datacube shape: (362, 120, 120)
+Executing command: python squirrel_example_param.py 33 --exec-mode no-cache --measure-time
+/usr/local/lib/python3.13/site-packages/squirrel/pipeline.py:11: UserWarning: ⚠️ VorBin is deprecated and superseded by PowerBin https://pypi.org/project/powerbin/ 
+  from vorbin.voronoi_2d_binning import voronoi_2d_binning
+/usr/local/lib/python3.13/site-packages/squirrel/pipeline.py:212: UserWarning: ⚠️ VorBin is deprecated and superseded by PowerBin https://pypi.org/project/powerbin/ 
+  ) = voronoi_2d_binning(
+  0%|          | 0/185 [00:00<?, ?it/s]Bin-accretion...
+190  initial bins.
+Reassign bad bins...
+185  good bins.
+Modified Lloyd algorithm...
+Iter:    1  Diff: 0.6401
+Iter:    2  Diff: 0
+1  iterations.
+Unbinned pixels: 86/317
+Fractional S/N scatter (per cent): 8.19
+Elapsed time accretion: 0.05 seconds
+Elapsed time optimization: 0.02 seconds
+  1%|          | 1/185 [00:00<00:59,  3.09it/s]  1%|          | 2/185 [00:00<00:57,  3.20it/s]  2%|▏         | 3/185 [00:00<00:56,  3.23it/s]  2%|▏         | 4/185 [00:01<00:55,  3.25it/s]  3%|▎         | 5/185 [00:01<00:55,  3.26it/s]  3%|▎         | 6/185 [00:01<00:54,  3.27it/s]  4%|▍         | 7/185 [00:02<00:54,  3.27it/s]  4%|▍         | 8/185 [00:02<00:54,  3.27it/s]  5%|▍         | 9/185 [00:02<00:53,  3.27it/s]  5%|▌         | 10/185 [00:03<00:53,  3.28it/s]  6%|▌         | 11/185 [00:03<00:53,  3.27it/s]  6%|▋         | 12/185 [00:03<00:52,  3.27it/s]  7%|▋         | 13/185 [00:03<00:52,  3.27it/s]  8%|▊         | 14/185 [00:04<00:52,  3.27it/s]  8%|▊         | 15/185 [00:04<00:51,  3.27it/s]  9%|▊         | 16/185 [00:04<00:51,  3.28it/s]  9%|▉         | 17/185 [00:05<00:51,  3.28it/s] 10%|▉         | 18/185 [00:05<00:50,  3.28it/s] 10%|█         | 19/185 [00:05<00:50,  3.28it/s] 11%|█         | 20/185 [00:06<00:50,  3.28it/s] 11%|█▏        | 21/185 [00:06<00:50,  3.28it/s] 12%|█▏        | 22/185 [00:06<00:49,  3.28it/s] 12%|█▏        | 23/185 [00:07<00:49,  3.28it/s] 13%|█▎        | 24/185 [00:07<00:49,  3.28it/s] 14%|█▎        | 25/185 [00:07<00:48,  3.29it/s] 14%|█▍        | 26/185 [00:07<00:48,  3.29it/s] 15%|█▍        | 27/185 [00:08<00:48,  3.28it/s] 15%|█▌        | 28/185 [00:08<00:47,  3.28it/s] 16%|█▌        | 29/185 [00:08<00:47,  3.28it/s] 16%|█▌        | 30/185 [00:09<00:47,  3.28it/s] 17%|█▋        | 31/185 [00:09<00:46,  3.28it/s] 17%|█▋        | 32/185 [00:09<00:46,  3.28it/s] 18%|█▊        | 33/185 [00:10<00:46,  3.28it/s] 18%|█▊        | 34/185 [00:10<00:45,  3.28it/s] 19%|█▉        | 35/185 [00:10<00:45,  3.28it/s] 19%|█▉        | 36/185 [00:10<00:45,  3.28it/s] 20%|██        | 37/185 [00:11<00:45,  3.28it/s] 21%|██        | 38/185 [00:11<00:44,  3.28it/s] 21%|██        | 39/185 [00:11<00:44,  3.28it/s] 22%|██▏       | 40/185 [00:12<00:44,  3.28it/s] 22%|██▏       | 41/185 [00:12<00:43,  3.28it/s] 23%|██▎       | 42/185 [00:12<00:43,  3.28it/s] 23%|██▎       | 43/185 [00:13<00:43,  3.28it/s] 24%|██▍       | 44/185 [00:13<00:42,  3.28it/s] 24%|██▍       | 45/185 [00:13<00:42,  3.28it/s] 25%|██▍       | 46/185 [00:14<00:42,  3.28it/s] 25%|██▌       | 47/185 [00:14<00:42,  3.28it/s] 26%|██▌       | 48/185 [00:14<00:41,  3.28it/s] 26%|██▋       | 49/185 [00:14<00:41,  3.28it/s] 27%|██▋       | 50/185 [00:15<00:41,  3.28it/s] 28%|██▊       | 51/185 [00:15<00:40,  3.28it/s] 28%|██▊       | 52/185 [00:15<00:40,  3.28it/s] 29%|██▊       | 53/185 [00:16<00:40,  3.29it/s] 29%|██▉       | 54/185 [00:16<00:39,  3.29it/s] 30%|██▉       | 55/185 [00:16<00:39,  3.29it/s] 30%|███       | 56/185 [00:17<00:39,  3.28it/s] 31%|███       | 57/185 [00:17<00:38,  3.28it/s] 31%|███▏      | 58/185 [00:17<00:38,  3.28it/s] 32%|███▏      | 59/185 [00:18<00:38,  3.29it/s] 32%|███▏      | 60/185 [00:18<00:38,  3.28it/s] 33%|███▎      | 61/185 [00:18<00:37,  3.29it/s] 34%|███▎      | 62/185 [00:18<00:37,  3.29it/s] 34%|███▍      | 63/185 [00:19<00:37,  3.28it/s] 35%|███▍      | 64/185 [00:19<00:36,  3.28it/s] 35%|███▌      | 65/185 [00:19<00:36,  3.29it/s] 36%|███▌      | 66/185 [00:20<00:36,  3.29it/s] 36%|███▌      | 67/185 [00:20<00:35,  3.29it/s] 37%|███▋      | 68/185 [00:20<00:35,  3.28it/s] 37%|███▋      | 69/185 [00:21<00:35,  3.29it/s] 38%|███▊      | 70/185 [00:21<00:35,  3.28it/s] 38%|███▊      | 71/185 [00:21<00:34,  3.29it/s] 39%|███▉      | 72/185 [00:21<00:34,  3.28it/s] 39%|███▉      | 73/185 [00:22<00:34,  3.29it/s] 40%|████      | 74/185 [00:22<00:33,  3.28it/s] 41%|████      | 75/185 [00:22<00:33,  3.28it/s] 41%|████      | 76/185 [00:23<00:33,  3.28it/s] 42%|████▏     | 77/185 [00:23<00:32,  3.28it/s] 42%|████▏     | 78/185 [00:23<00:32,  3.27it/s] 43%|████▎     | 79/185 [00:24<00:32,  3.28it/s] 43%|████▎     | 80/185 [00:24<00:32,  3.27it/s] 44%|████▍     | 81/185 [00:24<00:31,  3.28it/s] 44%|████▍     | 82/185 [00:25<00:31,  3.28it/s] 45%|████▍     | 83/185 [00:25<00:31,  3.28it/s] 45%|████▌     | 84/185 [00:25<00:30,  3.28it/s] 46%|████▌     | 85/185 [00:25<00:30,  3.28it/s] 46%|████▋     | 86/185 [00:26<00:30,  3.28it/s] 47%|████▋     | 87/185 [00:26<00:29,  3.29it/s] 48%|████▊     | 88/185 [00:26<00:29,  3.29it/s] 48%|████▊     | 89/185 [00:27<00:29,  3.29it/s] 49%|████▊     | 90/185 [00:27<00:28,  3.29it/s] 49%|████▉     | 91/185 [00:27<00:28,  3.29it/s] 50%|████▉     | 92/185 [00:28<00:28,  3.29it/s] 50%|█████     | 93/185 [00:28<00:28,  3.28it/s] 51%|█████     | 94/185 [00:28<00:27,  3.28it/s] 51%|█████▏    | 95/185 [00:28<00:27,  3.29it/s] 52%|█████▏    | 96/185 [00:29<00:27,  3.28it/s] 52%|█████▏    | 97/185 [00:29<00:26,  3.29it/s] 53%|█████▎    | 98/185 [00:29<00:26,  3.29it/s] 54%|█████▎    | 99/185 [00:30<00:26,  3.29it/s] 54%|█████▍    | 100/185 [00:30<00:25,  3.29it/s] 55%|█████▍    | 101/185 [00:30<00:25,  3.29it/s] 55%|█████▌    | 102/185 [00:31<00:25,  3.29it/s] 56%|█████▌    | 103/185 [00:31<00:24,  3.29it/s] 56%|█████▌    | 104/185 [00:31<00:24,  3.27it/s] 57%|█████▋    | 105/185 [00:32<00:24,  3.27it/s] 57%|█████▋    | 106/185 [00:32<00:24,  3.28it/s] 58%|█████▊    | 107/185 [00:32<00:23,  3.28it/s] 58%|█████▊    | 108/185 [00:32<00:23,  3.28it/s] 59%|█████▉    | 109/185 [00:33<00:23,  3.28it/s] 59%|█████▉    | 110/185 [00:33<00:22,  3.28it/s] 60%|██████    | 111/185 [00:33<00:22,  3.29it/s] 61%|██████    | 112/185 [00:34<00:22,  3.28it/s] 61%|██████    | 113/185 [00:34<00:21,  3.28it/s] 62%|██████▏   | 114/185 [00:34<00:21,  3.28it/s] 62%|██████▏   | 115/185 [00:35<00:21,  3.29it/s] 63%|██████▎   | 116/185 [00:35<00:20,  3.29it/s] 63%|██████▎   | 117/185 [00:35<00:20,  3.28it/s] 64%|██████▍   | 118/185 [00:35<00:20,  3.28it/s] 64%|██████▍   | 119/185 [00:36<00:20,  3.28it/s] 65%|██████▍   | 120/185 [00:36<00:19,  3.28it/s] 65%|██████▌   | 121/185 [00:36<00:19,  3.28it/s] 66%|██████▌   | 122/185 [00:37<00:19,  3.28it/s] 66%|██████▋   | 123/185 [00:37<00:18,  3.28it/s] 67%|██████▋   | 124/185 [00:37<00:18,  3.28it/s] 68%|██████▊   | 125/185 [00:38<00:18,  3.19it/s] 68%|██████▊   | 126/185 [00:38<00:18,  3.13it/s] 69%|██████▊   | 127/185 [00:38<00:18,  3.08it/s] 69%|██████▉   | 128/185 [00:39<00:18,  3.05it/s] 70%|██████▉   | 129/185 [00:39<00:18,  3.03it/s] 70%|███████   | 130/185 [00:39<00:18,  3.02it/s] 71%|███████   | 131/185 [00:40<00:17,  3.02it/s] 71%|███████▏  | 132/185 [00:40<00:17,  3.09it/s] 72%|███████▏  | 133/185 [00:40<00:16,  3.15it/s] 72%|███████▏  | 134/185 [00:41<00:15,  3.19it/s] 73%|███████▎  | 135/185 [00:41<00:15,  3.22it/s] 74%|███████▎  | 136/185 [00:41<00:15,  3.24it/s] 74%|███████▍  | 137/185 [00:41<00:14,  3.26it/s] 75%|███████▍  | 138/185 [00:42<00:14,  3.27it/s] 75%|███████▌  | 139/185 [00:42<00:14,  3.28it/s] 76%|███████▌  | 140/185 [00:42<00:13,  3.28it/s] 76%|███████▌  | 141/185 [00:43<00:13,  3.28it/s] 77%|███████▋  | 142/185 [00:43<00:13,  3.28it/s] 77%|███████▋  | 143/185 [00:43<00:12,  3.28it/s] 78%|███████▊  | 144/185 [00:44<00:12,  3.28it/s] 78%|███████▊  | 145/185 [00:44<00:12,  3.28it/s] 79%|███████▉  | 146/185 [00:44<00:11,  3.28it/s] 79%|███████▉  | 147/185 [00:45<00:11,  3.28it/s] 80%|████████  | 148/185 [00:45<00:11,  3.28it/s] 81%|████████  | 149/185 [00:45<00:10,  3.28it/s] 81%|████████  | 150/185 [00:45<00:10,  3.28it/s] 82%|████████▏ | 151/185 [00:46<00:10,  3.28it/s] 82%|████████▏ | 152/185 [00:46<00:10,  3.29it/s] 83%|████████▎ | 153/185 [00:46<00:09,  3.28it/s] 83%|████████▎ | 154/185 [00:47<00:09,  3.29it/s] 84%|████████▍ | 155/185 [00:47<00:09,  3.29it/s] 84%|████████▍ | 156/185 [00:47<00:08,  3.28it/s] 85%|████████▍ | 157/185 [00:48<00:08,  3.29it/s] 85%|████████▌ | 158/185 [00:48<00:08,  3.29it/s] 86%|████████▌ | 159/185 [00:48<00:07,  3.28it/s] 86%|████████▋ | 160/185 [00:48<00:07,  3.28it/s] 87%|████████▋ | 161/185 [00:49<00:07,  3.28it/s] 88%|████████▊ | 162/185 [00:49<00:07,  3.28it/s] 88%|████████▊ | 163/185 [00:49<00:06,  3.28it/s] 89%|████████▊ | 164/185 [00:50<00:06,  3.28it/s] 89%|████████▉ | 165/185 [00:50<00:06,  3.28it/s] 90%|████████▉ | 166/185 [00:50<00:05,  3.28it/s] 90%|█████████ | 167/185 [00:51<00:05,  3.28it/s] 91%|█████████ | 168/185 [00:51<00:05,  3.28it/s] 91%|█████████▏| 169/185 [00:51<00:04,  3.29it/s] 92%|█████████▏| 170/185 [00:52<00:04,  3.29it/s] 92%|█████████▏| 171/185 [00:52<00:04,  3.29it/s] 93%|█████████▎| 172/185 [00:52<00:03,  3.29it/s] 94%|█████████▎| 173/185 [00:52<00:03,  3.29it/s] 94%|█████████▍| 174/185 [00:53<00:03,  3.28it/s] 95%|█████████▍| 175/185 [00:53<00:03,  3.28it/s] 95%|█████████▌| 176/185 [00:53<00:02,  3.28it/s] 96%|█████████▌| 177/185 [00:54<00:02,  3.28it/s] 96%|█████████▌| 178/185 [00:54<00:02,  3.28it/s] 97%|█████████▋| 179/185 [00:54<00:01,  3.28it/s] 97%|█████████▋| 180/185 [00:55<00:01,  3.28it/s] 98%|█████████▊| 181/185 [00:55<00:01,  3.28it/s] 98%|█████████▊| 182/185 [00:55<00:00,  3.27it/s] 99%|█████████▉| 183/185 [00:55<00:00,  3.28it/s] 99%|█████████▉| 184/185 [00:56<00:00,  3.28it/s]100%|██████████| 185/185 [00:56<00:00,  3.28it/s]100%|██████████| 185/185 [00:56<00:00,  3.27it/s]
+/usr/local/lib/python3.13/site-packages/capfit/capfit.py:802: RuntimeWarning: invalid value encountered in scalar divide
+  ratio = actred/prered
+(1040, 150)
+TOTAL EXECUTION TIME: 182.5951948808506
+Executing command: python simulate_mock_datacube.py; python speedupy/setup_exp/setup.py squirrel_example_param.py
+/app/simulate_mock_datacube.py:180: RuntimeWarning: divide by zero encountered in log10
+  axes[2].matshow(np.log10(point_source_light), origin="lower", vmin=-1, vmax=2)
+Datacube shape: (362, 120, 120)
