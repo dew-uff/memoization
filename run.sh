@@ -141,6 +141,17 @@ run_without_cache() {
   local docker_image=("${12}")
 
   run_trials_once_sequentially "${setup_commands[@]}" "${exec_commands[@]}" "--exec-mode no-cache --measure-time" "$exp_path" "$docker_image"
+
+  # Inverting commands sequence
+  mapfile -t setup_commands < <(printf "%s\n" "${setup_commands[@]}" | tac)
+  mapfile -t exec_commands  < <(printf "%s\n" "${exec_commands[@]}" | tac)
+
+  run_trials_once_sequentially "${setup_commands[@]}" "${exec_commands[@]}" "--exec-mode no-cache --measure-time" "$exp_path" "$docker_image"
+
+  local i
+  for i in {0..2}; do
+    run_random_trials_once_sequentially "${setup_commands[@]}" "${exec_commands[@]}" "--exec-mode no-cache --measure-time" "$exp_path" "$docker_image" "$((SEED+i))"
+  done
 }
 
 run_with_cache() {
@@ -167,17 +178,17 @@ run_with_cache() {
 }
 
 # Hashes disponíveis: ("md5" "murmur" "xxhash" "meowhash" "museair" "a5hash")
-# Storages disponíveis: ("sqlite" "redis" "mongo-file" "mysql" "file")
+# Storages disponíveis: ("sqlite" "redis" "mongo-gridfs" "mysql" "file")
 # Arquiteturas de memória disponíveis: ("0-dict" "1-dict" "2-dict" "2-dict-fast" "memcached-wt" "memcached-wb")
-hashes=("meowhash" "museair" "a5hash")
+hashes=("museair")
 storages=("file")
-mem_arch=("0-dict")
+mem_arch=("2-dict-fast")
 retrieval_strategy_with_exec_mode=(
   "lazy|sequential"
-  # "function|sequential"
-  # "function|thread"
-  # "eager|sequential"
-  # "eager|thread"
+  "function|sequential"
+  "function|thread"
+  "eager|sequential"
+  "eager|thread"
 )
 
 # EXPERIMENT TEST LAPLACE JACOBI
